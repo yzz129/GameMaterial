@@ -1,0 +1,32 @@
+{
+  "id": "550",
+  "name": "空空儿",
+  "slug": "kongkonger",
+  "title": "笑面诡手",
+  "roles": [
+    "辅助"
+  ],
+  "portrait": "assets/heroes/550-portrait.webp",
+  "cover": "assets/heroes/550-cover.webp",
+  "skins": [
+    {
+      "id": "550-8d264c821472",
+      "name": "笑面诡手",
+      "voiceCount": 0
+    },
+    {
+      "id": "550-7d753a56f874",
+      "name": "戏梦巡演",
+      "voiceCount": 0
+    }
+  ],
+  "skinCount": 2,
+  "voiceCount": 0,
+  "sourceUrl": "https://pvp.qq.com/zlkdatasys/yuzhouzhan/herovoice/550.json",
+  "officialPage": "https://pvp.qq.com/web201605/herodetail/550.shtml",
+  "voiceStatus": "not-published",
+  "region": "河洛",
+  "faction": "诡市",
+  "updatedAt": "2026-10-23T13:50:05.071Z",
+  "voices": []
+}

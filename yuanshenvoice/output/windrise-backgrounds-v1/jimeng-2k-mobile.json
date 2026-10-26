@@ -1,0 +1,61 @@
+{
+  "channel": "mobile",
+  "created": "2026-10-23T04:28:26.465Z",
+  "purpose": "PC/mobile Genshin-themed website background",
+  "provenance": {
+    "provider": "Jimeng",
+    "process": "官方智能超清 → 2K",
+    "sourceGenerationModel": "seedance_2.0_fast_vip",
+    "sourceGenerationResolution": "720p",
+    "sourceNodeId": "node_4e760e1c90",
+    "sourceResourceId": "eaedf111-5af7-4984-a201-6f9b5542af2a",
+    "nodeId": "node_x2418b45xz",
+    "resourceId": "cca20339-8e22-425f-b107-ce74602aea0c",
+    "submitId": "f7c6cfd1-6f72-4acd-8273-f6e74cc54c43",
+    "canvasUrl": "https://jimeng.jianying.com/ai-tool/ai-canvas/72d8648e-e3c8-46b1-9358-4cf366aab1e9",
+    "localVideoTranscoding": false,
+    "native2kGeneration": false,
+    "enhancement": "Jimeng platform AI video enhancement",
+    "prompts": "prompts.json",
+    "referenceImage": "assets/masters/backgrounds/TEYVAT_01_BG_windrise-mobile_v1.png",
+    "rights": "AI-generated Genshin Impact fan art; underlying game intellectual property remains with HoYoverse"
+  },
+  "file": {
+    "path": "D:\\yuanshenvoice\\assets\\masters\\video\\TEYVAT_03_VID_windrise-mobile_jimeng-2k_v1.mp4",
+    "bytes": 66277741,
+    "sha256": "927a07f07bc59da1ffce8f54089ac6259109e25497c2d084777c904accc5ebb1",
+    "width": 1792,
+    "height": 3184,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "frameRate": "14460/601",
+    "frames": 241,
+    "durationSeconds": 10.08,
+    "colorSpace": "bt709",
+    "colorTransfer": "bt709",
+    "audio": [
+      {
+        "codec": "aac",
+        "channels": 2,
+        "sampleRate": "44100"
+      }
+    ]
+  },
+  "validation": {
+    "jimengPreset": "2K",
+    "atLeastQHD": true,
+    "sourceAspectRatioPreserved": true,
+    "durationMatchesSource": true,
+    "allVideoFramesDecoded": true,
+    "downloadedVideoUnchanged": true,
+    "native720pMasterUnchanged": true,
+    "localVideoTranscoding": false,
+    "seamlessLoopVerified": false,
+    "downloadChecksumAndSizeMatch": true
+  },
+  "review": {
+    "samples": "10 frames at approximately one-second intervals",
+    "contactSheet": "D:\\yuanshenvoice\\output\\windrise-backgrounds-v1\\review-mobile-jimeng-2k.jpg",
+    "observed": "Visible meteor trails, drifting dandelion seeds and changing water reflections; no obvious scene deformation in ten sampled frames."
+  }
+}

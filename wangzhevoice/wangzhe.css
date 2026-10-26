@@ -1,0 +1,17 @@
+/* Game-specific media/data adjustments. All component styling lives in the
+   directly reused yuanshenvoice styles.css. */
+.brand-logo{width:42px!important;height:42px!important;object-fit:contain!important;filter:none!important}
+.brand-wordmark strong{font-size:25px}.brand-wordmark small{font-size:7px;letter-spacing:.08em}
+.hero-description .mobile-break{display:block!important}
+/* Preserve the original motion. Only fit the official rectangular artwork. */
+.hero[data-art-edition=celestial] .hero-character{width:65%!important;height:100%!important;inset:0 0 0 auto!important;object-fit:cover!important;object-position:center top!important;max-width:none!important;-webkit-mask-image:linear-gradient(90deg,transparent,#000 18%)!important;mask-image:linear-gradient(90deg,transparent,#000 18%)!important}
+.hero-copy{z-index:3;pointer-events:none}.hero-copy a,.hero-copy button{pointer-events:auto}.hero-scenery img{object-position:left top}
+.card-rarity,.profile-stars{display:none!important}.character-art{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center top!important}.character-art-stage{overflow:hidden}.card-sigil{opacity:.3}.card-info{position:relative;z-index:2}
+/* Original star/orbit planes sit above opaque Wangzhe illustrations. */
+.hero-celestial-fx,.card-celestial-fx{z-index:3}
+.detail-art .detail-sculpture img{object-fit:cover;object-position:center top;max-height:100%;mask-image:linear-gradient(180deg,#000 75%,transparent)}.detail-profile .detail-lore a{color:var(--gold)}
+.detail-art{overflow:hidden}.detail-sculpture{inset:12px 8px 32px}.art-expanded .detail-art .detail-sculpture img{object-fit:contain;mask-image:none}
+.wangzhe-skin-control{display:flex;gap:12px;align-items:center;margin:15px 24px 0;font-size:12px;color:var(--gold);flex-shrink:0}.wangzhe-skin-control select{flex:1;min-width:0;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:9px;font:inherit}
+.music-badge-tag{white-space:nowrap}.music-track-item .track-tag-flac{white-space:nowrap}.realm-nav{overflow:auto;scrollbar-width:thin;max-width:100%}.realm-button{flex-shrink:0}.primary-nav{gap:20px}
+@media(max-width:1100px){.archive-nav{display:none!important}.brand-wordmark strong{font-size:21px}.primary-nav{gap:15px}}
+@media(max-width:767px){.hero[data-art-edition=celestial] .hero-character{width:100%!important;object-position:60% top!important;-webkit-mask-image:linear-gradient(90deg,transparent,#000 35%)!important;mask-image:linear-gradient(90deg,transparent,#000 35%)!important}.hero-copy{padding-left:24px}.hero-description{max-width:80%;font-size:11px}.brand-wordmark strong{font-size:21px}.brand-logo{width:34px!important;height:34px!important}.wangzhe-skin-control{margin:12px 18px 0}.hero .hero-character-caption{right:15px}.primary-nav{gap:16px}.music-badge-tag{display:none}}

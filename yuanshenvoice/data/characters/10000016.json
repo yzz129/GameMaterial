@@ -1,0 +1,543 @@
+{
+  "id": 10000016,
+  "name": "迪卢克",
+  "enName": "Diluc",
+  "title": "晨曦的暗面",
+  "element": "火",
+  "region": "蒙德",
+  "rarity": 5,
+  "weapon": "双手剑",
+  "birthday": "4月30日",
+  "constellation": "夜枭座",
+  "description": "坐拥蒙德大半酒业的贵公子，财力、人望、能力都令人无法小觑。",
+  "affiliation": "晨曦酒庄",
+  "cv": {
+    "chinese": "马洋",
+    "japanese": "小野贤章",
+    "english": "肖恩·奇普洛克",
+    "korean": "崔乘勋"
+  },
+  "avatarImg": "assets/characters/10000016-avatar.webp",
+  "splashArt": "assets/characters/10000016-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Diluc.zip",
+  "voicePackageEn": "Diluc",
+  "quoteCount": 73,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "蒙德城的迪卢克，应约而来。闲聊恕不奉陪，如果你是想做一番大事，我倒有点兴致。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/eb/k33bresfktz04phbhtkallqz234oea3.mp3"
+    },
+    {
+      "title": "闲聊·放松",
+      "desc": "偶尔悠闲一下，也不错。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_explore_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/61/a4c7t94y39im4zgc91enbdptkn5unzn.mp3"
+    },
+    {
+      "title": "闲聊·骑士团",
+      "desc": "应该换骑士团的那些家伙来陪你。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_explore_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a8/2bwqw069p3b1dhisu7alm8rz3icqua2.mp3"
+    },
+    {
+      "title": "闲聊·行会",
+      "desc": "行会里还有很多事，你要么在这休息，我回去看看。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_explore_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b1/shqyw6e80u9y9ip7cgv79x3npmkk2q4.mp3"
+    },
+    {
+      "title": "闲聊·准备",
+      "desc": "提前做好准备，先于对方进攻吧。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_suit_aristocrat_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a9/3fc6tzdrbpw9r90uta7r3cvlgarn2vc.mp3"
+    },
+    {
+      "title": "闲聊·计划",
+      "desc": "休息时，也可以思考接下来的计划。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_suit_aristocrat_idle_02",
+      "localAudio": null
+    },
+    {
+      "title": "闲聊·提醒",
+      "desc": "任何行动难免都有风险，你要多加小心。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_suit_aristocrat_idle_03",
+      "localAudio": null
+    },
+    {
+      "title": "下雨的时候·伞",
+      "desc": "我不用伞，你随意。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a9/3fc6tzdrbpw9r90uta7r3cvlgarn2vc.mp3"
+    },
+    {
+      "title": "下雨的时候·清洗",
+      "desc": "雨吗，可惜洗刷不了那些污秽的心。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_weather_heavyRain_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/52/ixphmgioopr06sce8gs2fiut5yfxt2n.mp3"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "只要坚信自己的道路，就无所谓天气是晴是雨。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ad/k0jywkdzc20ezgsetv9rruzon3gy3ws.mp3"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "呼啸的风声，会被用来遮掩犯罪的痕迹。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b5/jkq7yw5oan7ao2cgei6gp6tq7m8kug6.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "寒暄就免了。昨夜一切平安就好。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/69/9oystsj85zh1dasjrgda98l9o2fflqg.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "想试试隐藏菜单吗？",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b2/jg8qeagchha3wuae9i6lvonc9f16gxx.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "夜晚到了。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e6/kjxa51ac8ilhcszm4okoocmq405gnit.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "嗯，下次见。我会目送你安全离开的。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8b/lynz0y5veqsw2xdqwqjdcgj4w2e8i12.mp3"
+    },
+    {
+      "title": "关于迪卢克自己…",
+      "desc": "「暗夜英雄」的传说吗？有趣的传言。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e4/7sg1xewjwzyn26gtjzyd1897yf3yt8j.mp3"
+    },
+    {
+      "title": "关于我们·需要",
+      "desc": "需要什么就直说。报销问题找埃泽。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/61/r6kjlnhyt04v0juzm5vh9fv1sm1ve6s.mp3"
+    },
+    {
+      "title": "关于我们·证明",
+      "desc": "你已经证明了你的决心。那么，也让你见证一下我的意志吧。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_dialog_close2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b9/aza87u8brnglaxnh0molttee3nufki4.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "对于无法看清眼前道路的人来说，「神之眼」或许是神的一盏明灯。但对于有信念的人来说，只是一个可有可无的奖章罢了。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/75/s41yiu88iht3z7jivmwu1u58fniih59.mp3"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "我偶尔会去「天使的馈赠」亲自调酒，因为酒馆是情报集中流通的地方。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_dialog_share",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cb/mstv8e6mv33vy63hnyy0z83rrwzl7or.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "…是夜枭。在黑暗中守望、观察的猛禽，只在最合适的时机出手，没有任何破绽。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/12/sedigk1b1s5xxc7f5nlwqlrvrxdwv1k.mp3"
+    },
+    {
+      "title": "关于凯亚…",
+      "desc": "凯亚吗…那个男人说的话，只能信一半。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_teammate_kaeya_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/98/44soiurvouc6hxnfsplswhd03nzgi0u.mp3"
+    },
+    {
+      "title": "关于丽莎…",
+      "desc": "丽莎，能成为骑士团内最值得仰赖的人之一。如果她愿意的话。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_teammate_lisa_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ae/0ph49c2rf19zk5db96a7zo99fwdc94m.mp3"
+    },
+    {
+      "title": "关于琴·敌人",
+      "desc": "无意义的琐事，是琴最大的敌人。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_teammate_qin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6e/tkrm0wgoi922wq3ywlj47tidr5vm9uz.mp3"
+    },
+    {
+      "title": "关于琴·职责",
+      "desc": "琴那无人能及的责任心，终究让她没能看清自己真正的职责啊。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_teammate_qin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/80/62fd7yfd38g3upe91zdx0tn3jsxefog.mp3"
+    },
+    {
+      "title": "关于莫娜…",
+      "desc": "蒙德的土地浸润着风神的恩泽，就不需要赞助占星术士来预测收成了吧。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_teammate_mona_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/95/ovd1kf0ntipfsg66t4t21zkzy7gs2in.mp3"
+    },
+    {
+      "title": "关于迪奥娜…",
+      "desc": "迪奥娜对我的态度很是生硬，我也一直没找到合适的机会交流。如果是涉及到家族恩怨的话…嗯？不是？只是单纯地讨厌酒？没想到在这蒙德，也会有讨厌酒的酒保啊。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_teammate_diona_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e5/jypkb94s87lfot0v6o3g5z5nuook4qn.mp3"
+    },
+    {
+      "title": "关于法尔伽…",
+      "desc": "大团长法尔伽，我能理解他的立场，却无法认同他的做派。呵…是我多言了。我早已不是西风骑士，忘了我说的话吧。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_teammate_varka_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e9/t6fuli4rrwq7of3ub77b44rgc3nielt.mp3"
+    },
+    {
+      "title": "关于优菈…",
+      "desc": "我听说过她，她有自己的理念。努力挣脱家族束缚的气势也值得称道。但她…却加入了西风骑士团。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_teammate_eula_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/86/omvg6ju5u0zjimjzm3huofv7cbgyj8c.mp3"
+    },
+    {
+      "title": "想要了解迪卢克·其一",
+      "desc": "有何贵干？",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/23/ngk2orxer566rh852ngw83s8rjayw8g.mp3"
+    },
+    {
+      "title": "想要了解迪卢克·其二",
+      "desc": "嗯，你问骑士团？哼…没什么可多谈的，道路不同罢了。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e9/mca4hctg9gz5kiarvmlrxi3ez8dt38i.mp3"
+    },
+    {
+      "title": "想要了解迪卢克·其三",
+      "desc": "很久不和管家之外的人对弈了。难得有这份闲暇，跟我下局棋吧。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8f/6c94xoqul8qj9h67atbozoe83w226l8.mp3"
+    },
+    {
+      "title": "想要了解迪卢克·其四",
+      "desc": "将军。哼，但能把我逼到这个地步，还真是不简单啊。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/40/cs7dsorod7316mdoxp1q60bl8ady086.mp3"
+    },
+    {
+      "title": "想要了解迪卢克·其五",
+      "desc": "你还不赖。无论是对弈还是战斗，都不乏让人眼前一亮的表现。不…这样的合作，对我来说也算新奇…那么，今后也同行吧，「吾友」。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0d/94su4wu96kji5m4s3jz5tqtmhnnj4mn.mp3"
+    },
+    {
+      "title": "迪卢克的爱好…",
+      "desc": "庄园里的那些艺术品？那不是我的。是先父有收集的爱好。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8e/73rqvgmyxgjmcxllzddhon38a97u1di.mp3"
+    },
+    {
+      "title": "迪卢克的烦恼…",
+      "desc": "真正应当消灭的敌人，孕育罪恶的「黑暗」本身，需要用刀剑以外的方法去斩断…",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/99/myyfnm2l9ly8yhn6b3hldq6mn9rrck5.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "你问我杯子里的是什么酒？葡萄汁而已，我一般喝这个。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3b/cndt3s6zl01x6iurfhf7ssx2hh5bfsx.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "我不喜欢酒。没什么…我不喜欢酒的口感。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fa/09v6os5mhx04wyfbcv5yityti4r471j.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "很精致。风味令人难忘。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b2/5i959kapjq439yhg7r4fbi99wecnoib.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "能品尝出厨师的专注。不错的菜肴。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/VO_ZH_Diluc_Receiving_a_Gift_-_02.ogg"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "…谢谢。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/VO_ZH_Diluc_Receiving_a_Gift_-_03.ogg"
+    },
+    {
+      "title": "生日…",
+      "desc": "生日快乐，这是属于你的重要日子。说吧，你的心愿。如果在我能力范围之内，我会考虑的。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/VO_ZH_Diluc_Birthday.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "为了达成目标，力量是必须的。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b2/5i959kapjq439yhg7r4fbi99wecnoib.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "前方会有什么？我很少会思考这种问题。\n我必须前进，不论有谁阻挡在我面前。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b9/bogy1ke6137fgjb3jkg4n6zek9q43s8.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "力量增强了…虽然还不够，但终归是在向前方探索。\n在「黎明」到来之前，必须有人稍微照亮「黑暗」…",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ad/9yhgd9hu6lsjgrw0po0nyiqmhgoz5ew.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "我原以为——要扫荡罪恶的话，我必须独自行走在长夜之中。\n但你的坚持让我意识到，我又一次错了。「同伴」，我向你致以感谢。",
+      "voicefile": "VO_friendship/VO_diluc/vo_diluc_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fc/6omu0k5i02x2h9mh6ikm9qwtqnbfmh0.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "呵。",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/52/tp6khkfdgc4gnq5ajah6gs8k0i2tdvg.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "哈。",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/VO_ZH_Diluc_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "哈！——",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/VO_ZH_Diluc_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其一",
+      "desc": "呵。",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_suit_aristocrat_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/52/tp6khkfdgc4gnq5ajah6gs8k0i2tdvg.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "哈。",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_suit_aristocrat_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/VO_ZH_Diluc_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "哈！——",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_suit_aristocrat_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/VO_ZH_Diluc_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "在此——宣判！",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/52/tp6khkfdgc4gnq5ajah6gs8k0i2tdvg.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "火焰——烧尽。",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/90/bpv0ra3w0hhqzb5xvbup65ecl8iapze.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "审判——喝啊！",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ac/kzm914lvi62amxzwlzcj7ggw5sjuo2f.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "在此——清算！",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_suit_aristocrat_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/52/tp6khkfdgc4gnq5ajah6gs8k0i2tdvg.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "烈焰——燃毁！",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_suit_aristocrat_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/90/bpv0ra3w0hhqzb5xvbup65ecl8iapze.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "破晓——将至！",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_suit_aristocrat_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ac/kzm914lvi62amxzwlzcj7ggw5sjuo2f.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "哼，就当是聚沙成塔。",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ab/a7rr0neegcju65hipnxzhuq0scjg13r.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "还不赖。",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f0/55s4tnr38mz7jesdmyo00xeugfzpps6.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "一点一滴地积累吧。",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6e/fq2zyzc4uycne72uw1sj3u4orpt5czv.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "这点程度…",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/40/knes5gvipkxvm9jvb03oebdzjx02jc6.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "可恶…",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/71/1r65qclisgycn95lr0v61v3ofxlzbu7.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "你会付出代价。",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/db/kyue5ny45qn15vy1ghlusz174uuz4h5.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "…当心点。",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/38/gbrwzb8arggr77kk6zs7e8x7g5rzrus.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "状态不好就去休息。",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/VO_ZH_Diluc_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "计划…出错了吗…",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/38/gbrwzb8arggr77kk6zs7e8x7g5rzrus.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "败者…没有借口…",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/58/54n5iymntuqz1o8fzpqbxwom7pizew2.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "要熄灭了吗…",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e3/ljbzfu2kodjho1zo3p3pixhpr1534rj.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "可恶。",
+      "voicefile": "VO_gameplay/VO_diluc/vo_diluc_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6a/svnzc258uctqx9twz7dauewfkbxrd4t.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "走吧。",
+      "voicefile": "VO_teamJoin/vo_diluc_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/27/l51tdn6snv8x7on60frn6e92tl741u0.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "任务的目标是…",
+      "voicefile": "VO_teamJoin/vo_diluc_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9d/lqo5f7togqh0k6a78pvdk2fb6iuyi79.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "利落地解决吧。",
+      "voicefile": "VO_teamJoin/vo_diluc_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7f/5f3nrjrm9n2sb2gpl878ar6439nm1ld.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000016-card.webp",
+  "fullArt": "assets/characters/10000016-full.webp",
+  "fullArtWidth": 1500,
+  "fullArtHeight": 985
+}

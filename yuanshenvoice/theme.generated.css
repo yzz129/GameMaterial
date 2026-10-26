@@ -1,0 +1,5 @@
+/* Generated from game.config.json. Customize theme.css for additional art direction. */
+@font-face{font-family:'ArchiveFont';src:url("assets/fonts/HYWenHei.woff") format('woff');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'ArchiveFont';src:url("assets/fonts/HYWenHei.woff") format('woff');font-weight:500;font-style:normal;font-display:swap}
+:root,#characterDialog{--archive-font:'ArchiveFont','Microsoft YaHei',sans-serif;--genshin-font:var(--archive-font);--display-font:var(--archive-font);--scene-desktop:url("assets/video/TEYVAT_03_BG_windrise-pc_poster_v1.webp");--scene-mobile:url("assets/video/TEYVAT_03_BG_windrise-mobile_poster_v1.webp");--bg:#101a26;--gold:#ead3a2}
+html[data-theme=light],html[data-theme=light] #characterDialog{--bg:#edf1f4;--gold:#835e2c}

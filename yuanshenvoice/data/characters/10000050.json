@@ -1,0 +1,538 @@
+{
+  "id": 10000050,
+  "name": "托马",
+  "enName": "Thoma",
+  "title": "渡来介者",
+  "element": "火",
+  "region": "稻妻",
+  "rarity": 4,
+  "weapon": "长柄武器",
+  "birthday": "1月9日",
+  "constellation": "赤楯座",
+  "description": "神里家的家政官，活跃在稻妻的「地头蛇」。",
+  "affiliation": "社奉行",
+  "cv": {
+    "chinese": "张沛",
+    "japanese": "森田成一",
+    "english": "克里斯蒂安·巴纳斯",
+    "korean": "柳承坤"
+  },
+  "avatarImg": "assets/characters/10000050-avatar.webp",
+  "splashArt": "assets/characters/10000050-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Thoma.zip",
+  "voicePackageEn": "Thoma",
+  "quoteCount": 72,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "初次见面，异乡的旅人，你的名字我可是早就听说了。只要你不嫌弃，我托马，从今天起就是你的朋友了。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/88/ezs50hwes3132kou6aq7ywmo3umbytw.mp3"
+    },
+    {
+      "title": "闲聊·请客",
+      "desc": "嗯…找个时间一起吃顿好的怎么样，我请客。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a1/azyq8izr49afjf0e8bh7rdac0n7m2ul.mp3"
+    },
+    {
+      "title": "闲聊·担忧",
+      "desc": "总觉得有什么事忘记做了…庭院打理过，茶也煎了，嗯…应该是错觉吧。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/aa/boc508rihlp6sgxw85j229rk21udmr7.mp3"
+    },
+    {
+      "title": "闲聊·摩拉",
+      "desc": "这几天花得太多，身上只剩十摩拉了，不过幸好还有十摩拉！",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/84/klva17peqyy7495omqnihsdpmhvaadf.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "怎么突然下雨了？你没事吧？要不要用我的外套挡挡？",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/af/cnw8o2d95qccft60y13ryo54evdt2yt.mp3"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "这种天气就别在野外晃悠了，会被劈的。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/47/84a3a17wgtquh0pzbsk23khg62uc3ck.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "别在雪地上跑哦，摔了我可不扶你。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/05/0o2wvluk2teuljzc9jl8acba2af3xuh.mp3"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "天气真不错啊，一起散步吧。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b6/6iy12rr493kx4pa0s2ay6l89gh0cdta.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早啊。要是你不忙，要不要跟我一起去集市上逛逛？早上的蔬菜可是最水灵的哦。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dc/4932059oy5iin8unk619el1zp28cmgk.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "今天午饭除了绯樱天妇罗还有三彩团子！来，你和派蒙都有份，还有神里小姐和家主大人的…欸等下，我好像忘了准备自己的份。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5c/0f46plu1l07g4lr2ok1lx968y74370v.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "快走快走，这个点去市场买鱼能便宜不少。要是心血来潮想买什么小玩意儿，我帮你砍价。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/42/cw0ezbu2e9jp164t2hmszc7btggm7ir.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "嗯，晚安。你这一天也辛苦了吧。早点休息去吧，别熬夜。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3c/8qwzu5x6ttrffr1k86hqtj3fhczyqjf.mp3"
+    },
+    {
+      "title": "关于托马自己·家政官",
+      "desc": "不论是神里小姐还是家主大人，最初都没打算让我担任家政官，还是我自告奋勇的。我很喜欢这些活，将一切打理得井井有条，特别有成就感。看大家的反应…嗯，我应该干得不错。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/74/7j9u5gg1okd0q6qfqbrib1djkd53bfc.mp3"
+    },
+    {
+      "title": "关于托马自己·意义",
+      "desc": "把居住的地方打扫干净，布置整齐，让所有生活在这里的人露出笑容，这就是家政的意义。至于现在…我会连带着为了你的份一起，好好努力的。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/37/0omjjdd3rrzaoggggdqh78sq9z2jvmr.mp3"
+    },
+    {
+      "title": "关于我们·一人食",
+      "desc": "怎么一个人在这儿安安静静吃饭？…嗯，你介不介意跟我一起？还是说你比较想一个人吃？",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/47/6kwk6n8n5degu8x4cr5mgwxfofyvsmt.mp3"
+    },
+    {
+      "title": "关于我们·立誓",
+      "desc": "要不是你在「狩眼仪式」上站出来，单枪匹马与将军对抗，我应该已经失去神之眼，失去愿望了。我想了很久，恐怕只有这样才配得上你挺身而出的觉悟——\n我，托马，愿献上我的武艺与忠诚。不惜一切，为你而战。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c2/7sv628kvke56a98h99w9s1ljwqob8f0.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "既然得到了神之眼，就得好好珍惜，我可不想把它弄丢了。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/97/5wi8rt9mg5co5zii49eaxpslmc1g0ba.mp3"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "以我长期和大家打交道的经验来看，比起蒙德人，稻妻人更加在意礼节。要是能始终保持礼貌的态度，事情会变得好办不少。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/54/tbqb49vwisqiednxuy522dt7rdmmlkj.mp3"
+    },
+    {
+      "title": "感兴趣的见闻·狸猫",
+      "desc": "我一直想见识狸猫的变化手段。传闻中，狸猫能够变化成各种各样的形态，跟路人开玩笑，是一种很有幽默感的生灵哦。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_pref_gift_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3e/i58giybfxft48b3518lqjh936cwtaoc.mp3"
+    },
+    {
+      "title": "感兴趣的见闻·动物",
+      "desc": "你喜欢小动物吗？要是你也喜欢的话，下次我带你去城郊附近走走。到时候我一声口哨，好多可爱的小猫小狗就会钻出来，黏在你的脚边向你撒娇。哈哈，光是想象就觉得很开心了。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_pref_gift_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5e/mt33o1qdij72uuvqtwd81a8qepdrjiu.mp3"
+    },
+    {
+      "title": "关于八重神子…",
+      "desc": "神子大人？为、为什么突然提她？唉，每次小姐派我出去送口信，我最不想去的就是鸣神大社了。啊，倒不是神子大人的气场让人发慌，而是，呃…是敬畏…敬畏！啊哈哈…",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_teammate_yaeMiko_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/01/42tgkzvxusyifkruv1569z6krehlp46.mp3"
+    },
+    {
+      "title": "关于雷电将军·比较",
+      "desc": "在我的故乡蒙德，绝大多数人都尊敬着风神巴巴托斯大人。但稻妻人对待将军大人的态度就不同了。怎么说呢…除了爱戴与感激，好像还有些畏惧的成分。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_teammate_raidenShogun_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c2/648uuq1lxs2kzhfb9ecc5oulqhtujh1.mp3"
+    },
+    {
+      "title": "关于雷电将军·未知",
+      "desc": "说实话，我对将军本人没什么怨恨。虽说她差点夺走我的神之眼，但那是因为她的立场特殊吧。立场不同是很正常的事情。\n我想不明白的，是她的目的。她所设想的永恒国度到底是什么样？为什么非得牺牲民众的愿望换取。我无法理解，也无法认同。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_teammate_raidenShogun_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a1/kaq4av0araocmp4kdh55lo3xkb3nytw.mp3"
+    },
+    {
+      "title": "关于北斗…",
+      "desc": "「南十字」船队的大姐头可真是个飒爽的人呐。她曾经允诺带我去遥远的外海，看看封锁一切的雷暴是个什么样子。只是可惜，我一直没这个机会出去看看…",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_teammate_beidou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3d/o4qf8r6nggqgcva78v0040218gij1zy.mp3"
+    },
+    {
+      "title": "关于神里绫人…",
+      "desc": "家主大人也够不容易的了。时局动荡，人心不安，同僚里又有不少贪官败类，想想都头疼。我所能做的，也就是在生活方面给予些照顾了。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_teammate_ayato_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/04/pjctdbb7aezbky71aaxwbltvtc14cb9.mp3"
+    },
+    {
+      "title": "关于神里绫华…",
+      "desc": "神里小姐知书达理，心地善良又温柔端庄，就是不够坦率。欸对了，下次说话的时候，要是小姐又露出那副欲言又止的模样，你一定要主动些，多问问她的想法。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_teammate_ayaka_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/be/qt1a1yg9dnk3mn5e4o0uks6tbyjve17.mp3"
+    },
+    {
+      "title": "关于宵宫…",
+      "desc": "「长野原烟花店」的那位店长？她很容易相处的，算是心直口快的类型。哦对了，她家的烟花也是厉害得很，有机会一定要多看几次。喏，优惠券给你。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_teammate_yoimiya_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/269xcdht20bo8d67l0xmoidezmak4lx.mp3"
+    },
+    {
+      "title": "关于早柚…",
+      "desc": "唉，早柚太倔强了。不管我找她多少次，都不肯传授我忍术。甚至最近都刻意躲着我了…明明只是想求师而已，是我做得太过头了吗？",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_teammate_sayu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/55/0hj6s8lbjnsp48dl2gsyk3neutu62ui.mp3"
+    },
+    {
+      "title": "关于九条裟罗…",
+      "desc": "这位天领奉行麾下的将领，嗯…跟她交涉得拿出十二分的谨慎。她手握实权，又有点固执，嬉皮笑脸是绝对行不通的。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_teammate_kujoSara_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a9/7leskxrqusbrch9n2rm4jezgirxjzyn.mp3"
+    },
+    {
+      "title": "关于荒泷一斗…",
+      "desc": "那是市井传闻中的怪人，据说还拥有妖怪的血脉，你见过他了吗？要是你们熟络的话，帮我引荐引荐呗。广交朋友总是好事…妖怪朋友也算！",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_teammate_itto_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cd/tok83a24gsnscod75cmdm4f1jkjwczv.mp3"
+    },
+    {
+      "title": "关于鹿野院平藏…",
+      "desc": "嚯，他可是天领奉行那边的「侦探」。他给人一种我行我素的感觉，不太容易打交道。另外，需要侦探出现的场合，一般也不会有什么好事。我还是和风暴中心保持距离吧。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_teammate_heizou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/40/3sx85w8mmplcmtagkj104vhls17i3hy.mp3"
+    },
+    {
+      "title": "关于琴…",
+      "desc": "古恩希尔德家的琴小姐做了西风骑士团的团长吗？的确合适，她的优秀正直是出了名的…哦，目前还只是代理团长吗？哈哈，那种名头根本无所谓啦。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_teammate_qin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/89/t1q2acu5z23gdoa7wxmzkakyl2npz88.mp3"
+    },
+    {
+      "title": "关于优菈…",
+      "desc": "你还遇见过优菈·劳伦斯吗？我只知道，他们家的人脾气烂透了，最好不要有什么来往。啊，跟你聊这些，又想起了很多蒙德的往事…真好。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_teammate_eula_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7b/okuq9t2evb8z5fhtgmtjyqn2xwxryg4.mp3"
+    },
+    {
+      "title": "想要了解托马·其一",
+      "desc": "有什么需要我帮忙的吗？家中杂务，人际交往，一句话的事。欸？聊天吗…这样这样。那倒是需要更用心一些了。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/43/3eavt27hqmro0tgmoib9x9byohjziyx.mp3"
+    },
+    {
+      "title": "想要了解托马·其二",
+      "desc": "我应该跟你提过吧？我不是土生土长的稻妻人。我是从蒙德一路坐船来的，因为喜欢这里的风土，又遇到了家主大人和神里小姐这样亲切的人，干脆就留了下来。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a5/1u7vpzvjw3gmj3yp3fh9ko82726mtfa.mp3"
+    },
+    {
+      "title": "想要了解托马·其三",
+      "desc": "其实我也会有想老家的时候，所以，我特别能理解离岛上那些外国商人，也想尽量多关照关照。不同的是，他们只把自己当作一个过客，并不想融入稻妻，因此也就只是过客了。大多数稻妻人不会把他们当自己人。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bf/jvi582m7aphovgkch1q6fu5qkrkuzi7.mp3"
+    },
+    {
+      "title": "想要了解托马·其四",
+      "desc": "对一些保守的稻妻人来说，一个外国人要做奉行家的家臣，是几乎不能想象的事。因此，我有过一段不受人待见的经历。要不是他俩力保，恐怕我早被赶走了。为了不辜负神里家的恩情，那之后我诚心努力了很久，最终才被大家接纳。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7e/g50tzrajapuyyk5nmdnrd5w6akpj2e1.mp3"
+    },
+    {
+      "title": "想要了解托马·其五",
+      "desc": "这话跟你说…应该没关系吧。有一阵子，我很想回老家去。毕竟蒙德才是我的故乡，但稻妻…我同样难以割舍。你看，我受过许多稻妻人的恩惠——神里家始终有留给我的房间，还有不是亲人胜似亲人的人。就算吃过苦头，但也是帮助我的人多。想来想去，觉得自己还是留在稻妻好。实在想念蒙德的时候…就找你聊聊好了。你不会嫌弃我唠叨吧？",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4b/h4sqtpkpmv7bdv7uekxdzsebrpwwwzk.mp3"
+    },
+    {
+      "title": "托马的爱好…",
+      "desc": "最近的话，我比较喜欢怪谈故事，那些千变万化的妖怪实在是神奇。之前的话，对忍术也有不小的兴趣。嗯？三分钟热度？…不，不是这样的！",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/77/14dlbc0z5obw9wuryhjgamnyg9zw4ua.mp3"
+    },
+    {
+      "title": "托马的烦恼…",
+      "desc": "我现在真的很烦恼。晚上大人要在家设宴招待朋友，说好了由我来露一手，做黄油蟹蟹撑场面的。结果这两天根本买不到螃蟹！难道我只能下水抓螃蟹了吗？",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fb/80di7y8nxdwfrdaozp7pd9f1sjlxei9.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "要说我最喜欢的食物，那绝对是市井杂煮了。煮好香喷喷的一大锅，然后大家一起分着吃，又热闹又开心。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/78/d62djkkjbt6e61kiln50aux95d4btdi.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "食物的范围里没什么，但如果饮料也算的话…我不怎么能喝酒。别笑我，我也怀疑过自己是不是蒙德人了。不过…过量饮酒对身体有害，不喝酒，也是好事吧。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c7/6ugszziwm6oq4a20ay0xcblmm2ouzer.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "好香！我还想再添一碗米饭！",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/47/81cb0pnft9lxrh104r7dxtt99p8z1pd.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "你还有时间吗？和我一起分享厨艺心得吧！",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/VO_ZH_Thoma_Receiving_a_Gift_-_02.ogg"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "没怎么尝试过的味道…虽然也不坏吧。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/VO_ZH_Thoma_Receiving_a_Gift_-_03.ogg"
+    },
+    {
+      "title": "生日…",
+      "desc": "快跟我来，现在就来！你的生日我当然不会忘记，这不，准备好了一场大聚会。有吃有喝，还有一大帮你的朋友。嘿，这是纪念你诞生的好日子，我可不会让你一个人孤零零地过！",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_pref_birthday_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/47/81cb0pnft9lxrh104r7dxtt99p8z1pd.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "这样就能变强吗？不是在开玩笑吧，我还有衣服没洗完呢。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0b/losgx8rnk3k9wvbbhxbnnxzijbbkb1i.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "似乎…有一股火焰在我心中燃烧。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b6/q4hfo5hi6ojf75qqhdc11kp25b6cz56.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "拥有了强大的力量，要用来做什么呢？嗯…得好好考虑考虑了啊。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c8/qy3pb98mdcb4r2smkw9q6y057wllal5.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "谢谢你对我的信赖。你给予我的恩惠，比火焰更温暖。放心吧，我找到自己想做的事了。这份力量将化作坚盾，一直守护你。",
+      "voicefile": "VO_friendship/VO_thoma/vo_thoma_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f4/00gnwasvq1j9geu9kru8vzckezxe9d8.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "火之盾！",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fb/193xmvvms6evcdqolsqdos1ag13hxqd.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "看看这个。",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/be/0uw9b0so83m4oxank2ajqerbuhp6zzi.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "小心着火。",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b3/ahk2upsxd9mf1k61zbjj635of5l3241.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "后援登场。",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e3/pekjg5tq93aa0faf4yn2rlt6v5l368a.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "护持之火！",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3c/o7yeqe2bam017j6lqdupzfzp3o98eba.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "我来守护你。",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0d/0f1ngh55ix7bpw9gjo1g6imu90ln8ti.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "里面有什么好东西呢？",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/46/h1ez5qdb7p1gvctbtda7b2tfoqx5isq.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "哟，果然今天运势大吉。",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c9/2ygy4suvdgr8imhr4hnzq4jt60gw6el.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "嘿嘿，见者有份。",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/48/ica3iahpsolemi2dwt94r2hzrvaq772.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "喂！有必要吗？",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/db/frma0xpb2fus39r4ygyydnremha4zg4.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "惨了惨了…",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/28/my08x2ktucogzh2mfhxi41rjlgxcsbd.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "嘶，有那么点疼…",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/da/t2rb1ru5lpv4lrpok1ik0o3uvw7wngr.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "别怕，我会保护你的。",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/09/499w38q08scd82wc0l4t807868mxb9i.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "真是乱来，快去歇着。",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/VO_ZH_Thoma_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "要回老家了啊…",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/09/499w38q08scd82wc0l4t807868mxb9i.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "各位…保重。",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/93/ffax3m44rgy8m1q4hzwmtzpb1e70z8a.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "没能尽到…守护的职责…",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b6/4dbxrcj0vhacvqztlmwq49760buj79e.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "疼疼疼。",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e2/7fjcuv3scqau3etz251xnklvdltkp1s.mp3"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "住手！",
+      "voicefile": "VO_gameplay/VO_thoma/vo_thoma_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4d/3utin1mtyspiasqpaqzrk6lrwns2bqa.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "好吧，家务待会再说。",
+      "voicefile": "VO_teamJoin/vo_thoma_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6f/d38acvj0kzocphqjapcm68zgb8akw6t.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "出门找点新朋友。",
+      "voicefile": "VO_teamJoin/vo_thoma_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a5/knwnf4yxh3m4t2v8dgcq0peszc8cwcn.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "这次去哪儿转转？",
+      "voicefile": "VO_teamJoin/vo_thoma_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e1/3cqkxghkt4hagshi87kku75cz6m8997.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000050-card.webp",
+  "fullArt": "assets/characters/10000050-full.webp",
+  "fullArtWidth": 1114,
+  "fullArtHeight": 891
+}

@@ -1,0 +1,57 @@
+{
+  "created": "2026-10-23T04:09:06.353Z",
+  "source": {
+    "path": "D:\\yuanshenvoice\\assets\\masters\\video\\TEYVAT_02_VID_windrise-mobile_720p_v1.mp4",
+    "bytes": 24239662,
+    "sha256": "abbb58c12dc0685519a476421ab2a136e7657e1fe1ad33e55e6e6675bfb8765d",
+    "width": 720,
+    "height": 1280,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "frameRate": "14460/601",
+    "frames": 241,
+    "durationSeconds": 10.08,
+    "audio": [
+      {
+        "codec": "aac",
+        "channels": 2,
+        "sampleRate": "44100"
+      }
+    ]
+  },
+  "delivery": {
+    "path": "D:\\yuanshenvoice\\output\\windrise-backgrounds-v1\\TEYVAT_02_VID_windrise-mobile_2k_v1.mp4",
+    "bytes": 22328023,
+    "sha256": "c7000269d18609230ceac79294db941da5bce5fc084bf3ff21dfda9028639b20",
+    "width": 1440,
+    "height": 2560,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "frameRate": "14460/601",
+    "frames": 241,
+    "durationSeconds": 10.08,
+    "audio": [
+      {
+        "codec": "aac",
+        "channels": 2,
+        "sampleRate": "44100"
+      }
+    ]
+  },
+  "conversion": {
+    "requestedByUser": true,
+    "method": "Lanczos resampling",
+    "nativeResolution": false,
+    "codec": "H.264",
+    "crf": 17,
+    "frameRatePreserved": true,
+    "audioCopied": true,
+    "nativeMasterPreserved": true
+  },
+  "validation": {
+    "expectedDimensions": true,
+    "durationAndFrameRateMatch": true,
+    "allVideoFramesDecoded": true,
+    "originalChecksumUnchanged": true
+  }
+}

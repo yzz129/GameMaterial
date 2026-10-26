@@ -1,0 +1,5 @@
+COMPLETE
+Adobe After Effects 26.5x89
+TITLE_MAIN_ALPHA | 3s | D:\yuanshenvoice\output\art-type-ae-v1\frames\main\TITLE_MAIN_[####].png
+TITLE_NAHIDA_ALPHA | 3s | D:\yuanshenvoice\output\art-type-ae-v1\frames\nahida\TITLE_NAHIDA_[####].png
+BRAND_GOLD_ALPHA | 0.04166666666667s | D:\yuanshenvoice\output\art-type-ae-v1\frames\brand\BRAND_GOLD_[####].png

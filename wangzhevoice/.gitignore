@@ -1,0 +1,8 @@
+node_modules/
+_backups/
+dist/
+source-snapshots/
+*.zip
+*.tar.gz
+*.log
+.openai/*.local.json

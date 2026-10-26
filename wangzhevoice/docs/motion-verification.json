@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-24T01:54:36.517Z",
+  "method": "Isolated Chromium regression tests, no user browser profile",
+  "checks": [
+    {
+      "name": "genshin decoded video, floating hero and rotating star planes",
+      "effects": "on",
+      "src": "http://127.0.0.1:57586/assets/video/TEYVAT_03_VID_windrise-pc_jimeng-2k_v1.mp4",
+      "width": 3184,
+      "height": 1792,
+      "duration": 10.08,
+      "time": 0.222069,
+      "frames": 9,
+      "heroAnimation": "celestial-levitate",
+      "heroDuration": "6s",
+      "heroState": "running",
+      "ringAnimation": "celestial-orbit",
+      "ringDuration": "28s",
+      "ringState": "running"
+    },
+    {
+      "name": "genshin original 3D card and artwork transform",
+      "outer": "matrix3d(0.995884, 0.00521718, -0.0904823, 8.22566e-05, 0, 0.998342, 0.057564, -5.23309e-05, 0.0906326, -0.0573271, 0.994233, -0.000903848, 0, -8, 14, 0.987273)",
+      "art": "matrix3d(1.03258, 0, 0, 0, 0, 1.03258, 0, 0, 0, 0, 1, 0, 0, -5.58507, 39.0955, 1)"
+    },
+    {
+      "name": "genshin original modal parallax and background pause"
+    },
+    {
+      "name": "genshin effect switch pauses and resumes original scene"
+    },
+    {
+      "name": "wangzhe decoded video, floating hero and rotating star planes",
+      "effects": "on",
+      "src": "http://127.0.0.1:8081/assets/video/TEYVAT_03_VID_windrise-pc_jimeng-2k_v1.mp4",
+      "width": 3184,
+      "height": 1792,
+      "duration": 10.08,
+      "time": 0.294766,
+      "frames": 11,
+      "heroAnimation": "celestial-levitate",
+      "heroDuration": "6s",
+      "heroState": "running",
+      "ringAnimation": "celestial-orbit",
+      "ringDuration": "28s",
+      "ringState": "running"
+    },
+    {
+      "name": "wangzhe original 3D card and artwork transform",
+      "outer": "matrix3d(0.995884, 0.00521718, -0.0904823, 8.22566e-05, 0, 0.998342, 0.057564, -5.23309e-05, 0.0906326, -0.0573271, 0.994233, -0.000903848, 0, -8, 14, 0.987273)",
+      "art": "matrix3d(1.02837, 0, 0, 0, 0, 1.02837, 0, 0, 0, 0, 1, 0, 0, -4.86301, 34.0411, 1)"
+    },
+    {
+      "name": "wangzhe original modal parallax and background pause"
+    },
+    {
+      "name": "wangzhe effect switch pauses and resumes original scene"
+    },
+    {
+      "name": "Wangzhe motion periods and decoded scene exactly match Genshin"
+    },
+    {
+      "name": "portrait original video decodes and plays without horizontal overflow"
+    },
+    {
+      "name": "same reduced-motion fallback as Genshin"
+    }
+  ],
+  "errors": []
+}

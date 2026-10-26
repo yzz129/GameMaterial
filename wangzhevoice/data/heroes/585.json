@@ -1,0 +1,27 @@
+{
+  "id": "585",
+  "name": "元流之子(辅助)",
+  "slug": "yuanliuzhizi_support",
+  "title": "守望之诺",
+  "roles": [
+    "辅助"
+  ],
+  "portrait": "assets/heroes/585-portrait.webp",
+  "cover": "assets/heroes/585-cover.webp",
+  "skins": [
+    {
+      "id": "585-6fe4f6210f05",
+      "name": "守望之诺",
+      "voiceCount": 0
+    }
+  ],
+  "skinCount": 1,
+  "voiceCount": 0,
+  "sourceUrl": "https://pvp.qq.com/zlkdatasys/yuzhouzhan/herovoice/585.json",
+  "officialPage": "https://pvp.qq.com/web201605/herodetail/585.shtml",
+  "voiceStatus": "not-published",
+  "region": "",
+  "faction": "",
+  "updatedAt": "2026-10-23T13:50:05.071Z",
+  "voices": []
+}

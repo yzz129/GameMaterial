@@ -1,0 +1,245 @@
+{
+  "title": "蒙德·流星梦境 PC与手机动态背景",
+  "created": "2026-10-23",
+  "status": "completed_official_2k",
+  "generator": "Jimeng / Dreamina",
+  "model": "seedance_2.0_fast_vip",
+  "generationResolution": "720p",
+  "enhancement": "Jimeng official intelligent video enhancement, 2K preset",
+  "native2kGeneration": false,
+  "localVideoTranscoding": false,
+  "durationSeconds": 10.08,
+  "canvasUrl": "https://jimeng.jianying.com/ai-tool/ai-canvas/72d8648e-e3c8-46b1-9358-4cf366aab1e9",
+  "rights": "AI-generated Genshin Impact fan art; underlying game intellectual property remains with HoYoverse",
+  "prompts": "prompts.json",
+  "additionalEnhancementCredits": 120,
+  "completionEvidence": "jimeng-official-2k-completed.jpg",
+  "assets": [
+    {
+      "channel": "pc",
+      "version": 1,
+      "nodeId": "node_4kpyhc58d7",
+      "submitId": "a15039bf-cdeb-4734-aed8-8de34c9ccd0d",
+      "resourceId": "a0e2935f-0326-44fc-838d-ad8fcf33dd67",
+      "generationModel": "seedance_2.0_fast_vip",
+      "generationResolution": "720p",
+      "sourceNodeId": "node_323dd725b7",
+      "sourceResourceId": "fd7daf45-24dd-4d22-b89e-2c5ba0a98e65",
+      "referenceImage": "assets/masters/backgrounds/TEYVAT_01_BG_windrise-pc_v1.png",
+      "native720pMaster": {
+        "path": "D:\\yuanshenvoice\\assets\\masters\\video\\TEYVAT_02_VID_windrise-pc_720p_v1.mp4",
+        "bytes": 20917166,
+        "sha256": "816fab68dbfb35c83a030eae6c87aacc359928fbb519964a717ab4569ec4fb3b",
+        "width": 1280,
+        "height": 720,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "frameRate": "14460/601",
+        "frames": 241,
+        "durationSeconds": 10.08,
+        "audio": [
+          {
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "44100"
+          }
+        ]
+      },
+      "delivery": {
+        "path": "D:\\yuanshenvoice\\assets\\masters\\video\\TEYVAT_03_VID_windrise-pc_jimeng-2k_v1.mp4",
+        "bytes": 66357985,
+        "sha256": "cfffdc74545dc590f073d403dec87f3e23f6e425b8f8bb9a62b2e12c29f050d4",
+        "width": 3184,
+        "height": 1792,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "frameRate": "14460/601",
+        "frames": 241,
+        "durationSeconds": 10.08,
+        "colorSpace": "bt709",
+        "colorTransfer": "bt709",
+        "audio": [
+          {
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "44100"
+          }
+        ]
+      },
+      "provenance": {
+        "provider": "Jimeng",
+        "process": "官方智能超清 → 2K",
+        "sourceGenerationModel": "seedance_2.0_fast_vip",
+        "sourceGenerationResolution": "720p",
+        "sourceNodeId": "node_323dd725b7",
+        "sourceResourceId": "fd7daf45-24dd-4d22-b89e-2c5ba0a98e65",
+        "nodeId": "node_4kpyhc58d7",
+        "resourceId": "a0e2935f-0326-44fc-838d-ad8fcf33dd67",
+        "submitId": "a15039bf-cdeb-4734-aed8-8de34c9ccd0d",
+        "canvasUrl": "https://jimeng.jianying.com/ai-tool/ai-canvas/72d8648e-e3c8-46b1-9358-4cf366aab1e9",
+        "localVideoTranscoding": false,
+        "native2kGeneration": false,
+        "enhancement": "Jimeng platform AI video enhancement",
+        "prompts": "prompts.json",
+        "referenceImage": "assets/masters/backgrounds/TEYVAT_01_BG_windrise-pc_v1.png",
+        "rights": "AI-generated Genshin Impact fan art; underlying game intellectual property remains with HoYoverse"
+      },
+      "validation": {
+        "jimengPreset": "2K",
+        "atLeastQHD": true,
+        "sourceAspectRatioPreserved": true,
+        "durationMatchesSource": true,
+        "allVideoFramesDecoded": true,
+        "downloadedVideoUnchanged": true,
+        "native720pMasterUnchanged": true,
+        "localVideoTranscoding": false,
+        "seamlessLoopVerified": false,
+        "downloadChecksumAndSizeMatch": true
+      },
+      "review": {
+        "samples": "10 frames at approximately one-second intervals",
+        "contactSheet": "D:\\yuanshenvoice\\output\\windrise-backgrounds-v1\\review-pc-jimeng-2k.jpg",
+        "observed": "Visible meteor trails, drifting dandelion seeds and changing water reflections; no obvious scene deformation in ten sampled frames."
+      }
+    },
+    {
+      "channel": "mobile",
+      "version": 1,
+      "nodeId": "node_x2418b45xz",
+      "submitId": "f7c6cfd1-6f72-4acd-8273-f6e74cc54c43",
+      "resourceId": "cca20339-8e22-425f-b107-ce74602aea0c",
+      "generationModel": "seedance_2.0_fast_vip",
+      "generationResolution": "720p",
+      "sourceNodeId": "node_4e760e1c90",
+      "sourceResourceId": "eaedf111-5af7-4984-a201-6f9b5542af2a",
+      "referenceImage": "assets/masters/backgrounds/TEYVAT_01_BG_windrise-mobile_v1.png",
+      "native720pMaster": {
+        "path": "D:\\yuanshenvoice\\assets\\masters\\video\\TEYVAT_02_VID_windrise-mobile_720p_v1.mp4",
+        "bytes": 24239662,
+        "sha256": "abbb58c12dc0685519a476421ab2a136e7657e1fe1ad33e55e6e6675bfb8765d",
+        "width": 720,
+        "height": 1280,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "frameRate": "14460/601",
+        "frames": 241,
+        "durationSeconds": 10.08,
+        "audio": [
+          {
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "44100"
+          }
+        ]
+      },
+      "delivery": {
+        "path": "D:\\yuanshenvoice\\assets\\masters\\video\\TEYVAT_03_VID_windrise-mobile_jimeng-2k_v1.mp4",
+        "bytes": 66277741,
+        "sha256": "927a07f07bc59da1ffce8f54089ac6259109e25497c2d084777c904accc5ebb1",
+        "width": 1792,
+        "height": 3184,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "frameRate": "14460/601",
+        "frames": 241,
+        "durationSeconds": 10.08,
+        "colorSpace": "bt709",
+        "colorTransfer": "bt709",
+        "audio": [
+          {
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "44100"
+          }
+        ]
+      },
+      "provenance": {
+        "provider": "Jimeng",
+        "process": "官方智能超清 → 2K",
+        "sourceGenerationModel": "seedance_2.0_fast_vip",
+        "sourceGenerationResolution": "720p",
+        "sourceNodeId": "node_4e760e1c90",
+        "sourceResourceId": "eaedf111-5af7-4984-a201-6f9b5542af2a",
+        "nodeId": "node_x2418b45xz",
+        "resourceId": "cca20339-8e22-425f-b107-ce74602aea0c",
+        "submitId": "f7c6cfd1-6f72-4acd-8273-f6e74cc54c43",
+        "canvasUrl": "https://jimeng.jianying.com/ai-tool/ai-canvas/72d8648e-e3c8-46b1-9358-4cf366aab1e9",
+        "localVideoTranscoding": false,
+        "native2kGeneration": false,
+        "enhancement": "Jimeng platform AI video enhancement",
+        "prompts": "prompts.json",
+        "referenceImage": "assets/masters/backgrounds/TEYVAT_01_BG_windrise-mobile_v1.png",
+        "rights": "AI-generated Genshin Impact fan art; underlying game intellectual property remains with HoYoverse"
+      },
+      "validation": {
+        "jimengPreset": "2K",
+        "atLeastQHD": true,
+        "sourceAspectRatioPreserved": true,
+        "durationMatchesSource": true,
+        "allVideoFramesDecoded": true,
+        "downloadedVideoUnchanged": true,
+        "native720pMasterUnchanged": true,
+        "localVideoTranscoding": false,
+        "seamlessLoopVerified": false,
+        "downloadChecksumAndSizeMatch": true
+      },
+      "review": {
+        "samples": "10 frames at approximately one-second intervals",
+        "contactSheet": "D:\\yuanshenvoice\\output\\windrise-backgrounds-v1\\review-mobile-jimeng-2k.jpg",
+        "observed": "Visible meteor trails, drifting dandelion seeds and changing water reflections; no obvious scene deformation in ten sampled frames."
+      }
+    }
+  ],
+  "supersededLocalResampledExports": [
+    {
+      "channel": "pc",
+      "file": {
+        "path": "D:\\yuanshenvoice\\output\\windrise-backgrounds-v1\\TEYVAT_02_VID_windrise-pc_2k_v1.mp4",
+        "bytes": 18921433,
+        "sha256": "f2ec822311ad2d58d3fe07bbf3974aff72b07d62864986e623b1cabdb9fe7dd2",
+        "width": 2560,
+        "height": 1440,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "frameRate": "14460/601",
+        "frames": 241,
+        "durationSeconds": 10.08,
+        "audio": [
+          {
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "44100"
+          }
+        ]
+      },
+      "method": "Lanczos resampling",
+      "acceptedByUser": false,
+      "status": "superseded"
+    },
+    {
+      "channel": "mobile",
+      "file": {
+        "path": "D:\\yuanshenvoice\\output\\windrise-backgrounds-v1\\TEYVAT_02_VID_windrise-mobile_2k_v1.mp4",
+        "bytes": 22328023,
+        "sha256": "c7000269d18609230ceac79294db941da5bce5fc084bf3ff21dfda9028639b20",
+        "width": 1440,
+        "height": 2560,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "frameRate": "14460/601",
+        "frames": 241,
+        "durationSeconds": 10.08,
+        "audio": [
+          {
+            "codec": "aac",
+            "channels": 2,
+            "sampleRate": "44100"
+          }
+        ]
+      },
+      "method": "Lanczos resampling",
+      "acceptedByUser": false,
+      "status": "superseded"
+    }
+  ]
+}

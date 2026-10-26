@@ -1,0 +1,24 @@
+{
+  "name": "game-voice-archive",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node tools/portal.mjs start",
+    "start:all": "node tools/game.mjs start --all",
+    "prepare": "node tools/game.mjs prepare --all",
+    "build": "node tools/portal.mjs build",
+    "validate": "node tools/game.mjs validate --all",
+    "game:add": "node tools/game.mjs add",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "start:game": "node tools/game.mjs start",
+    "build:games": "node tools/game.mjs build --all",
+    "portal:dev": "node tools/portal.mjs start",
+    "portal:build": "node tools/portal.mjs build",
+    "deploy": "node tools/portal.mjs deploy"
+  }
+}

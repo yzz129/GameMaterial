@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#040a1c">
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="canonical" href="{{ORIGIN}}/">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ORIGIN}}/">
+  <title>{{TITLE}}</title>
+  <link rel="icon" href="/portal-assets/mark.svg" type="image/svg+xml">
+  {{TITLE_PRELOAD}}
+  <link rel="preload" href="/portal-assets/PORTAL_03_BG_celestial-editorial_v1.webp" as="image">
+  <link rel="preload" href="/portal-assets/PORTAL_03_DATA_brush_v1.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/portal-assets/PORTAL_03_DATA_text_v1.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/portal-assets/portal.css?v={{VERSION}}" as="style">
+  <link rel="stylesheet" href="/portal-assets/portal.css?v={{VERSION}}">
+  <style>{{GAME_TYPE_STYLES}}</style>
+  <script src="/portal-assets/portal-motion.js?v={{VERSION}}" defer></script>
+  <script src="/portal-assets/portal.js?v={{VERSION}}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#games">跳到游戏档案</a>
+  <div class="page-aura" data-motion-group{{AURA_MOTION}} aria-hidden="true"><img class="motion-source" src="/portal-assets/PORTAL_03_BG_celestial-editorial_v1.webp" width="1536" height="1024" alt=""><span class="sky-meteor"></span><span class="sky-meteor sky-meteor-secondary"></span></div>
+  <canvas class="portal-particles" id="portalParticles" aria-hidden="true" hidden></canvas>
+  <div class="portal-shell">
+    <header class="portal-header" data-motion-group>
+      <a class="portal-brand" href="/" aria-label="{{NAME}}首页">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 1 25 15 39 20 25 25 20 39 15 25 1 20 15 15Z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M20 8 23 17 32 20 23 23 20 32 17 23 8 20 17 17Z" fill="currentColor"/></svg>
+        <strong>{{NAME}}</strong><span>{{ENGLISH_NAME}}</span>
+      </a>
+      <div class="header-tools">
+        <a class="archive-link" href="#games">游戏档案 <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="portal-intro {{TITLE_LAYOUT_CLASS}}" data-motion-group aria-labelledby="portalTitle">
+        <h1 id="portalTitle" class="{{TITLE_CLASS}}">{{HEADING}}</h1>
+        <p>{{INTRO_DESCRIPTION}}</p>
+        <form class="portal-search" role="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.4 15.4 4.2 4.2"/></svg>
+          <label class="sr-only" for="gameSearch">搜索游戏或角色</label>
+          <input id="gameSearch" type="search" placeholder="搜索游戏或角色" autocomplete="off" enterkeyhint="search">
+          <kbd aria-hidden="true">/</kbd>
+        </form>
+      </section>
+      <section class="games-section" id="games" aria-labelledby="gamesTitle">
+        <div class="section-heading" data-motion-group><h2 id="gamesTitle">{{GAMES_HEADING}}</h2><span class="heading-rule" aria-hidden="true"></span><span class="sr-only" id="gameCount" aria-live="polite">{{GAME_COUNT}} 个游戏</span></div>
+        <div class="world-grid" id="worldGrid">{{GAME_CARDS}}</div>
+        <div class="search-empty" id="searchEmpty" hidden>
+          <h3>这个世界，还在路上</h3><p>没有找到对应的游戏或角色，换个关键词试试</p><button id="clearGameSearch" type="button">返回全部游戏 <span aria-hidden="true">↗</span></button>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="portal-footer" data-motion-group id="portalFooter">
+    {{FOOTER_MEDIA}}
+    <div class="footer-shade" aria-hidden="true"></div>
+    <div class="footer-content"><p>{{TAGLINE}}</p><span class="footer-flourish" aria-hidden="true"></span></div>
+    <div class="footer-bottom"><span>© {{YEAR}} {{NAME}} <span class="copyright-detail">游戏素材版权归各自权利人所有</span></span>{{FOOTER_CONTROL}}</div>
+  </footer>
+</body>
+</html>

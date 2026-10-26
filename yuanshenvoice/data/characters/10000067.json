@@ -1,0 +1,524 @@
+{
+  "id": 10000067,
+  "name": "柯莱",
+  "enName": "Collei",
+  "title": "萃念初蘖",
+  "element": "草",
+  "region": "须弥",
+  "rarity": 4,
+  "weapon": "弓",
+  "birthday": "5月8日",
+  "constellation": "薮猫座",
+  "description": "活跃于道成林的见习巡林员，热情的言行背后是一颗依旧稍显内向的心。",
+  "affiliation": "化城郭",
+  "cv": {
+    "chinese": "秦文静",
+    "japanese": "前川凉子",
+    "english": "克里斯蒂娜·科斯特洛",
+    "korean": "房翅于"
+  },
+  "avatarImg": "assets/characters/10000067-avatar.webp",
+  "splashArt": "assets/characters/10000067-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Collei.zip",
+  "voicePackageEn": "Collei",
+  "quoteCount": 70,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "见习巡林员柯莱，前来报到！我会保障你在林间出行时的安全——呼，总算能说出这句出场词了，我没念错字吧…",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b3/ldrjt14oxh4c3f8p11dg1cvau7ols44.mp3"
+    },
+    {
+      "title": "闲聊·巡林路线图",
+      "desc": "今天的巡林路线图…先往这里再拐到那里…嗯，字好多…",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/14/3gdfba1jm697pmbcziyr6yv1mo8rp77.mp3"
+    },
+    {
+      "title": "闲聊·状态",
+      "desc": "呼，今天的状态不错，趁着这个机会，多做一点事吧。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b3/0q5tat2qe8ezt8gybm83f382vi33jin.mp3"
+    },
+    {
+      "title": "闲聊·回忆",
+      "desc": "手头没有事情，心里就容易东想西想——唔，一说就想起了不好的事…",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9f/oz4aavdg3i0knh4t8fnymqppt6b2i5k.mp3"
+    },
+    {
+      "title": "雨过天晴…",
+      "desc": "雨虽然停了，还是要小心水洼。就像一些事，明明过去了还是会留下回忆…咳咳！",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_weather_afterRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4a/f20fkavbavsj214ksxzl2mzhtg04ymw.mp3"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "打雷的时候，最好避开大树。对巡林员来说，还要格外注意检查，谨防森林火灾。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7d/qzqzsx6wjileoiphrfk2pj3m5x5f6eq.mp3"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "天气不错，多晒晒太阳，对身体也好。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/59/dfpqgjjduyjt3pc64rbwioepf95oyy3.mp3"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "嗯，风力正好。安柏应该会很喜欢趁这样的天气挑战自己吧。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cf/p1filrh4tmwdrar8o3iks0o5pnt5uge.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早上好！哈…抱歉，昨晚又在补习…",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dc/gomdg3xupmsoukr8eos99488rts95j8.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "巡林路线一长，中午回不来也很正常。我多准备了一些「口袋饼」，要来一份吗？",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/54/ryqndadn93v9fuojgp9u5shgc35tbmv.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "天快黑了，走在林子里一定要加倍小心。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a7/86jdwxxxhuoctrhfwtiylb5evaahfic.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "准备休息了吗？篝火已经生好了，我会为你守夜的。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c7/9j81dgzcin4obs4gqq9jrmwck0przc3.mp3"
+    },
+    {
+      "title": "关于柯莱自己·巡林",
+      "desc": "来须弥之前，我在野外流浪过一段日子，能吃不能吃的东西都尝过了好几遍，对野外还算熟悉，所以来这儿之后就做起了巡林的工作。如果「野外生存」也算一门课目的话，我还是有自信考到及格的…嗯，不做笔试的话。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/73/scqo6m258ruqbl3p6ytoq9b1po5v0k3.mp3"
+    },
+    {
+      "title": "关于柯莱自己·补习",
+      "desc": "欸？你问我每天都在补习什么？跟着这么厉害的师父，是不是什么很高深的知识…呃…这个么…《提瓦特识字大全》…",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c0/omd13bogicsih614zp5cm98mji9i7kf.mp3"
+    },
+    {
+      "title": "关于我们·旧识",
+      "desc": "我听安柏在信里提起过你，没想到在蒙德又发生了这么多事。可惜跳着字读，好多细节都没弄懂…欸，你愿意再跟我讲一遍吗？",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/41/cmk5akuxken7yznqylp0ymufs9eqq2y.mp3"
+    },
+    {
+      "title": "关于我们·新交",
+      "desc": "我曾经以为「朋友」什么的，这辈子都不会和我扯上关系，直到去了蒙德…后来在须弥遇见了师父，现在又遇到了你。果然，我还是很幸运的啊。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ad/li3gxmw54xp8tv7hl1kc2gnf88ust6m.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "哈…真没想到，我也会有拿到神之眼的一天。以前总觉得神明会看的，都是那些生来就被大家喜欢的人…唔，我…我承认我有很多不好的偏见。是我不对。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7a/pe27oyi2i36ub4fyuli66dm0e20376a.mp3"
+    },
+    {
+      "title": "有什么想要分享·技能名",
+      "desc": "师父常说最有效的学习就是实践，所以我偶尔也会找些轻小说来看，想多认些字…起码比师父的论文好读。不过，我最近读到的一本书里，主角有好多能力，起的名字全是我看不懂的词…嗯？书的名字？应该是叫…《鬼武道》？你也读过吗？",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/67/48yy07voub7yj35s3qe5ptyr6tfered.mp3"
+    },
+    {
+      "title": "有什么想要分享·封印之力",
+      "desc": "唔哇…又是「被封印的力量在躁动」…还有什么「离我远点才是上策」…为什么稻妻人都能这么自然地说出这些话，他们以后不会觉得尴尬吗？啊…不行，不能再读下去了！",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_dialog_share_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/45/e2yt5d6ybgcoxpu2yt56c7sepcgzlm1.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "花草动物吗…除了能不能吃，好像也没有太大区别。嘘，这话不能被师父听见。要问我的话，我比较喜欢有树洞的树？尤其是在想要「找个地方钻进去」的时候…每个人都会有的吧？不是吗？",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_pref_gift_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d6/o3slmiwu6gsrlv4ipso94a6azlxagyd.mp3"
+    },
+    {
+      "title": "关于提纳里…",
+      "desc": "师父虽然平时说话有些严厉，还经常批评那些乱吃毒蘑菇的冒险家，但他其实是个很温柔的人。不仅会耐心地给我补课，还会为我读蒙德寄来的信。我一直很感激他！",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_teammate_tighnari_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d4/gwl9bw6wyggumtrrozhv45w8vdq9g0c.mp3"
+    },
+    {
+      "title": "关于多莉…",
+      "desc": "有次我在巡林路上遇见了她，像是知道我口渴一样，她从袋子里掏出了一瓶看起来特别好喝的果汁…还好当时师父在场，制止了她。不然，我差点就一个冲动，把好不容易攒起来的摩拉都花出去了…",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_teammate_dori_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/98/683o5bh2xdpw8hp7pbj68rhvwalb97q.mp3"
+    },
+    {
+      "title": "关于小吉祥草王…",
+      "desc": "草神啊…小时候我很多次想大声问问神明，为什么要让我经历这么多苦难。唉，说不定就连神明自己，也经历着各种无奈的事吧。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_teammate_nahida_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c6/1bci6i37vmwcp6mmu27d5gozljyk7dv.mp3"
+    },
+    {
+      "title": "关于赛诺…",
+      "desc": "欸…我们能不提他吗？不，大风纪官不是什么坏人，当初就是他带着我从蒙德回到了须弥，才让我有了安身的地方。只是一想起回须弥前那个「封印」的过程…唔…脖子后边又开始觉得痛了…",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_teammate_cyno_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/89/sazbuu71va61tttor16vsgr634ep1l5.mp3"
+    },
+    {
+      "title": "关于卡维…",
+      "desc": "大风纪官曾带着他来我们这里吃过一顿饭。在餐前水果刚端上桌的时候，他就开始大谈他那个又不讲情理又固执的室友，我们连插话的时机都找不到。只能点点头，憋着笑，吃完了整顿饭。唉，真是不容易。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_teammate_kaveh_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3a/apzv1k66qkjc9q06hdr23kma6utsg6k.mp3"
+    },
+    {
+      "title": "关于妮露…",
+      "desc": "感觉她有点迷迷糊糊的样子，如果来化城郭附近表演的话，不会走着走着就迷路在深林里吧…那我可一定要好好看着她，尽我见习巡林员的职责。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_teammate_nilou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/74/f1rfgfkoej8kkuvi24lvzlkeou42mnf.mp3"
+    },
+    {
+      "title": "关于安柏…",
+      "desc": "安柏她真的很厉害，又热情又活泼，又勇敢又正义…是我最钦佩、最崇拜的人了！她总能像一团火一样照亮别人，要不是她，我肯定没法走到今天这一步…过了这么久，她现在一定变得更加沉稳、更加帅气了吧！真不知道什么时候才能赶上她。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_teammate_ambor_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1f/ouyd7akx2wztrqq94z0s6mts5va1v0r.mp3"
+    },
+    {
+      "title": "关于凯亚…",
+      "desc": "蒙德的大家都还好吗？那阵子我可是惹了不少麻烦啊，要不要找个时间回去道歉呢…唔，但感觉一露面就会被那位骑兵队长捉弄…还是再等等吧，再等等…",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_teammate_kaeya_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/94/7gxolxrn8bmnhdbj8s25rud8bjmsshf.mp3"
+    },
+    {
+      "title": "关于丽莎…",
+      "desc": "明明已经过去了那么久，丽莎给我写信的时候，还是在叫我「小柯莱」，总感觉…嗯？你说她也叫你小可爱？噗…对不起，我不是有意要笑出来的…一下子就开心了好多啊。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_teammate_lisa_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2a/fk8lryejeodcpeqpq6ouz2p9ua73b5r.mp3"
+    },
+    {
+      "title": "关于菲谢尔…",
+      "desc": "…「断罪之皇女」？抱歉，我在蒙德待的时间不长，没有听过这样的人物。不过这个名字…嘶…咳，没什么。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_teammate_fischl_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/16/2mqasf6jzrysove2z65usurb0wrhouy.mp3"
+    },
+    {
+      "title": "关于珐露珊…",
+      "desc": "呃…老实说，我不太擅长应付这位前辈…虽然她经常夸我勤奋好学，但我真的是因为学得太慢，没办法了，才总是在补习啊！还有一回，我不小心看到了她的研究笔记，虽然只瞟了一眼，但那绝对是全须弥最可怕的书！——上面全是古文，我连半个字都看不懂。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_teammate_faruzan_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/16/d1igkz95h1ooqyi85uyv5ahfd5htunb.mp3"
+    },
+    {
+      "title": "想要了解柯莱·其一",
+      "desc": "我的事情么？如果你问的是来须弥之前的…唔，要不…你写信问一下安柏？啊，不行，要是让凯亚发现了就全完了…不对，他肯定会发现的吧！还、还是我自己来说吧，呼——对不起！请先让我再做几天心理准备…",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a6/8vdsr0o7qafjckku0t00okx09c1k8yu.mp3"
+    },
+    {
+      "title": "想要了解柯莱·其二",
+      "desc": "流浪到蒙德的时候，我对安柏他们说了很多不该说的话，现在回想起来还是会很羞愧…我这人真是的，怎么能对想帮我的人说那些话呢！他们那时候究竟是怎么看我的？想想就又…呜，抱歉，今天先到这里可以吗？不然等到明天…我又要为刚刚说过的话后悔了。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4c/ohs7df81cvfs7l8eqivvet2uetrjxds.mp3"
+    },
+    {
+      "title": "想要了解柯莱·其三",
+      "desc": "因为「魔鳞病」的关系，我曾经被送到「博士」手下治疗…不，那不是治疗，而是「实验」。在那种环境里待久了，我也不由开始想，自己到底做错了什么？为什么没有人来救我…渐渐地，就连「愚人众」以外的人也一并恨上了。现在想想…实在是，太幼稚了。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3f/0gbbv7pu7p1tzvd6tfe0928roj9d7eb.mp3"
+    },
+    {
+      "title": "想要了解柯莱·其四",
+      "desc": "多亏有你们在，「魔鳞病」消失了，是我从前想都不敢想的奇迹。嗯…我一直对完全治愈不抱希望，只想在身体不能活动前，多做一些事情。起初是复仇，后来是巡林…现在，我终于可以自由地活下去了。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/56/6a7gsg5rhr8tp8femnq5nhtm88yxwhs.mp3"
+    },
+    {
+      "title": "想要了解柯莱·其五",
+      "desc": "你接下来还会继续旅行吗，请让我多尽一份力吧。我会努力学习…不管是认字还是学医术，还有战斗、排查危险…甚至是检查路灯这种小事！希望这一路上，能有更多和我一样的人得到帮助——就像你拯救了我一样。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cf/po8bn1rzrzb46ffb0z82v9pdlab979o.mp3"
+    },
+    {
+      "title": "柯莱的爱好…",
+      "desc": "爱好嘛…缝纫、练习飞行，还有帮助他人！嗯？你说听着有点耳熟？因为…我也想成为「能照亮别人的人」。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d5/qqktstguljbhv36kn8uur5f9seahb8n.mp3"
+    },
+    {
+      "title": "柯莱的烦恼…",
+      "desc": "「针对当前…农作物品种…单一化…避兔长期食用菌类…采取的进口错施…」——这都是什么和什么啊？为什么教令院的论文连「不想吃蘑菇」都能写得这么复杂啊！",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a2/4c3elit88vtugojuzmew0q3kzc6a57i.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "「口袋饼」方便携带，又容易吃饱，应该是我最常吃的东西了？如果不考虑肚子的需要，我最喜欢的食物…嗯，应该是「炸萝卜丸子」吧。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_pref_foodLike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a6/547yb3xgcvpw7ln9v6ypnv2v0jnrnoe.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "流浪的时候肚子饿了，连钩钩果都要掰碎了吃下去，所以我没有什么特别讨厌的食物。一定要说的话，我不会碰的只有各种蘑菇吧？和口味无关，只是不希望被师父长篇大论批评的人是自己而已…",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/19/td5nyctg3r8d7m1vl2s4quueangoedk.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "嗯——真好吃！你能教教我吗？",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/13/tpwkmiqru367aycliv04j39ia44ea89.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "有这手艺，流浪在外也不会饿肚子了吧。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9f/nnbbjktsjl97ug5f7vrr8uwe8zwzcz8.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "抱歉，师父交代过我，不能吃奇怪的东西。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/68/q84fmbj9vv66bjyshzmjs7mv4wk3vli.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "生、生日快乐！这个是我准备的蛋糕，这个是备用的蜡烛…安柏在信里说这样就行…啊，还有、还有这个是送给你的礼物！\n…不好意思，我没什么办生日会的经验，也不知道合不合你的心意…弄得手忙脚乱的。有什么不足一定要跟我说，明年，我一定会准备得更好！",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_pref_birthday_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/83/en9w3p0h4iktmq2rp973n306a4kmsel.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "我这是在进步吗？",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2e/ihxrtqjyzw65g9gny6ve2sh771q0it4.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "我能感觉得到，我已经…不再是以前的我了。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2e/brjex2e4v0kgy61ai278apd40i1mm1t.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "就算到生死关头，也不必再依靠「它们」的力量了。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/68/fce5vy0eeojbd87z15axte73uyjop46.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "现在的我，即使解开被封印的力量，也可以驾驭自如了吧？嘿！\n说笑的，和你一起辛苦冒险的经历，才是我现在拥有的力量啊。",
+      "voicefile": "VO_friendship/VO_collei/vo_collei_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fd/h4vbgfpygced25fix39nchkyk1jar6g.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "去。",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1c/t1jf118xa2ltg0v5yxuasef5onhlqwq.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "飞吧。",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/12/by5dh5atm4t7xkyu7hzo4zhy38bp3ju.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "嘿。",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/VO_ZH_Collei_Elemental_Skill_1_02.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "拜托了，柯里安巴！",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3d/53l83qiwvfnc67s7gsw9lirqwr4rb83.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "试、试试这个！",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/92/fdolqlafcgrhxdxfwuy6yyntcf54rmv.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "来跳舞吧！",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4a/61oh045sngudawgs9zc4y0zzz4cq7x3.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "在野外要时刻注意补给。",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/44/c3kciqigjikobnztdndugpxkdmmcbx0.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "真幸运啊。",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9a/2aqzs1if9o7f08t1mb5239fouyb3pzr.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "嗯…箱里没长毒蘑菇吧。",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/33/5gk3ciqx8obk21jk3ptojhl8uv2n7ns.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "我…还撑得住！",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ee/bqq3ruyjlvcn1h45zftxsyejsd6kkqn.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "这点小痛，不算什么！",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/98/6vvglxcfykhnrya06ov2rpulsbwwcy4.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "需要…尽快治疗…",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ad/9u2uc5louvo5h7we6xbjbpsyovgd8xw.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "身体要紧！",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e7/g0evkih30447ahlycsljky4ninbj8q8.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "这样下去不太妙啊。",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b0/1vee7v04097q7i9l10kclgyullwyl0t.mp3"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "得做优秀的…巡林员。",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/54/gxhdldhghg2cmcpmvrlow0zx4qsdlu8.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "居然会…这么倒下…",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/18/6i2gqjxcv52mqig4vhnm46lidlkewke.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "还是…到这一天了…",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/31/ber4xmi2k07drunk34g2jmbyzmeonl1.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "怎么会…",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6f/c3bipah0o3weze0vw4h2ucqo4d7eud7.mp3"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "别碰我！",
+      "voicefile": "VO_gameplay/VO_collei/vo_collei_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5b/toyj0bozv055du8g9nmuch8qbejvnlc.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "就由我来保护。",
+      "voicefile": "VO_teamJoin/vo_collei_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b2/nqn8p50k6nlgdcodxkp70ampqnvepyf.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "准备齐全，出发吧！",
+      "voicefile": "VO_teamJoin/vo_collei_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bc/gubni2igq81g463d237e4uf3iiiugro.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "见习巡林员报到！",
+      "voicefile": "VO_teamJoin/vo_collei_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/85/aqpm6qi0wd7xwki51ypmdvv5ynnue42.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000067-card.webp",
+  "fullArt": "assets/characters/10000067-full.webp",
+  "fullArtWidth": 1007,
+  "fullArtHeight": 939
+}

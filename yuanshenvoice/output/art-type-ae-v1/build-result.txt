@@ -1,0 +1,5 @@
+READY
+After Effects 26.5x89
+16 bpc / sRGB / 24 fps / 3 seconds
+Main and Nahida: 1480 x 500 / straight alpha PNG
+Brand: 600 x 440 / straight alpha PNG

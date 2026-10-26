@@ -1,0 +1,48 @@
+{
+  "id": "198",
+  "name": "梦奇",
+  "slug": "mengqi",
+  "title": "入梦之灵",
+  "roles": [
+    "坦克",
+    "法师"
+  ],
+  "portrait": "assets/heroes/198-portrait.webp",
+  "cover": "assets/heroes/198-cover.webp",
+  "skins": [
+    {
+      "id": "198-26f13b38747d",
+      "name": "入梦之灵",
+      "voiceCount": 0
+    },
+    {
+      "id": "198-4fa66103176e",
+      "name": "美梦成真",
+      "voiceCount": 0
+    },
+    {
+      "id": "198-751c3b0816a4",
+      "name": "胖达荣荣",
+      "voiceCount": 0
+    },
+    {
+      "id": "198-4cc4d4196edf",
+      "name": "天降福星",
+      "voiceCount": 0
+    },
+    {
+      "id": "198-52abd0b15064",
+      "name": "顽趣",
+      "voiceCount": 0
+    }
+  ],
+  "skinCount": 5,
+  "voiceCount": 0,
+  "sourceUrl": "https://pvp.qq.com/zlkdatasys/yuzhouzhan/herovoice/198.json",
+  "officialPage": "https://pvp.qq.com/web201605/herodetail/198.shtml",
+  "voiceStatus": "not-published",
+  "region": "建木",
+  "faction": "倒悬天",
+  "updatedAt": "2026-10-23T13:50:05.071Z",
+  "voices": []
+}

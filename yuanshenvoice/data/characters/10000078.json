@@ -1,0 +1,503 @@
+{
+  "id": 10000078,
+  "name": "艾尔海森",
+  "enName": "Alhaitham",
+  "title": "诲韬诤言",
+  "element": "草",
+  "region": "须弥",
+  "rarity": 5,
+  "weapon": "单手剑",
+  "birthday": "2月11日",
+  "constellation": "天隼座",
+  "description": "须弥教令院现任书记官，有过人的智慧与才能。生活得自由自在，一般人基本找不到他。",
+  "affiliation": "须弥教令院",
+  "cv": {
+    "chinese": "杨超然",
+    "japanese": "梅原裕一郎",
+    "english": "纳齐耶·塔尔沙",
+    "korean": "田昇和"
+  },
+  "avatarImg": "assets/characters/10000078-avatar.webp",
+  "splashArt": "assets/characters/10000078-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Alhaitham.zip",
+  "voicePackageEn": "Alhaitham",
+  "quoteCount": 67,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "我是教令院的书记官艾尔海森。想调阅档案的话，请把你的需求按照正规格式填好申请表后递交。\n还没整理完？没关系。我的工作时间贴在办公室门外，等下个工作日再来吧。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_draw_appear_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/14/44a1qdnsmtcjvm7x4xczg4pyl265ru7.mp3"
+    },
+    {
+      "title": "闲聊·工作",
+      "desc": "书记官的工作很简单，我就是因此才做了这个职位。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/91/dr39clocgy3n2l7l2cb051397gyv8om.mp3"
+    },
+    {
+      "title": "闲聊·读书",
+      "desc": "读书并不会让人变聪明，看看教令院里的那些家伙就知道了。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1c/lexf6yzbh72z1wti2k7kafzol4kczaq.mp3"
+    },
+    {
+      "title": "闲聊·思考",
+      "desc": "嗯…最近乱七八糟的申请表有点多，都驳回吧。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/08/t1lpjicjwhmhtpludt0a2rdipz2nn8d.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "雨天出门是最麻烦的。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f3/da0smkxoy0bshugvht9tmq016l8l82z.mp3"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "没什么可怕的，自然现象而已。除非你往大树下躲。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/79/pfoj4j12l06hkuvilp7qater4o5bopb.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "很冷吗？我还好。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/21/fmxcqyitrzojrjyxa1j6atiwpjy8dhj.mp3"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "这种好天气，最适合什么都不干。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/66/o2ei3ca9mdaozbynlvt660sevl7utvd.mp3"
+    },
+    {
+      "title": "在沙漠的时候…",
+      "desc": "糟糕，鞋里进沙子了…",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_weather_desert_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/80/koitbzzmkpyrm338uckwg7ckwfye32n.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "时间还早，我先去喝杯咖啡。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9e/cx3m2d6zqlvjgj773y9xaad6l2qd2bg.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "没什么事的话，我要戴着隔音耳机睡一会儿。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8c/gsbbargrky97jk3hsh67rxxfbuihpkc.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "接下来就是私人时间了。再见。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dc/kz8oxpcuaobsf5jtjc7ync9l0xmse3h.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "希望室友不要半夜敲敲打打做模型…或者他不在家最好。我不想晚上睡觉还得戴着耳机。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a2/0xw7o7i6ayoqsj5g5iejk6u5kaccxga.mp3"
+    },
+    {
+      "title": "关于艾尔海森自己·事实",
+      "desc": "比起辞藻的包装，我更喜欢用事实说话。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/72/14peapxandhlbpkafgador2w3mtfcnl.mp3"
+    },
+    {
+      "title": "关于艾尔海森自己·流言",
+      "desc": "哦？听过不少关于我为人的传言吗？很在意？\n没必要，因为我也并不在意你相信与否，只要别徒增额外的事端就好。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/63/763kei2infj1q3489bhliv85un4pxkl.mp3"
+    },
+    {
+      "title": "关于我们·打招呼",
+      "desc": "要是在街上和我打招呼我却没有反应的话，不要见怪。我只是开了耳机隔音而已。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/13/sqzzllkzvt68nuauftt6wtarb5nm1rr.mp3"
+    },
+    {
+      "title": "关于我们·互助",
+      "desc": "你是自理能力非常强的人，甚至能兼顾身边的伙伴。我没什么要给你的建议，你应该也不需要我的帮助。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/55/4itbkszpny1ji9uah39qtedj152xf63.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "说实话，草元素「神之眼」对我的研究帮助不大。不过有了元素力后打人倒是更疼了，所以还算有用。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0f/6et7jet72j7zkuvcl9yby7uafpnxwoc.mp3"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "真理诞生不是为了服务于谁。人类不是知识的载体，知识也不是人类的目的。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/58/gkd4xu55mzkzgy5jclvp68vigyemtdn.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "这世上吸引人注意力的东西有很多，不要太相信自己的双眼。如果所见即为真实，人就不需要思考了。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_pref_gift_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b7/p2soj7vhh0qiizhmp1uam7r0idktfhv.mp3"
+    },
+    {
+      "title": "关于小吉祥草王…",
+      "desc": "过于小瞧或敬畏神明都是不可取的。神明需要信徒，同时神明也是生物链中的一环。所以我并不因为参与拯救过神明而自豪，希望小吉祥草王也不必介怀。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_teammate_nahida_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5f/ohd5wbwlgbs70i0f9bqby2wtnl1metz.mp3"
+    },
+    {
+      "title": "关于卡维·关怀…",
+      "desc": "他对所有人和事都抱有过度的关怀心，可能是因为他自己太脆弱了吧，整天大惊小怪的。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_teammate_kaveh_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/20/rblo9addafy9bzr9i5hlati7edpy1s9.mp3"
+    },
+    {
+      "title": "关于卡维·上当…",
+      "desc": "有人在路边摆摊，说只要卖出一个手工钥匙扣，就会有一个贫困家庭的孩子吃上饱饭。卡维买了十几个回来。\n在医疗服务都免费提供的须弥…我不多说了。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_teammate_kaveh_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a9/eyx6j727c2wap87ejic1az08cae7ivn.mp3"
+    },
+    {
+      "title": "关于提纳里…",
+      "desc": "好像很多人觉得他脾气不够好，我倒认为有失偏颇。当初卡维把房子建在死域上，搞出很大一个烂摊子，给巡林队添了不少麻烦。即使如此这位巡林官也没有记恨卡维，还愿意请他在家里吃饭…可能就是因为世界上有这样的好人，才能让卡维继续生存下去吧。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_teammate_tighnari_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/60/eaip8sean705ruysmf0h5f43e75pgmv.mp3"
+    },
+    {
+      "title": "关于多莉…",
+      "desc": "她精明又警觉，懂得如何将梦想落实到实际，是能把生活过得很好的聪明人。没有要包庇她的意思，但立场不同并不影响我认可她的生活态度。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_teammate_dori_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1a/hxtmdbxn95zu2a097phrkuvhp1gse6l.mp3"
+    },
+    {
+      "title": "关于赛诺…",
+      "desc": "「集群意识」的案件增加了风纪官们的工作量，但我并没有什么心理压力。说到底，该起事件的根本成因并不在我。赛诺应该也是明白人，后来没再为这事找过我。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_teammate_cyno_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e1/sy5baeq3vvogf5zek9zu6acfzvzq7fn.mp3"
+    },
+    {
+      "title": "关于妮露…",
+      "desc": "艺术家的优点和缺点都很明显。妮露在扬长避短方面做得非常好，所以能过得简单又快乐。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_teammate_nilou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/06/12nw8zcn7m3yty7974xqx4p33zensdj.mp3"
+    },
+    {
+      "title": "关于迪希雅…",
+      "desc": "能力很强的人，留在镀金旅团里有些浪费。要是她能接受我的提议来教令院任职就好了，有这样的帮手，我们的工作也会轻松不少。不过她对安稳的生活不感兴趣，我能理解。可惜了。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_teammate_dehya_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e9/0df1ez97wnfmqouedgocptrpiltkkph.mp3"
+    },
+    {
+      "title": "想要了解艾尔海森·其一",
+      "desc": "大部分人都不会主动与我接触，也许是因为忌惮，也许是因为性格不合。对此我很满意。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/83/lxwx6v8s83px1un3cu6ipnuyqtg1qeg.mp3"
+    },
+    {
+      "title": "想要了解艾尔海森·其二",
+      "desc": "我向来对社交不感兴趣。如你所见，我的生活过得比大部分人舒适，这足够证明社交不是生活的必需品了。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f8/lt8g76v5krqd023s989cvswsav28n7l.mp3"
+    },
+    {
+      "title": "想要了解艾尔海森·其三",
+      "desc": "每个人都应该有自己的主张，并始终保持清醒，不然很容易被各种突发状况绑架，甚至误入歧途。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c2/iocuk0fjfaeald5868746uw6ln6qrn1.mp3"
+    },
+    {
+      "title": "想要了解艾尔海森·其四",
+      "desc": "一旦秩序被破坏，其后果会迅速蔓延。我不喜欢这样，会打扰到我现在的生活。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f9/hakrvdbgcvfb3sn55tz5kb4f1g7i69y.mp3"
+    },
+    {
+      "title": "想要了解艾尔海森·其五",
+      "desc": "下班后我偶尔会去酒馆喝一杯。\n不是想知道这个？什么，我还以为分享闲暇时间是比分享个人观点更隐私的事情。毕竟，无论谁都可以在留言板上侃侃而谈呢。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/65/t3iwl1m15w40awal9x912lw07uttxbm.mp3"
+    },
+    {
+      "title": "艾尔海森的爱好…",
+      "desc": "看晦涩难懂的书，欣赏其他人抓耳挠腮的样子。 \n开玩笑的，别人的痛苦并不会给我带来快乐，我也很少碰到读不懂的书。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/10/nbb14np2moggykcxrm5alvmdd4f3m1l.mp3"
+    },
+    {
+      "title": "艾尔海森的烦恼…",
+      "desc": "据我观察，很多人的烦恼都是自找的。生活中已经有不少难处，就别自添烦忧了。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/02/a22duay5bbf764tkri3o7tf2hatogil.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "美味程度高于美观程度的。很简单的要求吧？不然就是本末倒置了。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_pref_foodLike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/88/621fjt1da7tream1wgn168ok8y9gztr.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "有汤有水的菜肴很难在看书时吃。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/ff/ib3aia6n8aq8jx6qeeo3dq227azm53g.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "嗯，可以看出对调味配比的精准把控。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9a/eez8dtpbjdncw1vsmldhkcmtq52cuo0.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "是流行的味道，我不讨厌。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/99/sl4w8ryampkm1kqjtgj38nh3o6i8urg.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "不在这吃了。介意我打包回家吗？",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/59/8kgtl8od5wbmdf3rsi1qqzzul0c27ep.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "生日快乐。我总觉得人们在庆祝出生这一天上付出了不必要的热情，不如把这些精力用在让自己生活中的每一天过得更愉快上来得实际。你这方面做得还可以。\n不知道送什么礼物合适，就给你预留一次申请表的特批通道吧。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_pref_birthday_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/be/3yay37qmuwocjn5yb235jt5ll45r6qj.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "谢谢。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/86/ndw4oacpqidm1inu1cciqk1haj3x839.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "原来不是一次性的。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ee/d0eycurtq9o19hhsdazhv6in0mnrcnm.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "在奋进这件事上，你比我要热心。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d1/hf91uzm6fp8mn63mqk14xgkxplu3vcl.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "不能让教令院那些喜欢偷懒的家伙知道我又在进步，否则他们会想方设法把麻烦事推给我。我当然不会接了，但沟通起来总要浪费些时间。",
+      "voicefile": "VO_friendship/VO_alhaitham/vo_alhaitham_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/72/fluvrh9wtuypqko4smjh63eylkzh8qr.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "接好了。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b6/e39xmwkvgwpgmn8v2hyki0z4o5wtnks.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "镜闪。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c9/ljqglt4d1p96gd0pj0zh90ca8s7lzip.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "哼。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/VO_ZH_Alhaitham_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "散射。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/16/2z9qxhwr55j2ybeilvsmbcu2mo7svhg.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "分光。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6b/2q9lj0c0aed7pt2cz44d1722zocv61b.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "理论的推演。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d8/suw2879fv3buvw4b7oac1crg0c87wnq.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "你自己收好。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5a/d2wb9u3r3q96z1wlutlo6lgf4clhl5c.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "动作快，东西掉远就难捡了。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b6/ius9pzek7nukrcodbzq15hocrfth7da.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "哦。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/VO_ZH_Alhaitham_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "麻烦事。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e0/59kmczrlx9lyn045ssw9b58514unnp7.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "计划有变。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cc/sy4lpkn20exzwvvl9rxvb4ymvhik18j.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "要多花时间了。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a8/dogxetr5r2zynkeu4sp8n79jwp6lfyc.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "我来吧。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a2/5vcf7soyk84jsueyk59wrtnlrvzzeiw.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "不意外。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3c/9g72olu8b51129egtvtnd8ciyhjieu3.mp3"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "预期之外…",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/63/80kng67h72ab6fqai23o6ml4mf1t1aq.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "失策。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2b/6qp0czt54qh2aqkzmsrnrbrvhbmhikn.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "我的误算。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8c/kezg460pq7m1zzk321vtcilnsc4y2su.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "啧，谁啊。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7b/kaxfoklo4p5bjwsisrdpdmdn7tqgk6t.mp3"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "呃…行。",
+      "voicefile": "VO_gameplay/VO_alhaitham/vo_alhaitham_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8c/di71bme8rkjf3vhm461gwji9o1r0g3u.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "有事？",
+      "voicefile": "VO_teamJoin/vo_alhaitham_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8c/b2hzhkcm63ohru7dlqri89enmtw98gx.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "公事公办吧。",
+      "voicefile": "VO_teamJoin/vo_alhaitham_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/86/jfkotx6o6b4kz22e3nuff00yxfe7s7j.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "不需要太长时间吧？",
+      "voicefile": "VO_teamJoin/vo_alhaitham_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ec/s9s84wud44vc7e3hzq2cembdvp1yw9e.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000078-card.webp",
+  "fullArt": "assets/characters/10000078-full.webp",
+  "fullArtWidth": 1135,
+  "fullArtHeight": 935
+}

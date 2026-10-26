@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "HOK-Calligraphy-Fallback-v2.woff2",
+  "purpose": "Supplement missing Chinese glyphs with locally hosted calligraphy, retaining the official primary font",
+  "source": "https://github.com/googlefonts/mashanzheng",
+  "sourceFile": "portal/masters/editorial-v1/MaShanZheng-Regular.ttf",
+  "sourceSha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb",
+  "license": "SIL Open Font License 1.1",
+  "licenseFile": "HOK-Calligraphy-Fallback-OFL.txt",
+  "path": "assets/fonts/HOK-Calligraphy-Fallback-v2.woff2",
+  "master": "assets/masters/brand/HOK-Calligraphy-Fallback-v2.woff2",
+  "bytes": 2515916,
+  "sha256": "05e6779d4bf9b23a04552364de703dfd342117e40d6ab46188266d4763bc4329",
+  "primaryCodepoints": 1812,
+  "supplementCodepoints": 5205,
+  "combinedCodepoints": 7017,
+  "verifiedCopy": "循着星光重逢熟悉的声音换一位角色自动播放暂停音乐",
+  "review": "Official titlefont web subsets omit U+5FAA, U+719F, U+6362 and U+505C; the supplement covers all four without system font substitution",
+  "build": "py -3.14 tools/prepare-honor-fonts.py"
+}

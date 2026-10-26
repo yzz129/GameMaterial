@@ -1,0 +1,559 @@
+{
+  "id": 10000049,
+  "name": "宵宫",
+  "enName": "Yoimiya",
+  "title": "琉焰华舞",
+  "element": "火",
+  "region": "稻妻",
+  "rarity": 5,
+  "weapon": "弓",
+  "birthday": "6月21日",
+  "constellation": "琉金座",
+  "description": "「长野原烟花店」店长，「夏祭的女王」，将人们的愿望寄托于烟花中的能工巧匠。",
+  "affiliation": "长野原烟花店",
+  "cv": {
+    "chinese": "金娜",
+    "japanese": "植田佳奈",
+    "english": "珍妮·橫堀",
+    "korean": "朴信姬"
+  },
+  "avatarImg": "assets/characters/10000049-avatar.webp",
+  "splashArt": "assets/characters/10000049-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Yoimiya.zip",
+  "voicePackageEn": "Yoimiya",
+  "quoteCount": 75,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "欢迎光临「长野原」！我叫宵宫，有什么需要的都可以告诉我！\n呃…「什锦炸串」和「鸟蛋烧」…不不不，我们家不是饭店啦，是做烟花的！嗯，就是这个，闪闪亮亮，啪啦啪啦的，小烟花~",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/29/jqcxe1bc0knjaxxoj5ztkyewbck49l7.mp3"
+    },
+    {
+      "title": "闲聊·烟花",
+      "desc": "烟花易逝，人情长存。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4c/p4vyz45bf9bg7i4vn600a1q45tljtau.mp3"
+    },
+    {
+      "title": "闲聊·讲故事",
+      "desc": "没事做的话，我来给你讲故事吧！",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f1/h3dxb7ly4hop674wdg180fi8nak8h28.mp3"
+    },
+    {
+      "title": "闲聊·金鱼",
+      "desc": "你养过金鱼吗？很乖巧很可爱哦。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f9/ooln0zsz0a74mgfhu5b4yn8cd1jipy4.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "呜哇，烟花要湿透了！得找地方躲躲，啊，要来不及了！",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/10/ebzz2ef41clavvilp90l3a9j1v0en7n.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "哈哈，看我搓个雪球，咻——",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a9/q84r9n5skx8lbk9hgw3zbe3uv5rorgf.mp3"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "全身上下都暖暖的，好舒服啊。嗯，感觉要飘起来了。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ea/6kr4f0s3njlh1eldve29zzccxhqdkz9.mp3"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "风好大啊——声音都被吹回来啦——！",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d0/mbc3q89dpjz44u9b5bfu3ljv7877n5d.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "啊——早上好啊，早上的空气最新鲜啦，多吸两口就会变聪明哦。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/4hq4xsqejdgoou62dfvlnrvrkj3i3gi.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "嗯，该吃午饭啦，欸…今天的鸡蛋，是双黄蛋呢。嘿嘿，运气真好。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1e/2l81phppefz2dpak2frusygbarc56tv.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "现在是最适合测试烟花效果的时间，无论是在天上还是地上炸开都会很好看。嘿嘿，开玩笑的，我会注意安全啦。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7f/o92nkzuq8gg1vetn2xuqvon6wh24wif.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "提问时间——！请问，当看完一整天的烟花之后，接下来要做什么？嘿嘿，答案揭晓：当然是去梦里看烟花啦！晚安，明天见。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9c/czha1d6dvejtqwo5fehpokxqjhy193k.mp3"
+    },
+    {
+      "title": "关于宵宫自己·家事",
+      "desc": "我的老爹耳朵不太好，小时候我无论对他说什么，他都是一副笑呵呵的样子，我就以为我说的都是对的，所以就一直说，一直说，他就一直笑。后来我才知道他笑是因为他听不清楚，但…只要他真的很开心，那我还是会一直说给他听。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/11/hu6ou3rdr7v7iubm85r8n3o8jbtcsex.mp3"
+    },
+    {
+      "title": "关于宵宫自己·说话",
+      "desc": "我不担心什么「祸从口出」，因为蕴含在语言中的情感是不会骗人的。就算说错话被误会，用更多的话去化解就好，但如果什么都不说，对方就没办法了解你的心意，也就没有和你拉近关系的契机了。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/09/r7xnedr2qz3b9ezmrkm5qx2ckt3b1w2.mp3"
+    },
+    {
+      "title": "关于我们·猜拳",
+      "desc": "我们来玩石头剪刀布吧！听我口令：石头，剪刀，布！好欸，我赢了！我赢了！嗯？我没变啊，才不会变呢。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cd/cvtvt6z0iaus6q4irujzxxvzlwflfny.mp3"
+    },
+    {
+      "title": "关于我们·陪伴",
+      "desc": "其实我不在意我要做什么事，我更在意的是和我一起做事的人。比如和你在一起，就算只是看看风景，踢踢罐子，我都很开心。因为，跟你说话怎么都说不腻嘛。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1a/8jev4cvop0yt96fpz52u81x1hnpkxwq.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "悄悄告诉你一件事哦，我刚刚拿到「神之眼」的时候，我是把它当打火石来用的。我用它点过烟花烧过水，回家就把它往库房一扔不管了。结果，还是我老爹发现，告诉我这是个特别珍贵的东西，要好好保管。哈哈…幸好没有被神明大人收回去。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/77/dp2i0cxak46rxzl543h1ws0wirv5v0q.mp3"
+    },
+    {
+      "title": "有什么想要分享·海灯节",
+      "desc": "你知道吗？璃月的海灯节，有很多烟花都是从我们家订购的。我按照要求做好，再找北斗阿姊用船送去璃月。虽然按锁国令的规矩，我不该把这些东西往外送，但…有节日的地方，烟花一定不能缺席。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2e/ogxcio4kjsluhcbprnjfsodawmr2lte.mp3"
+    },
+    {
+      "title": "有什么想要分享·循环",
+      "desc": "「烟花在天空中留下的光点消失之后，会变成雨，会变成雪，重新落到地上。它们滋润了大地，抚育了人类，为的是再一次被送上天空，重现华丽的瞬间。」在老爹讲的很多很多故事里，这是我很喜欢的一个。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_dialog_share_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/33/li8q4694ad5lktpd8v3rmv7yx18xyro.mp3"
+    },
+    {
+      "title": "有什么想要分享·光斑",
+      "desc": "你小时候踩过地上的光斑吗？就是阳光很好的时候，光线穿过树叶在地上留下的那种光斑。本来以为踩了就会消失，结果它总是会跳到脚背上，我就一直踩，一直踩，试了好久也没成功。那时候挺不甘心的，坐在小石头上叹气，「唉，这个世界上居然有踩不到的东西啊…」",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_dialog_share_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/09/2jvw0fp75ulwm6db91lx4f1d8ep6qx6.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "有一次夏日祭，我蹲在孩子们旁边看他们捞金鱼的时候，我突然想，有没有可能做出一种能在水上放的烟花呢？然后，「金鱼烟花」就诞生了！能在水面上游来游去，能发出七彩的光，还能吐泡泡呢，很不可思议吧！…我也没想到我真的能成功，但这个世界上就是有很多很多不可思议的事呢。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/26/pp669zc0lfaf17do40u7siivd1u9j9b.mp3"
+    },
+    {
+      "title": "关于北斗…",
+      "desc": "稻妻锁国之后，都是北斗阿姊帮我运烟花出去，为了给她一个惊喜，我准备了一个巨大的船型烟花。在「南十字船队」准备离开的时候，这烟花就在他们眼前冲了出去，直飞天空。船员们都以为是船队的船飞出去了，吓了一大跳，但北斗阿姊特别喜欢这个创意。她告诉我，惊喜惊喜，就是要又惊又喜，哈哈。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_teammate_beidou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a0/kdz0219mfl0u3c7213dst0r92puxwcr.mp3"
+    },
+    {
+      "title": "关于雷电将军…",
+      "desc": "烟花是和将军追求的「永恒」距离最远的东西，她可能觉得须臾的华光对于稻妻来说没有实际意义。唉，这就是执掌「永恒」的人难以理解的东西吧，正是因为我们都是「须臾之人」，才更需要纪念须臾的美好。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_teammate_raidenShogun_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e1/m4iva8k7c2jrg594fzs9sfgwp6228yw.mp3"
+    },
+    {
+      "title": "关于神里绫华·认真",
+      "desc": "因为工作关系，她和我家有很多合作。和其他两个奉行的人不同，她每次都会听我把话说完，还会很认真地回答我，完全不会有不耐烦的样子。嗯，「大家闺秀」这个词，就是为她而生的吧。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_teammate_ayaka_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3a/8jht7yt6b5jsih7j9rk4bpidhd81lvw.mp3"
+    },
+    {
+      "title": "关于神里绫华·泡澡",
+      "desc": "有一次谈夏日祭的事谈到很晚，我们都很累了，我就邀请她去泡澡解乏。但她听说「泡澡」是很多人泡在同一个池子里的时候，脸一下子就红了，那时候我才意识到，大小姐是不能使用公共浴场的。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_teammate_ayaka_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/23/ruhnpa6pislv7sbkvf7al2zemcwrdqj.mp3"
+    },
+    {
+      "title": "关于托马…",
+      "desc": "他是个很擅长说话的人，话从他的嘴里说出来，就一定会有他的想法。虽然看似没什么联系，但绕着绕着，最后都巧妙地指向了同一个目的。嗯…总之就是和我的风格完全不一样啦，遇到我搞不定的事，我就会请他出马。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_teammate_thoma_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/eb/42fakb91ympfp1yxekro3849z2lv373.mp3"
+    },
+    {
+      "title": "关于八重神子…",
+      "desc": "有次神社祭典，绫华问我能不能为宫司大人准备玩乐用的烟花。可是…宫司大人不是要出席祭典，全程坐在神社里吗？然后我祭典的时候就一直看着她，想知道她要怎么放烟花。我等啊等，等啊等，结果等来了绫华，说宫司大人特别满意…欸？她已经放过了？难道，坐在里面的不是她？",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_teammate_yaeMiko_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/15/i03hlzrjnqutwrffolc3ioa8my88d0e.mp3"
+    },
+    {
+      "title": "关于荒泷一斗·对决",
+      "desc": "哦，他呀。别看他长得那么凶，他很受小孩子欢迎的。不过他的胜负心很强，每次我们一起陪孩子们玩，最后都会变成我和他一决胜负，比如一口气喝完拉面汤，面无表情吃酸梅什么的，孩子们会猜我们谁会赢，还会在旁边加油助威，哎呀，那我可不能输了，对吧？",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_teammate_itto_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/66/j9lp7n0zy472n3ghg0v7g9s30reo5op.mp3"
+    },
+    {
+      "title": "关于荒泷一斗·帮派",
+      "desc": "「荒泷派」？欸？！原来他不是无所事事的人呐？",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_teammate_itto_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/ba/t555amrppxbs4o3tcw7wxeeh27rudv6.mp3"
+    },
+    {
+      "title": "关于枫原万叶…",
+      "desc": "像我这样没有心事的人，就喜欢有话直说。而有心事的人，往往都喜欢说古代的诗歌或者沿途的风景，比如花与鸟，风与月，唯独不提眼前的现实。他也是有故事的人吧。嗯，我懂的，我懂的。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_teammate_kazuha_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/34/78xk90543ygbsot00xywlr7pi4rz03j.mp3"
+    },
+    {
+      "title": "关于九条裟罗…",
+      "desc": "因为治安和消防问题，我经常被抓去天领奉行的属地接受教育。在那帮人里，九条裟罗应该是最讲道理的一个了，至少她不会在了解情况之前就预设我的对错。如果我是正确的，她也会认同我的观点，如果我错了…嘿嘿，那就去拜托托马帮我赔礼道歉。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_teammate_kujoSara_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d7/td2xt9fbi0xj7mi4edgytijhkszqc39.mp3"
+    },
+    {
+      "title": "关于早柚…",
+      "desc": "如果你见到她，记得告诉我哦？我很想带她去参加祭典，给她介绍很多很多新朋友。因为我看她平时精神不是太好，如果认识一些能玩在一起的人，她应该就会慢慢活泼起来吧。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_teammate_sayu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/36/rc0ma9z0xutbezrsttc2vqcu1tgesex.mp3"
+    },
+    {
+      "title": "关于可莉…",
+      "desc": "嗯？你说在蒙德有个擅长制作炸弹的小孩子？唔，炸弹和烟花其实相差不大，也就是说，她是这方面的天才？真想见上一面呐。欸，但是…让小孩子玩炸弹很危险吧？蒙德人不会担心吗？",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_teammate_klee_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/17/6c5in3vus8nsn8nndx8e6edkv5llozc.mp3"
+    },
+    {
+      "title": "关于绮良良…",
+      "desc": "你说「狛荷屋」的那位快递员呀，她手脚可麻利啦。做烟花的时候，时常有一两种决定颜色的材料消耗得比别的都快，这种时候，她总能很快补来新货，帮了大忙。有次我送了她一个烟花，想要表达感谢。她却怎么也不敢放，说是之前被烟花的动静吓到过。哈哈，那就只好让她跑到远远的地方，我来放给她看喽。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_teammate_kirara_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/VO_ZH_Yoimiya_About_Kirara.ogg"
+    },
+    {
+      "title": "想要了解宵宫·其一",
+      "desc": "要听我讲故事啊？好呀好呀，这边坐，我给你讲讲最让我自豪的、「长野原」家的故事吧！是难得的正经话题哟。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b9/lqo2pc86ar5h1e7g7bacf9mkz0uf50x.mp3"
+    },
+    {
+      "title": "想要了解宵宫·其二",
+      "desc": "我们家有项悠久的传统，那就是我们会给每一位来定做烟花的客人附赠一张纸条，这张纸条只有我们家的人能看懂，上面记录了烟花的具体配方。不管是过去了十年还是一百年，只要客人能把这张纸条带回来，我们家就能做出和当年完全相同的烟花。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9e/gb88b2szg6ekecu8n1b3uq9mckh0orl.mp3"
+    },
+    {
+      "title": "想要了解宵宫·其三",
+      "desc": "最美的烟花配最棒的瞬间。那些易逝的小心情就这么被封装在烟花里，以另一种形式传承下去。纸条就像一把钥匙，等待想要纪念过去的人来开门。那么，「长野原」烟花匠人的工作，就是帮大家把门看好。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ec/a570976al0dnqxs8wul30tfjie1qagt.mp3"
+    },
+    {
+      "title": "想要了解宵宫·其四",
+      "desc": "夏日祭上每时每刻都在诞生动人的故事，在烟花下相识相知的人们慢慢成长，成熟，最终老去。当他们放起如初的烟花，天空中倒映出的依然是他们如初的模样…烟花不是永恒的，但藏在烟花背后的美妙情感，我觉得应该和稻妻一起走向永恒。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/77/btjiq1695htqwwho3kmhbiy9x224zm4.mp3"
+    },
+    {
+      "title": "想要了解宵宫·其五",
+      "desc": "最后的故事，就不由我来讲了吧，我很想和你静静看一场烟花，把今夜的美景，还有你想说的话全部记录下来。啊，不要误会，不是到此为止的意思，而是关于我们的「故事」，从此才要开始。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6e/s5aupga59yw0dek4jrwxlldzzxd4e9k.mp3"
+    },
+    {
+      "title": "宵宫的爱好·玩耍",
+      "desc": "烟花！啊，这个不算吗？那我想想，唔…这个问题好难啊，我喜欢和邻居聊家常，也喜欢和小孩子一起逛夏日祭、游泳、摘野果，好像没办法挑一个特殊的出来…哦，我懂了！我喜欢的，应该就是和大家一起玩吧！",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_pref_hobby_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/97/6n5w6885qpmexhcnv9jkhagrcnk2dbp.mp3"
+    },
+    {
+      "title": "宵宫的爱好·模仿",
+      "desc": "咕噜咕噜咕噜，嘿！哈哈，我在学派蒙消失的动作。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_pref_hobby_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/21/d72zqqyaw645z9lh7e3zwstsydild7r.mp3"
+    },
+    {
+      "title": "宵宫的烦恼…",
+      "desc": "嗯，我追读了好长时间的小说，终于迎来了大结局，结果女主角失忆了，说好的婚礼也没办成…好难过，怎么这样！",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c9/dt790f00a1zoihdlco9ekn4g4a5jdxk.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "比起主食，我更喜欢吃点心，每次祭典的时候我都会一家一家吃过去，直到吃不下为止。对了，你擅长做点心吗？我拿我做的团子和你换，这几个大的都给你。",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6d/6ovn6wzrmyo2fckf30kzqa4vwk0217b.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "牛奶。喝了牛奶的话肚子里面就像开烟花会一样，噼里啪啦的。但加了牛奶的菜或者点心我可以吃，我也不知道为什么。可能是肚子里的小仙灵比较挑食？",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6a/cgt5oo1zqqv7524aueaqmwq7uq5hwbd.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "哇，你做点心的手艺很不一般啊！去祭典上摆摊的话，肯定会成为最热门的那一个吧！",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5f/33368lvz6b8lkgo07bhtcr78fn39sn3.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "吃到了好吃的东西，人就会变得很有精神。一有精神，就想开始讲故事。嗯，我来挑个故事吧！",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6c/6og4x3pakpxi3f7qrbulbxzjfhoxvyj.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "哎呀，肚子里面好像有飘浮灵在上下闹腾…这不应该呀…",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/da/h31slrm9cpmo86njpzjbthzhkbhnu27.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "生日从来都不是你一个人的节日哦，愿意为你送蛋糕，点蜡烛，鼓掌欢呼的人，都发自真心地感谢你能够降生在这个世界上。所以，一定要热热闹闹的才好，让所有人都有感谢你的机会！那么，生日快乐！准备好了吗？我要放烟花了！",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/53/3e4ob1rj5nbgqq06l5nchgmq1puoxk5.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "飞得更高，炸得更响！",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/44/5bq8m47s6imjjoth7wt355nyagsznbs.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "哈哈，我来试试看，直接用弓箭把烟花送上天空吧！",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bf/e5twi79crx4q4y7fxwuwzffgisqo60g.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "难得从你这里学到了这么多战斗技巧，干脆除了烟花工匠之外，我再去兼职当冒险家好了，或者…「英雄」也不错？",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/50/hf5liyv89clr6ywe30hk2ci0io7qlin.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "「『英雄形态』的宵宫姐姐登场！邪恶退散！正义必胜！」\n就这么和小孩子们介绍你教给我的新力量，没问题吧？应该很帅吧。嘿嘿，如果有人欺负你也要告诉我哦，宵宫姐姐帮你出头！",
+      "voicefile": "VO_friendship/VO_yoimiya/vo_yoimiya_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a9/7ehcuy94fhj0zofh9pgilr614e9njei.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "想看烟花吗？",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/61/93tg0otvnewuvj5vghyork1iinrh31q.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "点燃引信！",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fb/3xkkfaghe7fkjsg2ajkgczoe9oqj0tx.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "小心火烛~",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1f/hby13c86vvwyrf2ek6t8vc2tmdk45nm.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "祭典重现！",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/63/1vct9ow51y3sqiko8tjmebkf5wg7iu1.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "金鱼来啦！",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/62/6m732w5n9onsw93bz2ozno4o8wc5n6v.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "烟花来喽！",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a1/otqpwue057kudjcevmho3e1cyzr25lz.mp3"
+    },
+    {
+      "title": "打开风之翼·其一",
+      "desc": "飞高高啦——",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_explore_fly_start_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/87/j987g36ep3br6jzvp4vl83cayo5qlgl.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "会有烟花材料吗？",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e7/tk5v02xdbmi6n5fgk1omwx1je9mi93d.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "里面有什么呢？",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/68/c2ac5z899bg3ew22arbmblkj51vse9t.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "我来开我来开！",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/59/4dqdtqih2601huxctrg4toqi0yvs3oa.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "不妙不妙！",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/15/c6pnj76djevt0w5vnyj6xat9m3ncljq.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "出丑了啊…",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9f/byv06dg2h5bjnrht4376j2xsbd7g4h8.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "得小心起来了啊。",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/13/d5t1t0nfp6jz4upkv2fgmvsji1841x7.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "换我来支援你！",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/40/kdje99z4wqdnjtab40mmkjd2d9vf0hn.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "别担心，有我在。",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b0/emi6tvuq6mgwbbpvfhdunktvtkvv3mi.mp3"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "一不小心就…",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/35/0j5at0bw10bcf0irobidkq2xed0g2lo.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "玩过头了…",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5d/57xpzinprf3vkv8i679dk0qj1ccxmkm.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "祭典…结束了。",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5e/rj0eurksea1j3kro5xrliwo9icvdfvt.mp3"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "轻点啊。",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ad/24usi6cgbagcbpq4ikvajcsx94qfgac.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "这下不算！",
+      "voicefile": "VO_gameplay/VO_yoimiya/vo_yoimiya_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/VO_ZH_Yoimiya_Heavy_Hit_Taken_02.ogg"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "你想办祭典吗？",
+      "voicefile": "VO_teamJoin/vo_yoimiya_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cf/jud0vm6r14vksokvp92u8wzl9jxwhbt.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "一起去玩吧！",
+      "voicefile": "VO_teamJoin/vo_yoimiya_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a6/8mfkm33ngrc8fctn8c0rgpmnl1r7yuj.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "同行的伙伴增加了！",
+      "voicefile": "VO_teamJoin/vo_yoimiya_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0f/9714z5e3wrjbs671x4tlj2oa7ops8j3.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000049-card.webp",
+  "fullArt": "assets/characters/10000049-full.webp",
+  "fullArtWidth": 1114,
+  "fullArtHeight": 920
+}

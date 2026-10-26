@@ -1,0 +1,552 @@
+{
+  "id": 10000058,
+  "name": "八重神子",
+  "enName": "Yae Miko",
+  "title": "浮世笑百姿",
+  "element": "雷",
+  "region": "稻妻",
+  "rarity": 5,
+  "weapon": "法器",
+  "birthday": "6月27日",
+  "constellation": "仙狐座",
+  "description": "鸣神大社的宫司大人，兼任「八重堂」总编。艳丽动人的外表下藏着令人意想不到的聪慧与狡黠。",
+  "affiliation": "鸣神大社",
+  "cv": {
+    "chinese": "杜冥鸦",
+    "japanese": "佐仓绫音",
+    "english": "拉塔纳",
+    "korean": "文维贞"
+  },
+  "avatarImg": "assets/characters/10000058-avatar.webp",
+  "splashArt": "assets/characters/10000058-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Yae_Miko.zip",
+  "voicePackageEn": "Yae_Miko",
+  "quoteCount": 74,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "我是鸣神大社的宫司，此番造访，自是为了确认你的一举一动，此为大社诏令…呵，不用那么紧张，场面话罢了，这样才有正当理由休沐嘛。快，去做些有趣的事让我看看吧。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b1/j8bsdnkvi7nnv5fygudeymouxoir04p.mp3"
+    },
+    {
+      "title": "闲聊·创作体裁",
+      "desc": "最近八重堂穿越异世的小说也太多了，哼，就对自己的世界如此不满吗。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0e/5ugzq6jexwo9ev9y5j7nzxiuclvr994.mp3"
+    },
+    {
+      "title": "闲聊·故事",
+      "desc": "很多人的一生，写于纸上也不过几行，大多都是些无聊的故事啊。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4d/qtvs6z04gbk3235izivw8f241ian3l8.mp3"
+    },
+    {
+      "title": "闲聊·尘世",
+      "desc": "于我而言，不变也是一种美好，哎呀，可尘世哪是如此不变之物。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7c/0pyo2bgnx99rovj9ssc1krmirgjzn86.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "下起雨后，浑身的毛发都会变得湿漉漉的…",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/92/or838pje8pc5js578yczaksd85so67e.mp3"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "很多人会害怕打雷，不过我听到雷声只会觉得亲近。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/45/ghlgzp7nrz8od2n2hfbf54e0s697qxu.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "未生灵智的小狐狸，往往会一头栽入雪地来觅食…想看我那样做？哼。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6f/qdrwvkkz16vkez1av32hy2o7d59got0.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早，嗯？怎么一副无精打采的样子，没有睡好吗？哎呀，昨晚是去做什么坏事了么？",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e9/4escwj5kmu3i4eh262vl8itz8ooscsw.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "嗯~伤脑筋，中午吃些什么呢？油豆腐吃腻了，想吃点清淡的。话说好久没见到社奉行家的小姑娘了，我们不如就去吃她做的点心吧。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d4/4zh52fgvp7x1ufmfejuud6892uulx6i.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "今夜的月光如此清亮，不做些什么真是浪费。随我一同去月下漫步吧，不许拒绝。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4c/jr2wll087oo4ll3rw4e0be3ot4htreu.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "该入眠了，呵，在夜里不听到连绵的雷声，甚至都会睡不安稳呢。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/14/4tyxac0tmzb5h1bkwy854mtxw5wlbvk.mp3"
+    },
+    {
+      "title": "关于八重神子自己·永恒",
+      "desc": "所谓的永恒，就是不再失去已拥有之物，但从别的角度说，也放弃了得到更多的可能，不过世事总是如此，没人能够得到全部。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5a/gn48p4w63zr0d5nluc3jboxnfvtv9l7.mp3"
+    },
+    {
+      "title": "关于八重神子自己·趣味",
+      "desc": "人类很有趣，所以我才如此喜欢人类。明明生命短暂，却能散发映昼光辉。他们之中，有些人的光芒，即使隔开久远时间长河都不曾黯淡。阅读这样的人生，是一大乐事啊。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9c/lqjc0iabcuxsct74pfmyht6wg3wjyvq.mp3"
+    },
+    {
+      "title": "关于我们·作家",
+      "desc": "无聊，这本也无聊透顶…啊呀，这些人都是为了什么才成为作家的。欸，对了，不如你把自己的经历写下来投给八重堂吧，感觉一定能给我一点乐…一定能大受欢迎吧。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/37/np7vxv5d3vv6j8r2lmbjrawalur7pfp.mp3"
+    },
+    {
+      "title": "关于我们·磨损",
+      "desc": "将自己封闭起来，或许会更快地遭受「磨损」。只有自己的世界，无他人作镜以对映，可是很可怕的事…你我共处之时，重要的就是互相观照哦。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5b/13e5doib6ilyychde5e0sd7oox1u3t4.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "你说…你很喜欢我佩戴「神之眼」的方式？真有眼光。那么…要来摸摸看吗？",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/14/58pg2k13imn6mk7kxpm74rvlqu4yzhd.mp3"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "在油温到八成热时，沿锅下豆腐，再开成小火，等到煎至金黄的时候再夹出来，热乎乎的，这世上没有比油豆腐更好吃的东西了。咦，做法都已经告诉你了，你怎么还愣在这里呢？",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cc/mmj6537pnopqb0y2sotzqnucr5hf716.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "虽然因为在鸣神大社，日日抬头都能得见，有时也会觉得厌烦。不过，那棵神樱毕竟已经是我命运所系之物了啊。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_pref_gift_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b7/dly24gpwp3477gbjhlca9r1s4ooeppy.mp3"
+    },
+    {
+      "title": "关于雷电将军…",
+      "desc": "明明想要出来，却一直把自己关在一心净土里，简直就是自我折磨嘛…从另一个角度来说，也挺可爱的不是吗。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_raidenShogun_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/68/ry3ot3kmy7gtpwgvfy9zszkptis8cae.mp3"
+    },
+    {
+      "title": "关于神里绫人…",
+      "desc": "社奉行家的那个小子啊，从小就不安分，别看他表面上笑得春风和煦，暗地里可不知道在盘算什么呢，令人讨厌…哼，我可跟他不是一类人，哪来同类相斥的说法。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_ayato_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/78/81eb2knhst0vle6fz7hydha3kgoczqe.mp3"
+    },
+    {
+      "title": "关于神里绫华…",
+      "desc": "我很喜欢社奉行家的小姑娘，任何事都安排得井井有条。不过社奉行一直都在做些吃力不讨好的活，可怜，如果她不是神里家的人，我早就把她挖到八重堂了。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_ayaka_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/65/mqb48dv16lwhcn1winzbcpddtbis0ob.mp3"
+    },
+    {
+      "title": "关于九条裟罗…",
+      "desc": "这块愚笨的木头啊，远不如她那天狗爹爹心思活络…哎呀，怎么说呢，虽说木讷耿直也有木讷耿直的好处吧，不过还是希望下次不要在神社拦着我，一个劲追问影的事了。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_kujouSara_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/de/lt8h37xh46lkclnfglwz0z1pmg0fl01.mp3"
+    },
+    {
+      "title": "关于宵宫…",
+      "desc": "长野原的烟花嘛，也是每年难得的值得期盼之物了。据说前些天她还大闹天领奉行，在敷地大放烟花。呵，九条家的人恐怕气得脸都变青了，真是可惜呀，没能亲眼看到那副场景。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_yoimiya_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f7/gfm2bt974emnodo7jb3pjd4euhrubml.mp3"
+    },
+    {
+      "title": "关于甘雨…",
+      "desc": "这么说来，很久没有见过甘雨姐姐了。稻妻尚未锁国时，璃月与稻妻往来事务都是我与她接洽，真是相当可靠，下次若有机会去璃月，再给她带些新鲜的海灵芝吧。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_ganyu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2b/oux1rp7re86mb6pbsxqa0mnai8ixv5s.mp3"
+    },
+    {
+      "title": "关于珊瑚宫心海…",
+      "desc": "现在的巫女，一个比一个可爱。不知道这孩子跳起太平神乐之舞会是什么样子，说不好群鱼也会跟着旋转吧。只要她肯叫我一声神子姐姐，呵呵…我倒有些心得愿意分享。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_kokomi_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b3/efrlnh75f18l5qde7cp8p0owyg1wxh9.mp3"
+    },
+    {
+      "title": "关于国崩…",
+      "desc": "我当时就觉得那是个麻烦，不过她却说毕竟是自己创造之物不愿出手。早知变成现在这样，还不如当初就瞒着她处理掉算了。现在？呵…现在，已经变麻烦啦。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_kunikuzushi_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6c/9kksuavdcepvsqrueyik9rv77rys6ga.mp3"
+    },
+    {
+      "title": "关于荒泷一斗…",
+      "desc": "他呀，鬼族的奇怪小子，呵，听说他找了九条家不少的麻烦。天领奉行的人想要以有伤风化为由将他写于街上的留言擦掉，是我找人保留的，呵，这么有趣的小鬼，这些年可是难能一见了。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_itto_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4e/o9hneyewxz8fd88ezryzbkhaqjumps2.mp3"
+    },
+    {
+      "title": "关于五郎…",
+      "desc": "五郎的尾巴色泽很漂亮，不过…还是我的更柔软一些。呵…",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_gorou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/44/q2ea4lx0c2unvmgpnsbgbvpbbifqc9v.mp3"
+    },
+    {
+      "title": "关于早柚…",
+      "desc": "这个子小小的孩子，躲倒是挺会躲的，鹿野奈奈经常向我抱怨，得花很多时间找她，连看小说的时间都变少了。要我说啊，或许是有人在暗中帮助早柚呢？",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_sayu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a3/sqco8xsa85b02djjb0ywrq1ngvpqdob.mp3"
+    },
+    {
+      "title": "关于久岐忍…",
+      "desc": "听说阿幸的这位妹妹很有个性，虽说出自巫女世家，却远离神社，学了许多门手艺，甚至去过璃月留学，最后还加入了荒泷派…如此有趣的女孩子，应该让阿幸帮忙引荐一下，嗯，阿幸肯定不会拒绝我的。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_kukiShinobu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b5/nfla8ht07m50puuf94cxtkjqlz748yd.mp3"
+    },
+    {
+      "title": "关于绮良良…",
+      "desc": "最近对人类社会感兴趣的妖怪真是越来越多了。这种趋势，该说是好事吗？我的态度？哎呀，当然是劝大家及时行乐啦。再说，乖乖掏钱请客吃饭的小后辈，谁会不喜欢呢？",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_kirara_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/32/9labaoz5cbep1c8i0t9juln3zdfvk0b.mp3"
+    },
+    {
+      "title": "关于梦见月瑞希·产业竞争",
+      "desc": "「焦虑劳累之人根本读不进小说」？唉，我们「八重堂」真是失败啊，旗下的小说还是趣味性不足，到现在为止，还没能推出足够获得瑞希小姐认可的小说。再给我的编辑和作家一点时间吧，要是接下来的作品还是没法让瑞希店长点头，我这个没用的主编，就只能亲自给瑞希小姐写一本小说咯，名字…就叫「梦貘记」好了。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_mizuki_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/32/9labaoz5cbep1c8i0t9juln3zdfvk0b.mp3"
+    },
+    {
+      "title": "关于梦见月瑞希·重遇",
+      "desc": "瑞希刚回来稻妻那一会，总是一副揣着心事的样子，明明在路上看见了我，却还要把目光撇开…我？我当然没有主动搭讪她。还想多看一阵她那副别扭的模样呢。如果我没想错，等我们俩擦肩而过之后，她还要扭过头，瞪着眼睛瞅我两眼…要是我这时候再回头看她，只怕瑞希要被我吓得露出原形，捂着耳朵飘走了。\n不过现在嘛…她都已经会在闲事月刊的读者来信里给我挑刺了。食梦貘的成长，真是迅速哪。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_teammate_mizuki_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d1/ku123wybukyd7a5eant6h49lnr0bdb6.mp3"
+    },
+    {
+      "title": "想要了解八重神子·其一",
+      "desc": "想知道更多我的事？也不是不行，不过世事都讲究一个互惠互利，想了解我，就拿你自己的事来交换如何？",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8d/sfj8xxhclnkowgxwqxr3icuoo9y6lj7.mp3"
+    },
+    {
+      "title": "想要了解八重神子·其二",
+      "desc": "狐斋宫大人啊，说着出一趟远门，就再也没有回来。唉，我那时可一点都不想接手鸣神大社的麻烦事，她对我说，说我要是当了神社的宫司，就可以随心所欲地吃油豆腐了。什么糟糕的理由呀，吵吵闹闹的，令人头疼的女人…",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7e/02m7xqkbycc5vjom37cy6kknqrcn8rw.mp3"
+    },
+    {
+      "title": "想要了解八重神子·其三",
+      "desc": "最开始建立八重堂的动机当然是为了看有趣的小说，不过到后来乐趣就变成看那些小说家殚精竭虑的样子了。呵，你永远想不出来那些人在拖稿的时候说出的理由，哎呀，比他们自己写的小说要有趣多了。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a6/nvpe86gzyifl8jwfg42psx4e7fwqvmr.mp3"
+    },
+    {
+      "title": "想要了解八重神子·其四",
+      "desc": "无论如何，魔神皆有消亡之时，若是他们的那些故事随时间一起散佚于天地，再无人忆起，那就太可惜了。以及，有资格写他们故事的人，必须得有上乘的文思与笔法…如果世上没有这样的人，那就培养出…培养出足以书写那些故事的作家吧。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/90/s5eewys8t3il4ielkoskte3cdade106.mp3"
+    },
+    {
+      "title": "想要了解八重神子·其五",
+      "desc": "说来，虽然看过许多人写的小说，我自己倒是从未动笔过，写小说毕竟还是很麻烦的事嘛。不过，如果你的冒险结束了，想要有人记录你的故事，而我那时正好有空的话…",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6f/0qao4d4axohtskzhownihoybp1k7sqk.mp3"
+    },
+    {
+      "title": "八重神子的爱好…",
+      "desc": "我第一喜欢的是他人的故事，第二喜欢的就是看他人烦恼的神色，两者若是在一起，哈，那可是相得益彰的有趣啊。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7f/anmniotb0xa5jb0qrlj0xxwnaan4ub0.mp3"
+    },
+    {
+      "title": "八重神子的烦恼…",
+      "desc": "过度安稳的日子实在是太过无聊了啊…",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/8i56czhs90m9yln0qu75fyhy51ensgo.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "你有听说过一物，其名为「狐狸乌冬」吗，其实也就是加了油豆腐的乌冬啦。怎么样，油豆腐加乌冬，听上去就很好吃吧。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/06/k20w0gwegmix4ea3xealh2xnq552vru.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "不行，腌制过的东西不行，不管是花鳉还是腌海雀，不觉得都有一股不能让人接受的臭味吗？本宫身为鸣神大社的宫司，怎么能咽下如此不洁不净之物。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ae/l6cg3gz10vz2twexlnmh2x5adupouov.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "哎呀，小家伙，你对我的口味了解得很清楚嘛。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fc/n6r1e69r00rwarwlm2t8ea3ldjlbkj1.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "既然是你亲手做的，我就尝尝看吧，呵呵…",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a0/tbh45xjbtx7keiqsiktrl6lx3l9cgtv.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "怎么说呢…小家伙，需要努力的地方还有不少哦？",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5d/09n10bw9gbqp70nhdzyw72g2rj57i6b.mp3"
+    },
+    {
+      "title": "生辰…",
+      "desc": "今日是你的生辰啊…\n「凡御岁之祝礼，以徒名之令，遇其其之所求，遂其其之所愿，正心明神，以受萌荫庇佑。」好了，就这样。祝你这一年能够诸事顺遂，得偿所愿吧。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_pref_birthday_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/VO_ZH_Yae_Miko_Birth_Date.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "所谓巫女修行阶位，在修习毕业之后，能准确开口念诵祭言即可称为「直阶」。对于人类来说很方便，不过对狐族来说倒是最困难的一步…毕竟是狐狸嘛。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/09/tocnw5rr8kecrri6f2rvxuc4sh2dfzb.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "成为宫司代理，也就是「正阶」的修行可是很辛苦的，要受诸多清修戒律，修行的秘诀唯有一条，就是晚上偷偷进食时，不要被人发现。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ea/cymciv2h15ry68bpc5yt0ihoacsb8wm.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "升为「明阶」，即要求进入天地明察的境界，神通宇内，世事洞明。只要进入了这个境界，一般都会受获神之眼，拥有远超一般狐族的悠长寿命了哦。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2a/e4e4qxex54838hzj5t6iimiv36uvcbv.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "鸣神大社的「净阶」，历来只有鸣神大社的宫司具有，仅此一位。「净阶」只是类似荣誉职位的东西，跟实力倒没什么关系，不过我若是自称实力最强的「净阶」，倒也无何不可。",
+      "voicefile": "VO_friendship/VO_yaeMiko/vo_yaeMiko_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/01/nuoz9vqionskure7jbsb363x75hp253.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "律令。",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7f/09bqyec6a5d412c4kq2hlzduwnj96xd.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "咒禁。",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/92/l0mspsorhmas0003n27qa4weas48ndh.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "敕！",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/75/fee6vt3ben4i4hm2h7jb2t8d72ayj1z.mp3"
+    },
+    {
+      "title": "元素战技·其四",
+      "desc": "显化。",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_battle_skill1_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/19/hot34bfsobgwtx6f04cbziyr5hw23rg.mp3"
+    },
+    {
+      "title": "元素战技·其五",
+      "desc": "留形。",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_battle_skill1_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/eb/0j7ulm9o8hi3pqnjnmujnnfmsygd4ni.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "真瞳显现！",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fb/p9mi9vjlsb93h7fs8b5n92m32nyvp7t.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "雷霆侘寂！",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/88/d02ap3ls1zpho3ppjrmh5we0moq8nz5.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "雷光凄美啊。",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a3/8yi7dgpxu0js8pqkaa06ot9h0o8p9hz.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "有什么有趣的东西吗？",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fd/euma8llne624blt1mc90wnom1hi83si.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "就只有这些么…",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d8/0rqjlyla8fvsf25qvspmqxccgsnanxz.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "快，打开来给我看看。",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/63/cnk12ztrz7secdvnks6w5xi8oxrwth9.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "这样下去可不行啊。",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/df/c56en04iglrovvlbrldzc20nbl3sy7u.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "可不能再玩下去了。",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/18/i11rn9o60m0qevemzv50dkfhb8aavfo.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "好了，要认真一些了哦。",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e5/2pvj8p1iax1vmx455l3kqriab0m0n8n.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "别再勉强了。",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9e/iamqzag689tgdirnilbzbgltg4kc0so.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "交给我就好。",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/VO_ZH_Yae_Miko_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "哎呀，玩过头了…",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9e/iamqzag689tgdirnilbzbgltg4kc0so.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "结局真是糟糕啊…",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7b/740pg5c9iawro65jqlubgr1ch241z8s.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "止步于此，何谈永恒…",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/59/97nu18iip0ha7nijvhoiy9vbo12lxub.mp3"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "就这样？",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/68/if67zr5p3c5gy2y9almeeoe4caeqmuu.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "真是麻烦。",
+      "voicefile": "VO_gameplay/VO_yaeMiko/vo_yaeMiko_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fa/e2bk9ci1t1kptlio7w8chzdjozkuakg.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "这时候想起我了？",
+      "voicefile": "VO_teamJoin/vo_yaeMiko_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0e/el25uqsa6i5i62eldv8vu71zqr79wsa.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "去做点有意思的事吧。",
+      "voicefile": "VO_teamJoin/vo_yaeMiko_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0d/jxxhoj86vtig6szowyqvs2gkjoux1j3.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "好吧，既然你都来邀请我了…",
+      "voicefile": "VO_teamJoin/vo_yaeMiko_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5b/3qj57qkftr3cks82xfb04vfnv0fkidx.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000058-card.webp",
+  "fullArt": "assets/characters/10000058-full.webp",
+  "fullArtWidth": 1003,
+  "fullArtHeight": 943
+}

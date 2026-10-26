@@ -1,0 +1,1646 @@
+/* Shared character dialog component. This is the authoritative source for every game. */
+#characterDialog, #characterDialog *, #characterDialog::before, #characterDialog::after, #characterDialog *::before, #characterDialog *::after, #characterDialog::backdrop{all:revert;}
+#characterDialog{--genshin-font: 'HYWenHei','HYWenHei 85W','HYWenHei-85W','汉仪文黑-85W','汉仪文黑','FZCuYuan-M03S','方正粗圆','STHupo','STZhongsong','华文中宋',-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",sans-serif; --display-font: 'HYWenHei','HYWenHei 85W','FZCuYuan-M03S','方正粗圆','STHupo','STZhongsong','华文中宋','Source Han Serif SC',serif,sans-serif; color-scheme: dark; --bg: #101a26; --surface: #182431; --raised: #1e2d3c; --input: #12202e; --text: #eef2f5; --muted: #acbbc9; --dim: #8fa3b6; --line: #304050; --gold: #dfcba5; --gold-ink: #172330; --selected: #3d423f; --player-space: 0px; font-family: var(--genshin-font); font-synthesis: weight style;}
+html[data-theme="light"] #characterDialog{color-scheme: light; --bg: #edf1f4; --surface: #fff; --raised: #f1f5f8; --input: #f5f7f9; --text: #1d2c3c; --muted: #526679; --dim: #586f82; --line: #d4dde4; --gold: #835e2c; --gold-ink: #fff; --selected: #eee6d9;}
+#characterDialog, #characterDialog *{box-sizing: border-box;}
+body #characterDialog{color: var(--text); line-height: 1.5; -webkit-tap-highlight-color: transparent;}
+body.has-player #characterDialog{--player-space: 88px;}
+#characterDialog button{font: inherit;}
+#characterDialog input{font: inherit;}
+#characterDialog select{font: inherit;}
+#characterDialog button{touch-action: manipulation;}
+#characterDialog a{touch-action: manipulation;}
+#characterDialog input{touch-action: manipulation;}
+#characterDialog select{touch-action: manipulation;}
+#characterDialog button{border: 0px; background: none; color: inherit; cursor: pointer;}
+#characterDialog button:disabled{cursor: default; opacity: 0.45;}
+#characterDialog a{color: inherit; text-decoration: none;}
+#characterDialog svg{display: block; fill: currentcolor; flex-shrink: 0;}
+#characterDialog .icon{width: 20px; height: 20px; pointer-events: none;}
+#characterDialog img{max-width: 100%; display: block;}
+#characterDialog button:focus-visible{outline: 2px solid var(--gold); outline-offset: 4px;}
+#characterDialog a:focus-visible{outline: 2px solid var(--gold); outline-offset: 4px;}
+#characterDialog input:focus-visible{outline: 2px solid var(--gold); outline-offset: 4px;}
+#characterDialog select:focus-visible{outline: 2px solid var(--gold); outline-offset: 4px;}
+#characterDialog input::placeholder{color: var(--muted); opacity: 1;}
+#characterDialog ::selection{background: rgba(219, 199, 157, 0.333);}
+#characterDialog [hidden]{display: none !important;}
+#characterDialog .sr-only{position: absolute; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border: 0px;}
+#characterDialog .skip-link{position: fixed; top: -80px; left: 20px; background: var(--gold); color: var(--gold-ink); padding: 12px 20px; z-index: 60; border-radius: 8px;}
+#characterDialog .skip-link:focus{top: 12px;}
+#characterDialog .initial-loading{padding: 40px; text-align: center; color: var(--muted);}
+#characterDialog .site-header{border-bottom: 1px solid var(--line);}
+#characterDialog .header-inner{max-width: 1540px; margin: auto; min-height: 84px; padding: 0px 36px; display: flex; align-items: center; gap: 42px;}
+#characterDialog .brand{display: flex; align-items: center; gap: 12px; flex-shrink: 0;}
+#characterDialog .brand .brand-symbol{color: var(--gold); width: 39px; height: 39px;}
+#characterDialog .brand strong{font-size: 18px; font-weight: 600; letter-spacing: 1px; display: block;}
+#characterDialog .brand i{color: var(--gold); font-weight: 400; font-style: normal; margin: 0px 5px;}
+#characterDialog .brand small{font-size: 9px; letter-spacing: 3px; color: var(--muted); display: block; margin-top: 2px;}
+#characterDialog .primary-nav{display: flex; align-items: stretch; gap: 32px; align-self: stretch; margin-left: auto;}
+#characterDialog .nav-link{position: relative; display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: 14px; white-space: nowrap; padding: 0px 2px; min-height: 44px;}
+#characterDialog .nav-link.active{color: var(--gold);}
+#characterDialog .nav-link.active::after{position: absolute; content: ""; height: 2px; bottom: -1px; left: 0px; right: 0px; background: var(--gold);}
+#characterDialog .nav-count{font-size: 10px; border: 1px solid var(--line); padding: 0px 5px; border-radius: 4px; min-width: 19px; text-align: center;}
+#characterDialog .archive-nav .icon{width: 15px; height: 15px;}
+#characterDialog .icon-button{width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center; border-radius: 9px; flex-shrink: 0; color: var(--text);}
+#characterDialog .icon-button:hover{background: var(--raised);}
+#characterDialog .theme-toggle{border: 1px solid var(--line); width: 38px; height: 38px; color: var(--gold);}
+#characterDialog .page-shell{max-width: 1540px; margin: 0px auto; padding: 28px 36px 0px;}
+#characterDialog .hero{height: 368px; position: relative; isolation: isolate; overflow: hidden; border-radius: 16px; background: rgb(46, 77, 96);}
+#characterDialog .hero-scenery{position: absolute; inset: 0px; width: 100%; height: 100%;}
+#characterDialog .hero-scenery img{position: absolute; inset: 0px; width: 100%; height: 100%;}
+#characterDialog .hero-shade{position: absolute; inset: 0px; width: 100%; height: 100%;}
+#characterDialog .hero-scenery{z-index: -3;}
+#characterDialog .hero-scenery img{object-fit: cover; object-position: 50% 43%;}
+#characterDialog .hero-shade{z-index: -2; background: linear-gradient(90deg, rgba(16, 30, 45, 0.95), rgba(16, 33, 49, 0.79) 35%, rgba(16, 33, 49, 0.157) 75%), linear-gradient(0deg, rgba(16, 30, 45, 0.565), transparent 65%);}
+#characterDialog .hero-copy{position: relative; z-index: 2; padding: 40px 44px; width: 65%; color: rgb(255, 255, 255);}
+#characterDialog .hero-eyebrow{display: flex; align-items: center; gap: 10px; color: rgb(234, 217, 185); font-size: 12px; letter-spacing: 3px; margin-bottom: 19px;}
+#characterDialog .hero-eyebrow > span{width: 25px; height: 1px; background: rgb(224, 208, 176);}
+#characterDialog .hero h1{font-family: var(--display-font); font-size: clamp(30px, 3.2vw, 46px); font-weight: 700; line-height: 1.4; letter-spacing: 2px; margin: 0px 0px 15px;}
+#characterDialog .hero-description{font-size: 13px; line-height: 1.9; color: rgb(220, 230, 238); margin: 0px 0px 23px;}
+#characterDialog .mobile-break{display: none;}
+#characterDialog .hero-actions{display: flex; gap: 14px;}
+#characterDialog .button{display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 42px; padding: 0px 18px; border: 1px solid var(--line); border-radius: 8px; white-space: nowrap; font-size: 13px; font-weight: 500; line-height: 1;}
+#characterDialog .button:hover{background: var(--raised);}
+#characterDialog .button-gold{background: var(--gold); color: var(--gold-ink); border-color: transparent;}
+#characterDialog .hero .button-gold{background: rgb(224, 203, 163); color: rgb(23, 33, 45);}
+#characterDialog .hero .button-gold:hover{background: rgb(238, 220, 187);}
+#characterDialog .button-quiet{color: rgb(240, 245, 249); border: 1px solid rgba(213, 226, 227, 0.29); background: rgba(25, 42, 62, 0.5);}
+#characterDialog .button-quiet:hover{background: rgba(35, 61, 82, 0.9);}
+#characterDialog .button .icon{width: 17px; height: 17px;}
+#characterDialog .hero-character{position: absolute; z-index: 2; right: var(--char-right,-40px); bottom: 0px; height: 102%; width: auto; max-width: none; object-fit: contain; object-position: center bottom; pointer-events: auto; cursor: pointer; filter: drop-shadow(rgba(245, 214, 141, 0.35) 0px 0px 20px) drop-shadow(rgba(3, 10, 43, 0.7) 6px 16px 14px); transition: opacity 0.25s;}
+#characterDialog .hero-character-caption{position: absolute; right: 3%; bottom: 30px; display: flex; flex-direction: column; align-items: flex-end; gap: 3px; color: rgb(245, 243, 231); font-size: 10px; letter-spacing: 2px;}
+#characterDialog .hero-character-caption strong{font-family: var(--display-font); font-size: 24px; letter-spacing: 4px; font-weight: 700;}
+#characterDialog .hero-character-caption > span:last-child{font-size: 8px; letter-spacing: 4px;}
+#characterDialog .hero-character-caption i{width: 32px; height: 1px; background: rgb(230, 209, 165); margin: 5px 0px;}
+#characterDialog .daily-quote{display: flex; align-items: center; gap: 22px; padding: 17px 0px; margin: 0px 0px 24px; border-bottom: 1px solid var(--line);}
+#characterDialog .daily-label{color: var(--gold); display: flex; align-items: center; gap: 9px; font-size: 12px; white-space: nowrap;}
+#characterDialog .daily-label .icon{width: 18px; height: 18px;}
+#characterDialog .daily-content{display: flex; align-items: center; gap: 16px; min-width: 0px; text-align: left; padding: 0px; flex: 1 1 0%; font-size: 13px;}
+#characterDialog .daily-content > span:first-child{white-space: nowrap; text-overflow: ellipsis; overflow: hidden; max-width: 690px;}
+#characterDialog .daily-author{font-size: 11px; color: var(--muted); white-space: nowrap;}
+#characterDialog .daily-actions{display: flex; gap: 3px; margin-left: auto;}
+#characterDialog .daily-actions .icon-button{width: 32px; height: 32px; color: var(--gold);}
+#characterDialog .daily-actions .muted{color: var(--muted);}
+#characterDialog .archive-section{scroll-margin-top: 24px;}
+#characterDialog .archive-heading{display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;}
+#characterDialog .archive-heading h2{font-size: 23px; font-weight: 500; letter-spacing: 1px; margin: 0px 0px 5px; display: flex; align-items: center; gap: 11px;}
+#characterDialog .heading-count{font-size: 12px; color: var(--gold); background: var(--selected); padding: 2px 8px; border-radius: 5px; letter-spacing: 0px;}
+#characterDialog .archive-heading p{font-size: 12px; color: var(--muted); margin: 0px;}
+#characterDialog .archive-heading-mark{font-size: 10px; letter-spacing: 4px; color: var(--dim);}
+#characterDialog .archive-controls{background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 17px 20px 0px;}
+#characterDialog .search-toolbar{display: flex; gap: 10px; align-items: center;}
+#characterDialog .search-field{min-height: 46px; flex: 1 1 0%; min-width: 0px; display: flex; align-items: center; gap: 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--input); padding: 0px 14px; color: var(--muted);}
+#characterDialog .search-field:focus-within{border-color: var(--gold);}
+#characterDialog .search-field input{color: var(--text); background: none; border: 0px; outline: none; width: 100%; min-width: 0px; height: 44px; font-size: 13px; padding: 0px;}
+#characterDialog .search-field input:focus-visible{outline: none;}
+#characterDialog .search-field input::-webkit-search-cancel-button{appearance: none;}
+#characterDialog .search-field kbd{font-family: inherit; font-size: 12px; min-width: 22px; height: 24px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 4px; color: var(--dim);}
+#characterDialog .search-clear{width: 27px; height: 27px;}
+#characterDialog .search-clear .icon{width: 16px; height: 16px;}
+#characterDialog .filter-toggle{height: 46px; background: var(--raised);}
+#characterDialog .filter-toggle[aria-expanded="true"]{border-color: var(--gold); color: var(--gold);}
+#characterDialog .favorites-filter[aria-pressed="true"]{border-color: var(--gold); color: var(--gold);}
+#characterDialog .filter-toggle b{background: var(--gold); color: var(--gold-ink); border-radius: 4px; padding: 3px 5px; font-size: 10px;}
+#characterDialog .sort-field{position: relative; height: 46px; width: 132px; flex-shrink: 0;}
+#characterDialog .sort-field select{width: 100%; height: 100%; appearance: none; background: var(--input); border: 1px solid var(--line); border-radius: 8px; color: var(--muted); padding: 0px 30px 0px 14px; font-size: 12px; cursor: pointer;}
+#characterDialog .sort-field .icon{position: absolute; right: 12px; top: 16px; width: 13px; height: 13px; pointer-events: none;}
+#characterDialog .realm-nav{display: flex; gap: 24px; overflow-x: auto; scrollbar-width: none; border-bottom: 1px solid var(--line); margin-top: 15px; overscroll-behavior-x: contain;}
+#characterDialog .realm-nav::-webkit-scrollbar{display: none;}
+#characterDialog .element-group::-webkit-scrollbar{display: none;}
+#characterDialog .realm-button{position: relative; min-height: 45px; flex-shrink: 0; padding: 0px 0px 12px; color: var(--muted); font-size: 12px; display: flex; align-items: center; gap: 7px;}
+#characterDialog .realm-button .icon{width: 15px; height: 15px;}
+#characterDialog .realm-button[aria-pressed="true"]{color: var(--gold);}
+#characterDialog .realm-button[aria-pressed="true"]::after{content: ""; height: 2px; position: absolute; left: 0px; right: 0px; bottom: 0px; background: var(--gold);}
+#characterDialog .realm-long{display: none;}
+#characterDialog .element-toolbar{display: flex; align-items: center; gap: 15px; min-width: 0px;}
+#characterDialog .element-group{display: flex; gap: 8px; align-items: center; overflow: auto; scrollbar-width: none; padding: 13px 0px; min-width: 0px; overscroll-behavior-x: contain;}
+#characterDialog .element-button{display: inline-flex; gap: 7px; align-items: center; justify-content: center; min-height: 32px; min-width: 56px; border: 1px solid transparent; border-radius: 6px; color: var(--muted); font-size: 11px; flex-shrink: 0; padding: 3px 11px;}
+#characterDialog .element-button img{width: 17px; height: 17px; object-fit: contain;}
+#characterDialog .element-button:hover{background: var(--raised);}
+#characterDialog .element-button[aria-pressed="true"]{background: var(--selected); border-color: rgba(182, 162, 126, 0.333); color: var(--gold);}
+#characterDialog .reset-button{display: flex; align-items: center; gap: 5px; color: var(--muted); font-size: 11px; margin-left: auto; white-space: nowrap; min-height: 36px; padding: 4px 0px;}
+#characterDialog .reset-button .icon{width: 14px; height: 14px;}
+#characterDialog .advanced-filters{display: flex; align-items: flex-end; gap: 16px; border-top: 1px solid var(--line); padding: 17px 0px;}
+#characterDialog .advanced-filters label{display: flex; flex-direction: column; gap: 7px; color: var(--muted); font-size: 12px; min-width: 150px;}
+#characterDialog .advanced-filters select{height: 40px; padding: 0px 12px; border-radius: 6px; background: var(--input); color: var(--text); border: 1px solid var(--line); min-width: 0px;}
+#characterDialog .favorites-filter{font-size: 12px; min-height: 40px;}
+#characterDialog .results-meta{color: var(--muted); font-size: 11px; min-height: 45px; display: flex; align-items: center; gap: 8px;}
+#characterDialog .results-meta strong{color: var(--text); font-weight: 500;}
+#characterDialog .results-range{margin-left: auto; font-variant-numeric: tabular-nums;}
+#characterDialog .text-button{color: var(--gold); text-decoration: underline;}
+#characterDialog .character-grid{display: grid; grid-template-columns: repeat(6, minmax(0px, 1fr)); gap: 20px;}
+#characterDialog .character-card{position: relative; min-width: 0px; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--surface); transition: transform 0.18s, border-color 0.18s;}
+#characterDialog .character-open{display: block; width: 100%; text-align: left; padding: 0px; outline-offset: -4px !important;}
+#characterDialog .character-art-stage{position: relative; aspect-ratio: 1 / 1.15; background: radial-gradient(ellipse at 50% 70%,var(--element-glow,#314355),transparent 85%),var(--raised); overflow: hidden; isolation: isolate;}
+#characterDialog .character-art-stage::before{content: ""; position: absolute; inset: 16% 9% 4%; border: 1px solid rgba(213, 200, 165, 0.11); border-radius: 50% 50% 0px 0px; z-index: -1;}
+#characterDialog .character-art-stage::after{content: ""; position: absolute; inset: 65% 0px 0px; background: linear-gradient(0deg,var(--surface),transparent); pointer-events: none;}
+#characterDialog .character-art{width: 100%; height: 100%; object-fit: contain; object-position: center bottom;}
+#characterDialog .card-info{padding: 11px 15px 14px;}
+#characterDialog .card-name-line{display: flex; justify-content: space-between; align-items: center; gap: 6px;}
+#characterDialog .card-name-line h3{font-size: 16px; font-weight: 500; margin: 0px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+#characterDialog .card-rarity{color: var(--gold); font-size: 10px; letter-spacing: 1px; white-space: nowrap;}
+#characterDialog .card-epithet{color: var(--muted); font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 3px 0px 11px;}
+#characterDialog .card-footer{display: flex; align-items: center; justify-content: space-between; color: var(--muted); font-size: 10px; gap: 4px;}
+#characterDialog .card-element{display: flex; align-items: center; gap: 5px;}
+#characterDialog .card-element img{width: 15px; height: 15px;}
+#characterDialog .card-element .icon{width: 15px; height: 15px;}
+#characterDialog .card-quote-count{display: flex; align-items: center; gap: 4px; font-variant-numeric: tabular-nums;}
+#characterDialog .card-quote-count .icon{width: 13px; height: 13px;}
+#characterDialog .card-favorite-dot{position: absolute; right: 10px; top: 10px; width: 26px; height: 26px; display: grid; place-items: center; background: var(--surface); border-radius: 50%; color: var(--gold); pointer-events: none;}
+#characterDialog .card-favorite-dot .icon{width: 14px; height: 14px;}
+#characterDialog .card-open-hint{position: absolute; right: 12px; bottom: 18px; display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; background: rgba(20, 35, 48, 0.8); color: rgb(232, 220, 192); opacity: 0; transition: opacity 0.18s;}
+#characterDialog .card-open-hint .icon{width: 15px; height: 15px;}
+@media (hover: hover){
+#characterDialog .character-card:hover{border-color: rgb(164, 147, 112); transform: translateY(-3px);}
+#characterDialog .character-card:hover .card-open-hint{opacity: 1;}
+#characterDialog .nav-link:hover{color: var(--gold);}
+#characterDialog .reset-button:hover{color: var(--gold);}
+}
+#characterDialog .pagination{display: flex; align-items: center; justify-content: center; gap: 8px; margin: 29px 0px 37px; min-height: 40px;}
+#characterDialog .page-button{min-width: 36px; min-height: 36px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 7px; color: var(--muted); font-size: 12px;}
+#characterDialog .page-button .icon{width: 16px; height: 16px;}
+#characterDialog .page-button[aria-current="page"]{background: var(--gold); color: var(--gold-ink); border-color: var(--gold);}
+#characterDialog .page-button:hover:not(:disabled){border-color: var(--gold);}
+#characterDialog .loading-state{grid-column: 1 / -1; padding: 60px 20px; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: 12px; font-size: 14px;}
+#characterDialog .empty-state{grid-column: 1 / -1; padding: 60px 20px; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: 12px; font-size: 14px;}
+#characterDialog .empty-state > .icon{width: 30px; height: 30px; margin: 0px auto 14px; color: var(--gold);}
+#characterDialog .empty-state h3{color: var(--text); font-size: 17px; font-weight: 500;}
+#characterDialog .empty-state p{font-size: 13px; margin-bottom: 20px;}
+#characterDialog .site-footer{text-align: center; border-top: 1px solid var(--line); padding: 26px 0px 30px;}
+#characterDialog .site-footer > span{font-family: var(--display-font); font-size: 16px; letter-spacing: 4px; color: var(--gold);}
+#characterDialog .site-footer p{font-size: 10px; color: var(--muted); margin: 10px 0px 0px; letter-spacing: 0.5px;}
+#characterDialog.character-dialog{padding: 0px; border: 1px solid var(--line); border-radius: 18px; width: min(1110px, 100% - 64px); max-width: none; height: min(790px, -64px + 100dvh); max-height: none; margin: auto; background: var(--surface); color: var(--text); box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 100px; overflow: hidden;}
+#characterDialog.character-dialog::backdrop{background: rgba(6, 13, 23, 0.73);}
+#characterDialog .dialog-close{position: absolute; right: 16px; top: 16px; background: var(--raised); border: 1px solid var(--line); z-index: 3;}
+#characterDialog .detail-layout{display: grid; grid-template-columns: 35% minmax(0px, 1fr); height: 100%; padding-bottom: var(--player-space);}
+#characterDialog .detail-profile{position: relative; overflow: auto; background: linear-gradient(0deg,var(--surface) 14%,transparent),radial-gradient(ellipse at 50% 30%,var(--element-glow),transparent 80%); scrollbar-width: thin; overscroll-behavior: contain;}
+#characterDialog .detail-art{height: 54%; min-height: 280px; position: relative; display: flex; align-items: flex-start; justify-content: center; overflow: hidden;}
+#characterDialog .detail-art img{width: 100%; height: 100%; object-fit: contain; object-position: center center;}
+#characterDialog .detail-art::after{position: absolute; content: ""; inset: 80% 0px 0px; background: linear-gradient(0deg,var(--surface),transparent);}
+#characterDialog .detail-dossier{padding: 0px 28px 25px; position: relative;}
+#characterDialog .detail-region{display: flex; align-items: center; gap: 7px; color: var(--gold); font-size: 11px; letter-spacing: 2px;}
+#characterDialog .detail-region img{width: 18px; height: 18px;}
+#characterDialog .detail-dossier h2{font-size: 30px; font-weight: 500; letter-spacing: 3px; margin: 9px 0px 5px;}
+#characterDialog .detail-title{color: var(--gold); font-size: 13px; margin: 0px 0px 18px;}
+#characterDialog .detail-lore{color: var(--muted); font-size: 12px; line-height: 1.9;}
+#characterDialog .detail-metadata{display: flex; flex-wrap: wrap; gap: 8px 14px; color: var(--muted); font-size: 10px; border-top: 1px solid var(--line); padding-top: 15px; margin-top: 20px;}
+#characterDialog .detail-voices{margin: 16px 0px 0px; font-size: 11px; display: grid; grid-template-columns: 38px 1fr; row-gap: 6px;}
+#characterDialog .detail-voices dt{color: var(--dim);}
+#characterDialog .detail-voices dd{margin: 0px; color: var(--muted);}
+#characterDialog .detail-content{display: flex; flex-direction: column; min-width: 0px; overflow: hidden; background: var(--input);}
+#characterDialog .detail-topbar{padding: 25px 60px 19px 26px; border-bottom: 1px solid var(--line);}
+#characterDialog .detail-topbar h3{font-size: 18px; margin: 0px 0px 4px; font-weight: 500;}
+#characterDialog .detail-topbar p{font-size: 11px; color: var(--muted); margin: 0px;}
+#characterDialog .detail-download{display: flex; align-items: center; gap: 10px; margin: 16px 24px 0px; padding: 13px 14px; border-radius: 9px; background: var(--surface); border: 1px solid var(--line);}
+#characterDialog .detail-download > .icon{color: var(--gold); width: 21px; height: 21px;}
+#characterDialog .detail-download-text{flex: 1 1 0%; min-width: 0px;}
+#characterDialog .detail-download-text strong{font-size: 12px; font-weight: 500; display: block;}
+#characterDialog .detail-download-text span{display: block; font-size: 10px; color: var(--muted); margin-top: 2px;}
+#characterDialog .detail-download .button{font-size: 11px; min-height: 34px; padding: 0px 11px;}
+#characterDialog .detail-search{margin: 14px 24px 0px; display: flex; align-items: center; gap: 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 7px; padding: 0px 11px; color: var(--dim);}
+#characterDialog .detail-search .icon{width: 16px; height: 16px;}
+#characterDialog .detail-search input{height: 35px; font-size: 12px; min-width: 0px; flex: 1 1 0%; border: 0px; outline: 0px; background: none; color: var(--text);}
+#characterDialog .detail-tabs{display: flex; align-items: center; gap: 21px; margin: 8px 24px 0px; border-bottom: 1px solid var(--line); flex-shrink: 0;}
+#characterDialog .detail-tab{min-height: 43px; padding: 0px; position: relative; font-size: 12px; color: var(--muted); white-space: nowrap;}
+#characterDialog .detail-tab[aria-selected="true"]{color: var(--gold);}
+#characterDialog .detail-tab[aria-selected="true"]::after{position: absolute; content: ""; height: 2px; bottom: 0px; left: 0px; right: 0px; background: var(--gold);}
+#characterDialog .detail-tab span{font-size: 10px; margin-left: 4px; color: var(--muted);}
+#characterDialog .continuous-toggle{margin-left: auto; width: 30px; height: 30px; color: var(--muted);}
+#characterDialog .continuous-toggle[aria-pressed="true"]{color: var(--gold); background: var(--selected);}
+#characterDialog .quote-list{padding: 7px 24px 24px; overflow-y: auto; overscroll-behavior: contain; flex: 1 1 0%; scrollbar-width: thin;}
+#characterDialog .quote-card{padding: 16px 0px; border-bottom: 1px solid var(--line); content-visibility: auto; contain-intrinsic-size: auto 135px;}
+#characterDialog .quote-card:last-child{border-bottom: 0px;}
+#characterDialog .quote-card.playing{border-left: 2px solid var(--gold); padding-left: 12px;}
+#characterDialog .quote-heading{display: flex; gap: 10px; align-items: center; margin-bottom: 10px;}
+#characterDialog .quote-number{font-size: 10px; font-variant-numeric: tabular-nums; color: var(--dim); min-width: 17px;}
+#characterDialog .quote-heading h4{font-size: 12px; font-weight: 500; color: var(--gold); margin: 0px; flex: 1 1 0%;}
+#characterDialog .quote-text{margin: 0px; color: var(--text); font-size: 13px; line-height: 1.95; overflow-wrap: anywhere; user-select: text;}
+#characterDialog .quote-actions{display: flex; align-items: center; gap: 3px; margin-top: 12px;}
+#characterDialog .quote-action{width: 32px; height: 30px; border-radius: 5px; display: inline-flex; align-items: center; justify-content: center; color: var(--muted);}
+#characterDialog .quote-action:hover{background: var(--raised); color: var(--gold);}
+#characterDialog .quote-action .icon{width: 16px; height: 16px;}
+#characterDialog .quote-action.favorited{color: var(--gold); background: var(--selected);}
+#characterDialog .quote-read{display: inline-flex; align-items: center; gap: 5px; background: var(--raised); color: var(--text); padding: 5px 10px; min-height: 31px; border-radius: 5px; font-size: 11px; margin-right: auto;}
+#characterDialog .quote-read .icon{width: 13px; height: 13px;}
+#characterDialog .quote-read:hover{background: var(--selected); color: var(--gold);}
+#characterDialog .quote-load-more{display: flex; justify-content: center; margin: 19px 0px 0px;}
+#characterDialog .quote-load-more .button{font-size: 11px; min-height: 36px;}
+#characterDialog .special-link{display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 8px 0px 0px; padding: 13px 0px; color: var(--gold); font-size: 12px;}
+#characterDialog .special-link .icon{width: 17px; height: 17px;}
+#characterDialog mark{background: rgba(211, 180, 117, 0.2); color: inherit; border-radius: 2px; padding: 0px 1px;}
+#characterDialog .audio-player{position: fixed; left: 0px; right: 0px; bottom: 0px; min-height: 80px; display: flex; align-items: center; gap: 24px; padding-top: 13px; padding-right: max(24px, -734px + 50vw); padding-left: max(24px, -734px + 50vw); padding-bottom: max(13px,env(safe-area-inset-bottom)); z-index: 30; background: var(--surface); border-top: 1px solid var(--line); box-shadow: rgba(5, 11, 21, 0.082) 0px -10px 30px;}
+#characterDialog.character-dialog .audio-player{position: absolute; padding: 12px 22px; gap: 18px; min-height: 80px;}
+#characterDialog .player-track{display: flex; align-items: center; gap: 12px; min-width: 0px; width: 28%;}
+#characterDialog .player-track > img{background: var(--raised); border-radius: 9px; object-fit: contain; flex-shrink: 0;}
+#characterDialog .player-track-text{min-width: 0px; display: flex; flex-direction: column; gap: 4px;}
+#characterDialog .player-track-text strong{font-size: 12px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+#characterDialog .player-track-text > span{font-size: 10px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+#characterDialog .player-controls{display: flex; align-items: center; gap: 6px;}
+#characterDialog .player-controls .icon-button{width: 32px; height: 32px;}
+#characterDialog .player-controls .player-play{background: var(--gold); color: var(--gold-ink); width: 38px; height: 38px; border-radius: 50%; margin: 0px 4px;}
+#characterDialog .player-play .icon{width: 19px; height: 19px;}
+#characterDialog .player-timeline{display: flex; align-items: center; gap: 10px; flex: 1 1 0%; min-width: 0px;}
+#characterDialog .player-timeline > span{font-size: 9px; color: var(--muted); font-variant-numeric: tabular-nums; flex-shrink: 0;}
+#characterDialog .player-timeline input{width: 100%; min-width: 25px; height: 14px; accent-color: var(--gold); margin: 0px;}
+#characterDialog .player-extras{display: flex; align-items: center; gap: 6px; min-width: 0px;}
+#characterDialog .playback-mode{font-size: 9px; color: var(--muted); white-space: nowrap;}
+#characterDialog .volume-range{width: 66px; accent-color: var(--gold); height: 15px;}
+#characterDialog .player-extras .icon-button{width: 28px; height: 30px;}
+#characterDialog .player-extras .icon{width: 17px; height: 17px;}
+#characterDialog.character-dialog .volume-range{display: none;}
+#characterDialog.character-dialog .playback-mode{display: none;}
+#characterDialog.character-dialog .player-track{width: 35%;}
+#characterDialog .toast{position: fixed; bottom: calc(var(--player-space) + 24px + env(safe-area-inset-bottom)); left: 50%; transform: translate(-50%, 16px) scale(0.96); max-width: calc(100% - 32px); width: max-content; padding: 10px 22px; background: rgba(14, 24, 40, 0.94); color: rgb(252, 244, 230); border: 1px solid rgba(245, 214, 141, 0.55); border-radius: 30px; font-family: var(--display-font),var(--genshin-font),sans-serif; font-size: 12.5px; letter-spacing: 0.05em; z-index: 70; opacity: 0; pointer-events: none; display: inline-flex; align-items: center; gap: 9px; box-shadow: rgba(2, 8, 24, 0.82) 0px 14px 40px, rgba(245, 214, 141, 0.25) 0px 0px 24px, rgba(255, 255, 255, 0.2) 0px 1px 0px inset; backdrop-filter: blur(18px) saturate(1.2); transition: opacity 0.24s cubic-bezier(0.16, 1, 0.3, 1), transform 0.24s cubic-bezier(0.16, 1, 0.3, 1);}
+#characterDialog .toast.show{opacity: 1; transform: translate(-50%, 0px) scale(1);}
+#characterDialog .toast-spark{color: rgb(245, 214, 141); font-size: 13px; line-height: 1; filter: drop-shadow(rgba(245, 214, 141, 0.85) 0px 0px 6px); animation: 2s ease-in-out 0s infinite normal none running spark-pulse;}
+#characterDialog .toast-text{display: inline-block; white-space: nowrap; text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;}
+#characterDialog .nahida-page .hero{height: 300px;}
+#characterDialog .nahida-page .hero-copy{padding-top: 37px;}
+#characterDialog .nahida-page .hero-character{height: 135%; bottom: -32%; right: 9%;}
+#characterDialog .index-notice{font-size: 12px; color: var(--muted); line-height: 1.8; padding: 15px 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 9px; margin-bottom: 20px;}
+#characterDialog .voice-index-list{background: var(--surface); border: 1px solid var(--line); padding: 0px 24px; border-radius: 12px;}
+#characterDialog .index-voice{display: flex; align-items: center; gap: 15px; padding: 18px 0px; border-bottom: 1px solid var(--line);}
+#characterDialog .index-voice:last-child{border: 0px;}
+#characterDialog .index-voice > span{font-size: 11px; color: var(--dim); min-width: 25px; font-variant-numeric: tabular-nums;}
+#characterDialog .index-voice-body{min-width: 0px; flex: 1 1 0%;}
+#characterDialog .index-voice-body > span{font-size: 10px; color: var(--gold);}
+#characterDialog .index-voice-body p{font-size: 13px; line-height: 1.8; margin: 5px 0px 0px;}
+#characterDialog .index-voice .quote-actions{margin: 0px; flex-shrink: 0;}
+#characterDialog .nahida-page .realm-nav{margin-bottom: -1px;}
+#characterDialog .nahida-page .realm-button{padding-bottom: 13px;}
+@media (min-width: 1600px){
+#characterDialog .hero{height: 400px;}
+#characterDialog .hero-copy{padding-top: 48px;}
+#characterDialog .hero h1{font-size: 48px;}
+#characterDialog .hero-character{right: 14%;}
+#characterDialog .realm-long{display: inline;}
+#characterDialog .realm-short{display: none;}
+#characterDialog .realm-nav{gap: 24px;}
+}
+@media (max-width: 1279px){
+#characterDialog .character-grid{grid-template-columns: repeat(5, minmax(0px, 1fr)); gap: 17px;}
+#characterDialog .header-inner{gap: 26px;}
+#characterDialog .primary-nav{gap: 25px;}
+#characterDialog .hero-character{right: 8%; width: 48%; height: 120%; bottom: -17%;}
+#characterDialog .hero-copy{padding-left: 36px;}
+#characterDialog .hero-character-caption{right: 25px;}
+#characterDialog .hero h1{font-size: 39px;}
+#characterDialog .daily-content{gap: 12px;}
+#characterDialog .player-extras .playback-mode{display: none;}
+}
+@media (max-width: 1023px){
+#characterDialog .header-inner{padding: 0px 24px; gap: 22px; min-height: 76px;}
+#characterDialog .primary-nav{gap: 22px;}
+#characterDialog .archive-nav{display: none;}
+#characterDialog .page-shell{padding: 23px 24px 0px;}
+#characterDialog .hero{height: 345px;}
+#characterDialog .hero-copy{padding: 35px 30px; width: 69%;}
+#characterDialog .hero h1{font-size: 35px;}
+#characterDialog .hero-character{right: 1%; width: 51%; bottom: -17%; height: 117%;}
+#characterDialog .hero-character-caption{display: none;}
+#characterDialog .hero-description{font-size: 12px;}
+#characterDialog .character-grid{grid-template-columns: repeat(4, minmax(0px, 1fr)); gap: 16px;}
+#characterDialog .daily-author{display: none;}
+#characterDialog .archive-controls{padding-left: 16px; padding-right: 16px;}
+#characterDialog .element-button{padding-left: 9px; padding-right: 9px; min-width: 50px;}
+#characterDialog.character-dialog{width: calc(100% - 36px); height: calc(-36px + 100dvh); border-radius: 14px;}
+#characterDialog .detail-layout{grid-template-columns: 31% minmax(0px, 1fr);}
+#characterDialog .detail-dossier{padding-left: 20px; padding-right: 20px;}
+#characterDialog .detail-dossier h2{font-size: 26px;}
+#characterDialog .detail-art{height: 47%; min-height: 250px;}
+#characterDialog .detail-download{margin-left: 18px; margin-right: 18px;}
+#characterDialog .detail-search{margin-left: 18px; margin-right: 18px;}
+#characterDialog .quote-list{padding-left: 18px; padding-right: 18px;}
+#characterDialog .detail-topbar{padding-left: 18px;}
+#characterDialog .detail-tabs{margin-left: 18px; margin-right: 18px; gap: 16px;}
+#characterDialog .audio-player{gap: 15px; padding-left: 24px; padding-right: 24px;}
+#characterDialog .player-track{width: 33%;}
+#characterDialog .player-extras .volume-range{display: none;}
+#characterDialog .player-extras{gap: 4px;}
+#characterDialog .player-controls{gap: 3px;}
+}
+@media (max-width: 767px){
+#characterDialog .header-inner{min-height: 68px; gap: 16px;}
+#characterDialog .brand .brand-symbol{width: 32px; height: 32px;}
+#characterDialog .brand{gap: 8px;}
+#characterDialog .brand strong{font-size: 15px;}
+#characterDialog .brand small{font-size: 7px; letter-spacing: 2px;}
+#characterDialog .primary-nav{gap: 19px;}
+#characterDialog .nav-link{font-size: 12px;}
+#characterDialog .nav-count{font-size: 9px; min-width: 16px; padding: 0px 3px;}
+#characterDialog .theme-toggle{width: 33px; height: 33px;}
+#characterDialog .hero{height: 326px;}
+#characterDialog .hero-copy{padding: 32px 25px; width: 75%;}
+#characterDialog .hero h1{font-size: 32px;}
+#characterDialog .hero-eyebrow{font-size: 10px; letter-spacing: 2px;}
+#characterDialog .hero-character{right: -7%; width: 57%; bottom: -12%; height: 111%;}
+#characterDialog .hero-shade{background: linear-gradient(90deg, rgba(16, 30, 45, 0.94), rgba(16, 33, 49, 0.61) 55%, rgba(16, 33, 49, 0.19)), linear-gradient(0deg, rgba(16, 30, 45, 0.5), transparent);}
+#characterDialog .hero-description{font-size: 11px;}
+#characterDialog .hero .button{padding: 0px 14px; min-height: 38px; font-size: 12px;}
+#characterDialog .hero-actions{gap: 8px;}
+#characterDialog .character-grid{grid-template-columns: repeat(3, minmax(0px, 1fr)); gap: 14px;}
+#characterDialog .daily-quote{gap: 14px; padding: 12px 0px; margin-bottom: 21px;}
+#characterDialog .daily-label{font-size: 11px; gap: 6px;}
+#characterDialog .daily-content{font-size: 11px;}
+#characterDialog .daily-actions{gap: 1px;}
+#characterDialog .daily-actions .icon-button{width: 28px; height: 30px;}
+#characterDialog .daily-actions .icon{width: 16px; height: 16px;}
+#characterDialog .archive-heading h2{font-size: 21px;}
+#characterDialog .archive-heading p{font-size: 11px;}
+#characterDialog .archive-heading-mark{font-size: 9px; letter-spacing: 3px;}
+#characterDialog .sort-field{width: 117px;}
+#characterDialog .filter-toggle{padding: 0px 12px;}
+#characterDialog .realm-nav{gap: 22px;}
+#characterDialog .element-group{gap: 4px;}
+#characterDialog .element-button{min-width: 46px; padding: 3px 7px; font-size: 10px;}
+#characterDialog .element-button img{width: 15px; height: 15px;}
+#characterDialog .element-toolbar{gap: 8px;}
+#characterDialog .reset-button{font-size: 10px;}
+#characterDialog .advanced-filters{flex-wrap: wrap; gap: 13px;}
+#characterDialog .advanced-filters label{flex: 1 1 0%; min-width: 0px;}
+#characterDialog .advanced-filters .button{width: 100%;}
+#characterDialog.character-dialog{width: calc(100% - 20px); height: calc(-20px + 100dvh);}
+#characterDialog .detail-layout{grid-template-columns: 29% minmax(0px, 1fr);}
+#characterDialog .detail-dossier{padding-left: 14px; padding-right: 14px;}
+#characterDialog .detail-art{min-height: 200px; height: 38%;}
+#characterDialog .detail-dossier h2{font-size: 23px; letter-spacing: 1px;}
+#characterDialog .detail-lore{font-size: 11px;}
+#characterDialog .detail-metadata{font-size: 9px; gap: 5px 9px;}
+#characterDialog .detail-voices{font-size: 10px; grid-template-columns: 28px 1fr;}
+#characterDialog .detail-region{font-size: 10px; letter-spacing: 1px;}
+#characterDialog .detail-title{font-size: 11px;}
+#characterDialog .detail-download{padding: 10px; gap: 8px;}
+#characterDialog .detail-download > .icon{display: none;}
+#characterDialog .detail-download-text strong{font-size: 11px;}
+#characterDialog .detail-download-text span{font-size: 9px;}
+#characterDialog .detail-download .button{font-size: 10px; padding: 0px 8px;}
+#characterDialog .detail-tabs{gap: 14px;}
+#characterDialog .detail-tab{font-size: 11px;}
+#characterDialog .continuous-toggle{width: 26px;}
+#characterDialog .audio-player .player-timeline{display: none;}
+#characterDialog .player-track{flex: 1 1 0%; width: auto;}
+#characterDialog.character-dialog .player-track{width: auto; flex: 1 1 0%;}
+#characterDialog .audio-player{gap: 12px; min-height: 76px;}
+#characterDialog.character-dialog .audio-player{gap: 10px; padding-left: 14px; padding-right: 12px;}
+#characterDialog .player-extras #volMuteBtn{display: none;}
+#characterDialog .player-track-text strong{font-size: 11px;}
+#characterDialog .player-track-text > span{font-size: 9px;}
+#characterDialog .player-track > img{width: 38px; height: 38px;}
+#characterDialog .player-controls .icon-button{width: 28px;}
+#characterDialog .player-controls .player-play{width: 36px;}
+#characterDialog .player-extras .icon-button{width: 25px;}
+#characterDialog .player-track{gap: 9px;}
+#characterDialog .nahida-page .hero-copy{padding-top: 30px;}
+#characterDialog .index-voice{align-items: flex-start; gap: 10px;}
+#characterDialog .index-voice .quote-actions{flex-wrap: wrap; max-width: 96px; justify-content: flex-end;}
+#characterDialog .index-voice .quote-read{margin: 0px;}
+#characterDialog .index-voice-body p{font-size: 12px;}
+#characterDialog .voice-index-list{padding: 0px 18px;}
+}
+@media (max-width: 640px){
+#characterDialog .header-inner{padding: 13px 16px 0px; gap: 14px; flex-wrap: wrap; min-height: 64px;}
+#characterDialog .brand{flex: 1 1 0%;}
+#characterDialog .primary-nav{order: 3; width: 100%; min-height: 43px; justify-content: flex-start; gap: 25px; margin: 0px;}
+#characterDialog .primary-nav .archive-nav{display: inline-flex; margin-left: auto; font-size: 10px;}
+#characterDialog .nav-link{font-size: 12px;}
+#characterDialog .theme-toggle{margin-left: auto;}
+#characterDialog .page-shell{padding: 16px 16px 0px;}
+#characterDialog .hero{height: 320px; border-radius: 12px;}
+#characterDialog .hero-copy{padding: 26px 21px; width: 100%;}
+#characterDialog .hero-eyebrow{font-size: 9px; letter-spacing: 2px; margin-bottom: 17px; gap: 8px;}
+#characterDialog .hero-eyebrow > span{width: 18px;}
+#characterDialog .hero h1{font-size: 29px; line-height: 1.5; letter-spacing: 1px; margin-bottom: 14px;}
+#characterDialog .hero-description{font-size: 10px; line-height: 1.9; width: 70%; margin-bottom: 20px; color: rgb(228, 236, 242);}
+#characterDialog .mobile-break{display: block;}
+#characterDialog .hero-actions{gap: 9px; flex-direction: column; align-items: flex-start;}
+#characterDialog .hero-actions .button{min-height: 34px; font-size: 11px; padding: 0px 12px;}
+#characterDialog .hero-actions .button-quiet{border-color: transparent; padding: 0px; background: none; min-height: 27px;}
+#characterDialog .hero-actions .button .icon{width: 14px; height: 14px;}
+#characterDialog .hero-character{height: 91%; width: 61%; right: -9%; bottom: -11%; z-index: 0;}
+#characterDialog .hero-shade{background: linear-gradient(90deg, rgba(16, 30, 45, 0.92), rgba(16, 33, 49, 0.584) 60%, rgba(16, 33, 49, 0.22)), linear-gradient(0deg, rgba(16, 30, 45, 0.5), transparent);}
+#characterDialog .hero-scenery img{object-position: 35% center;}
+#characterDialog .daily-quote{gap: 9px; padding: 11px 0px; margin-bottom: 21px;}
+#characterDialog .daily-label{font-size: 10px;}
+#characterDialog .daily-label .icon{width: 16px; height: 16px;}
+#characterDialog .daily-content{font-size: 11px;}
+#characterDialog .daily-actions .muted{display: none;}
+#characterDialog .daily-actions .icon-button{width: 27px; height: 30px;}
+#characterDialog .archive-heading{margin-bottom: 16px;}
+#characterDialog .archive-heading h2{font-size: 20px;}
+#characterDialog .archive-heading p{font-size: 10px;}
+#characterDialog .archive-heading-mark{display: none;}
+#characterDialog .archive-controls{padding: 11px 12px 0px; border-radius: 10px;}
+#characterDialog .search-toolbar{gap: 7px; flex-wrap: wrap;}
+#characterDialog .search-field{min-height: 42px; gap: 8px; padding: 0px 11px;}
+#characterDialog .search-field input{font-size: 11px; height: 40px;}
+#characterDialog .search-field > .icon{width: 17px; height: 17px;}
+#characterDialog .search-field kbd{display: none;}
+#characterDialog .sort-field{width: 105px; height: 36px; order: 3; display: none;}
+#characterDialog .filter-toggle{height: 42px; min-height: 42px; padding: 0px 11px;}
+#characterDialog .filter-toggle .icon{width: 18px; height: 18px;}
+#characterDialog .filter-toggle > span{display: none;}
+#characterDialog .realm-nav{gap: 22px; margin-top: 12px;}
+#characterDialog .realm-button{font-size: 11px; min-height: 39px; padding-bottom: 10px;}
+#characterDialog .realm-button .icon{display: none;}
+#characterDialog .element-toolbar{gap: 7px;}
+#characterDialog .element-group{gap: 3px; padding: 10px 0px;}
+#characterDialog .element-button{font-size: 10px; min-width: 43px; padding: 3px 6px; gap: 4px; min-height: 29px;}
+#characterDialog .element-button img{width: 15px; height: 15px;}
+#characterDialog .reset-button{font-size: 10px; flex-shrink: 0;}
+#characterDialog .reset-button .icon{display: none;}
+#characterDialog .results-meta{font-size: 10px; min-height: 39px;}
+#characterDialog .character-grid{grid-template-columns: repeat(2, minmax(0px, 1fr)); gap: 13px;}
+#characterDialog .character-card{border-radius: 10px;}
+#characterDialog .card-info{padding: 7px 11px 12px;}
+#characterDialog .card-name-line h3{font-size: 15px;}
+#characterDialog .card-rarity{font-size: 9px; letter-spacing: 0px;}
+#characterDialog .card-epithet{font-size: 10px; margin-top: 3px; margin-bottom: 9px;}
+#characterDialog .card-footer{font-size: 9px;}
+#characterDialog .card-element{gap: 4px;}
+#characterDialog .card-element img{width: 14px; height: 14px;}
+#characterDialog .card-quote-count .icon{width: 12px; height: 12px;}
+#characterDialog .card-open-hint{display: none;}
+#characterDialog .pagination{margin: 23px 0px 28px; gap: 7px;}
+#characterDialog .page-button{font-size: 11px; min-width: 34px; min-height: 34px; padding: 5px 9px;}
+#characterDialog .site-footer{padding: 23px 0px;}
+#characterDialog .site-footer > span{font-size: 14px; letter-spacing: 3px;}
+#characterDialog .site-footer p{font-size: 9px; line-height: 1.8; max-width: 270px; margin: 9px auto 0px;}
+#characterDialog.character-dialog{width: 100%; height: 100dvh; border: 0px; border-radius: 0px; margin: 0px;}
+#characterDialog .detail-layout{display: flex; flex-direction: column; overflow-y: auto; overscroll-behavior: contain; padding-bottom: var(--player-space);}
+#characterDialog .detail-profile{overflow: visible; min-height: 244px; height: 244px; flex-shrink: 0; background: radial-gradient(ellipse at 20% 70%,var(--element-glow),transparent),var(--surface);}
+#characterDialog .detail-art{position: absolute; left: 0px; top: 0px; bottom: 0px; width: 44%; height: 100%; min-height: 0px;}
+#characterDialog .detail-art img{height: 112%; width: 120%; max-width: none; object-position: center top;}
+#characterDialog .detail-art::after{inset: 70% 0px 0px; background: linear-gradient(0deg,var(--surface),transparent);}
+#characterDialog .detail-dossier{padding: 33px 45px 20px 45%; position: relative; height: 100%; overflow: auto;}
+#characterDialog .detail-dossier h2{font-size: 27px; letter-spacing: 2px; margin-top: 5px;}
+#characterDialog .detail-region{font-size: 10px;}
+#characterDialog .detail-region img{width: 16px; height: 16px;}
+#characterDialog .detail-title{margin-bottom: 12px; font-size: 11px;}
+#characterDialog .detail-lore{font-size: 10px; line-height: 1.7; margin: 0px;}
+#characterDialog .detail-metadata{font-size: 9px; gap: 3px 10px; padding-top: 9px; margin-top: 12px;}
+#characterDialog .detail-voices{margin-top: 10px; font-size: 9px; grid-template-columns: 27px 1fr; row-gap: 3px;}
+#characterDialog .detail-content{overflow: visible; flex: 1 0 0%; min-height: calc(-244px + 100dvh); display: block;}
+#characterDialog .detail-topbar{padding: 18px 18px 13px;}
+#characterDialog .detail-topbar h3{font-size: 17px;}
+#characterDialog .detail-topbar p{font-size: 10px;}
+#characterDialog .detail-download{margin: 14px 16px 0px; padding: 11px 12px;}
+#characterDialog .detail-download > .icon{display: block; width: 19px; height: 19px;}
+#characterDialog .detail-download-text span{font-size: 9px; max-width: none;}
+#characterDialog .detail-download .button{font-size: 10px; padding: 0px 11px; min-height: 33px;}
+#characterDialog .detail-search{margin: 12px 16px 0px;}
+#characterDialog .detail-search input{height: 37px; font-size: 11px;}
+#characterDialog .detail-tabs{margin: 8px 16px 0px; gap: 22px; position: sticky; top: 0px; background: var(--input); z-index: 2;}
+#characterDialog .detail-tab{min-height: 46px; font-size: 12px;}
+#characterDialog .detail-tab span{font-size: 10px;}
+#characterDialog .quote-list{overflow: visible; padding: 0px 16px 24px;}
+#characterDialog .quote-card{padding: 17px 0px;}
+#characterDialog .quote-text{font-size: 13px; line-height: 1.9;}
+#characterDialog .quote-heading h4{font-size: 12px;}
+#characterDialog .quote-actions{margin-top: 12px; gap: 4px;}
+#characterDialog .quote-action{width: 34px; height: 32px;}
+#characterDialog .quote-read{min-height: 32px; padding: 5px 11px;}
+#characterDialog .dialog-close{position: fixed; top: max(12px,env(safe-area-inset-top)); right: 12px; width: 34px; height: 34px; background: var(--surface); border: 1px solid var(--line);}
+#characterDialog .audio-player{padding: 12px 13px max(12px,env(safe-area-inset-bottom)); min-height: 76px; gap: 7px;}
+#characterDialog .player-controls{gap: 0px;}
+#characterDialog .player-controls .icon-button{width: 27px; height: 32px;}
+#characterDialog .player-controls .player-play{width: 34px; height: 34px; margin: 0px 2px;}
+#characterDialog .player-controls .icon{width: 17px; height: 17px;}
+#characterDialog .player-track > img{height: 36px; width: 36px; border-radius: 7px;}
+#characterDialog .player-track{gap: 8px;}
+#characterDialog .player-track-text strong{font-size: 11px;}
+#characterDialog .player-track-text > span{font-size: 9px;}
+#characterDialog .player-extras .icon-button{width: 22px;}
+#characterDialog.character-dialog .audio-player{min-height: 76px; padding: 12px 12px max(12px,env(safe-area-inset-bottom)); gap: 6px;}
+#characterDialog .toast{font-size: 11.5px; padding: 9px 18px; max-width: calc(100% - 24px); bottom: calc(var(--player-space) + 16px + env(safe-area-inset-bottom)); border-radius: 26px;}
+#characterDialog .nahida-page .hero{height: 276px;}
+#characterDialog .nahida-page .hero-copy{padding-top: 26px;}
+#characterDialog .nahida-page .hero h1{font-size: 28px;}
+#characterDialog .nahida-page .hero-description{max-width: 180px;}
+#characterDialog .nahida-page .hero-character{height: 107%; right: -12%; width: 65%; bottom: -20%;}
+#characterDialog .index-notice{font-size: 11px; padding: 12px 14px;}
+#characterDialog .nahida-page .realm-button{font-size: 11px;}
+#characterDialog .voice-index-list{padding: 0px 14px;}
+#characterDialog .index-voice{flex-wrap: wrap; gap: 8px; padding: 15px 0px;}
+#characterDialog .index-voice > span{min-width: 22px;}
+#characterDialog .index-voice-body{width: calc(100% - 30px); flex: 0 0 auto;}
+#characterDialog .index-voice .quote-actions{width: 100%; max-width: none; justify-content: flex-start; padding-left: 30px; gap: 5px;}
+#characterDialog .index-voice .quote-read{margin-right: auto;}
+#characterDialog .index-voice-body p{font-size: 12px;}
+}
+@media (max-width: 374px){
+#characterDialog .brand strong{font-size: 14px;}
+#characterDialog .primary-nav{gap: 20px;}
+#characterDialog .primary-nav .archive-nav{font-size: 9px;}
+#characterDialog .hero-copy{padding-left: 18px;}
+#characterDialog .hero h1{font-size: 26px;}
+#characterDialog .hero-character{right: -12%;}
+#characterDialog .hero-description{font-size: 9px;}
+#characterDialog .card-name-line h3{font-size: 14px;}
+#characterDialog .card-rarity{font-size: 8px;}
+#characterDialog .card-info{padding-left: 9px; padding-right: 9px;}
+#characterDialog .card-footer{font-size: 8px;}
+#characterDialog .element-button{min-width: 39px; padding: 3px 5px;}
+#characterDialog .element-group{gap: 2px;}
+#characterDialog .detail-dossier h2{font-size: 24px;}
+#characterDialog .detail-dossier{padding-right: 30px;}
+#characterDialog .detail-download-text span{font-size: 8px;}
+#characterDialog .quote-text{font-size: 12px;}
+#characterDialog .player-controls #prevQuoteBtn{display: none;}
+}
+@media (min-width: 1024px) and (max-height: 850px){
+#characterDialog .header-inner{min-height: 72px;}
+#characterDialog .page-shell{padding-top: 22px;}
+#characterDialog .hero{height: 300px;}
+#characterDialog .hero-copy{padding-top: 28px; padding-bottom: 28px;}
+#characterDialog .hero-eyebrow{margin-bottom: 13px;}
+#characterDialog .hero h1{font-size: 35px; margin-bottom: 12px;}
+#characterDialog .hero-description{margin-bottom: 18px; font-size: 12px;}
+#characterDialog .hero-character{height: 112%; bottom: -14%;}
+#characterDialog .daily-quote{padding: 12px 0px; margin-bottom: 20px;}
+#characterDialog .archive-heading{margin-bottom: 16px;}
+}
+@media (max-width: 640px){
+#characterDialog .hero{height: 336px;}
+#characterDialog .hero-copy{padding-top: 20px;}
+#characterDialog .hero-eyebrow{margin-bottom: 8px;}
+#characterDialog .hero h1{font-size: 22px; line-height: 1.35;}
+#characterDialog .hero-description{margin-bottom: 12px; font-size: 11px;}
+#characterDialog .hero-character{height: 112%; width: 54%; right: 0px; bottom: 0px; object-fit: contain; object-position: right bottom;}
+#characterDialog .daily-quote{margin-bottom: 18px;}
+#characterDialog .search-field input{font-size: 16px;}
+#characterDialog .detail-search input{font-size: 16px;}
+#characterDialog .search-field input::placeholder{font-size: 12px;}
+#characterDialog .detail-search input::placeholder{font-size: 12px;}
+#characterDialog .advanced-filters select{font-size: 16px;}
+#characterDialog .sort-field select{font-size: 16px;}
+#characterDialog .archive-controls.filters-open .sort-field{display: block; width: 100%;}
+#characterDialog .realm-button{min-height: 44px;}
+#characterDialog .quote-action{width: 40px; min-height: 40px;}
+#characterDialog .quote-read{min-height: 38px;}
+#characterDialog .dialog-close{width: 40px; height: 40px;}
+#characterDialog .quote-text{font-size: 14px;}
+#characterDialog .nahida-page .hero-character{height: 112%; width: 54%; right: 0px; bottom: 0px; object-fit: contain;}
+}
+@media (max-width: 640px){
+#characterDialog .hero-character{right: 0px; bottom: 0px; object-fit: contain;}
+}
+@media (max-width: 640px){
+#characterDialog .detail-profile{height: auto; min-height: 270px;}
+#characterDialog .detail-art{height: 270px;}
+#characterDialog .detail-dossier{height: auto; min-height: 270px; overflow: visible; padding-bottom: 24px;}
+#characterDialog .detail-content{min-height: calc(-270px + 100dvh);}
+}
+#characterDialog{--panel-rgb: 18 33 51; --gold: #ead3a2; --muted: #bdcbdc; --dim: #9cabc1; --line: #a8bfd12b; --display-font: var(--genshin-font); --card-face: #142338; --card-ink: #f4eddc; --card-muted: #bfc9d6; --metal: linear-gradient(135deg,#fff1c9 0%,#987035 17%,#efdaa4 34%,#886435 59%,#e8c77d 77%,#fbecd1 100%); --press-duration: 440; --motion-reveal: 240ms; --motion-settle: cubic-bezier(.16,.7,.3,1);}
+html[data-theme="light"] #characterDialog{--panel-rgb: 245 249 255; --gold: #805b2a; --muted: #4e627a; --dim: #5c6e87; --line: #6f849342; --card-face: #e9eef2; --card-ink: #283a4f; --card-muted: #52667b; --metal: linear-gradient(135deg,#b18b44,#eed8a7 27%,#a27a3a 50%,#f6e5bb 73%,#a8844a);}
+body #characterDialog{font-family: var(--genshin-font);}
+html[data-theme="light"] #characterDialog body{background: rgb(233, 238, 245);}
+#characterDialog .site-header{background: rgb(var(--panel-rgb)/.35); border-color: rgba(198, 216, 230, 0.192); box-shadow: rgba(255, 255, 255, 0.067) 0px 1px 0px inset, rgba(6, 17, 37, 0.063) 0px 10px 35px;}
+#characterDialog .site-header{backdrop-filter: blur(14px) saturate(1.14);}
+#characterDialog .archive-controls{backdrop-filter: blur(14px) saturate(1.14);}
+#characterDialog .brand strong{font-family: var(--display-font); font-weight: 700; letter-spacing: 1.5px;}
+#characterDialog .brand small{font-family: Georgia, "Times New Roman", serif; color: var(--gold); letter-spacing: 3.1px;}
+#characterDialog .brand .brand-symbol{filter: drop-shadow(rgba(233, 197, 117, 0.16) 0px 0px 8px);}
+#characterDialog .nav-link{font-weight: 500; letter-spacing: 0.04em;}
+#characterDialog .nav-link.active::after{height: 2px; background: linear-gradient(90deg,transparent,var(--gold) 22%,var(--gold) 78%,transparent);}
+#characterDialog .theme-toggle{background: linear-gradient(145deg,#ffffff0b,transparent),rgb(var(--panel-rgb)/.44); border-color: rgba(217, 192, 139, 0.333); box-shadow: rgba(255, 255, 255, 0.067) 0px 1px inset;}
+#characterDialog .hero{border: 1px solid rgba(219, 195, 139, 0.36); box-shadow: rgba(3, 11, 28, 0.145) 0px 22px 60px, rgba(248, 229, 180, 0.075) 0px 0px 0px 1px inset;}
+#characterDialog .hero::after{content: ""; position: absolute; inset: 8px; border: 1px solid rgba(237, 218, 168, 0.23); border-radius: 9px; pointer-events: none; z-index: 3;}
+#characterDialog .hero-shade{background: linear-gradient(90deg, rgba(11, 26, 48, 0.863), rgba(19, 45, 72, 0.66) 38%, rgba(24, 55, 80, 0.14) 78%), linear-gradient(0deg, rgba(14, 27, 49, 0.55), transparent 70%);}
+#characterDialog .hero-eyebrow{font-family: var(--display-font); font-size: 12px; color: rgb(241, 216, 159); letter-spacing: 2px; display: flex; align-items: center; gap: 6px;}
+#characterDialog .hero-eyebrow > span:first-child{display: inline-block; width: 7px; height: 7px; border: 1px solid rgb(228, 199, 135); background: transparent; transform: rotate(45deg); margin: 0px 4px 0px 1px; box-shadow: rgba(234, 209, 160, 0.047) 0px 0px 0px 3px; flex-shrink: 0;}
+#characterDialog .hero-eyebrow-diamond{display: inline-block; width: 7px; height: 7px; border: 1px solid rgb(228, 199, 135); background: transparent; transform: rotate(45deg); margin: 0px 4px 0px 1px; box-shadow: rgba(234, 209, 160, 0.047) 0px 0px 0px 3px; flex-shrink: 0;}
+#characterDialog .hero-eyebrow-text{display: inline !important; width: auto !important; height: auto !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; border-image: initial !important; background: none !important; transform: none !important; box-shadow: none !important; font-size: inherit !important; color: inherit !important; letter-spacing: inherit !important;}
+#characterDialog .hero h1{font-family: var(--display-font); font-weight: 650; letter-spacing: 0.09em; line-height: 1.48; color: rgb(249, 231, 187); text-shadow: rgba(11, 25, 63, 0.4) 0px 2px 1px, rgba(234, 211, 162, 0.1) 0px 0px 24px;}
+#characterDialog .hero-description{color: rgb(212, 225, 239); letter-spacing: 0.03em;}
+#characterDialog .hero-character-caption{color: rgb(246, 233, 202); text-shadow: rgb(23, 44, 72) 0px 1px 6px;}
+#characterDialog .hero-character-caption strong{font-family: var(--display-font); font-weight: 650;}
+#characterDialog .hero-astrolabe{position: absolute; right: 10%; top: -23%; width: 450px; aspect-ratio: 1 / 1; border: 1px solid rgba(229, 210, 166, 0.39); border-radius: 50%; transform: rotate(25deg); z-index: -1; color: rgb(232, 211, 166); opacity: 0.56; pointer-events: none; animation: 60s linear 0s infinite normal none running astrolabe-spin;}
+#characterDialog .hero .button-gold{position: relative !important; overflow: hidden !important; isolation: isolate !important; border: 1px solid rgba(255, 255, 255, 0.55) !important; background-color: rgba(255, 255, 255, 0.07) !important; background-image: radial-gradient(1.2px 1.2px at 15% 25%, rgba(255, 255, 255, 0.95), transparent 100%), radial-gradient(1px 1px at 32% 70%, rgba(165, 235, 255, 0.95), transparent 100%), radial-gradient(1.5px 1.5px at 52% 28%, rgba(255, 245, 190, 0.95), transparent 100%), radial-gradient(1.2px 1.2px at 72% 75%, rgba(255, 195, 245, 0.95), transparent 100%), radial-gradient(1px 1px at 86% 22%, rgba(215, 255, 255, 0.95), transparent 100%), radial-gradient(1.3px 1.3px at 45% 82%, rgba(255, 255, 255, 0.85), transparent 100%), radial-gradient(1px 1px at 22% 78%, rgba(255, 228, 155, 0.8), transparent 100%), linear-gradient(135deg, rgba(255, 255, 255, 0.22) 0%, rgba(245, 225, 175, 0.15) 26%, rgba(170, 230, 255, 0.18) 54%, rgba(255, 185, 235, 0.15) 76%, rgba(255, 240, 200, 0.22) 100%) !important; backdrop-filter: blur(16px) saturate(1.4) !important; color: rgb(255, 253, 247) !important; text-shadow: rgba(0, 0, 0, 0.85) 0px 1px 4px, rgba(255, 235, 175, 0.6) 0px 0px 12px !important; border-radius: 22px !important; letter-spacing: 0.08em !important; font-weight: 700 !important; font-family: var(--display-font) !important; animation: 3.6s ease-in-out 0s infinite normal none running holo-shimmer-pulse !important; transition: 0.24s cubic-bezier(0.16, 1, 0.3, 1) !important;}
+#characterDialog .hero .button-gold::after{content: ""; position: absolute; top: -60%; left: -40%; width: 180%; height: 220%; background: linear-gradient(108deg, transparent 25%, rgba(255, 255, 255, 0.35) 42%, rgba(135, 225, 255, 0.5) 48%, rgba(255, 165, 240, 0.5) 54%, rgba(255, 230, 140, 0.45) 60%, transparent 75%); transform: translateX(-140%) rotate(22deg); animation: 4s cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal none running holo-sweep; pointer-events: none; mix-blend-mode: screen; z-index: 1;}
+#characterDialog .hero .button-gold:hover{transform: translateY(-2px) scale(1.02) !important; border-color: rgba(255, 255, 255, 0.88) !important; box-shadow: rgba(2, 8, 24, 0.55) 0px 10px 36px, rgba(140, 235, 255, 0.5) 0px 0px 25px, rgba(255, 205, 245, 0.4) 0px 0px 35px, rgb(255, 255, 255) 0px 1px 2px inset !important;}
+#characterDialog .hero .button-gold:active{transform: scale(0.96) !important;}
+#characterDialog .hero .button-gold .icon{color: rgb(255, 230, 153) !important; filter: drop-shadow(rgba(255, 230, 150, 0.9) 0px 0px 6px) !important;}
+#characterDialog .btn-holo-spark{display: inline-block; color: rgb(255, 226, 133); font-size: 13px; line-height: 1; margin-right: 2px; filter: drop-shadow(rgba(255, 215, 100, 0.9) 0px 0px 6px); animation: 2.5s ease-in-out 0s infinite normal none running spark-twinkle;}
+#characterDialog .button-quiet{border-color: rgba(190, 220, 245, 0.38); background: linear-gradient(130deg, rgba(214, 237, 255, 0.14), transparent), rgba(25, 49, 73, 0.65); border-radius: 18px;}
+#characterDialog .hero-stardust{position: absolute; inset: 0px; pointer-events: none; z-index: 1; overflow: hidden;}
+#characterDialog .hero-stardust span{position: absolute; bottom: -10px; border-radius: 50%; background: radial-gradient(circle, rgb(255, 255, 255) 10%, rgba(245, 214, 141, 0.85) 50%, transparent 80%); box-shadow: rgba(245, 214, 141, 0.9) 0px 0px 8px, rgba(130, 220, 255, 0.6) 0px 0px 14px; animation: auto linear 0s infinite normal none running stardust-drift; opacity: 0;}
+#characterDialog .hero-stardust span:nth-child(1){left: 12%; width: 3px; height: 3px; animation-duration: 6.2s; animation-delay: 0s;}
+#characterDialog .hero-stardust span:nth-child(2){left: 28%; width: 4px; height: 4px; animation-duration: 7.6s; animation-delay: 1.5s;}
+#characterDialog .hero-stardust span:nth-child(3){left: 45%; width: 2.5px; height: 2.5px; animation-duration: 5.8s; animation-delay: 3s;}
+#characterDialog .hero-stardust span:nth-child(4){left: 62%; width: 4.5px; height: 4.5px; animation-duration: 8.2s; animation-delay: 0.8s;}
+#characterDialog .hero-stardust span:nth-child(5){left: 78%; width: 3px; height: 3px; animation-duration: 6.9s; animation-delay: 2.2s;}
+#characterDialog .hero-stardust span:nth-child(6){left: 88%; width: 2.5px; height: 2.5px; animation-duration: 5.4s; animation-delay: 4.1s;}
+#characterDialog .hero-stardust span:nth-child(7){left: 35%; width: 3.5px; height: 3.5px; animation-duration: 7.3s; animation-delay: 3.8s;}
+#characterDialog .hero-stardust span:nth-child(8){left: 54%; width: 3px; height: 3px; animation-duration: 6.4s; animation-delay: 1.1s;}
+#characterDialog .daily-quote{border-color: rgba(183, 202, 211, 0.192); position: relative;}
+#characterDialog .daily-label{font-family: var(--display-font); font-weight: 650; letter-spacing: 1px;}
+#characterDialog .daily-content{color: var(--text);}
+#characterDialog .archive-heading h2{font-family: var(--display-font); font-weight: 650; letter-spacing: 0.12em; line-height: 1.5; color: var(--gold);}
+#characterDialog .archive-heading h2::before{content: ""; width: 7px; height: 7px; border: 1px solid var(--gold); transform: rotate(45deg); flex-shrink: 0; box-shadow: rgba(216, 188, 121, 0.125) 0px 0px 0px 4px; margin: 0px 4px 0px 2px;}
+#characterDialog .archive-heading p{letter-spacing: 0.07em;}
+#characterDialog .archive-heading-mark{font-family: Georgia, serif; color: var(--gold); opacity: 0.75; letter-spacing: 4px;}
+#characterDialog .heading-count{background: rgb(var(--panel-rgb)/.45); border: 1px solid rgba(217, 197, 143, 0.282); color: var(--gold); font-family: inherit; font-weight: 500;}
+#characterDialog .archive-controls{position: relative; background: linear-gradient(135deg,#d8eeff0c,transparent 60%),rgb(var(--panel-rgb)/.32); border: 1px solid rgba(193, 216, 238, 0.196); box-shadow: rgba(241, 229, 200, 0.17) 0px 1px inset, rgba(2, 11, 29, 0.086) 0px 10px 40px;}
+#characterDialog .archive-controls::before{content: ""; position: absolute; top: -1px; left: 24%; right: 24%; height: 1px; background: linear-gradient(90deg, transparent, rgba(242, 222, 189, 0.65), transparent); pointer-events: none;}
+#characterDialog .search-field{background: rgb(var(--panel-rgb)/.32); border-color: rgba(179, 204, 229, 0.2); box-shadow: rgba(5, 18, 40, 0.063) 0px 1px 8px inset;}
+#characterDialog .sort-field select{background: rgb(var(--panel-rgb)/.32); border-color: rgba(179, 204, 229, 0.2); box-shadow: rgba(5, 18, 40, 0.063) 0px 1px 8px inset;}
+#characterDialog .advanced-filters select{background: rgb(var(--panel-rgb)/.32); border-color: rgba(179, 204, 229, 0.2); box-shadow: rgba(5, 18, 40, 0.063) 0px 1px 8px inset;}
+#characterDialog .search-field:focus-within{box-shadow: rgba(226, 199, 141, 0.07) 0px 0px 0px 3px, rgba(5, 18, 40, 0.063) 0px 1px 4px inset; border-color: rgba(215, 191, 136, 0.557);}
+#characterDialog .filter-toggle{background: linear-gradient(135deg,#c5ddf710,transparent),rgb(var(--panel-rgb)/.34);}
+#characterDialog .realm-nav{border-color: rgba(181, 198, 219, 0.15);}
+#characterDialog .realm-button{font-family: var(--display-font); letter-spacing: 0.04em;}
+#characterDialog .realm-button[aria-pressed="true"]{text-shadow: rgba(212, 181, 113, 0.145) 0px 0px 12px;}
+#characterDialog .realm-button[aria-pressed="true"]::after{background: linear-gradient(90deg,transparent,var(--gold) 15%,var(--gold) 85%,transparent);}
+#characterDialog .element-button[aria-pressed="true"]{background: linear-gradient(125deg, rgba(237, 212, 159, 0.13), rgba(174, 139, 77, 0.082)); border-color: rgba(221, 194, 139, 0.39); box-shadow: rgba(247, 232, 193, 0.1) 0px 1px inset;}
+#characterDialog .advanced-filters{border-color: rgba(197, 216, 237, 0.15);}
+#characterDialog .results-meta{letter-spacing: 0.025em;}
+#characterDialog .results-range{color: var(--dim);}
+#characterDialog .character-grid{gap: 26px 20px; overflow: visible; isolation: isolate; padding-top: 16px;}
+#characterDialog .character-card{--tilt-x: 0deg; --tilt-y: 0deg; --shine-x: 0px; --shine-y: 0px; --shine-angle: 0deg; --light-x: 0px; --light-y: 0px; --shadow-x: 0px; position: relative; padding: 2px; border: 0px; border-radius: 14px; overflow: hidden; background: var(--metal); transform-style: preserve-3d; transform: none; box-shadow: 0 0 0 1px rgba(245,214,141,.25),0 12px 28px rgba(2,8,24,.5),0 0 16px var(--element-glow); transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s; margin-top: 14px;}
+#characterDialog .character-card[data-rarity="5"]{box-shadow: rgba(245, 214, 141, 0.45) 0px 0px 0px 1px, rgba(2, 8, 24, 0.55) 0px 14px 30px, rgba(245, 214, 141, 0.25) 0px 0px 20px;}
+#characterDialog .character-card[data-rarity="4"]{box-shadow: rgba(195, 160, 245, 0.4) 0px 0px 0px 1px, rgba(2, 8, 24, 0.55) 0px 14px 30px, rgba(180, 130, 240, 0.2) 0px 0px 20px;}
+#characterDialog .character-card::before{content: ""; position: absolute; left: 5%; right: 5%; top: 77%; height: 38%; z-index: -1; pointer-events: none; background: radial-gradient(rgba(231, 191, 113, 0.4), rgba(115, 214, 220, 0.125) 38%, transparent 70%); opacity: 0; transform: translate3d(var(--shadow-x),25px,-40px) rotateX(66deg) scale(1.17); transition: opacity 0.28s; filter: blur(9px);}
+#characterDialog .character-open{position: relative; border-radius: 12px; overflow: hidden; background: none; transform-style: preserve-3d; display: block; width: 100%; text-align: left; padding: 0px; outline-offset: -4px !important;}
+#characterDialog .card-underlay{position: absolute; inset: 0px; border-radius: 12px; background: linear-gradient(135deg,#ffffff14,transparent 42%),var(--card-face); pointer-events: none; z-index: 0;}
+#characterDialog .character-art-stage{position: relative; aspect-ratio: 1 / 1.12; border-radius: 12px 12px 0px 0px; overflow: hidden; isolation: isolate; background: radial-gradient(ellipse at 50% 57%,var(--element-glow),transparent 80%),linear-gradient(145deg,#c9e3ff10,transparent 70%),var(--card-face); transform-style: preserve-3d;}
+#characterDialog .character-art-stage::before{position: absolute; content: ""; inset: 9% 8% 0px; border: 1px solid rgba(230, 204, 139, 0.26); border-radius: 45% 45% 0px 0px; box-shadow: rgba(217, 193, 137, 0.03) 0px 0px 0px 5px inset; background: linear-gradient(rgba(255, 255, 255, 0.05), transparent); z-index: -1;}
+#characterDialog .character-art-stage::after{position: absolute; content: ""; inset: 62% 0px 0px; background: linear-gradient(0deg,var(--card-face),transparent); z-index: 2; pointer-events: none;}
+#characterDialog .card-sigil{position: absolute; left: 12%; top: 13%; width: 76%; height: 70%; display: grid; place-items: center; opacity: 0.15; pointer-events: none; transform: rotate(-12deg); z-index: 0;}
+#characterDialog .card-sigil img{width: 80%; height: 80%; object-fit: contain;}
+#characterDialog .card-sigil .icon{width: 70%; height: 70%; color: rgb(228, 195, 131);}
+#characterDialog .character-art{position: absolute; inset: 0px; width: 100%; height: 100%; max-width: none; object-fit: contain; object-position: center bottom; transform: translate3d(0px, 0px, 0px) scale(1); transform-origin: center bottom; pointer-events: none; z-index: 3; filter: drop-shadow(0 10px 10px rgba(2,8,24,.6)) drop-shadow(0 0 12px var(--element-glow)); transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), filter 0.35s;}
+#characterDialog .card-info{position: relative; z-index: 5; padding: 11px 14px 14px; color: var(--card-ink); background: linear-gradient(rgba(18, 31, 52, 0.8) 0%, rgba(12, 22, 38, 0.98) 100%); border-radius: 0px 0px 12px 12px; backdrop-filter: blur(10px); box-shadow: rgba(255, 255, 255, 0.1) 0px 1px inset;}
+#characterDialog .card-name-line{display: flex; justify-content: space-between; align-items: center; gap: 4px;}
+#characterDialog .card-name-line h3{font-family: var(--display-font); font-weight: 700; font-size: 16px; letter-spacing: 0.04em; color: rgb(253, 246, 230); text-shadow: rgba(0, 0, 0, 0.8) 0px 1px 3px, rgba(245, 214, 141, 0.25) 0px 0px 10px; margin: 0px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+#characterDialog .card-rarity{color: rgb(239, 207, 131); font-size: 9.5px; letter-spacing: 1px; text-shadow: rgba(242, 206, 97, 0.376) 0px 0px 8px; white-space: nowrap;}
+#characterDialog .character-card[data-rarity="4"] .card-rarity{color: rgb(215, 191, 244); text-shadow: rgba(199, 160, 227, 0.376) 0px 0px 8px;}
+#characterDialog .card-epithet{color: rgb(169, 191, 214); font-family: var(--display-font); letter-spacing: 0.03em; font-size: 11px; margin: 4px 0px 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+#characterDialog .card-footer{display: flex; align-items: center; justify-content: space-between; color: var(--card-muted); font-size: 10px; border-top: 1px solid rgba(219, 197, 143, 0.16); padding-top: 10px;}
+#characterDialog .card-element{display: flex; align-items: center; gap: 5px;}
+#characterDialog .card-element img{width: 15px; height: 15px;}
+#characterDialog .card-quote-count{display: flex; align-items: center; gap: 4px; font-variant-numeric: tabular-nums;}
+#characterDialog .card-quote-count .icon{color: var(--gold); width: 13px; height: 13px;}
+#characterDialog .card-frame{position: absolute; inset: 4px; border: 1.5px solid rgba(228, 199, 135, 0.45); border-radius: 10px; pointer-events: none; z-index: 4; box-shadow: rgba(228, 199, 135, 0.1) 0px 0px 10px inset, rgba(0, 0, 0, 0.4) 0px 0px 14px; transition: 0.25s;}
+#characterDialog .card-frame::before{content: ""; position: absolute; width: 5px; height: 5px; left: calc(50% - 3px); background: rgb(217, 189, 128); transform: rotate(45deg); box-shadow: 0 0 0 3px var(--card-face);}
+#characterDialog .card-frame::after{content: ""; position: absolute; width: 5px; height: 5px; left: calc(50% - 3px); background: rgb(217, 189, 128); transform: rotate(45deg); box-shadow: 0 0 0 3px var(--card-face);}
+#characterDialog .card-frame::before{top: -3px;}
+#characterDialog .card-frame::after{bottom: -3px;}
+#characterDialog .card-hologram{position: absolute; inset: 0px; overflow: hidden; border-radius: 12px; z-index: 4; pointer-events: none; opacity: 0.42; mix-blend-mode: color-dodge; transition: opacity 0.35s;}
+#characterDialog .card-spectrum{position: absolute; inset: -65%; background: repeating-linear-gradient(125deg, transparent 0%, rgba(255, 120, 200, 0.28) 7%, rgba(110, 225, 255, 0.38) 14%, rgba(255, 240, 140, 0.48) 21%, rgba(130, 255, 190, 0.38) 28%, rgba(210, 150, 255, 0.32) 35%, transparent 44%) 0% 0% / 200% 200%; animation: 8s ease-in-out 0s infinite alternate none running holo-drift; transform: translate3d(var(--shine-x,0px),var(--shine-y,0px),0) rotate(var(--shine-angle,0deg)); opacity: 0.85;}
+#characterDialog .card-gloss{position: absolute; inset: -20%; background: radial-gradient(circle at var(--light-x,50%) var(--light-y,30%),rgba(255,255,255,.7) 0%,rgba(255,235,180,.3) 25%,rgba(130,210,255,.15) 50%,transparent 70%); opacity: 0.35; transform: translate3d(var(--light-x,0px),var(--light-y,0px),0); animation: 6s ease-in-out 0s infinite alternate none running gloss-pulse;}
+#characterDialog .card-open-hint{left: 50%; right: auto; bottom: 11%; width: auto; height: auto; padding: 7px 11px; gap: 6px; border: 1px solid rgba(223, 198, 144, 0.57); border-radius: 5px; background: rgba(20, 37, 61, 0.92); color: rgb(242, 221, 182); transform: translateX(-50%) translateY(5px); font-family: var(--display-font); font-size: 11px; letter-spacing: 0.13em; z-index: 6; white-space: nowrap; box-shadow: rgba(4, 16, 36, 0.19) 0px 3px 14px; transition: opacity 0.2s, transform 0.2s;}
+#characterDialog .card-favorite-dot{position: absolute; right: 10px; top: 10px; width: 26px; height: 26px; display: grid; place-items: center; background: rgba(23, 42, 64, 0.933); border: 1px solid rgba(216, 185, 119, 0.68); color: rgb(245, 215, 153); z-index: 7; border-radius: 50%; pointer-events: none; transform: translateZ(35px);}
+#characterDialog .character-card.is-tilting{z-index: 12; will-change: transform; animation: auto ease 0s 1 normal none running none; transform: perspective(1100px) translate3d(0,-8px,14px) rotateX(var(--tilt-x,2deg)) rotateY(var(--tilt-y,-2deg)); box-shadow: var(--shadow-x,0px) 26px 36px #02081780,0 0 28px var(--element-glow),0 0 0 1px rgba(255,240,190,.5); transition: transform 0.09s linear, box-shadow 0.2s; overflow: visible !important;}
+#characterDialog .character-card:hover{z-index: 12; will-change: transform; animation: auto ease 0s 1 normal none running none; transform: perspective(1100px) translate3d(0,-8px,14px) rotateX(var(--tilt-x,2deg)) rotateY(var(--tilt-y,-2deg)); box-shadow: var(--shadow-x,0px) 26px 36px #02081780,0 0 28px var(--element-glow),0 0 0 1px rgba(255,240,190,.5); transition: transform 0.09s linear, box-shadow 0.2s; overflow: visible !important;}
+#characterDialog .character-card.is-tilting .character-open{overflow: visible !important;}
+#characterDialog .character-card:hover .character-open{overflow: visible !important;}
+#characterDialog .character-card.is-tilting .character-art-stage{overflow: visible !important;}
+#characterDialog .character-card:hover .character-art-stage{overflow: visible !important;}
+#characterDialog .character-card.is-tilting::before{opacity: 0.9;}
+#characterDialog .character-card:hover::before{opacity: 0.9;}
+#characterDialog .character-card.is-tilting .character-art{transform: translate3d(0px, -12px, 46px) scale(1.08); transform-origin: center bottom; filter: drop-shadow(calc(var(--tilt-y, 0deg) * -1.2) calc(var(--tilt-x, 0deg) * 1.2 + 16px) 16px rgba(2,8,24,.85)) drop-shadow(0 0 24px var(--element-glow)); z-index: 6;}
+#characterDialog .character-card:hover .character-art{transform: translate3d(0px, -12px, 46px) scale(1.08); transform-origin: center bottom; filter: drop-shadow(calc(var(--tilt-y, 0deg) * -1.2) calc(var(--tilt-x, 0deg) * 1.2 + 16px) 16px rgba(2,8,24,.85)) drop-shadow(0 0 24px var(--element-glow)); z-index: 6;}
+#characterDialog .character-card.is-tilting .card-info{transform: translateZ(8px);}
+#characterDialog .character-card:hover .card-info{transform: translateZ(8px);}
+#characterDialog .character-card.is-tilting .card-frame{transform: translateZ(18px); border-color: rgb(255, 240, 190); box-shadow: rgba(255, 240, 190, 0.3) 0px 0px 14px inset, rgba(245, 214, 141, 0.4) 0px 0px 22px;}
+#characterDialog .character-card:hover .card-frame{transform: translateZ(18px); border-color: rgb(255, 240, 190); box-shadow: rgba(255, 240, 190, 0.3) 0px 0px 14px inset, rgba(245, 214, 141, 0.4) 0px 0px 22px;}
+#characterDialog .character-card.is-tilting .card-hologram{transform: translateZ(12px); opacity: 0.92;}
+#characterDialog .character-card:hover .card-hologram{transform: translateZ(12px); opacity: 0.92;}
+#characterDialog .character-card.is-tilting .card-gloss{opacity: 0.85;}
+#characterDialog .character-card:hover .card-gloss{opacity: 0.85;}
+#characterDialog .character-card.is-tilting .card-open-hint{opacity: 1; transform: translateX(-50%) translateY(0px);}
+#characterDialog .character-card:hover .card-open-hint{opacity: 1; transform: translateX(-50%) translateY(0px);}
+#characterDialog .character-open:focus-visible{outline: rgb(255, 240, 190) solid 2px; outline-offset: 6px !important;}
+#characterDialog .character-card:focus-within .card-frame{border-color: var(--gold);}
+#characterDialog .character-card:focus-within .card-hologram{opacity: 0.3;}
+#characterDialog .character-card:focus-within .card-open-hint{opacity: 1;}
+@media (hover: hover){
+#characterDialog .character-card:hover:not(.is-tilting){transform: perspective(1100px) translate3d(0px, -6px, 12px) rotateX(2deg) rotateY(-2deg);}
+#characterDialog .character-card:hover .card-open-hint{opacity: 1;}
+}
+#characterDialog .page-button{background: rgb(var(--panel-rgb)/.5); border-color: rgba(213, 193, 143, 0.27); box-shadow: rgba(244, 229, 191, 0.047) 0px 1px inset;}
+#characterDialog .page-button[aria-current="page"]{background: linear-gradient(135deg, rgb(233, 210, 161), rgb(194, 165, 108)); color: rgb(32, 46, 67); border-color: rgb(238, 221, 183);}
+#characterDialog .site-footer{border-color: rgba(185, 204, 224, 0.18);}
+#characterDialog .site-footer > span{font-family: var(--display-font); color: var(--gold); letter-spacing: 0.25em;}
+#characterDialog.character-dialog{background: linear-gradient(135deg,#d6e6fd0b,transparent 55%),rgb(var(--panel-rgb)/.78); border-color: rgba(220, 200, 147, 0.44); box-shadow: rgba(2, 9, 24, 0.565) 0px 30px 110px, rgba(252, 235, 192, 0.192) 0px 1px inset;}
+#characterDialog.character-dialog{backdrop-filter: blur(16px);}
+body.dialog-open #characterDialog .site-header{backdrop-filter: none;}
+body.dialog-open #characterDialog .archive-controls{backdrop-filter: none;}
+#characterDialog .detail-profile{background: linear-gradient(0deg,rgb(var(--panel-rgb)/.72) 14%,transparent),radial-gradient(ellipse at 50% 30%,var(--element-glow),transparent 80%);}
+#characterDialog .detail-dossier h2{font-family: var(--display-font); font-weight: 650; color: var(--gold);}
+#characterDialog .detail-title{font-family: var(--display-font);}
+#characterDialog .detail-topbar h3{font-family: var(--display-font);}
+#characterDialog .detail-tab{font-family: var(--display-font);}
+#characterDialog .quote-heading h4{font-family: var(--display-font);}
+#characterDialog .detail-art{mask-image: linear-gradient(rgb(0, 0, 0) 78%, transparent);}
+#characterDialog .detail-art::after{display: none;}
+#characterDialog .detail-content{background: rgb(var(--panel-rgb)/.24);}
+#characterDialog .detail-download{background: rgb(var(--panel-rgb)/.48); border-color: rgba(210, 197, 155, 0.25); box-shadow: rgba(247, 232, 199, 0.043) 0px 1px inset;}
+#characterDialog .detail-search{background: rgb(var(--panel-rgb)/.48); border-color: rgba(210, 197, 155, 0.25); box-shadow: rgba(247, 232, 199, 0.043) 0px 1px inset;}
+#characterDialog .detail-topbar{border-color: rgba(229, 214, 179, 0.137);}
+#characterDialog .detail-dossier .detail-lore{color: var(--muted);}
+#characterDialog .detail-voices dd{color: var(--muted);}
+#characterDialog .dialog-close{background: rgb(var(--panel-rgb)/.96); border-color: rgba(217, 193, 140, 0.333);}
+#characterDialog .audio-player{background: rgb(var(--panel-rgb)/.96); border-color: rgba(217, 193, 140, 0.333);}
+#characterDialog .quote-read{background: linear-gradient(135deg, rgba(228, 202, 142, 0.133), rgba(149, 190, 212, 0.086)); border: 1px solid rgba(221, 195, 141, 0.28);}
+#characterDialog .quote-action.favorited{background: rgba(215, 183, 109, 0.133);}
+#characterDialog .voice-index-list{background: linear-gradient(135deg,#d7e8ff0a,transparent),rgb(var(--panel-rgb)/.46); border-color: rgba(213, 195, 153, 0.24); box-shadow: rgba(255, 255, 255, 0.06) 0px 1px inset;}
+#characterDialog .index-notice{background: linear-gradient(135deg,#d7e8ff0a,transparent),rgb(var(--panel-rgb)/.46); border-color: rgba(213, 195, 153, 0.24); box-shadow: rgba(255, 255, 255, 0.06) 0px 1px inset;}
+#characterDialog .index-voice{border-color: rgba(211, 193, 151, 0.15);}
+html[data-theme="light"] #characterDialog .character-card{box-shadow: rgba(141, 120, 80, 0.13) 0px 4px 8px, rgba(99, 124, 151, 0.145) 0px 15px 30px;}
+html[data-theme="light"] #characterDialog .character-card.is-tilting{box-shadow: var(--shadow-x) 26px 32px #65799640,0 0 22px #cda95729;}
+html[data-theme="light"] #characterDialog .card-rarity{color: rgb(148, 110, 40); text-shadow: none;}
+html[data-theme="light"] #characterDialog .character-card[data-rarity="4"] .card-rarity{color: rgb(135, 103, 169); text-shadow: none;}
+html[data-theme="light"] #characterDialog .card-hologram{mix-blend-mode: multiply;}
+html[data-theme="light"] #characterDialog .card-frame{border-color: rgba(193, 163, 101, 0.48);}
+html[data-theme="light"] #characterDialog .archive-controls{border-color: rgba(157, 175, 169, 0.3); box-shadow: rgba(255, 255, 255, 0.6) 0px 1px inset, rgba(80, 106, 124, 0.047) 0px 10px 40px;}
+html[data-theme="light"] #characterDialog .site-header{border-color: rgba(157, 175, 169, 0.3); box-shadow: rgba(255, 255, 255, 0.6) 0px 1px inset, rgba(80, 106, 124, 0.047) 0px 10px 40px;}
+html[data-theme="light"] #characterDialog .search-field{border-color: rgba(145, 164, 179, 0.333);}
+html[data-theme="light"] #characterDialog .sort-field select{border-color: rgba(145, 164, 179, 0.333);}
+html[data-theme="light"] #characterDialog .advanced-filters select{border-color: rgba(145, 164, 179, 0.333);}
+@media (prefers-reduced-motion: no-preference){
+#characterDialog .character-card.is-revealing{animation: card-arrival .4s cubic-bezier(.2,.7,.2,1) var(--arrival-delay,0ms) backwards;}
+#characterDialog .hero-eyebrow{animation: 0.55s ease-out 0s 1 normal both running chapter-arrival;}
+#characterDialog .hero h1{animation: 0.55s ease-out 0s 1 normal both running chapter-arrival;}
+#characterDialog .hero-description{animation: 0.55s ease-out 0s 1 normal both running chapter-arrival;}
+#characterDialog .hero-actions{animation: 0.55s ease-out 0s 1 normal both running chapter-arrival;}
+#characterDialog .hero h1{animation-delay: 0.05s;}
+#characterDialog .hero-description{animation-delay: 0.1s;}
+#characterDialog .hero-actions{animation-delay: 0.15s;}
+#characterDialog.character-dialog[open]{animation: dialog-unseal var(--motion-reveal) var(--motion-settle);}
+}
+@media (max-width: 1279px){
+#characterDialog .character-grid{gap: 20px;}
+#characterDialog .card-info{padding-left: 14px; padding-right: 14px;}
+#characterDialog .card-name-line h3{font-size: 16px;}
+}
+@media (max-width: 1023px){
+#characterDialog .hero-astrolabe{right: -2%; top: -13%; width: 390px;}
+#characterDialog .card-info{padding-left: 12px; padding-right: 12px;}
+#characterDialog .card-rarity{font-size: 8px; letter-spacing: 0.6px;}
+#characterDialog .card-quote-count{font-size: 9px;}
+}
+@media (max-width: 767px){
+#characterDialog .site-header{backdrop-filter: none;}
+#characterDialog .archive-controls{backdrop-filter: none;}
+#characterDialog.character-dialog{backdrop-filter: none;}
+#characterDialog .site-header{background: rgb(var(--panel-rgb)/.48);}
+#characterDialog .archive-controls{background: linear-gradient(135deg,#e4f3ff10,transparent),rgb(var(--panel-rgb)/.48);}
+#characterDialog .character-grid{gap: 16px;}
+#characterDialog .character-card{padding: 1.5px; border-radius: 12px;}
+#characterDialog .character-open{border-radius: 10px;}
+#characterDialog .card-underlay{border-radius: 10px;}
+#characterDialog .card-hologram{border-radius: 10px;}
+#characterDialog .character-art-stage{border-radius: 10px 10px 0px 0px;}
+#characterDialog .card-info{border-radius: 0px 0px 10px 10px;}
+#characterDialog .card-frame{inset: 4px; border-radius: 7px;}
+#characterDialog .card-open-hint{display: none;}
+#characterDialog .character-card::before{display: none;}
+}
+@media (max-width: 640px){
+#characterDialog .hero h1{font-size: 26px; letter-spacing: 0.07em;}
+#characterDialog .hero-eyebrow{font-size: 10px; letter-spacing: 2px;}
+#characterDialog .hero-astrolabe{width: 295px; right: -31%; top: 9%; opacity: 0.42;}
+#characterDialog .hero::after{inset: 6px; border-radius: 7px;}
+#characterDialog .hero .button-gold{min-height: 32px;}
+#characterDialog .archive-heading h2{font-size: 20px; letter-spacing: 0.08em;}
+#characterDialog .archive-heading h2::before{width: 6px; height: 6px; box-shadow: rgba(216, 188, 121, 0.094) 0px 0px 0px 3px;}
+#characterDialog .character-grid{gap: 15px;}
+#characterDialog .character-art-stage::before{inset: 9% 9% 4%;}
+#characterDialog .card-info{padding: 10px 12px 13px;}
+#characterDialog .card-name-line h3{font-size: 16px; letter-spacing: 0.05em;}
+#characterDialog .card-rarity{font-size: 8px; letter-spacing: 0.4px;}
+#characterDialog .card-epithet{font-size: 11px; letter-spacing: 0.02em; margin: 4px 0px 10px;}
+#characterDialog .card-footer{font-size: 9px; padding-top: 9px; gap: 3px;}
+#characterDialog .card-quote-count{font-size: 9px;}
+#characterDialog .card-element{gap: 3px;}
+#characterDialog .card-element img{width: 13px; height: 13px;}
+#characterDialog .character-open:active{transform: scale(0.98);}
+#characterDialog.character-dialog{background: rgb(var(--panel-rgb)/.96);}
+#characterDialog .detail-profile{background: radial-gradient(ellipse at 20% 70%,var(--element-glow),transparent),rgb(var(--panel-rgb)/.8);}
+#characterDialog .detail-tabs{background: rgb(var(--panel-rgb)/.98);}
+}
+@media (max-width: 374px){
+#characterDialog .hero h1{font-size: 24px;}
+#characterDialog .card-info{padding-left: 9px; padding-right: 9px;}
+#characterDialog .card-name-line h3{font-size: 14px;}
+#characterDialog .card-rarity{font-size: 7px; letter-spacing: 0px;}
+#characterDialog .card-footer{font-size: 8px;}
+#characterDialog .card-quote-count{font-size: 8px;}
+#characterDialog .card-epithet{font-size: 10px;}
+}
+#characterDialog .character-card.is-tilting{transform-style: preserve-3d;}
+#characterDialog .character-card.is-tilting .character-open{transform-style: preserve-3d;}
+#characterDialog .character-card.is-tilting .character-art-stage{transform: translateZ(13px);}
+#characterDialog .character-card.is-tilting .card-info{transform: translateZ(24px);}
+#characterDialog .character-card.is-tilting .card-frame{transform: translateZ(29px);}
+#characterDialog .character-card.is-tilting .card-hologram{transform: translateZ(26px);}
+#characterDialog .hero .has-arrived{animation: auto ease 0s 1 normal none running none; transform: none;}
+#characterDialog .header-actions{display: flex; align-items: center; gap: 9px; flex-shrink: 0;}
+#characterDialog .effects-toggle{width: 38px; height: 38px; border: 1px solid rgba(217, 192, 139, 0.333); background: rgb(var(--panel-rgb)/.28); color: var(--gold); box-shadow: rgba(255, 255, 255, 0.067) 0px 1px inset;}
+#characterDialog .effects-toggle .icon{width: 18px; height: 18px;}
+#characterDialog .effects-toggle[aria-pressed="false"]{color: var(--dim); border-color: var(--line);}
+#characterDialog .effects-toggle[aria-pressed="true"] .icon{filter: drop-shadow(rgba(230, 207, 154, 0.27) 0px 0px 4px);}
+#characterDialog .ambient-particles{position: fixed; inset: 0px; width: 100%; height: 100%; z-index: -1; pointer-events: none; contain: strict;}
+#characterDialog .feedback-host{position: relative;}
+#characterDialog .control-flare{position: absolute; inset: 0px; overflow: hidden; border-radius: inherit; pointer-events: none; z-index: 9; contain: strict;}
+#characterDialog .press-ring{position: absolute; border-radius: 50%; border: 1px solid rgba(238, 215, 168, 0.65); background: radial-gradient(circle, rgba(232, 217, 166, 0.27), transparent 66%); box-shadow: rgba(163, 228, 239, 0.26) 0px 0px 15px inset; pointer-events: none; opacity: 0;}
+#characterDialog .press-ring::before{content: ""; position: absolute; inset: calc(50% - 0.5px) 35%; background: rgba(243, 226, 184, 0.7);}
+#characterDialog .press-ring::after{content: ""; position: absolute; inset: calc(50% - 0.5px) 35%; background: rgba(243, 226, 184, 0.7);}
+#characterDialog .press-ring::after{transform: rotate(90deg);}
+html[data-theme="light"] #characterDialog .press-ring{border-color: rgba(153, 115, 56, 0.62); background: radial-gradient(circle, rgba(194, 163, 103, 0.27), transparent 66%); box-shadow: rgba(99, 157, 171, 0.28) 0px 0px 15px inset;}
+@media (max-width: 767px){
+#characterDialog .header-actions{gap: 8px;}
+#characterDialog .effects-toggle{width: 33px; height: 33px;}
+}
+@media (prefers-reduced-transparency: reduce){
+#characterDialog .site-header{background: var(--surface); backdrop-filter: none;}
+#characterDialog .archive-controls{background: var(--surface); backdrop-filter: none;}
+#characterDialog.character-dialog{background: var(--surface); backdrop-filter: none;}
+#characterDialog .card-hologram{display: none;}
+}
+@supports not (backdrop-filter:blur(1px)){
+@supports not (-webkit-backdrop-filter:blur(1px)){
+#characterDialog .site-header{background: rgb(var(--panel-rgb)/.94);}
+#characterDialog .archive-controls{background: rgb(var(--panel-rgb)/.94);}
+}
+}
+@media (prefers-reduced-motion: reduce){
+#characterDialog .character-card{transform: none !important; will-change: auto !important;}
+#characterDialog .character-card:hover{transform: none !important; will-change: auto !important;}
+#characterDialog .character-card.is-tilting{transform: none !important; will-change: auto !important;}
+#characterDialog .character-art{transform: none !important;}
+#characterDialog .character-open:active{transform: none !important;}
+#characterDialog .button:active{transform: none !important;}
+#characterDialog .icon-button:active{transform: none !important;}
+#characterDialog .card-spectrum{transform: none !important; will-change: auto !important;}
+#characterDialog .card-gloss{transform: none !important; will-change: auto !important;}
+#characterDialog .card-gloss{display: none;}
+}
+@media (prefers-reduced-motion: reduce){
+#characterDialog, #characterDialog *{animation: auto ease 0s 1 normal none running none !important; transition: none !important;}
+#characterDialog ::before{animation: auto ease 0s 1 normal none running none !important; transition: none !important;}
+#characterDialog ::after{animation: auto ease 0s 1 normal none running none !important; transition: none !important;}
+}
+#characterDialog{--world-poster: var(--scene-desktop); --world-shade: linear-gradient(120deg,#07152c63,#102c3f33 50%,#0c163b70);}
+html[data-theme="light"] #characterDialog{--world-shade: linear-gradient(120deg,#edf5ffb3,#e8f2ff85 50%,#f3effbc2);}
+@media (orientation: portrait){
+#characterDialog{--world-poster: var(--scene-mobile);}
+}
+#characterDialog{--panel-rgb: 15 25 49; --gold: #f1d8a3; --card-face: #14213b; --muted: #c0cce3; --dim: #a5b3cf;}
+html[data-theme="light"] #characterDialog{--panel-rgb: 241 246 255; --gold: #795222; --card-face: #e8eef8; --muted: #445a77; --dim: #506685;}
+#characterDialog .world-scene{position: fixed; inset: 0px; z-index: -2; pointer-events: none; overflow: hidden; contain: strict;}
+#characterDialog .world-scene::after{content: ""; position: absolute; inset: 0px; background: var(--world-shade); opacity: 0; transition: opacity 0.7s;}
+#characterDialog .world-scene.is-ready::after{opacity: 1;}
+#characterDialog .world-video{display: block; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity 0.7s;}
+#characterDialog .world-scene.is-ready .world-video{opacity: 1;}
+html[data-theme="light"] #characterDialog .world-scene::after{background: var(--world-shade);}
+#characterDialog .site-header{background: rgb(var(--panel-rgb)/.24);}
+#characterDialog .archive-controls{background: linear-gradient(115deg,#a5d3ff0c,#be9cff09),rgb(var(--panel-rgb)/.26);}
+#characterDialog .hero{background: rgb(var(--panel-rgb)/.12);}
+#characterDialog .hero-scenery{opacity: 0;}
+#characterDialog .hero-shade{background: linear-gradient(90deg, rgba(11, 25, 59, 0.79), rgba(17, 37, 65, 0.42) 55%, rgba(17, 37, 65, 0.04));}
+#characterDialog .hero h1{color: rgb(255, 240, 201); text-shadow: rgba(7, 17, 43, 0.5) 0px 3px 15px;}
+#characterDialog .hero-astrolabe{z-index: 0; opacity: 0.35;}
+#characterDialog .hero-character{filter: drop-shadow(rgba(3, 10, 43, 0.41) 9px 20px 12px); pointer-events: auto; cursor: pointer; transition: opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1), transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), filter 0.25s; transform: scale(var(--char-scale, 1)); transform-origin: center bottom;}
+#characterDialog .hero-character.switching{opacity: 0; transform: scale(calc(var(--char-scale, 1) * .96)) translateY(12px);}
+#characterDialog .hero-character:hover{filter: drop-shadow(rgba(245, 214, 141, 0.5) 0px 0px 22px) drop-shadow(rgba(3, 10, 43, 0.41) 9px 20px 14px); transform: scale(calc(var(--char-scale, 1) * 1.02));}
+#characterDialog .hero-float-arrow{position: absolute; top: 50%; transform: translateY(-50%); z-index: 10; width: 38px; height: 38px; border-radius: 50%; border: 1px solid rgba(228, 199, 135, 0.35); background: rgba(14, 25, 42, 0.65); backdrop-filter: blur(8px); color: rgb(241, 223, 186); display: flex; align-items: center; justify-content: center; cursor: pointer; opacity: 0.78; transition: 0.22s; box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 14px;}
+#characterDialog .hero-float-arrow:hover{opacity: 1; background: rgba(24, 42, 68, 0.9); border-color: rgb(245, 214, 141); color: rgb(255, 246, 216); transform: translateY(-50%) scale(1.08); box-shadow: rgba(245, 214, 141, 0.4) 0px 0px 16px;}
+#characterDialog .hero-float-arrow:active{transform: translateY(-50%) scale(0.95);}
+#characterDialog .hero-float-prev{left: 14px;}
+#characterDialog .hero-float-next{right: 14px;}
+#characterDialog .hero-float-arrow .icon{width: 20px; height: 20px;}
+#characterDialog .hero-character-caption{position: absolute; right: 3%; bottom: 24px; display: flex; flex-direction: column; align-items: flex-end; gap: 5px; color: rgb(245, 243, 231); z-index: 10; pointer-events: auto;}
+#characterDialog .hero-caption-meta{display: flex; flex-direction: column; align-items: flex-end; gap: 2px; cursor: pointer; transition: transform 0.2s;}
+#characterDialog .hero-caption-meta:hover strong{color: rgb(255, 230, 163); text-shadow: rgba(245, 214, 141, 0.6) 0px 0px 12px;}
+#characterDialog .hero-caption-divider{width: 32px; height: 1px; background: rgb(230, 209, 165); margin: 4px 0px;}
+#characterDialog .hero-switcher-dock{display: inline-flex; align-items: center; gap: 5px; margin-top: 4px; padding: 4px 7px; border-radius: 20px; background: rgba(14, 25, 42, 0.72); border: 1px solid rgba(228, 199, 135, 0.35); box-shadow: rgba(0, 0, 0, 0.35) 0px 6px 18px, rgba(248, 229, 180, 0.08) 0px 0px 0px 1px inset; backdrop-filter: blur(10px);}
+#characterDialog .hero-dock-btn{width: 28px; height: 28px; border-radius: 50%; border: 1px solid rgba(228, 199, 135, 0.25); background: rgba(255, 255, 255, 0.06); color: rgb(238, 221, 183); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; padding: 0px; transition: 0.2s;}
+#characterDialog .hero-dock-btn:hover{background: rgba(245, 214, 141, 0.22); border-color: rgb(245, 214, 141); color: rgb(255, 255, 255); transform: scale(1.08); box-shadow: rgba(245, 214, 141, 0.3) 0px 0px 10px;}
+#characterDialog .hero-dock-btn .icon{width: 14px; height: 14px;}
+#characterDialog .hero-dock-select-wrap{position: relative; display: inline-flex; align-items: center; gap: 4px; height: 28px; padding: 0px 22px 0px 10px; border-radius: 14px; background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(228, 199, 135, 0.3); color: rgb(250, 235, 210); font-size: 11px; letter-spacing: 0.5px; cursor: pointer; transition: 0.2s;}
+#characterDialog .hero-dock-select-wrap:hover{border-color: rgb(245, 214, 141); background: rgba(255, 255, 255, 0.15); box-shadow: rgba(245, 214, 141, 0.25) 0px 0px 10px;}
+#characterDialog .hero-dock-label{max-width: 80px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+#characterDialog .hero-dock-select-wrap .icon{position: absolute; right: 7px; width: 11px; height: 11px; pointer-events: none; color: rgb(228, 199, 135);}
+#characterDialog .hero-dock-select{position: absolute; inset: 0px; width: 100%; height: 100%; opacity: 0; cursor: pointer; font-size: 14px;}
+#characterDialog .hero-dock-select option{background: rgb(20, 35, 54); color: rgb(250, 235, 210);}
+#characterDialog .hero-dock-select optgroup{background: rgb(20, 35, 54); color: rgb(250, 235, 210);}
+#characterDialog .hero-listen-btn{color: rgb(255, 238, 201) !important; border: 1px solid rgba(245, 214, 141, 0.5) !important; background: rgba(55, 42, 22, 0.8) !important; border-radius: 18px !important; box-shadow: rgba(3, 10, 28, 0.42) 0px 3px 14px, rgba(255, 255, 255, 0.18) 0px 1px 0px inset !important; backdrop-filter: blur(14px) !important; transition: 0.2s !important;}
+#characterDialog .hero-listen-btn:hover{background: rgba(75, 58, 30, 0.92) !important; border-color: rgb(245, 214, 141) !important; box-shadow: rgba(245, 214, 141, 0.35) 0px 4px 18px, rgba(255, 255, 255, 0.3) 0px 1px 0px inset !important; color: rgb(255, 255, 255) !important; transform: translateY(-1px) !important;}
+@media (max-width: 1023px){
+#characterDialog .hero{height: 340px;}
+#characterDialog .hero-copy{width: 60%; padding: 28px 20px;}
+#characterDialog .hero-character{height: 102%; width: auto; max-width: none; right: var(--char-right,-40px); bottom: 0px; object-fit: contain; object-position: center bottom;}
+#characterDialog .hero-character-caption{right: 14px; bottom: 12px; align-items: flex-end; z-index: 5; display: flex !important;}
+#characterDialog .hero-caption-meta{display: none !important;}
+#characterDialog .hero-float-arrow{width: 32px; height: 32px;}
+}
+@media (max-width: 767px){
+#characterDialog .hero{height: 336px !important; border-radius: 14px !important;}
+#characterDialog .hero-copy{width: 60% !important; padding: 22px 10px 18px 16px !important; display: flex !important; flex-direction: column !important; justify-content: center !important; z-index: 4 !important;}
+#characterDialog .hero-eyebrow{font-family: var(--display-font) !important; font-size: 11px !important; letter-spacing: 2px !important; margin-bottom: 7px !important; display: flex !important; align-items: center !important; gap: 6px !important; color: rgb(243, 223, 183) !important; text-shadow: rgba(243, 223, 183, 0.6) 0px 0px 12px !important;}
+#characterDialog .hero h1{font-family: var(--display-font) !important; font-size: 23px !important; font-weight: 700 !important; line-height: 1.36 !important; letter-spacing: 2px !important; margin: 0px 0px 7px !important; background: linear-gradient(165deg, rgb(255, 255, 255) 0%, rgb(255, 247, 230) 24%, rgb(248, 222, 176) 55%, rgb(223, 190, 125) 82%, rgb(255, 220, 168) 100%) text !important; -webkit-text-fill-color: transparent !important; filter: drop-shadow(rgba(5, 12, 28, 0.95) 0px 2px 8px) drop-shadow(rgba(245, 214, 141, 0.38) 0px 0px 16px) !important; animation: 4.5s ease-in-out 0s infinite normal none running title-starlight-sweep !important;}
+#characterDialog .hero-description{font-size: 11.5px !important; line-height: 1.6 !important; margin: 0px 0px 10px !important; color: rgb(220, 231, 242) !important; letter-spacing: 0.5px !important; width: auto !important; text-shadow: rgba(0, 0, 0, 0.8) 0px 1px 4px !important;}
+#characterDialog .hero-actions{display: grid !important; grid-template-columns: 1fr 1fr !important; gap: 9px !important; margin-top: 10px !important; width: 100% !important; max-width: 256px !important; z-index: 5 !important;}
+#characterDialog .hero-actions .button{font-family: var(--display-font) !important; white-space: nowrap !important; justify-content: center !important; letter-spacing: 0.05em !important; transition: 0.18s !important;}
+#characterDialog .hero-actions .button:active{transform: scale(0.95) !important;}
+#characterDialog .hero-actions .button-gold{grid-column: 1 / -1 !important; min-height: 38px !important; width: 100% !important; font-size: 12.5px !important; font-weight: 700 !important; letter-spacing: 0.08em !important; border-radius: 22px !important; border: 1px solid rgba(255, 255, 255, 0.55) !important; background-color: rgba(255, 255, 255, 0.07) !important; background-image: radial-gradient(1.2px 1.2px at 15% 25%, rgba(255, 255, 255, 0.95), transparent 100%), radial-gradient(1px 1px at 32% 70%, rgba(165, 235, 255, 0.95), transparent 100%), radial-gradient(1.5px 1.5px at 52% 28%, rgba(255, 245, 190, 0.95), transparent 100%), radial-gradient(1.2px 1.2px at 72% 75%, rgba(255, 195, 245, 0.95), transparent 100%), radial-gradient(1px 1px at 86% 22%, rgba(215, 255, 255, 0.95), transparent 100%), radial-gradient(1.3px 1.3px at 45% 82%, rgba(255, 255, 255, 0.85), transparent 100%), radial-gradient(1px 1px at 22% 78%, rgba(255, 228, 155, 0.8), transparent 100%), linear-gradient(135deg, rgba(255, 255, 255, 0.22) 0%, rgba(245, 225, 175, 0.15) 26%, rgba(170, 230, 255, 0.18) 54%, rgba(255, 185, 235, 0.15) 76%, rgba(255, 240, 200, 0.22) 100%) !important; backdrop-filter: blur(16px) saturate(1.4) !important; color: rgb(255, 253, 247) !important; text-shadow: rgba(0, 0, 0, 0.85) 0px 1px 4px, rgba(255, 235, 175, 0.6) 0px 0px 12px !important; animation: 3.6s ease-in-out 0s infinite normal none running holo-shimmer-pulse !important;}
+#characterDialog .hero-actions .button-quiet{min-height: 34px !important; padding: 0px 8px !important; font-size: 11px !important; border-radius: 18px !important; gap: 5px !important;}
+#characterDialog .hero-actions .hero-listen-btn{min-height: 34px !important; padding: 0px 8px !important; font-size: 11px !important; border-radius: 18px !important; gap: 5px !important;}
+#characterDialog .hero-actions .hero-listen-btn{background: radial-gradient(1px 1px at 25% 30%, rgba(255, 230, 175, 0.85), transparent 100%), radial-gradient(1.2px 1.2px at 70% 65%, rgba(255, 195, 215, 0.85), transparent 100%), radial-gradient(1px 1px at 85% 25%, rgba(255, 255, 255, 0.75), transparent 100%), linear-gradient(135deg, rgba(58, 42, 20, 0.62), rgba(72, 50, 24, 0.52)) !important; border: 1px solid rgba(245, 214, 141, 0.55) !important; color: rgb(255, 238, 201) !important; box-shadow: rgba(2, 8, 24, 0.4) 0px 3px 14px, rgba(245, 214, 141, 0.24) 0px 0px 12px, rgba(255, 255, 255, 0.2) 0px 1px 0px inset !important; backdrop-filter: blur(14px) !important;}
+#characterDialog .hero-actions #randomCharacter{background: radial-gradient(1px 1px at 25% 30%, rgba(190, 235, 255, 0.85), transparent 100%), radial-gradient(1.2px 1.2px at 70% 65%, rgba(225, 205, 255, 0.85), transparent 100%), radial-gradient(1px 1px at 85% 25%, rgba(255, 255, 255, 0.75), transparent 100%), linear-gradient(135deg, rgba(22, 38, 62, 0.62), rgba(28, 48, 76, 0.52)) !important; border: 1px solid rgba(175, 215, 255, 0.45) !important; color: rgb(234, 243, 250) !important; box-shadow: rgba(2, 8, 24, 0.4) 0px 3px 14px, rgba(120, 200, 255, 0.2) 0px 0px 12px, rgba(255, 255, 255, 0.2) 0px 1px 0px inset !important; backdrop-filter: blur(14px) !important;}
+#characterDialog .hero-actions .button .icon{width: 14px !important; height: 14px !important;}
+#characterDialog .hero-character{will-change: transform; position: absolute !important; z-index: 2 !important; right: var(--char-right,-60px) !important; bottom: -2% !important; width: auto !important; height: 104% !important; max-width: none !important; object-fit: contain !important; object-position: center bottom !important; pointer-events: auto !important; cursor: pointer !important; animation: 5.2s ease-in-out 0s infinite normal none running hero-char-breathe !important; transform-origin: center bottom !important; filter: drop-shadow(rgba(245, 214, 141, 0.35) 0px 0px 18px) drop-shadow(rgba(3, 10, 43, 0.75) 6px 16px 14px) !important; mask-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.5) 12%, rgb(0, 0, 0) 28%) !important;}
+#characterDialog .nahida-page .hero-character{height: 104% !important; width: auto !important; right: var(--char-right,-60px) !important; bottom: -2% !important;}
+#characterDialog .hero-shade{background: linear-gradient(90deg, rgba(12, 23, 38, 0.96) 0%, rgba(14, 27, 46, 0.9) 46%, rgba(16, 30, 50, 0.35) 76%, rgba(16, 30, 50, 0.05) 100%), linear-gradient(0deg, rgba(10, 19, 32, 0.88) 0%, rgba(10, 19, 32, 0.2) 40%, transparent 65%) !important; z-index: 1 !important;}
+#characterDialog .hero-float-arrow{display: none !important;}
+#characterDialog .hero-character-caption{display: flex !important; position: absolute !important; right: 10px !important; bottom: 10px !important; z-index: 5 !important; flex-direction: column !important; align-items: flex-end !important; gap: 4px !important; pointer-events: auto !important;}
+#characterDialog .hero-caption-meta{display: none !important;}
+#characterDialog .hero-switcher-dock{display: inline-flex !important; align-items: center !important; gap: 3px !important; padding: 3px 5px !important; border-radius: 16px !important; background: rgba(10, 18, 30, 0.88) !important; border: 1px solid rgba(228, 199, 135, 0.45) !important; box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 14px !important; backdrop-filter: blur(12px) !important;}
+#characterDialog .hero-dock-btn{width: 26px !important; height: 26px !important; border-radius: 50% !important;}
+#characterDialog .hero-dock-btn .icon{width: 12px !important; height: 12px !important;}
+#characterDialog .hero-dock-select-wrap{height: 26px !important; padding: 0px 18px 0px 7px !important; font-size: 11px !important; border-radius: 13px !important;}
+#characterDialog .hero-dock-label{max-width: 55px !important; font-size: 11px !important; font-weight: 500 !important;}
+#characterDialog .hero-dock-select-wrap .icon{right: 5px !important; width: 10px !important; height: 10px !important;}
+#characterDialog .character-grid{grid-template-columns: repeat(2, minmax(0px, 1fr)) !important; gap: 26px 13px !important; padding-top: 18px !important;}
+#characterDialog .character-card{margin-top: 14px !important;}
+#characterDialog .card-info{position: relative !important; z-index: 5 !important;}
+#characterDialog .daily-quote{background: rgba(18, 32, 52, 0.65) !important; border: 1px solid rgba(228, 199, 135, 0.35) !important; border-radius: 14px !important; padding: 12px 14px !important; box-shadow: rgba(2, 8, 24, 0.4) 0px 6px 20px, rgba(255, 255, 255, 0.08) 0px 1px inset !important; backdrop-filter: blur(14px) !important;}
+#characterDialog .search-field{background: rgba(14, 25, 42, 0.75) !important; border: 1px solid rgba(228, 199, 135, 0.3) !important; border-radius: 12px !important; box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 6px inset !important; backdrop-filter: blur(10px) !important;}
+#characterDialog .search-field:focus-within{border-color: rgb(241, 215, 151) !important; box-shadow: rgba(241, 215, 151, 0.35) 0px 0px 16px, rgba(0, 0, 0, 0.3) 0px 2px 6px inset !important;}
+#characterDialog .search-field input{font-family: var(--genshin-font) !important;}
+#characterDialog .archive-heading h2{font-family: var(--display-font) !important; font-weight: 700 !important; letter-spacing: 0.08em !important;}
+}
+@media (max-width: 480px){
+#characterDialog .hero-copy{width: 60% !important; padding: 18px 8px 14px 14px !important;}
+}
+@media (max-width: 375px){
+#characterDialog .hero{height: 342px !important;}
+#characterDialog .hero-copy{width: 62% !important; padding: 18px 8px 14px 14px !important;}
+#characterDialog .hero h1{font-size: 19px !important; line-height: 1.3 !important; margin-bottom: 5px !important;}
+#characterDialog .hero-description{font-size: 10.5px !important; line-height: 1.4 !important; margin-bottom: 8px !important;}
+#characterDialog .hero-actions{gap: 7px !important; max-width: 235px !important;}
+#characterDialog .hero-actions .button-gold{min-height: 36px !important; font-size: 11.8px !important; border-radius: 20px !important;}
+#characterDialog .hero-actions .button-quiet{min-height: 32px !important; font-size: 10.5px !important; border-radius: 16px !important; padding: 0px 5px !important;}
+#characterDialog .hero-actions .hero-listen-btn{min-height: 32px !important; font-size: 10.5px !important; border-radius: 16px !important; padding: 0px 5px !important;}
+#characterDialog .hero-dock-label{max-width: 44px !important; font-size: 10px !important;}
+}
+#characterDialog .daily-quote{border-radius: 12px; padding-left: 17px; padding-right: 13px; background: rgb(var(--panel-rgb)/.23); border: 1px solid rgba(180, 212, 255, 0.14);}
+#characterDialog .character-card{background: transparent; box-shadow: rgba(2, 9, 31, 0.27) 0px 9px 26px;}
+#characterDialog .character-card::after{content: ""; position: absolute; inset: 0px; padding: 2px; border-radius: inherit; background: var(--metal); pointer-events: none; z-index: 6; mask: linear-gradient(rgb(255, 255, 255) 0px, rgb(255, 255, 255) 0px) content-box exclude, linear-gradient(rgb(255, 255, 255) 0px, rgb(255, 255, 255) 0px);}
+#characterDialog .card-underlay{background: linear-gradient(135deg,#b3d8ff16,transparent 60%),rgb(var(--panel-rgb)/.32);}
+#characterDialog .character-art-stage{background: radial-gradient(ellipse at 45% 55%,var(--element-glow),transparent 78%),linear-gradient(145deg,#98d4ff0e,#b99bff0a);}
+#characterDialog .character-art-stage::after{background: linear-gradient(0deg,rgb(var(--panel-rgb)/.6),transparent);}
+#characterDialog .card-info{background: linear-gradient(180deg,rgb(var(--panel-rgb)/.62),rgb(var(--panel-rgb)/.4));}
+#characterDialog .character-card.is-tilting .character-art{transform: translate3d(0px, -12px, 46px) scale(1.08); transform-origin: center bottom; filter: drop-shadow(calc(var(--tilt-y, 0deg) * -1.2) calc(var(--tilt-x, 0deg) * 1.2 + 16px) 16px rgba(2,8,24,.85)) drop-shadow(0 0 24px var(--element-glow));}
+#characterDialog .character-card.is-tilting::after{transform: translateZ(30px);}
+#characterDialog.character-dialog{width: min(1280px, 100% - 56px); height: min(880px, -56px + 100dvh); border-radius: 24px; border: 1px solid rgba(200, 212, 240, 0.42); background: linear-gradient(125deg,#9acfff18,transparent 42%,#b49cff10),rgb(var(--panel-rgb)/.53); box-shadow: rgba(2, 7, 27, 0.72) 0px 40px 100px, rgba(116, 164, 242, 0.1) 0px 0px 46px, rgba(255, 255, 255, 0.4) 0px 1px inset; backdrop-filter: blur(18px) saturate(1.12);}
+#characterDialog.character-dialog::backdrop{background: rgba(3, 7, 26, 0.47);}
+#characterDialog.character-dialog::after{content: ""; position: absolute; inset: 7px; border: 1px solid rgba(241, 217, 170, 0.16); border-radius: 18px; pointer-events: none; z-index: 4;}
+#characterDialog .dialog-close{right: 19px; top: 19px; width: 38px; height: 38px; border-radius: 50%; z-index: 8; background: rgb(var(--panel-rgb)/.6); border: 1px solid rgba(211, 225, 250, 0.27); box-shadow: rgba(255, 255, 255, 0.133) 0px 1px inset;}
+#characterDialog .dialog-close:hover{background: rgba(215, 193, 140, 0.133); border-color: rgba(241, 216, 163, 0.6);}
+#characterDialog .detail-layout{grid-template-columns: 45% minmax(0px, 1fr); height: 100%; min-height: 0px;}
+#characterDialog .detail-profile{position: relative; display: flex; flex-direction: column; min-height: 0px; overflow: hidden auto; border-right: 1px solid rgba(190, 215, 255, 0.15); background: radial-gradient(ellipse at 50% 30%,var(--element-glow),transparent 70%),linear-gradient(150deg,#9ed6ff0a,#a7a4ff0d 65%,rgb(var(--panel-rgb)/.23));}
+#characterDialog .profile-mast{display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-shrink: 0; padding: 27px 28px 0px; font: 11px var(--display-font); letter-spacing: 0.14em; color: var(--gold);}
+#characterDialog .profile-mast > span:first-child{display: flex; align-items: center; gap: 9px;}
+#characterDialog .profile-mast .icon{width: 18px; height: 18px;}
+#characterDialog .profile-stars{font: 10px Georgia, serif; letter-spacing: 3px; text-shadow: rgba(237, 193, 108, 0.27) 0px 0px 12px; white-space: nowrap;}
+#characterDialog .detail-art{--projection-x: 0px; --projection-y: 0px; --projection-rx: 0deg; --projection-ry: 0deg; position: relative; display: block; flex: 1 0 280px; width: 100%; height: auto; min-height: 280px; max-height: none; overflow: visible; isolation: isolate; perspective: 1000px; mask-image: none;}
+#characterDialog .projection-aura{position: absolute; inset: 10% 6% 6%; border-radius: 50%; background: radial-gradient(ellipse,var(--element-glow),#9ecaff0b 44%,transparent 70%); pointer-events: none;}
+#characterDialog .projection-orbit{position: absolute; width: 64%; aspect-ratio: 1 / 1; left: 18%; top: 50%; border: 1px solid rgba(192, 217, 255, 0.216); border-radius: 50%; transform: translateY(-52%) rotate(-18deg); pointer-events: none;}
+#characterDialog .projection-orbit::before{content: ""; position: absolute; inset: 8%; border: 1px dashed rgba(214, 195, 155, 0.3); border-radius: 50%;}
+#characterDialog .projection-orbit::after{content: ""; position: absolute; inset: 19%; border: 1px solid rgba(189, 217, 255, 0.15); transform: rotate(45deg);}
+#characterDialog .projection-orbit i{position: absolute; width: 8px; height: 8px; background: rgb(245, 223, 176); transform: rotate(45deg); box-shadow: rgba(236, 211, 156, 0.48) 0px 0px 14px; top: 13%; left: 13%;}
+#characterDialog .projection-orbit b{position: absolute; width: 8px; height: 8px; background: rgb(245, 223, 176); transform: rotate(45deg); box-shadow: rgba(236, 211, 156, 0.48) 0px 0px 14px; top: 13%; left: 13%;}
+#characterDialog .projection-orbit b{inset: auto 13% 13% auto; width: 5px; height: 5px; background: rgb(170, 220, 235);}
+#characterDialog .projection-sigil{position: absolute; inset: 26%; display: grid; place-items: center; opacity: 0.12; pointer-events: none; transform: translate3d(calc(var(--projection-x) * -.6),calc(var(--projection-y) * -.6),0);}
+#characterDialog .projection-sigil img{width: 100%; height: 100%; object-fit: contain;}
+#characterDialog .projection-sigil .icon{width: 100%; height: 100%; object-fit: contain;}
+#characterDialog .projection-plinth{position: absolute; left: 19%; width: 62%; height: 68px; bottom: 10%; border-radius: 50%; border: 1px solid rgba(217, 247, 255, 0.55); background: radial-gradient(rgba(212, 238, 255, 0.02) 30%, rgba(147, 234, 255, 0.09) 58%, transparent 62%); box-shadow: rgba(148, 206, 255, 0.14) 0px 0px 26px, rgba(169, 217, 255, 0.17) 0px 0px 22px inset; transform: perspective(700px) translateX(calc(var(--projection-x) * -.5)) rotateX(63deg); pointer-events: none;}
+#characterDialog .projection-plinth::before{content: ""; position: absolute; inset: 8px; border-radius: 50%; border: 1px dashed rgba(228, 203, 146, 0.4);}
+#characterDialog .detail-sculpture{position: absolute; inset: 20px 8px 36px; display: flex; align-items: center; justify-content: center; transform: translate3d(var(--projection-x),var(--projection-y),28px) rotateX(var(--projection-rx)) rotateY(var(--projection-ry)); transform-origin: 50% 70%; transition: transform .35s var(--motion-settle); pointer-events: none;}
+#characterDialog .detail-art .detail-sculpture img{position: static; display: block; width: 100%; height: 100%; max-width: 100%; object-fit: contain; object-position: center center; filter: drop-shadow(rgba(2, 5, 30, 0.55) 0px 17px 9px) drop-shadow(rgba(169, 219, 255, 0.1) 0px 0px 5px); mask-image: none;}
+#characterDialog .detail-art.is-projecting .detail-sculpture{transition: transform 0.1s linear; will-change: transform;}
+#characterDialog .detail-art.is-projecting .projection-sigil{will-change: transform;}
+#characterDialog .artwork-toggle{position: absolute; left: 50%; bottom: 4px; transform: translateX(-50%); display: inline-flex; align-items: center; gap: 7px; min-height: 36px; padding: 7px 14px; border: 1px solid rgba(199, 228, 250, 0.37); border-radius: 22px; background: rgb(var(--panel-rgb)/.65); color: var(--text); font-size: 11px; letter-spacing: 0.1em; white-space: nowrap; z-index: 3; box-shadow: rgba(255, 255, 255, 0.133) 0px 1px inset, rgba(6, 18, 40, 0.1) 0px 5px 15px;}
+#characterDialog .artwork-toggle .icon{width: 15px; height: 15px;}
+#characterDialog .artwork-toggle:hover{background: rgba(110, 146, 186, 0.26); border-color: rgba(225, 199, 153, 0.62);}
+#characterDialog .detail-dossier{position: relative; flex-shrink: 0; padding: 19px 30px 28px; text-align: left; overflow: visible; height: auto; min-height: 0px;}
+#characterDialog .detail-region{font-size: 11px; letter-spacing: 0.08em; gap: 9px; color: var(--muted);}
+#characterDialog .detail-region img{width: 19px; height: 19px;}
+#characterDialog .detail-region > span{opacity: 0.5;}
+#characterDialog .detail-dossier h2{margin: 9px 0px 3px; font-size: clamp(28px, 3vw, 42px); line-height: 1.25; letter-spacing: 0.12em; color: var(--gold); text-shadow: rgba(231, 204, 122, 0.09) 0px 2px 16px;}
+#characterDialog .detail-title{font-size: 13px; letter-spacing: 0.2em; margin: 6px 0px 15px; color: var(--gold);}
+#characterDialog .detail-lore{font-size: 12px; line-height: 1.9; max-width: 38em; margin: 0px; color: var(--muted);}
+#characterDialog .detail-metadata{display: flex; flex-wrap: wrap; font-size: 10px; gap: 9px 14px; margin-top: 17px; padding-top: 14px; border-top: 1px solid rgba(191, 212, 235, 0.15); color: var(--muted);}
+#characterDialog .detail-voices{font-size: 10px; line-height: 1.7; margin: 13px 0px 0px; grid-template-columns: 28px 1fr; gap: 3px 10px;}
+#characterDialog .detail-content{background: rgb(var(--panel-rgb)/.25); min-height: 0px;}
+#characterDialog .detail-topbar{padding: 29px 70px 20px 28px; border-bottom: 1px solid rgba(202, 215, 237, 0.14);}
+#characterDialog .detail-kicker{display: block; font-size: 9px; letter-spacing: 0.2em; color: var(--gold); opacity: 0.9; margin-bottom: 8px;}
+#characterDialog .detail-topbar h3{font-size: 25px; font-weight: 600; letter-spacing: 0.1em; margin: 0px 0px 5px; color: var(--text);}
+#characterDialog .detail-topbar p{font-size: 11px; margin: 0px; color: var(--muted);}
+#characterDialog .detail-download{margin-left: 24px; margin-right: 24px; background: linear-gradient(120deg,#bddbff0b,#ccbcff08),rgb(var(--panel-rgb)/.2); border: 1px solid rgba(193, 213, 239, 0.19); border-radius: 12px;}
+#characterDialog .detail-search{margin-left: 24px; margin-right: 24px; background: linear-gradient(120deg,#bddbff0b,#ccbcff08),rgb(var(--panel-rgb)/.2); border: 1px solid rgba(193, 213, 239, 0.19); border-radius: 12px;}
+#characterDialog .detail-download{margin-top: 18px; padding: 13px;}
+#characterDialog .detail-download > .icon{color: var(--gold);}
+#characterDialog .detail-download-text strong{font-size: 12px;}
+#characterDialog .detail-download-text span{font-size: 10px; color: var(--muted);}
+#characterDialog .detail-search{margin-top: 12px;}
+#characterDialog .detail-search input{height: 40px;}
+#characterDialog .detail-tabs{margin: 12px 24px 0px; border-color: rgba(212, 194, 155, 0.23); gap: 24px;}
+#characterDialog .detail-tab{font-size: 12px; min-height: 46px; letter-spacing: 0.05em;}
+#characterDialog .detail-tab span{font-size: 10px;}
+#characterDialog .detail-tab[aria-selected="true"]{color: var(--gold);}
+#characterDialog .quote-list{padding: 8px 23px 28px; scrollbar-width: thin; scrollbar-color: rgba(181, 198, 226, 0.3) transparent;}
+#characterDialog .quote-card{padding: 17px 15px; margin: 10px 0px; border: 1px solid rgba(185, 210, 239, 0.133); border-radius: 13px; background: linear-gradient(115deg,#c3e0ff09,transparent 70%),rgb(var(--panel-rgb)/.12); transition: background-color 0.2s, border-color 0.2s;}
+#characterDialog .quote-card:hover{border-color: rgba(226, 193, 138, 0.376); background-color: rgba(166, 201, 240, 0.05);}
+#characterDialog .quote-card.playing{border-color: rgba(226, 193, 138, 0.376); background-color: rgba(166, 201, 240, 0.05);}
+#characterDialog .quote-heading{gap: 11px;}
+#characterDialog .quote-heading h4{font-size: 12px; letter-spacing: 0.03em; color: var(--gold);}
+#characterDialog .quote-number{font-family: Georgia, serif; font-size: 11px; color: var(--dim);}
+#characterDialog .quote-text{font-size: 13px; line-height: 1.95; margin-top: 10px; color: var(--text);}
+#characterDialog .quote-actions{gap: 6px; margin-top: 14px;}
+#characterDialog .quote-read{border-radius: 7px; padding: 6px 12px; min-height: 32px; color: var(--gold);}
+#characterDialog .quote-action{width: 32px; height: 32px; border-radius: 8px;}
+#characterDialog .quote-action:hover{background: rgba(165, 202, 255, 0.09);}
+#characterDialog.character-dialog.art-expanded .detail-layout{grid-template-columns: minmax(0px, 1fr);}
+#characterDialog .art-expanded .detail-content{display: none;}
+#characterDialog .art-expanded .detail-profile{display: grid; grid-template-columns: minmax(0px, 1fr) 290px; grid-template-rows: 60px minmax(0px, 1fr); border: 0px; overflow: hidden;}
+#characterDialog .art-expanded .profile-mast{grid-column: 1 / -1; padding-right: 80px; padding-top: 10px;}
+#characterDialog .art-expanded .detail-art{grid-area: 2 / 1; min-height: 0px; max-height: none; align-self: stretch; height: 100%;}
+#characterDialog .art-expanded .detail-sculpture{inset: 28px 12px 78px;}
+#characterDialog .art-expanded .artwork-toggle{bottom: 30px;}
+#characterDialog .art-expanded .detail-dossier{grid-area: 2 / 2; align-self: center; padding-left: 15px; padding-right: 30px;}
+#characterDialog .art-expanded .projection-plinth{bottom: 14%;}
+@media (prefers-reduced-motion: no-preference){
+#characterDialog.character-dialog[open] .detail-sculpture{animation: projection-arrival .5s var(--motion-settle) backwards;}
+#characterDialog.character-dialog[open] .detail-dossier{animation: 0.4s ease-out 0.08s 1 normal backwards running chapter-arrival;}
+}
+html[data-theme="light"] #characterDialog.character-dialog::backdrop{background: rgba(24, 41, 72, 0.36);}
+html[data-theme="light"] #characterDialog.character-dialog{background: linear-gradient(125deg,#f0fbff20,#d7d7ff10),rgb(var(--panel-rgb)/.74);}
+html[data-theme="light"] #characterDialog .quote-card{border-color: rgba(104, 125, 163, 0.2); background-color: rgba(255, 255, 255, 0.2);}
+html[data-theme="light"] #characterDialog .projection-orbit{border-color: rgba(114, 144, 177, 0.39);}
+html[data-theme="light"] #characterDialog .projection-plinth{border-color: rgba(114, 144, 177, 0.39);}
+html[data-theme="light"] #characterDialog .detail-art .detail-sculpture img{filter: drop-shadow(rgba(18, 35, 67, 0.19) 0px 16px 9px);}
+html[data-theme="light"] #characterDialog .detail-download{border-color: rgba(92, 117, 155, 0.25);}
+html[data-theme="light"] #characterDialog .detail-search{border-color: rgba(92, 117, 155, 0.25);}
+@media (max-width: 1023px){
+#characterDialog.character-dialog{width: calc(100% - 28px); height: calc(-28px + 100dvh); border-radius: 20px;}
+#characterDialog .detail-layout{grid-template-columns: 43% minmax(0px, 1fr);}
+#characterDialog .profile-mast{padding: 24px 18px 0px; font-size: 10px; letter-spacing: 0.03em;}
+#characterDialog .profile-stars{font-size: 8px; letter-spacing: 1px;}
+#characterDialog .detail-dossier{padding: 16px 22px 24px;}
+#characterDialog .detail-dossier h2{font-size: 30px;}
+#characterDialog .detail-art{flex-basis: 260px; min-height: 260px;}
+#characterDialog .detail-topbar{padding-left: 22px;}
+#characterDialog .detail-topbar h3{font-size: 23px;}
+#characterDialog .detail-download{margin-left: 18px; margin-right: 18px;}
+#characterDialog .detail-search{margin-left: 18px; margin-right: 18px;}
+#characterDialog .detail-tabs{margin-left: 18px; margin-right: 18px;}
+#characterDialog .quote-list{padding-left: 17px; padding-right: 17px;}
+#characterDialog .detail-tabs{gap: 19px;}
+}
+@media (max-width: 767px){
+#characterDialog .site-header{background: rgb(var(--panel-rgb)/.4);}
+#characterDialog .archive-controls{background: rgb(var(--panel-rgb)/.4);}
+#characterDialog.character-dialog{backdrop-filter: none; background: linear-gradient(140deg, rgba(23, 40, 73, 0.91), rgba(24, 29, 58, 0.91));}
+html[data-theme="light"] #characterDialog.character-dialog{background: linear-gradient(140deg, rgba(238, 245, 255, 0.96), rgba(233, 236, 250, 0.96));}
+#characterDialog .detail-download-text span{font-size: 9px;}
+#characterDialog .detail-download-text strong{font-size: 11px;}
+#characterDialog .detail-download{padding: 11px;}
+#characterDialog .detail-art{min-height: 220px; flex-basis: 220px;}
+#characterDialog .detail-dossier{padding-left: 17px; padding-right: 17px;}
+#characterDialog .detail-dossier h2{font-size: 27px;}
+#characterDialog .detail-lore{font-size: 11px;}
+#characterDialog .profile-mast{padding-left: 17px; padding-right: 17px;}
+#characterDialog .profile-stars{display: none;}
+#characterDialog .art-expanded .detail-profile{grid-template-columns: minmax(0px, 1fr) 225px;}
+}
+@media (max-width: 640px){
+#characterDialog.character-dialog{width: 100%; height: 100dvh; margin: 0px; border-radius: 0px; border: 0px; background: linear-gradient(150deg, rgba(15, 33, 59, 0.91), rgba(23, 26, 52, 0.93));}
+#characterDialog.character-dialog::after{display: none;}
+#characterDialog .dialog-close{position: absolute; right: 14px; top: max(14px,env(safe-area-inset-top)); width: 38px; height: 38px;}
+#characterDialog .detail-layout{display: flex; flex-direction: column; overflow: auto; padding-bottom: var(--player-space);}
+#characterDialog .detail-profile{display: flex; position: relative; overflow: visible; height: auto; min-height: 0px; flex-shrink: 0; border-right: 0px; border-bottom: 1px solid rgba(192, 216, 255, 0.14); background: radial-gradient(ellipse at 50% 30%,var(--element-glow),transparent 70%);}
+#characterDialog .profile-mast{padding: 22px 65px 0px 22px; min-height: 43px; font-size: 10px; letter-spacing: 0.09em;}
+#characterDialog .profile-stars{display: block;}
+#characterDialog .detail-art{position: relative; inset: auto; width: 100%; height: clamp(245px, 68vw, 380px); min-height: 245px; flex: 0 0 auto;}
+#characterDialog .detail-sculpture{inset: 14px 13px 39px;}
+#characterDialog .projection-orbit{width: 57%; left: 21.5%;}
+#characterDialog .projection-plinth{bottom: 13%; height: 55px;}
+#characterDialog .detail-dossier{height: auto; min-height: 0px; padding: 17px 24px 22px; overflow: visible;}
+#characterDialog .detail-dossier h2{font-size: 32px; letter-spacing: 0.1em; margin-top: 7px;}
+#characterDialog .detail-region{font-size: 11px;}
+#characterDialog .detail-title{margin-bottom: 11px; font-size: 12px;}
+#characterDialog .detail-lore{font-size: 12px; line-height: 1.85;}
+#characterDialog .detail-metadata{margin-top: 13px; padding-top: 12px; font-size: 10px;}
+#characterDialog .detail-voices{grid-template-columns: 24px minmax(0px, 1fr); font-size: 10px; margin-top: 12px; row-gap: 3px;}
+#characterDialog .detail-content{min-height: 50dvh; overflow: visible; display: block; flex-shrink: 0; background: rgb(var(--panel-rgb)/.18);}
+#characterDialog .detail-topbar{padding: 22px 23px 16px;}
+#characterDialog .detail-topbar h3{font-size: 22px;}
+#characterDialog .detail-kicker{font-size: 8px; letter-spacing: 0.18em;}
+#characterDialog .detail-topbar p{font-size: 11px;}
+#characterDialog .detail-download{margin-left: 17px; margin-right: 17px; border-radius: 11px;}
+#characterDialog .detail-search{margin-left: 17px; margin-right: 17px; border-radius: 11px;}
+#characterDialog .detail-download{margin-top: 16px; gap: 9px;}
+#characterDialog .detail-download > .icon{width: 18px; height: 18px;}
+#characterDialog .detail-search input{font-size: 12px; height: 42px;}
+#characterDialog .detail-tabs{margin: 12px 17px 0px; gap: 23px; background: rgb(var(--panel-rgb)/.97); border-radius: 8px 8px 0px 0px; position: sticky; top: 0px; z-index: 3; padding: 0px 5px;}
+#characterDialog .quote-list{overflow: visible; padding: 4px 17px 24px;}
+#characterDialog .quote-card{padding: 16px 13px; margin: 10px 0px;}
+#characterDialog .quote-text{font-size: 13px; line-height: 1.95;}
+#characterDialog .quote-heading h4{font-size: 12px;}
+#characterDialog .quote-read{min-height: 36px;}
+#characterDialog .quote-action{width: 36px; height: 36px;}
+#characterDialog .quote-actions{gap: 5px;}
+#characterDialog .art-expanded .detail-profile{display: flex; height: 100%; min-height: 0px; overflow: auto;}
+#characterDialog .art-expanded .detail-art{width: 100%; height: calc(100dvh - 100px - var(--player-space)); min-height: 260px; flex: 1 1 0%;}
+#characterDialog .art-expanded .detail-sculpture{inset: 20px 8px 72px;}
+#characterDialog .art-expanded .detail-dossier{display: none;}
+#characterDialog .art-expanded .profile-mast{padding-top: 22px; padding-right: 64px; flex-shrink: 0;}
+#characterDialog .art-expanded .artwork-toggle{bottom: 25px;}
+#characterDialog .daily-quote{padding-left: 10px; padding-right: 8px;}
+}
+@media (prefers-reduced-motion: reduce){
+#characterDialog .world-video{display: none;}
+#characterDialog .detail-sculpture{transform: none !important; will-change: auto !important;}
+#characterDialog .detail-art.is-projecting .detail-sculpture{transform: none !important; will-change: auto !important;}
+}
+@media (prefers-reduced-transparency: reduce){
+#characterDialog.character-dialog{background: var(--surface); backdrop-filter: none;}
+#characterDialog .site-header{background: var(--surface); backdrop-filter: none;}
+#characterDialog .archive-controls{background: var(--surface); backdrop-filter: none;}
+#characterDialog .card-underlay{background: var(--surface);}
+}
+@media (max-width: 767px) and (pointer: coarse) and (prefers-reduced-motion: no-preference){
+#characterDialog .character-card{box-shadow: 0 0 0 1px #fff0bd45,0 12px 28px #03102c8c,0 0 18px var(--element-glow); margin-top: 14px;}
+#characterDialog .card-info{box-shadow: rgba(255, 255, 255, 0.133) 0px 1px inset; position: relative !important; z-index: 5 !important;}
+#characterDialog .card-hologram{opacity: 0.48 !important;}
+#characterDialog .card-spectrum{opacity: 0.78 !important;}
+#characterDialog .card-frame{border-color: rgba(240, 212, 147, 0.576); box-shadow: rgba(229, 196, 125, 0.11) 0px 0px 8px inset, rgba(219, 190, 109, 0.133) 0px 0px 10px;}
+#characterDialog .character-card:active{transform-style: preserve-3d; transition-duration: 0.08s; overflow: visible !important; transform: perspective(900px) rotateX(var(--tilt-x, 2deg)) rotateY(var(--tilt-y, -2deg)) translate3d(0,-6px,14px) !important; box-shadow: 0 0 0 1px #fff1c77a,0 20px 36px #020817a8,0 0 28px var(--element-glow) !important;}
+#characterDialog .character-card.is-tilting{transform-style: preserve-3d; transition-duration: 0.08s; overflow: visible !important; transform: perspective(900px) rotateX(var(--tilt-x, 2deg)) rotateY(var(--tilt-y, -2deg)) translate3d(0,-6px,14px) !important; box-shadow: 0 0 0 1px #fff1c77a,0 20px 36px #020817a8,0 0 28px var(--element-glow) !important;}
+#characterDialog .character-card:active .character-open{transform-style: preserve-3d; overflow: visible !important;}
+#characterDialog .character-card.is-tilting .character-open{transform-style: preserve-3d; overflow: visible !important;}
+#characterDialog .character-card:active .character-art-stage{transform-style: preserve-3d; overflow: visible !important;}
+#characterDialog .character-card.is-tilting .character-art-stage{transform-style: preserve-3d; overflow: visible !important;}
+#characterDialog .character-card:active .card-info{transform: translateZ(8px);}
+#characterDialog .character-card.is-tilting .card-info{transform: translateZ(8px);}
+#characterDialog .character-card:active .card-hologram{transform: translateZ(14px); opacity: 0.95 !important;}
+#characterDialog .character-card.is-tilting .card-hologram{transform: translateZ(14px); opacity: 0.95 !important;}
+#characterDialog .character-card:active .card-frame{transform: translateZ(20px); border-color: rgb(255, 240, 189);}
+#characterDialog .character-card.is-tilting .card-frame{transform: translateZ(20px); border-color: rgb(255, 240, 189);}
+#characterDialog .character-card:active .character-art{transform: translate3d(0px, -12px, 46px) scale(1.08) !important; transform-origin: center bottom !important; filter: drop-shadow(calc(var(--tilt-y, 0deg) * -1.2) calc(var(--tilt-x, 0deg) * 1.2 + 16px) 16px #020817c0) drop-shadow(0 0 24px var(--element-glow)) !important; z-index: 6 !important;}
+#characterDialog .character-card.is-tilting .character-art{transform: translate3d(0px, -12px, 46px) scale(1.08) !important; transform-origin: center bottom !important; filter: drop-shadow(calc(var(--tilt-y, 0deg) * -1.2) calc(var(--tilt-x, 0deg) * 1.2 + 16px) 16px #020817c0) drop-shadow(0 0 24px var(--element-glow)) !important; z-index: 6 !important;}
+}
+@media (max-width: 767px){
+#characterDialog .hero-shade{pointer-events: none; z-index: 3 !important; background: linear-gradient(90deg, rgba(9, 23, 47, 0.92), rgba(11, 29, 59, 0.73) 38%, rgba(16, 38, 67, 0.22) 68%, transparent) !important;}
+#characterDialog .hero h1{will-change: auto; animation: auto ease 0s 1 normal none running none !important;}
+#characterDialog .hero-character{will-change: auto; animation: auto ease 0s 1 normal none running none !important;}
+}
+@media (prefers-reduced-motion: reduce){
+#characterDialog .hero h1{will-change: auto; animation: auto ease 0s 1 normal none running none !important;}
+#characterDialog .hero-character{will-change: auto; animation: auto ease 0s 1 normal none running none !important;}
+}
+#characterDialog .brand-logo{display: block; width: 62px; height: 48px; object-fit: contain; flex-shrink: 0; filter: drop-shadow(rgba(3, 11, 32, 0.25) 0px 2px 6px);}
+#characterDialog .brand-wordmark{border-left: 1px solid rgba(216, 194, 141, 0.282); padding-left: 14px;}
+#characterDialog .brand .brand-wordmark strong{font-size: 17px; letter-spacing: 3px;}
+#characterDialog .brand .brand-wordmark small{font-size: 8px; letter-spacing: 2.1px; margin-top: 3px;}
+#characterDialog .hero h1.hero-art-title{position: relative; width: 430px; max-width: 100%; aspect-ratio: 1480 / 500; height: auto; padding: 0px; margin: 0px 0px 13px !important; background: none !important; -webkit-text-fill-color: initial !important; color: rgb(247, 231, 195) !important; filter: none !important; line-height: 1.4 !important; letter-spacing: 1px !important;}
+#characterDialog .hero-title-art{display: block; width: 100%; height: auto; opacity: 0; pointer-events: none; user-select: none; filter: drop-shadow(rgba(3, 11, 32, 0.627) 0px 2px 3px);}
+#characterDialog .hero-title-text{position: absolute; inset: 0px; text-shadow: rgb(3, 11, 32) 0px 2px 8px;}
+#characterDialog .hero-art-title.has-art .hero-title-art{opacity: 1;}
+#characterDialog .hero-art-title.has-art .hero-title-text{inset: auto; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; clip-path: inset(50%);}
+@media (max-width: 1279px){
+#characterDialog .hero h1.hero-art-title{width: 390px;}
+}
+@media (max-width: 1023px){
+#characterDialog .hero h1.hero-art-title{width: 350px;}
+}
+@media (min-width: 1024px) and (max-height: 850px){
+#characterDialog .hero h1.hero-art-title{width: 340px;}
+}
+@media (max-width: 767px){
+#characterDialog .brand{gap: 10px;}
+#characterDialog .brand-logo{width: 50px; height: 40px;}
+#characterDialog .brand-wordmark{padding-left: 10px;}
+#characterDialog .brand .brand-wordmark strong{font-size: 14px; letter-spacing: 2px;}
+#characterDialog .brand .brand-wordmark small{font-size: 6.5px; letter-spacing: 1.5px;}
+#characterDialog .hero h1.hero-art-title{max-width: 250px; width: 100% !important; aspect-ratio: 1480 / 500 !important; margin: 2px 0px 10px !important; animation: auto ease 0s 1 normal none running none !important;}
+}
+@media (max-width: 374px){
+#characterDialog .brand-logo{width: 45px; height: 36px;}
+#characterDialog .brand .brand-wordmark strong{font-size: 13px;}
+}
+#characterDialog .music-pill{display: inline-flex; align-items: center; gap: 8px; background: rgba(16, 26, 42, 0.68); border: 1px solid rgba(245, 214, 141, 0.35); backdrop-filter: blur(16px); border-radius: 9999px; padding: 4px 10px 4px 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 18px, rgba(255, 255, 255, 0.15) 0px 1px 0px inset; transition: 0.25s; user-select: none;}
+#characterDialog .music-pill:hover{border-color: rgba(245, 214, 141, 0.65); box-shadow: rgba(245, 214, 141, 0.2) 0px 6px 24px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;}
+#characterDialog .music-disc-btn{position: relative; width: 32px; height: 32px; border-radius: 50%; border: 1px solid rgba(245, 214, 141, 0.5); background: rgb(9, 14, 24); padding: 0px; display: flex; align-items: center; justify-content: center; cursor: pointer; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px; flex-shrink: 0;}
+#characterDialog .music-disc-spin{width: 100%; height: 100%; border-radius: 50%; display: flex; align-items: center; justify-content: center; animation: 8s linear 0s infinite normal none paused spinVinyl;}
+#characterDialog .music-playing .music-disc-spin{animation-play-state: running;}
+#characterDialog .music-disc-spin img{width: 24px; height: 24px; border-radius: 50%; object-fit: cover; pointer-events: none;}
+#characterDialog .music-wave-bars{position: absolute; inset: 0px; display: flex; align-items: center; justify-content: center; gap: 2px; background: rgba(5, 10, 20, 0.65); opacity: 0; transition: opacity 0.2s; pointer-events: none;}
+#characterDialog .music-playing .music-wave-bars{opacity: 1;}
+#characterDialog .music-wave-bars i{display: block; width: 2px; height: 4px; background: rgb(245, 214, 141); border-radius: 1px; animation: 0.9s ease-in-out 0s infinite alternate none running soundWaveBar;}
+#characterDialog .music-wave-bars i:nth-child(1){animation-delay: 0.1s; height: 6px;}
+#characterDialog .music-wave-bars i:nth-child(2){animation-delay: 0.35s; height: 12px;}
+#characterDialog .music-wave-bars i:nth-child(3){animation-delay: 0.2s; height: 8px;}
+#characterDialog .music-wave-bars i:nth-child(4){animation-delay: 0.45s; height: 14px;}
+#characterDialog .music-pill-meta{display: flex; flex-direction: column; justify-content: center; cursor: pointer; max-width: 120px;}
+#characterDialog .music-pill-title{font-family: var(--display-font); font-size: 11px; color: rgb(247, 238, 215); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; letter-spacing: 0.5px;}
+#characterDialog .music-pill-region{font-size: 9px; color: rgb(168, 184, 200); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+#characterDialog .music-pill-actions{display: flex; align-items: center; gap: 2px;}
+#characterDialog .music-pill-action{background: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; color: rgb(217, 196, 154); width: 22px; height: 22px; display: flex; align-items: center; justify-content: center; cursor: pointer; border-radius: 50%; padding: 0px; transition: 0.15s;}
+#characterDialog .music-pill-action:hover{color: rgb(255, 255, 255); background: rgba(245, 214, 141, 0.2);}
+#characterDialog .music-pill-action svg{width: 12px; height: 12px;}
+#characterDialog .music-pill-action.music-play-toggle{color: rgb(245, 214, 141);}
+dialog#characterDialog.music-box-dialog{--music-text: #f6f8fa; --music-muted: #d0dce8; --music-dim: #b0c3d6; --music-gold: #f0d9a0; --music-aqua: #a6e5db; --music-accent: #b3e8ef; --music-aurora-a: #62c6f0; --music-aurora-b: #bf9cf1; --music-aurora-c: #efd295; --music-color-cycle: 22s; --music-line: #c8dff53b; --music-wash: #ffffff0c; --music-active: #b3e8ef18; --music-micro: 160ms; --music-reveal: 460ms; --music-ease: cubic-bezier(.2,.75,.2,1); position: fixed; inset: 0px; margin: auto; width: min(1100px, -64px + 100vw); height: min(760px, -80px + 100dvh); max-width: none; max-height: none; padding: 0px; border: 1px solid rgba(244, 223, 176, 0.29); border-radius: 28px; overflow: hidden; isolation: isolate; z-index: 1050; display: none; background: linear-gradient(125deg, rgba(195, 230, 255, 0.03), transparent 45%, rgba(239, 215, 160, 0.024)), rgba(9, 21, 42, 0.2); backdrop-filter: blur(12px) saturate(1.18); color: var(--music-text); box-shadow: rgba(2, 8, 21, 0.314) 0px 30px 100px, rgba(255, 255, 255, 0.314) 0px 1px inset;}
+dialog#characterDialog.music-box-dialog[open]{display: block; animation: music-glass-arrive var(--music-reveal) var(--music-ease) both;}
+dialog#characterDialog.music-box-dialog::backdrop{background: rgba(3, 10, 24, 0.11); animation: 300ms ease-out 0s 1 normal both running music-backdrop-arrive;}
+#characterDialog .music-box-dialog::after{content: ""; position: absolute; inset: 7px; border: 1px solid rgba(216, 230, 250, 0.19); border-radius: 21px; pointer-events: none; z-index: 2;}
+#characterDialog .music-box-container{position: relative; z-index: 1; height: 100%; min-height: 0px; display: flex; flex-direction: column; overflow: hidden; text-shadow: rgba(8, 23, 43, 0.4) 0px 1px 5px;}
+#characterDialog .music-box-header{display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 76px; padding: 17px 28px; border-bottom: 1px solid var(--music-line); flex-shrink: 0; background: rgba(255, 255, 255, 0.01);}
+#characterDialog .music-box-badge{display: flex; align-items: center; gap: 12px; min-width: 0px; flex-wrap: wrap;}
+#characterDialog .music-badge-spark{color: var(--music-gold); font-size: 21px; text-shadow: rgba(240, 217, 160, 0.314) 0px 0px 16px;}
+#characterDialog .music-box-header h2{font-family: var(--display-font); font-size: 18px; font-weight: 500; letter-spacing: 0.1em; margin: 0px; color: var(--music-text);}
+#characterDialog .music-badge-tag{font-family: Georgia, serif; color: var(--music-muted); font-size: 10px; letter-spacing: 0.08em; border-left: 1px solid var(--music-line); padding-left: 12px;}
+#characterDialog .music-box-dialog .dialog-close{position: static; flex-shrink: 0; width: 40px; height: 40px; background: var(--music-wash); border: 1px solid var(--music-line); color: var(--music-muted); border-radius: 50%; transition: transform var(--music-micro),background var(--music-micro);}
+#characterDialog .music-box-dialog .dialog-close:hover{transform: rotate(90deg); background: rgba(255, 255, 255, 0.082); color: var(--music-text);}
+#characterDialog .music-box-body{min-height: 0px; flex: 1 1 0%; display: grid; grid-template-columns: minmax(280px, 0.78fr) minmax(0px, 1.22fr); gap: 30px; padding: 26px 30px 24px;}
+#characterDialog .music-now-playing{display: flex; flex-direction: column; min-height: 0px; overflow-y: auto; overscroll-behavior: contain; padding: 0px 8px 0px 0px;}
+#characterDialog .music-turntable-stage{position: relative; display: flex; flex: 1 1 0%; flex-direction: column; align-items: center; justify-content: center; gap: 22px; text-align: center; padding: 10px 6px 20px; min-height: min-content;}
+#characterDialog .music-vinyl-wrap{position: relative; flex-shrink: 0; width: clamp(168px, 24dvh, 232px); aspect-ratio: 1 / 1; margin: 8px auto 16px; isolation: isolate;}
+#characterDialog .music-vinyl-wrap::before{content: ""; position: absolute; inset: -30px; border-radius: 50%; background: radial-gradient(circle, rgba(159, 229, 240, 0.13), transparent 68%); pointer-events: none;}
+#characterDialog .music-vinyl-grooves{position: absolute; inset: 0px; display: grid; place-items: center; border-radius: 50%; border: 1px solid rgba(223, 216, 181, 0.47); background: repeating-radial-gradient(circle, rgba(16, 30, 44, 0.91) 0px, rgba(16, 30, 44, 0.91) 2px, rgba(80, 99, 114, 0.5) 3px, rgba(16, 30, 44, 0.91) 4px, rgba(16, 30, 44, 0.91) 6px); box-shadow: rgba(2, 10, 25, 0.35) 0px 20px 40px, rgba(9, 19, 35, 0.6) 0px 0px 0px 6px inset; animation: 18s linear 0s infinite normal none paused spinVinyl;}
+#characterDialog .music-vinyl-grooves::after{content: ""; position: absolute; inset: 0px; border-radius: 50%; background: conic-gradient(from 30deg, transparent 0deg, transparent 13%, rgba(222, 235, 245, 0.2) 17%, transparent 22%, transparent 62%, rgba(240, 217, 160, 0.17) 67%, transparent 73%); pointer-events: none;}
+#characterDialog .music-vinyl-cover-wrap{position: relative; width: 49%; aspect-ratio: 1 / 1; border: 3px solid rgb(24, 44, 59); border-radius: 50%; overflow: hidden; box-shadow: rgba(228, 212, 169, 0.3) 0px 0px 0px 1px; z-index: 1;}
+#characterDialog .music-vinyl-cover{width: 100%; height: 100%; object-fit: cover;}
+#characterDialog .music-vinyl-center-pin{position: absolute; inset: calc(50% - 5px); width: 10px; height: 10px; background: rgb(238, 217, 164); border: 3px solid rgb(28, 48, 61); border-radius: 50%; box-shadow: rgba(231, 214, 171, 0.52) 0px 0px 0px 1px;}
+#characterDialog .music-orbit{position: absolute; border-radius: 50%; pointer-events: none; animation: 42s linear 0s infinite normal none paused music-orbit-turn;}
+#characterDialog .music-orbit-outer{inset: -17px; border-width: 1px; border-style: solid; border-color: rgba(241, 214, 160, 0.18) rgba(241, 214, 160, 0.5) rgba(241, 214, 160, 0.18) rgba(241, 214, 160, 0.18); border-image: initial; transform: rotate(-25deg);}
+#characterDialog .music-orbit-inner{inset: -29px; border: 1px dashed rgba(169, 215, 227, 0.133); animation-direction: reverse;}
+#characterDialog .music-orbit-outer::after{content: "✦"; position: absolute; top: 13%; right: 9%; font-size: 13px; line-height: 1; color: var(--music-gold); text-shadow: rgba(240, 217, 160, 0.4) 0px 0px 12px;}
+#characterDialog .music-orbit-inner::after{content: ""; position: absolute; left: 5%; bottom: 25%; width: 4px; height: 4px; background: var(--music-aqua); border-radius: 50%; box-shadow: rgba(166, 229, 219, 0.467) 0px 0px 9px;}
+#characterDialog .music-tonearm{position: absolute; right: -8px; top: -6px; width: 34px; height: 76%; border-style: solid; border-color: rgb(221, 205, 156); border-image: initial; border-width: 0px 3px 3px 0px; border-radius: 0px 14px 8px 0px; transform: rotate(-27deg); transform-origin: 85% 5%; box-shadow: rgba(6, 17, 30, 0.2) 2px 2px 3px; transition: transform 700ms var(--music-ease); z-index: 2; pointer-events: none;}
+#characterDialog .music-tonearm::before{content: ""; position: absolute; right: -7px; top: -4px; width: 12px; height: 12px; border: 3px solid rgb(124, 128, 108); background: rgb(229, 214, 171); border-radius: 50%;}
+#characterDialog .music-tonearm::after{content: ""; position: absolute; left: 0px; bottom: -5px; width: 18px; height: 9px; border: 1px solid rgb(220, 210, 172); background: rgb(113, 136, 141); border-radius: 3px; transform: rotate(12deg);}
+#characterDialog .music-box-dialog.music-playing .music-tonearm{transform: rotate(-9deg);}
+#characterDialog .music-current-info{display: flex; flex-direction: column; align-items: center; gap: 10px; min-width: 0px; width: 100%;}
+#characterDialog .music-info-tags{display: flex; align-items: center; justify-content: center; gap: 7px; flex-wrap: wrap;}
+#characterDialog .music-region-pill{padding: 3px 8px; border: 1px solid var(--music-line); border-radius: 5px; font-size: 10px; line-height: 1.4; color: var(--music-muted); background: rgba(255, 255, 255, 0.02);}
+#characterDialog .music-quality-pill{padding: 3px 8px; border: 1px solid var(--music-line); border-radius: 5px; font-size: 10px; line-height: 1.4; color: var(--music-muted); background: rgba(255, 255, 255, 0.02);}
+#characterDialog .music-quality-pill{color: var(--music-aqua); border-color: rgba(166, 229, 219, 0.17); background: rgba(166, 229, 219, 0.03); font-size: 9px; letter-spacing: 0.02em;}
+#characterDialog .music-track-title{font-family: var(--display-font); font-size: clamp(19px, 2vw, 25px); font-weight: 500; line-height: 1.45; letter-spacing: 0.025em; margin: 0px; color: var(--music-text); overflow-wrap: anywhere; text-wrap: balance; text-shadow: rgba(4, 16, 35, 0.208) 0px 2px 10px;}
+#characterDialog .music-track-album{font-size: 11px; line-height: 1.8; color: var(--music-muted); margin: 0px; text-wrap: balance;}
+#characterDialog .music-track-desc{font-size: 11px; line-height: 1.8; color: var(--music-dim); margin: 0px; text-wrap: balance;}
+#characterDialog .music-controls-panel{display: flex; flex-direction: column; gap: 15px; padding: 16px 0px 0px; border-top: 1px solid var(--music-line); margin-top: 4px; flex-shrink: 0;}
+#characterDialog .music-progress-wrap{display: flex; align-items: center; gap: 10px;}
+#characterDialog .music-time{font-size: 10px; font-variant-numeric: tabular-nums; letter-spacing: 0.04em; color: var(--music-muted); width: 34px; text-align: center; flex-shrink: 0;}
+#characterDialog .music-progress-bar-container{position: relative; flex: 1 1 0%; height: 3px; border-radius: 3px; background: rgba(191, 212, 237, 0.17);}
+#characterDialog .music-progress-fill{position: absolute; inset: 0px auto 0px 0px; width: 0px; background: linear-gradient(90deg,#a6e5db,var(--music-gold)); border-radius: 3px; pointer-events: none;}
+#characterDialog .music-progress-fill::after{content: ""; position: absolute; right: -3px; top: -2px; width: 7px; height: 7px; background: var(--music-gold); border-radius: 50%; box-shadow: rgba(241, 214, 160, 0.333) 0px 0px 9px;}
+#characterDialog .music-seek-bar{position: absolute; inset: -12px 0px; width: 100%; height: 27px; opacity: 0; cursor: pointer; margin: 0px; z-index: 2;}
+#characterDialog .music-progress-bar-container:focus-within{outline: 2px solid var(--music-gold); outline-offset: 8px;}
+#characterDialog .music-control-buttons{display: grid; grid-template-columns: 1fr 58px 1fr; align-items: center; gap: 10px 16px;}
+#characterDialog .music-ctrl-btn{display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; color: var(--music-muted); border: 1px solid transparent; border-radius: 50%; background: transparent; cursor: pointer; transition: transform var(--music-micro),color var(--music-micro),background var(--music-micro),border-color var(--music-micro);}
+#characterDialog .music-ctrl-btn svg{width: 19px; height: 19px;}
+#characterDialog .music-ctrl-btn:hover{color: var(--music-text); background: rgba(255, 255, 255, 0.047); border-color: var(--music-line);}
+#characterDialog .music-ctrl-btn:active{transform: scale(0.93);}
+#characterDialog #musicModalPrev{grid-area: 1 / 1; justify-self: end;}
+#characterDialog #musicModalNext{grid-area: 1 / 3; justify-self: start;}
+#characterDialog .music-skip-btn{width: 44px; height: 44px; padding: 0px;}
+#characterDialog .music-main-play{grid-area: 1 / 2; width: 58px; height: 58px; border: 1px solid rgba(240, 217, 160, 0.56); color: var(--music-gold); background: linear-gradient(140deg, rgba(246, 225, 172, 0.14), rgba(241, 214, 160, 0.035)); box-shadow: rgba(255, 255, 255, 0.2) 0px 1px inset, rgba(240, 217, 160, 0.05) 0px 6px 25px;}
+#characterDialog .music-main-play:hover{transform: scale(1.055); background: rgba(240, 217, 160, 0.153); border-color: var(--music-gold); color: var(--music-text);}
+#characterDialog .music-main-play svg{width: 24px; height: 24px;}
+#characterDialog .music-loop-btn{grid-area: 2 / 1; justify-self: start; border-radius: 8px; font-size: 10px; min-height: 36px; padding: 0px 5px;}
+#characterDialog .music-loop-btn svg{width: 16px; height: 16px;}
+#characterDialog .music-volume-group{grid-area: 2 / 2 / auto / 4; justify-self: end; display: flex; align-items: center; gap: 5px;}
+#characterDialog .music-mute-btn{padding: 0px; width: 36px; height: 36px; min-height: 36px;}
+#characterDialog .music-mute-btn svg{width: 16px; height: 16px;}
+#characterDialog .music-vol-slider{width: 82px; height: 30px; accent-color: var(--music-gold); cursor: pointer; margin: 0px;}
+#characterDialog .music-playback-state{display: flex; align-items: center; justify-content: center; gap: 9px; color: var(--music-dim); font-size: 10px; letter-spacing: 0.06em; min-height: 17px; margin-top: -6px;}
+#characterDialog .music-playback-footer{display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; min-height: 40px;}
+#characterDialog .music-playback-footer .music-playback-state{margin: 0px; letter-spacing: 0.025em; min-width: 0px;}
+#characterDialog .music-download-btn{display: inline-flex; align-items: center; justify-content: center; gap: 7px; flex-shrink: 0; min-height: 40px; padding: 0px 12px; border: 1px solid var(--music-line); border-radius: 10px; background: linear-gradient(125deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01)); color: var(--music-gold); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; font-size: 11px; cursor: pointer; transition: background var(--music-micro),border-color var(--music-micro),transform var(--music-micro);}
+#characterDialog .music-download-btn .icon{width: 16px; height: 16px;}
+#characterDialog .music-download-btn:hover:not(:disabled){border-color: var(--music-gold); background: rgba(255, 255, 255, 0.07);}
+#characterDialog .music-download-btn:active:not(:disabled){transform: translateY(1px);}
+#characterDialog .music-download-btn:focus-visible{outline: 2px solid var(--music-gold); outline-offset: 3px;}
+#characterDialog .music-download-btn:disabled{opacity: 0.5; cursor: default;}
+#characterDialog .music-download-format{font-size: 8px; letter-spacing: 0.04em; padding: 2px 4px; border-radius: 4px; background: rgba(255, 255, 255, 0.04); color: var(--music-muted);}
+#characterDialog .music-box-dialog[data-playback="loading"] .music-main-play .icon{animation: 1.2s linear 0s infinite normal none running music-buffer-spin;}
+#characterDialog .music-box-dialog[data-playback="error"] .music-playback-state{color: rgb(239, 184, 154);}
+#characterDialog #voiceIndexNavLabel{display: inline-block; max-width: 12em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; vertical-align: middle;}
+#characterDialog .index-voice-body{min-width: 0px;}
+#characterDialog .index-voice-body p{overflow-wrap: anywhere;}
+@media (prefers-reduced-motion: reduce){
+#characterDialog .music-box-dialog[data-playback="loading"] .music-main-play .icon{animation: auto ease 0s 1 normal none running none;}
+}
+@media (max-width: 767px){
+#characterDialog .music-download-btn{min-height: 44px;}
+#characterDialog .music-playback-footer{gap: 8px;}
+#characterDialog .music-playback-footer .music-playback-state{font-size: 9px;}
+}
+@media (prefers-reduced-motion: reduce){
+#characterDialog .music-download-btn{transition: none;}
+#characterDialog .music-download-btn:active:not(:disabled){transform: none;}
+}
+#characterDialog .music-equalizer{display: flex; align-items: center; gap: 3px; height: 14px; color: var(--music-aqua);}
+#characterDialog .music-equalizer i{width: 2px; height: 12px; background: currentcolor; border-radius: 2px; transform: scaleY(0.25); animation: 900ms ease-in-out 0s infinite alternate none paused music-level;}
+#characterDialog .music-equalizer i:nth-child(2){animation-delay: -450ms;}
+#characterDialog .music-equalizer i:nth-child(3){animation-delay: -200ms;}
+#characterDialog .music-equalizer i:nth-child(4){animation-delay: -650ms;}
+#characterDialog .music-equalizer i:nth-child(5){animation-delay: -350ms;}
+#characterDialog .music-box-dialog[open].music-playing:not([data-resting="true"]) :is(.music-vinyl-grooves, .music-orbit, .music-equalizer i){animation-play-state: running;}
+#characterDialog .music-box-dialog.music-playing .music-playback-state{color: var(--music-aqua);}
+#characterDialog .music-playlist-section{display: flex; flex-direction: column; min-width: 0px; min-height: 0px; gap: 16px; border-left: 1px solid var(--music-line); padding-left: 30px;}
+#characterDialog .music-playlist-heading{display: flex; flex-direction: column; gap: 14px; flex-shrink: 0;}
+#characterDialog .music-playlist-title-wrap{display: flex; align-items: center; justify-content: space-between; gap: 10px;}
+#characterDialog .music-playlist-heading h4{font-family: var(--display-font); font-size: 17px; font-weight: 500; letter-spacing: 0.08em; color: var(--music-text); margin: 0px;}
+#characterDialog .music-playlist-heading h4 span{display: block; font-family: var(--genshin-font); font-size: 10px; font-weight: 400; letter-spacing: 0.03em; color: var(--music-dim); margin-top: 5px;}
+#characterDialog .music-library-mark{font-size: 27px; line-height: 1; color: var(--music-gold); opacity: 0.8;}
+#characterDialog .music-search-box{position: relative; display: flex; align-items: center; width: 100%;}
+#characterDialog .music-search-icon{position: absolute; left: 14px; color: var(--music-dim); pointer-events: none; display: flex;}
+#characterDialog .music-search-icon svg{width: 17px; height: 17px;}
+#characterDialog .music-search-input{width: 100%; height: 44px; padding: 0px 14px 0px 41px; border: 1px solid var(--music-line); border-radius: 12px; background: rgba(217, 233, 255, 0.035); color: var(--music-text); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; font-size: 12px; outline: none; transition: border-color var(--music-micro),background var(--music-micro);}
+#characterDialog .music-search-input::placeholder{color: var(--music-dim);}
+#characterDialog .music-search-input:focus{border-color: rgba(240, 217, 160, 0.5); background: rgba(217, 233, 255, 0.07); box-shadow: rgba(240, 217, 160, 0.035) 0px 0px 0px 3px;}
+#characterDialog .music-filter-tabs{display: flex; flex-wrap: wrap; align-items: center; gap: 6px; overflow-x: auto; padding: 1px 0px 4px; overscroll-behavior-x: contain;}
+#characterDialog .music-tab-btn{flex-shrink: 0; padding: 6px 11px; border-radius: 8px; border: 1px solid transparent; background: transparent; color: var(--music-muted); font-size: 11px; line-height: 1.5; cursor: pointer; transition: color var(--music-micro),background var(--music-micro),border-color var(--music-micro);}
+#characterDialog .music-tab-btn:hover{background: rgba(255, 255, 255, 0.035); color: var(--music-text);}
+#characterDialog .music-tab-btn.active{color: var(--music-gold); background: rgba(241, 214, 160, 0.08); border-color: rgba(241, 214, 160, 0.24);}
+#characterDialog .music-track-list{display: flex; flex-direction: column; gap: 3px; flex: 1 1 0%; min-height: 0px; overflow: hidden auto; overscroll-behavior: contain; padding: 0px 0px 8px; scroll-padding-block: 8px;}
+#characterDialog .music-track-item{position: relative; display: flex; flex-shrink: 0; align-items: center; gap: 12px; width: 100%; padding: 12px 10px; text-align: left; background: transparent; border-width: 1px; border-style: solid; border-color: transparent transparent rgba(200, 223, 245, 0.063); border-image: initial; border-radius: 10px; cursor: pointer; transition: background var(--music-micro),border-color var(--music-micro),transform var(--music-micro);}
+#characterDialog .music-track-item:hover{background: var(--music-wash); border-color: var(--music-line); transform: translateX(2px);}
+#characterDialog .music-track-item:active{transform: scale(0.99);}
+#characterDialog .music-track-item.active{background: var(--music-active); border-color: rgba(240, 217, 160, 0.267); box-shadow: inset 2px 0 var(--music-gold);}
+#characterDialog .music-track-item:focus-visible{outline: 2px solid var(--music-gold); outline-offset: -2px; background: var(--music-wash);}
+#characterDialog .track-item-idx{width: 18px; flex-shrink: 0; font-size: 10px; text-align: center; color: var(--music-dim); font-variant-numeric: tabular-nums;}
+#characterDialog .music-track-item.active .track-item-idx{color: var(--music-gold);}
+#characterDialog .track-item-cover{width: 40px; height: 40px; flex-shrink: 0; object-fit: cover; border: 1px solid var(--music-line); border-radius: 7px;}
+#characterDialog .track-item-info{display: flex; flex-direction: column; gap: 5px; flex: 1 1 0%; min-width: 0px;}
+#characterDialog .track-item-title{font-size: 12px; font-weight: 500; color: var(--music-text); overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+#characterDialog .music-track-item.active .track-item-title{color: var(--music-gold);}
+#characterDialog .track-item-sub{font-size: 9px; line-height: 1.5; color: var(--music-dim); overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+#characterDialog .track-item-tags{display: flex; align-items: center; gap: 8px; flex-shrink: 0;}
+#characterDialog .track-tag-region{font-size: 9px; color: var(--music-dim);}
+#characterDialog .track-tag-flac{font-size: 8px; font-family: var(--genshin-font); color: var(--music-gold); border: 1px solid rgba(240, 217, 160, 0.2); border-radius: 3px; padding: 1px 4px;}
+#characterDialog .track-item-duration{font-size: 10px; color: var(--music-dim); font-variant-numeric: tabular-nums; min-width: 27px; text-align: right;}
+#characterDialog .music-more-btn{flex-shrink: 0; width: 100%; padding: 14px 8px; margin-top: 6px; color: var(--music-gold); font-size: 11px; border: 1px solid var(--music-line); border-radius: 9px; background: var(--music-wash); transition: background var(--music-micro);}
+#characterDialog .music-more-btn:hover{background: var(--music-active);}
+#characterDialog .music-empty-state{text-align: center; padding: 50px 12px; color: var(--music-muted); font-size: 12px;}
+#characterDialog .music-library-footer{display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-shrink: 0; border-top: 1px solid var(--music-line); padding-top: 12px; font-size: 9px; color: var(--music-dim); letter-spacing: 0.04em;}
+#characterDialog .music-library-footer > span:last-child > span{color: var(--music-gold); padding-left: 4px;}
+#characterDialog .music-now-playing{scrollbar-width: none;}
+#characterDialog .music-box-body{scrollbar-width: none;}
+#characterDialog .music-box-container{scrollbar-width: none;}
+#characterDialog .music-track-list{scrollbar-width: none;}
+#characterDialog .music-filter-tabs{scrollbar-width: none;}
+#characterDialog .music-box-dialog ::-webkit-scrollbar{width: 0px; height: 0px; display: none;}
+body.music-dialog-open #characterDialog .page-shell{opacity: 0.24;}
+body.music-dialog-open #characterDialog .site-header{opacity: 0.4;}
+#characterDialog .music-prism{position: absolute; inset: 0px; z-index: 0; overflow: hidden; border-radius: inherit; pointer-events: none; contain: strict;}
+#characterDialog .music-prism i{position: absolute; inset: -6%; display: block; animation-duration: ; animation-timing-function: ; animation-delay: ; animation-iteration-count: ; animation-direction: ; animation-fill-mode: ; animation-name: ; animation-timeline: ; animation-range-start: ; animation-range-end: ; animation-play-state: paused; opacity: 0.7;}
+#characterDialog .music-prism i:first-child{background: radial-gradient(ellipse at 9% 22%,color-mix(in srgb,var(--music-aurora-a) 35%,transparent),transparent 51%),radial-gradient(ellipse at 80% 92%,color-mix(in srgb,var(--music-aurora-c) 32%,transparent),transparent 52%);}
+#characterDialog .music-prism i:last-child{background: radial-gradient(ellipse at 82% 24%,color-mix(in srgb,var(--music-aurora-b) 42%,transparent),transparent 54%),radial-gradient(ellipse at 18% 83%,#92dfe62e,transparent 48%); animation-name: music-aurora-return; opacity: 0.18;}
+#characterDialog .music-disc-prism{position: absolute; inset: -7px; border-radius: 50%; padding: 2px; background: conic-gradient(from 30deg,var(--music-accent),#c4a7ef,#f0d8a4,#a5e4dc,var(--music-accent)); mask: linear-gradient(rgb(255, 255, 255) 0px, rgb(255, 255, 255) 0px) content-box exclude, linear-gradient(rgb(255, 255, 255) 0px, rgb(255, 255, 255) 0px); opacity: 0.8; animation: 20s linear 0s infinite normal none paused music-prism-orbit; pointer-events: none;}
+#characterDialog .music-main-play{position: relative; isolation: isolate; color: var(--music-accent); border-color: color-mix(in srgb,var(--music-accent) 60%,transparent); background: linear-gradient(140deg, rgba(225, 239, 255, 0.08), rgba(227, 211, 255, 0.027)); box-shadow: inset 0 1px #fff3,0 5px 25px color-mix(in srgb,var(--music-accent) 10%,transparent);}
+#characterDialog .music-main-play::after{content: ""; position: absolute; inset: -2px; border-radius: 50%; padding: 1.5px; background: conic-gradient(var(--music-accent),#d3aff2,#edd5a3,#a7e4da,var(--music-accent)); mask: linear-gradient(rgb(255, 255, 255) 0px, rgb(255, 255, 255) 0px) content-box exclude, linear-gradient(rgb(255, 255, 255) 0px, rgb(255, 255, 255) 0px); opacity: 0.85; animation: 14s linear 0s infinite normal none paused music-prism-orbit; pointer-events: none;}
+#characterDialog .music-main-play:hover{border-color: var(--music-accent); background: color-mix(in srgb,var(--music-accent) 15%,transparent); color: var(--music-text);}
+#characterDialog .music-progress-fill{background: linear-gradient(90deg,var(--music-accent),var(--music-gold));}
+#characterDialog .music-progress-fill::after{background: var(--music-accent);}
+#characterDialog .music-vol-slider{accent-color: var(--music-accent);}
+#characterDialog .music-vinyl-grooves{border-color: color-mix(in srgb,var(--music-accent) 45%,transparent);}
+#characterDialog .music-orbit-outer{border-top-color: ; border-bottom-color: ; border-left-color: ; border-right-color: color-mix(in srgb,var(--music-accent) 65%,transparent);}
+#characterDialog .music-orbit-outer::after{color: var(--music-accent);}
+#characterDialog .music-quality-pill{color: var(--music-accent); border-color: color-mix(in srgb,var(--music-accent) 30%,transparent); background: color-mix(in srgb,var(--music-accent) 6%,transparent);}
+#characterDialog .music-tab-btn.active{color: var(--music-accent); border-color: color-mix(in srgb,var(--music-accent) 35%,transparent); background: color-mix(in srgb,var(--music-accent) 12%,transparent);}
+#characterDialog .music-track-item.active{background: linear-gradient(110deg,color-mix(in srgb,var(--music-accent) 13%,transparent),#ffffff03); border-color: color-mix(in srgb,var(--music-accent) 45%,transparent); box-shadow: inset 2px 0 var(--music-accent);}
+#characterDialog .music-track-item.active :is(.track-item-title, .track-item-idx){color: var(--music-accent);}
+#characterDialog .music-main-play{transition-property: transform, color, background-color, border-color; transition-duration: var(--music-micro),650ms,650ms,650ms;}
+#characterDialog .music-quality-pill{transition-property: transform, color, background-color, border-color; transition-duration: var(--music-micro),650ms,650ms,650ms;}
+#characterDialog .music-track-item{transition-property: transform, color, background-color, border-color; transition-duration: var(--music-micro),650ms,650ms,650ms;}
+#characterDialog .music-tab-btn{transition-property: transform, color, background-color, border-color; transition-duration: var(--music-micro),650ms,650ms,650ms;}
+dialog#characterDialog.music-box-dialog[data-music-region="蒙德"]{--music-accent: #b7f1de; --music-aurora-a: #5ecbc2; --music-aurora-b: #9fb5f2; --music-aurora-c: #e6d598;}
+dialog#characterDialog.music-box-dialog[data-music-region="璃月"]{--music-accent: #f4d49a; --music-aurora-a: #e4b76c; --music-aurora-b: #c5a0eb; --music-aurora-c: #91d9dc;}
+dialog#characterDialog.music-box-dialog[data-music-region="稻妻"]{--music-accent: #e0c0ff; --music-aurora-a: #a98af4; --music-aurora-b: #e7a4dc; --music-aurora-c: #91cfef;}
+dialog#characterDialog.music-box-dialog[data-music-region="须弥"]{--music-accent: #c2efba; --music-aurora-a: #69c6a0; --music-aurora-b: #9bb6e6; --music-aurora-c: #ebd18e;}
+dialog#characterDialog.music-box-dialog[data-music-region="枫丹"]{--music-accent: #b8e6ff; --music-aurora-a: #67bff1; --music-aurora-b: #b3a2ed; --music-aurora-c: #99e3d8;}
+dialog#characterDialog.music-box-dialog[data-music-region="纳塔"]{--music-accent: #ffd0a6; --music-aurora-a: #e9a579; --music-aurora-b: #db98da; --music-aurora-c: #f1d4a0;}
+dialog#characterDialog.music-box-dialog[data-music-region="至冬"]{--music-accent: #d5ebff; --music-aurora-a: #97c8f1; --music-aurora-b: #c4aff0; --music-aurora-c: #ace1e0;}
+#characterDialog .music-box-dialog[open]:not([data-resting="true"]) :is(.music-prism i, .music-disc-prism){animation-play-state: running;}
+#characterDialog .music-box-dialog[open]:not([data-resting="true"]) .music-main-play::after{animation-play-state: running;}
+#characterDialog .music-box-dialog[open]:not([data-resting="true"]) .music-prism i{will-change: transform, opacity;}
+html[data-effects="off"] #characterDialog .music-box-dialog .music-main-play::after{animation: auto ease 0s 1 normal none running none !important;}
+html[data-celestial-quality="static"] #characterDialog .music-box-dialog :is(.music-prism i, .music-disc-prism){will-change: auto; animation: auto ease 0s 1 normal none running none !important;}
+html[data-celestial-quality="static"] #characterDialog .music-box-dialog .music-main-play::after{will-change: auto; animation: auto ease 0s 1 normal none running none !important;}
+html[data-effects="off"] #characterDialog .music-box-dialog .music-prism i{will-change: auto;}
+@media (prefers-reduced-motion: reduce){
+#characterDialog .music-box-dialog .music-prism i{will-change: auto;}
+}
+@media (prefers-reduced-motion: no-preference){
+#characterDialog .music-box-dialog[open] .music-track-item:nth-child(-n+8){animation-duration: ; animation-timing-function: ; animation-iteration-count: ; animation-direction: ; animation-fill-mode: ; animation-play-state: ; animation-name: ; animation-timeline: ; animation-range-start: ; animation-range-end: ; animation-delay: calc(var(--music-order,0)*28ms);}
+}
+html[data-effects="off"] #characterDialog .music-box-dialog{animation: auto ease 0s 1 normal none running none !important; transition: none !important;}
+html[data-effects="off"] #characterDialog .music-box-dialog *{animation: auto ease 0s 1 normal none running none !important; transition: none !important;}
+html[data-effects="off"] #characterDialog .music-box-dialog::backdrop{animation: auto ease 0s 1 normal none running none !important; transition: none !important;}
+#characterDialog .music-box-dialog[data-resting="true"] *{animation-play-state: paused !important;}
+html[data-theme="light"] #characterDialog .music-box-dialog{--music-text: #14364b; --music-muted: #2c516a; --music-dim: #3d6279; --music-gold: #7a5a28; --music-aqua: #216d6b; --music-accent: #285e78; --music-line: #365c7b30; --music-wash: #ffffff29; --music-active: #f5deac30; background: linear-gradient(120deg, rgba(255, 255, 255, 0.067), rgba(227, 239, 255, 0.03)), rgba(228, 239, 246, 0.5); border-color: rgba(255, 255, 255, 0.533); box-shadow: rgba(16, 46, 77, 0.22) 0px 30px 90px, rgba(255, 255, 255, 0.6) 0px 1px inset;}
+html[data-theme="light"] #characterDialog .music-box-container{text-shadow: rgba(255, 255, 255, 0.267) 0px 1px;}
+html[data-theme="light"] #characterDialog .music-box-dialog[data-music-region="蒙德"]{--music-accent: #215d53;}
+html[data-theme="light"] #characterDialog .music-box-dialog[data-music-region="璃月"]{--music-accent: #765124;}
+html[data-theme="light"] #characterDialog .music-box-dialog[data-music-region="稻妻"]{--music-accent: #654187;}
+html[data-theme="light"] #characterDialog .music-box-dialog[data-music-region="须弥"]{--music-accent: #3f632c;}
+html[data-theme="light"] #characterDialog .music-box-dialog[data-music-region="枫丹"]{--music-accent: #24577b;}
+html[data-theme="light"] #characterDialog .music-box-dialog::backdrop{background: rgba(23, 48, 71, 0.15);}
+@media (max-height: 740px) and (min-width: 821px){
+#characterDialog .music-box-header{min-height: 64px; padding: 12px 25px;}
+#characterDialog .music-box-body{padding: 20px 24px; gap: 24px;}
+#characterDialog .music-playlist-section{padding-left: 24px;}
+#characterDialog .music-turntable-stage{gap: 15px; padding-bottom: 15px;}
+#characterDialog .music-vinyl-wrap{width: 156px; margin-bottom: 13px;}
+#characterDialog .music-track-title{font-size: 20px;}
+#characterDialog .music-track-desc{display: none;}
+#characterDialog .music-current-info{gap: 7px;}
+#characterDialog .music-controls-panel{gap: 12px;}
+#characterDialog .music-playback-state{margin-top: -7px;}
+}
+@media (max-width: 900px) and (min-width: 821px){
+#characterDialog .music-badge-tag{display: none;}
+#characterDialog .track-tag-region{display: none;}
+#characterDialog .music-box-body{gap: 22px; padding-inline: 22px;}
+#characterDialog .music-playlist-section{padding-left: 22px;}
+#characterDialog .music-control-buttons{column-gap: 8px;}
+#characterDialog .music-vol-slider{width: 65px;}
+}
+@media (max-width: 820px){
+dialog#characterDialog.music-box-dialog{width: calc(-24px + 100vw); height: calc(-32px + 100dvh); border-radius: 22px; backdrop-filter: blur(10px) saturate(1.12);}
+#characterDialog .music-prism i{inset: 0px;}
+#characterDialog .music-box-dialog::after{border-radius: 16px;}
+#characterDialog .music-box-header{min-height: 64px; padding: 12px 18px; gap: 8px;}
+#characterDialog .music-box-header h2{font-size: 15px; letter-spacing: 0.04em;}
+#characterDialog .music-badge-tag{display: none;}
+#characterDialog .music-box-badge{gap: 8px;}
+#characterDialog .music-badge-spark{font-size: 18px;}
+#characterDialog .music-box-dialog .dialog-close{width: 40px; height: 40px;}
+#characterDialog .music-box-body{display: block; padding: 18px 20px 22px; overflow-y: auto; overscroll-behavior: contain;}
+#characterDialog .music-now-playing{overflow: visible; padding: 0px;}
+#characterDialog .music-turntable-stage{gap: 17px; padding: 12px 0px 17px;}
+#characterDialog .music-vinyl-wrap{width: 160px; margin: 15px auto 18px;}
+#characterDialog .music-current-info{gap: 8px;}
+#characterDialog .music-track-title{font-size: 21px;}
+#characterDialog .music-track-album{font-size: 11px;}
+#characterDialog .music-track-desc{display: none;}
+#characterDialog .music-controls-panel{max-width: 430px; width: 100%; margin: 0px auto 24px; padding-top: 15px; gap: 12px;}
+#characterDialog .music-control-buttons{column-gap: 14px;}
+#characterDialog .music-playback-state{margin-top: -8px;}
+#characterDialog .music-loop-btn{font-size: 10px;}
+#characterDialog .music-playlist-section{border-left: 0px; border-top: 1px solid var(--music-line); padding: 22px 0px 0px; gap: 12px;}
+#characterDialog .music-playlist-heading{gap: 12px;}
+#characterDialog .music-playlist-heading h4{font-size: 16px;}
+#characterDialog .music-playlist-heading h4 span{display: inline; margin-left: 5px; font-size: 9px; letter-spacing: 0px;}
+#characterDialog .music-search-input{font-size: 16px; height: 44px;}
+#characterDialog .music-search-input::placeholder{font-size: 12px;}
+#characterDialog .music-filter-tabs{flex-wrap: nowrap; padding: 0px 1px 5px; gap: 4px;}
+#characterDialog .music-tab-btn{min-height: 40px; padding: 6px 10px; font-size: 11px;}
+#characterDialog .music-track-list{overflow: visible; max-height: none; gap: 2px; padding-bottom: 12px;}
+#characterDialog .music-track-item{gap: 9px; padding: 12px 8px;}
+#characterDialog .track-item-idx{width: 15px; font-size: 9px;}
+#characterDialog .track-item-cover{width: 36px; height: 36px;}
+#characterDialog .track-item-title{font-size: 12px;}
+#characterDialog .track-item-tags{gap: 5px;}
+#characterDialog .track-tag-region{display: none;}
+#characterDialog .track-item-duration{font-size: 9px; min-width: 24px;}
+#characterDialog .track-tag-flac{font-size: 7px; padding: 1px 3px;}
+#characterDialog .track-item-sub{font-size: 9px;}
+#characterDialog .music-library-footer{font-size: 8px;}
+}
+@media (max-width: 600px){
+#characterDialog .music-turntable-stage{display: grid; grid-template-columns: 112px minmax(0px, 1fr); gap: 22px; text-align: left; padding: 9px 0px 18px;}
+#characterDialog .music-vinyl-wrap{width: 112px; margin: 20px 0px;}
+#characterDialog .music-orbit-outer{inset: -10px;}
+#characterDialog .music-orbit-inner{inset: -18px;}
+#characterDialog .music-tonearm{right: -5px; width: 23px;}
+#characterDialog .music-current-info{align-items: flex-start; gap: 9px;}
+#characterDialog .music-info-tags{justify-content: flex-start; gap: 5px;}
+#characterDialog .music-track-title{font-size: 18px; text-wrap: pretty;}
+#characterDialog .music-track-album{font-size: 10px; text-wrap: pretty;}
+#characterDialog .music-quality-pill{font-size: 8px; padding: 2px 5px;}
+#characterDialog .music-region-pill{font-size: 9px; padding: 2px 6px;}
+}
+@media (max-width: 374px){
+#characterDialog .music-box-body{padding-inline: 14px;}
+#characterDialog .music-box-header{padding-inline: 14px;}
+#characterDialog .music-box-header h2{font-size: 14px;}
+#characterDialog .music-track-title{font-size: 17px;}
+#characterDialog .track-tag-flac{display: none;}
+#characterDialog .music-volume-group{gap: 2px;}
+#characterDialog .music-vol-slider{width: 68px;}
+#characterDialog .music-turntable-stage{grid-template-columns: 98px minmax(0px, 1fr); gap: 20px;}
+#characterDialog .music-vinyl-wrap{width: 98px;}
+}
+@media (prefers-reduced-transparency: reduce){
+dialog#characterDialog.music-box-dialog{background: rgb(16, 35, 55); backdrop-filter: none;}
+html[data-theme="light"] #characterDialog .music-box-dialog{background: rgb(227, 237, 244);}
+}
+@media (prefers-reduced-transparency: reduce){
+#characterDialog .music-prism{display: none;}
+}
+@media (max-width: 767px){
+#characterDialog .music-pill-meta{display: none;}
+#characterDialog .music-pill{padding: 3px 6px 3px 3px; gap: 4px;}
+}
+#characterDialog .brand-wordmark{flex-shrink: 0; white-space: nowrap;}
+@media (min-width: 641px) and (max-width: 1023px){
+#characterDialog .header-inner{flex-wrap: wrap; row-gap: 0px; padding-top: 12px;}
+#characterDialog .header-actions{margin-left: auto;}
+#characterDialog .primary-nav{order: 3; width: 100%; min-height: 44px; margin-left: 0px; gap: 24px;}
+#characterDialog .primary-nav .archive-nav{display: inline-flex; margin-left: auto;}
+}
+@media (max-width: 767px){
+#characterDialog .header-actions{gap: 6px;}
+#characterDialog .header-actions .music-pill{padding: 3px; gap: 0px;}
+#characterDialog .header-actions .music-pill-actions{display: none;}
+}
+@media (max-width: 374px){
+#characterDialog .header-inner{column-gap: 8px;}
+}
+@media (max-width: 359px){
+#characterDialog .brand .brand-wordmark small{display: none;}
+}
+#characterDialog .celestial-fx{position: absolute; inset: 8%; pointer-events: none; perspective: 700px; isolation: isolate; z-index: 1; contain: layout style;}
+#characterDialog .celestial-fx::before{content: ""; position: absolute; inset: 4%; border-radius: 50%; background: radial-gradient(ellipse,color-mix(in srgb,var(--celestial-color) 18%,transparent),transparent 65%);}
+#characterDialog .celestial-ring{position: absolute; inset: 8%; border-top-color: ; border-top-style: ; border-top-width: ; border-right-color: ; border-right-style: ; border-right-width: ; border-bottom-color: ; border-bottom-style: ; border-bottom-width: ; border-left-style: ; border-left-width: ; border-image-source: ; border-image-slice: ; border-image-width: ; border-image-outset: ; border-image-repeat: ; border-left-color: transparent; border-radius: 50%; box-shadow: rgba(159, 220, 255, 0.082) 0px 0px 14px; animation: 28s linear 0s infinite normal none paused celestial-orbit;}
+#characterDialog .celestial-ring::before{content: ""; position: absolute; inset: 6%; border: 1px dashed color-mix(in srgb,var(--celestial-secondary) 35%,transparent); border-radius: 50%;}
+#characterDialog .celestial-ring::after{content: ""; position: absolute; top: 14%; right: 12%; width: 7px; height: 7px; transform: rotate(45deg); background: var(--celestial-secondary); box-shadow: rgba(255, 232, 173, 0.533) 0px 0px 14px;}
+#characterDialog .celestial-ring-b{inset: 20% -3%; border-top-color: ; border-bottom-color: ; border-left-color: ; border-right-color: transparent; animation-name: celestial-orbit-cross; animation-duration: 36s; animation-direction: reverse;}
+#characterDialog .celestial-ring-b::before{inset: 12%; border-style: solid; border-color: rgba(202, 234, 255, 0.145);}
+#characterDialog .celestial-ring-b::after{width: 4px; height: 4px; background: var(--celestial-color); box-shadow: rgba(191, 238, 255, 0.6) 0px 0px 12px;}
+#characterDialog .celestial-star{position: absolute; color: var(--celestial-secondary); font-family: Georgia, serif; font-style: normal; font-size: 19px; font-weight: 400; line-height: 1; text-shadow: rgba(247, 219, 168, 0.533) 0px 0px 12px; animation: 3.8s ease-in-out 0s infinite normal none paused celestial-twinkle;}
+#characterDialog .celestial-star-a{left: 4%; top: 32%;}
+#characterDialog .celestial-star-b{right: 5%; top: 17%; font-size: 15px; color: var(--celestial-color); animation-delay: -1.3s;}
+#characterDialog .celestial-star-c{right: 12%; bottom: 12%; font-size: 12px; animation-delay: -2.8s;}
+#characterDialog .celestial-star-d{left: 20%; bottom: 5%; font-size: 15px; color: var(--celestial-color); animation-delay: -0.7s;}
+#characterDialog .hero-celestial-fx{display: none; inset: 5px calc(-180px + min(300px, 22vw)) auto auto; width: 360px; height: 340px; z-index: 1;}
+#characterDialog .hero[data-art-edition="celestial"] .hero-celestial-fx{display: block;}
+#characterDialog .hero[data-art-edition="celestial"] .hero-character{will-change: auto; height: 96% !important; bottom: 1% !important; mask-image: none !important; animation: 6s ease-in-out 0s infinite normal none paused celestial-levitate !important; filter: drop-shadow(rgba(184, 219, 255, 0.2) 0px 0px 10px) drop-shadow(rgba(2, 13, 48, 0.31) 7px 17px 12px) !important;}
+#characterDialog .hero[data-celestial-running="true"][data-art-edition="celestial"] .hero-character{animation-play-state: running !important;}
+#characterDialog .hero[data-celestial-running="true"] .celestial-fx > *{animation-play-state: running;}
+#characterDialog.character-dialog[open][data-celestial-running="true"] .celestial-fx > *{animation-play-state: running;}
+#characterDialog .character-card:is(.is-tilting, .is-revealing) .celestial-fx > *{animation-play-state: running;}
+#characterDialog .character-card.art-edition{--metal: linear-gradient(145deg,#fff0c2 0%,#d2a959 17%,#fff7d7 33%,#87ccec 52%,#be9dd7 67%,#f3d392 84%,#fff0bf); box-shadow: rgba(2, 9, 31, 0.4) 0px 12px 30px, rgba(244, 212, 138, 0.4) 0px 0px 0px 1px inset;}
+#characterDialog .art-edition .character-art-stage{background: radial-gradient(ellipse at 55% 30%,color-mix(in srgb,var(--celestial-color) 20%,transparent),transparent 70%);}
+#characterDialog .card-celestial-fx{inset: 5% 3% 1%; z-index: 1; opacity: 0.85;}
+#characterDialog .card-celestial-fx .celestial-star{font-size: 12px;}
+#characterDialog .card-celestial-fx .celestial-ring{box-shadow: none;}
+#characterDialog .art-edition .character-art{object-fit: contain; object-position: center center; filter: drop-shadow(rgba(2, 11, 36, 0.36) 0px 10px 10px) drop-shadow(rgba(185, 223, 255, 0.2) 0px 0px 5px);}
+#characterDialog .character-card.art-edition.is-tilting .character-art{transform: translate3d(0px, -6px, 42px) scale(1.035);}
+#characterDialog .card-edition-mark{position: absolute; top: 12px; right: 12px; z-index: 4; color: rgb(247, 230, 191); font-size: 9px; letter-spacing: 0.12em; padding: 3px 7px; border: 1px solid rgba(237, 207, 139, 0.39); border-radius: 12px; background: rgba(17, 36, 62, 0.48); text-shadow: rgb(7, 18, 38) 0px 1px 5px;}
+#characterDialog .projection-celestial-fx{inset: 5% 7% 13%; transform: translate3d(calc(var(--projection-x) * -.45),calc(var(--projection-y) * -.45),0);}
+#characterDialog .detail-profile.art-edition .detail-sculpture{z-index: 2;}
+#characterDialog .detail-profile.art-edition .detail-sculpture img{filter: drop-shadow(rgba(2, 11, 36, 0.44) 0px 18px 12px) drop-shadow(rgba(192, 225, 255, 0.25) 0px 0px 8px);}
+#characterDialog .detail-profile.art-edition .projection-plinth{border-color: rgba(239, 217, 163, 0.61); background: radial-gradient(rgba(244, 231, 168, 0.02) 25%, rgba(162, 224, 255, 0.13) 58%, transparent 65%); box-shadow: rgba(181, 222, 255, 0.165) 0px 0px 24px, rgba(247, 220, 170, 0.165) 0px 0px 20px inset;}
+#characterDialog .art-edition-credit{font-size: 9px; line-height: 1.7; letter-spacing: 0.02em; color: var(--dim); margin: 10px 0px 0px;}
+@media (max-width: 767px){
+#characterDialog .hero-celestial-fx{width: 280px; height: 290px; right: calc(-140px + min(118px, 30vw)); top: 20px;}
+#characterDialog .card-edition-mark{font-size: 8px; top: 10px; right: 9px; padding: 2px 6px;}
+#characterDialog .projection-celestial-fx .celestial-star{font-size: 14px;}
+#characterDialog .art-edition-credit{font-size: 8px; margin-top: 7px;}
+#characterDialog .detail-profile.art-edition .detail-sculpture img{filter: drop-shadow(rgba(2, 11, 36, 0.44) 0px 10px 8px);}
+}
+@media (max-width: 767px){
+#characterDialog .hero[data-art-edition="celestial"] .hero-character{width: 58% !important; height: 92% !important; right: 0px !important; bottom: 5% !important; object-position: center center !important;}
+#characterDialog .hero[data-art-edition="celestial"] .hero-celestial-fx{width: 60%; height: 74%; right: 0px; top: 12%; opacity: 0.65;}
+}
+html[data-effects="off"] #characterDialog .celestial-fx > *{animation: auto ease 0s 1 normal none running none !important;}
+html[data-effects="off"] #characterDialog .hero[data-art-edition="celestial"] .hero-character{animation: auto ease 0s 1 normal none running none !important;}
+html[data-celestial-quality="static"] #characterDialog .celestial-fx > *{animation: auto ease 0s 1 normal none running none !important;}
+html[data-celestial-quality="static"] #characterDialog .hero[data-art-edition="celestial"] .hero-character{animation: auto ease 0s 1 normal none running none !important;}
+@media (prefers-reduced-motion: reduce){
+#characterDialog .celestial-fx > *{animation: auto ease 0s 1 normal none running none !important; transition: none !important; transform: none !important;}
+#characterDialog .hero[data-art-edition="celestial"] .hero-character{animation: auto ease 0s 1 normal none running none !important; transition: none !important; transform: none !important;}
+}
+
+/* Optional capabilities share the same components in every game. */
+.game-breadcrumb{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);margin:0 0 18px}
+.game-breadcrumb a{display:inline-flex;align-items:center;gap:6px;min-height:32px;color:var(--gold)}
+.game-breadcrumb .icon{width:14px;height:14px}
+html[data-rarity=false] .card-rarity,html[data-rarity=false] .profile-stars{display:none}
+html[data-music=false] .music-pill,html[data-music=false] #musicNav{display:none}
+html[data-title-art=false] .hero-title-art{display:none}
+html[data-title-art=false] .hero-art-title .hero-title-text{display:block;position:static;inset:auto;width:auto;height:auto;padding:0;margin:0;clip:auto;clip-path:none;overflow:visible;white-space:normal;opacity:1;color:var(--gold);font-size:clamp(25px,3vw,46px);line-height:1.4}
+/* Both illustration and transparent art use the same hero frame and copy grid. */
+.hero[data-art-mode=illustration] .hero-character{width:auto!important;height:96%!important;right:var(--char-right,0px)!important;bottom:1%!important;object-fit:contain;object-position:var(--hero-art-position,center top)!important;-webkit-mask-image:linear-gradient(90deg,transparent,#000 24%,#000 70%,transparent),linear-gradient(180deg,transparent,#000 13%,#000 78%,transparent)!important;mask-image:linear-gradient(90deg,transparent,#000 24%,#000 70%,transparent),linear-gradient(180deg,transparent,#000 13%,#000 78%,transparent)!important;-webkit-mask-composite:source-in;mask-composite:intersect;filter:drop-shadow(0 8px 20px #020d3066)!important}
+.hero[data-art-mode=illustration] .hero-celestial-fx{opacity:.45}
+@media(max-width:767px){html[data-title-art=false] .hero-art-title .hero-title-text{font-size:clamp(18px,6vw,25px)}.hero[data-art-mode=illustration] .hero-character{width:58%!important;height:auto!important;max-height:92%;right:0!important;top:8%;bottom:auto!important}}
+#characterDialog .detail-topbar{position:relative}
+#characterDialog .skin-control{position:absolute;top:49px;right:70px;display:flex;width:140px;margin:0;gap:0;font-size:11px}
+#characterDialog .skin-control select{width:100%;min-width:0;min-height:32px;padding:5px 9px;border:1px solid var(--line);border-radius:7px;background:var(--surface);color:var(--text);font:inherit}
+#characterDialog .selected-skin-artwork{position:absolute;z-index:4;top:14px;left:20px;color:var(--muted);font-size:9px;pointer-events:none}
+/* The scoped dialog reset also resets HTML width/height presentation hints. */
+#characterDialog #audioPlayer .player-track>img{width:44px;height:44px;max-width:44px;flex:0 0 44px;object-fit:cover}
+@media(max-width:640px){#characterDialog #audioPlayer .player-track>img{width:36px;height:36px;max-width:36px;flex-basis:36px}}
+@media(max-width:1023px){#characterDialog .skin-control{right:68px;width:122px}}
+@media(max-width:640px){#characterDialog .skin-control{top:49px;right:24px;width:122px}}
+@media(max-width:374px){#characterDialog .skin-control{right:18px;width:108px}}

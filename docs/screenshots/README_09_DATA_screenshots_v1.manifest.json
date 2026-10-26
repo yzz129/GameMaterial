@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "path": "docs/screenshots/README_01_DATA_portal-desktop_v1.jpg",
+      "source": {
+        "type": "project-browser-screenshot",
+        "route": "/",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "browser": "Chrome / Playwright",
+        "capturedOn": "2026-10-26"
+      },
+      "purpose": "README product preview",
+      "license": "Project UI screenshot; underlying game artwork, characters and trademarks retain their respective rights.",
+      "width": 1440,
+      "height": 2295,
+      "channels": "RGB",
+      "mimeType": "image/jpeg",
+      "version": 1,
+      "bytes": 603844,
+      "sha256": "9a3a77a4cfb63819c6a809fb804f35e5d6b9632ca3d60338814d970126b79a9c",
+      "review": {
+        "visual": "checked",
+        "pageErrors": 0,
+        "failedLocalResponses": 0
+      }
+    },
+    {
+      "path": "docs/screenshots/README_02_DATA_genshin-desktop_v1.jpg",
+      "source": {
+        "type": "project-browser-screenshot",
+        "route": "/genshin/",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "browser": "Chrome / Playwright",
+        "capturedOn": "2026-10-26"
+      },
+      "purpose": "README product preview",
+      "license": "Project UI screenshot; underlying game artwork, characters and trademarks retain their respective rights.",
+      "width": 1440,
+      "height": 1000,
+      "channels": "RGB",
+      "mimeType": "image/jpeg",
+      "version": 1,
+      "bytes": 324774,
+      "sha256": "e5bb30414f0c52f71d018e9553baa38959f50fa7b2383766996f395fca747fb5",
+      "review": {
+        "visual": "checked",
+        "pageErrors": 0,
+        "failedLocalResponses": 0
+      }
+    },
+    {
+      "path": "docs/screenshots/README_03_DATA_genshin-detail_v1.jpg",
+      "source": {
+        "type": "project-browser-screenshot",
+        "route": "/genshin/",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "browser": "Chrome / Playwright",
+        "capturedOn": "2026-10-26"
+      },
+      "purpose": "README product preview",
+      "license": "Project UI screenshot; underlying game artwork, characters and trademarks retain their respective rights.",
+      "width": 1440,
+      "height": 1000,
+      "channels": "RGB",
+      "mimeType": "image/jpeg",
+      "version": 1,
+      "bytes": 245147,
+      "sha256": "f1ba7a34d2a46874a8203a3ca56336bbba55d1fbe56f952d2d51d17e1e582428",
+      "review": {
+        "visual": "checked",
+        "pageErrors": 0,
+        "failedLocalResponses": 0
+      }
+    },
+    {
+      "path": "docs/screenshots/README_04_DATA_music-desktop_v1.jpg",
+      "source": {
+        "type": "project-browser-screenshot",
+        "route": "/genshin/",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "browser": "Chrome / Playwright",
+        "capturedOn": "2026-10-26"
+      },
+      "purpose": "README product preview",
+      "license": "Project UI screenshot; underlying game artwork, characters and trademarks retain their respective rights.",
+      "width": 1440,
+      "height": 1000,
+      "channels": "RGB",
+      "mimeType": "image/jpeg",
+      "version": 1,
+      "bytes": 272512,
+      "sha256": "09fd78d2d9538b936c6bc8d7708be057440ad857a3f17c7b86dc3642c4b2edad",
+      "review": {
+        "visual": "checked",
+        "pageErrors": 0,
+        "failedLocalResponses": 0
+      }
+    },
+    {
+      "path": "docs/screenshots/README_05_DATA_honor-desktop_v1.jpg",
+      "source": {
+        "type": "project-browser-screenshot",
+        "route": "/honor-of-kings/",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "browser": "Chrome / Playwright",
+        "capturedOn": "2026-10-26"
+      },
+      "purpose": "README product preview",
+      "license": "Project UI screenshot; underlying game artwork, characters and trademarks retain their respective rights.",
+      "width": 1440,
+      "height": 1000,
+      "channels": "RGB",
+      "mimeType": "image/jpeg",
+      "version": 1,
+      "bytes": 304623,
+      "sha256": "bf8fc0974bab2be90c2eaf8e14bf4890cb9ad05968203e4660e57067c2e92ca0",
+      "review": {
+        "visual": "checked",
+        "pageErrors": 0,
+        "failedLocalResponses": 0
+      }
+    },
+    {
+      "path": "docs/screenshots/README_06_DATA_honor-skin_v1.jpg",
+      "source": {
+        "type": "project-browser-screenshot",
+        "route": "/honor-of-kings/",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "browser": "Chrome / Playwright",
+        "capturedOn": "2026-10-26"
+      },
+      "purpose": "README product preview",
+      "license": "Project UI screenshot; underlying game artwork, characters and trademarks retain their respective rights.",
+      "width": 1440,
+      "height": 1000,
+      "channels": "RGB",
+      "mimeType": "image/jpeg",
+      "version": 1,
+      "bytes": 206573,
+      "sha256": "e98efcaf31a7c2d05fbf44c5d6a87e4ba775ba52d1d20cdb54b39b4d48d04899",
+      "review": {
+        "visual": "checked",
+        "pageErrors": 0,
+        "failedLocalResponses": 0
+      }
+    },
+    {
+      "path": "docs/screenshots/README_07_DATA_portal-mobile_v1.jpg",
+      "source": {
+        "type": "project-browser-screenshot",
+        "route": "/",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "browser": "Chrome / Playwright",
+        "capturedOn": "2026-10-26"
+      },
+      "purpose": "README product preview",
+      "license": "Project UI screenshot; underlying game artwork, characters and trademarks retain their respective rights.",
+      "width": 390,
+      "height": 844,
+      "channels": "RGB",
+      "mimeType": "image/jpeg",
+      "version": 1,
+      "bytes": 104725,
+      "sha256": "268aea1820b6fcabf3ec2a881ab5f73940d98ccc15e76d1fa4b3cc7959a02254",
+      "review": {
+        "visual": "checked",
+        "pageErrors": 0,
+        "failedLocalResponses": 0
+      }
+    },
+    {
+      "path": "docs/screenshots/README_08_DATA_honor-mobile_v1.jpg",
+      "source": {
+        "type": "project-browser-screenshot",
+        "route": "/honor-of-kings/",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "browser": "Chrome / Playwright",
+        "capturedOn": "2026-10-26"
+      },
+      "purpose": "README product preview",
+      "license": "Project UI screenshot; underlying game artwork, characters and trademarks retain their respective rights.",
+      "width": 390,
+      "height": 844,
+      "channels": "RGB",
+      "mimeType": "image/jpeg",
+      "version": 1,
+      "bytes": 68590,
+      "sha256": "b99315c852a3793fd371818331d2caf44dcec7db00f1ecc13674f040c8ddb8cd",
+      "review": {
+        "visual": "checked",
+        "pageErrors": 0,
+        "failedLocalResponses": 0
+      }
+    }
+  ]
+}

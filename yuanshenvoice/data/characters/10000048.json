@@ -1,0 +1,503 @@
+{
+  "id": 10000048,
+  "name": "烟绯",
+  "enName": "Yanfei",
+  "title": "智明无邪",
+  "element": "火",
+  "region": "璃月",
+  "rarity": 4,
+  "weapon": "法器",
+  "birthday": "7月28日",
+  "constellation": "法兽座",
+  "description": "活跃在璃月港的知名律法咨询师，混有仙兽血脉的精明少女。",
+  "affiliation": "烟绯律法咨询事务所",
+  "cv": {
+    "chinese": "苏子芜",
+    "japanese": "花守由美里",
+    "english": "莉琪·弗里曼",
+    "korean": "赵京洢"
+  },
+  "avatarImg": "assets/characters/10000048-avatar.webp",
+  "splashArt": "assets/characters/10000048-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Yanfei.zip",
+  "voicePackageEn": "Yanfei",
+  "quoteCount": 67,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "我叫烟绯，是璃月港最顶尖的律法专家，没有之一！商业纠纷、民事调解、刑事诉讼，样样精通，一出手就搞得定！我的联系方式…要给你记在哪里好呢？唔…记在纸上容易丢，记在手上容易糊掉…哦！有了，就写在你旁边这个小家伙的衣服上吧。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/16/jun4r5boo37exvrzuayfib93wx6u9v9.mp3"
+    },
+    {
+      "title": "闲聊·律法",
+      "desc": "律法既是约束，也是工具，请你千万记住哦！记不住的话，我就多给你念叨两遍。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/39/3tvnmacp5t12yqru14xu1logaqff47p.mp3"
+    },
+    {
+      "title": "闲聊·工作",
+      "desc": "法理与人情有时冲突，有时兼容。权衡二者，真是种学问呢。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9e/kdbamajwdo6fy9zpsofpu1vh37dkk04.mp3"
+    },
+    {
+      "title": "闲聊·阅读",
+      "desc": "唔唔，居然还有这种案件…天下之大，无奇不有啊。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e3/31558p366fauxjrurtq3h958ys6uvkg.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "又下雨了！岩王爷行行好赶快出晴吧，一大墙法典可不能受潮。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9b/l8ryycxnplrdbv6hknlcbhs52fqzvas.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "这…这是什么倒霉天气，有、有点冷哦…阿嚏…",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/22/87kjoe91ugwq4cc3il44z5z2yt1vvpc.mp3"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "趁着天好，背背律条。嗯？《璃月商典》第二十七章第六条第三款是什么来着…我怎么会忘记？不应当不应当…",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f4/1pv0he0i6c2ua5gwe7gih16drsikw7v.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早上有个债务纠纷的案件要出外勤，中午前要给上周来咨询的客户答复…好！干活干活！",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9a/pu48ykjzzklxt3g4kyt2dcnpkdegxtz.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "哈…有点困呢…不如来场辩论，帮我提神醒脑！辩题的话，「北国银行的开设对璃月经济利大于弊还是弊大于利」。嗯，就这个，你先来挑立场吧。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/58/e5af0xhiqh56b4ogn9vahnnd4rlqyuk.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "夜市？唔…本想留在家里整理笔记，不过你想逛的话，我们就一起去吧。哦，我跟你说，有的店家因为要保证每天商品都是新鲜的，又不想白白折损今天卖剩下的货物，经常会在晚上搞促销。\n讨价还价的事就交给我来吧，零头…就当作我的服务费啦。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e5/hdrdgkt73sx2twq2ulqk11mqnhjm3qs.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "想要快速入睡？那我来给你讲解璃月律法的演变史吧，我的那些朋友就没有能撑过二十分钟的。唔，还想要更快的话，那就背法典吧，背法典！明天记得告诉我你听到了第几条。咳咳…我开始了哦？",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dc/9yr535plzfpvhcydkox0yn94odxzexx.mp3"
+    },
+    {
+      "title": "关于烟绯自己·气场",
+      "desc": "读卷宗时我的气场很强？唔…原来你会这样想。但那也只是我的工作状态吧。就是说，在我的身上有一个隐形的按钮，噗地拨过来，是平常模式，咻地拨过去，是工作模式。你身上难道就没有这种开关吗？",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ea/l7889sslan1w4bdk2ar6aap9x42xyi9.mp3"
+    },
+    {
+      "title": "关于烟绯自己·弱项",
+      "desc": "我最怕遇到的就是民事纠纷啦，什么婚姻破裂、抚养权诉讼…这类纠纷很难用理性或者逻辑去拆解。虽然说对当事人的态度要温和有耐心，但有的当事人自己都已经没法交流了…唉。虽然我标榜自己「样样精通」，但如果可以由我做主的话，我还是希望大家都能够和和气气生活，少出现些这种案子啦。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0e/o10xmnldijgnghpeuss4v8elos6uu91.mp3"
+    },
+    {
+      "title": "关于我们·定价",
+      "desc": "想请我做你的顾问？可以啊，解读律法每条六千摩拉，随行咨询每个时辰十八万摩拉，商业案件单件七十一万摩拉起，后续具体报价和抽成视情况而定。怎么样，很实惠吧？",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/98/bvtm1mls500e32vznfd9flf00uvrklp.mp3"
+    },
+    {
+      "title": "关于我们·关系",
+      "desc": "你四处游历，要是怕遇到麻烦处理起来棘手，最好的办法就是跟知法懂法之人同行。而我烟绯擅长的，也不止璃月本国的律法。呃，虽然，枫丹那边的还挺复杂…但靠我这个聪明的脑袋，要熟记也不是什么难事！总…总之！我是绝对值得依靠的！",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/63/lhanmlxsat8slumve0dac5wn2gkf0oz.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "「神之眼」应强烈的愿望而生。作为一个有理想的人，我当然能得到它了。因为——我希望所有人都能老老实实，遵纪守法！但如果敢有乱来的家伙，哼哼，那就统统给我接受律法的制裁去！",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/df/82fr8k9khtkud9h5p6tuyac6o8srsea.mp3"
+    },
+    {
+      "title": "有什么想要分享·秤",
+      "desc": "这杆秤是老爹交给我的宝贝，能衡量出事物的「价值」。通常我会用摩拉当砝码，不过，它只能称量事物最初的价格。举例来说，千年前，璃月遍地都是琉璃百合，这种花在当时并不值钱。后来它数量骤减，售价也水涨船高，这杆秤显示的「价值」却没有更新，还是和之前一样的「便宜」。\n所以，在大部分情况下，这杆秤也不能作为我工作的帮助啦…怎么？你有什么想要称量的东西吗？比如…称量一下你身边的那个小家伙，怎么样？",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/21/c06nq4intzgznjfrxxvtisxulg275nz.mp3"
+    },
+    {
+      "title": "有什么想要分享·法治",
+      "desc": "我自创的招式「食炎之罚」改编自古籍《璃月会典例律总辑要》中记载的「食岩之罚」。岩王爷是契约之神，契约也可视作约束，说明什么呢？哼哼，说明璃月港自古就是契约之城。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_dialog_share_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0b/ezxznrrm7upjjnpaawj1jjbdt1q38j4.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "《璃月风物志》写到某种水生马尾，称它「独坐荻花洲岸，色如霞，可入药。」将其研磨成粉掺入墨汁之中，能使字迹不怕水浸。嗯…可惜啊，我去过荻花洲不下百次，常见的紫色马尾一摘就是几箩筐，却始终找不到书里记载的那种。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fc/9hveks1ac6qj49j99rw0k3kfcwixtba.mp3"
+    },
+    {
+      "title": "关于七七…",
+      "desc": "听说那个采药姑娘给自己编写了一整套行为准则。瞧她身材娇小，办事却有条有理，实乃成大事之风范。\n后生可畏，后生可畏呀。就连我也要说一声佩服。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_teammate_qiqi_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/12/dtel3tql0ebygyd8fi5qlglcy6arf59.mp3"
+    },
+    {
+      "title": "关于甘雨…",
+      "desc": "甘雨前辈温柔又贴心，可惜是个大忙人，大好的时光除了午睡，都在案卷堆里埋头苦干。我虽然也有工作时间，但也是快快乐乐的。我选择的工作，那可比她轻松多了。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_teammate_ganyu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8f/t8znqiigdjykybeiavdbmso8d3lvrtp.mp3"
+    },
+    {
+      "title": "关于行秋…",
+      "desc": "飞云商会是我的老主顾了。他家行事一向慎重周全，与我的商谈通常由大当家亲自出面。不过，上一次却碰巧见到了他家小少爷行秋。这位少爷年纪轻轻，没想到居然跟得上我思考的速度。伶牙俐齿还分寸得当，嗯，真不简单。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_teammate_xingqiu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ea/a2mmkoq2y061wa1pgegbwkwbocu6fs6.mp3"
+    },
+    {
+      "title": "关于胡桃…",
+      "desc": "常听人说「往生堂」堂主行事奇特，怕是沾了丧葬业的怪毛病。这算什么话？「往生堂」从事的可是正经行业，是构成商业的基本单位。而且工作就是工作，岂有高低贵贱，吉凶险恶之分？\n不过，那位堂主倒是没怎么来光顾过我的生意，唔…",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_teammate_hutao_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/61/b7ms6h4tpm4qb8ytralya8aych4c5r8.mp3"
+    },
+    {
+      "title": "关于钟离…",
+      "desc": "钟离先生学识渊博，堪称行走的书库。你知道吗？我一眼就看出他深藏不露。这样的人大多不怕麻烦，就算遇上什么事也不会请我帮忙，依我看，他绝不是潜在客户。\n可不知为何，他身上总有些不可思议的熟悉感，我说不上来。问过老爹，他也支支吾吾说什么他也不明白，真是奇怪…总感觉，老爹有什么事不想告诉我。哼，没关系，大不了我自己找机会弄明白…",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_teammate_zhongli_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/33/j3budhyx1yemsgqw4f13asfmv1mbfsf.mp3"
+    },
+    {
+      "title": "关于凝光…",
+      "desc": "你知道「天权星」凝光小姐吧？她主管律法，也经常修正法典，每次增补删改的内容都多得要命。就在上次，全新的法典里又增加了三条律法，修改了一百二十一条律法注释，还新附了一堆典型判例，这次我又不知道要背到什么时候了…\n哼，不过她终归是商界出身，论律法，我可不会输给她，等我背完了这些，我一定要更加「努力」地工作…",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_teammate_ningguang_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a8/2p14b8ytc53wula75qesdc5lgibhsfr.mp3"
+    },
+    {
+      "title": "关于刻晴…",
+      "desc": "好在「玉衡星」不涉足专业律法领域。否则，依刻晴小姐的态度和效率，我怕是要失去不少工作。哦…不，好像也不至于。毕竟刻晴小姐为人刚正，容易得罪人，由我来当助手辅佐的话…哦不不，也不对，为什么我堂堂律法专家要当人助手？有事的话，应该是她来找我咨询才对。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_teammate_keqing_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bd/laroz85m97a2diwnu0h5ajs051iz56m.mp3"
+    },
+    {
+      "title": "关于优菈…",
+      "desc": "优菈曾经救过我一次，我们也从此有了书信往来。她牢记骑士团的各项条文，却从不墨守成规。还总能找到巧妙的逻辑，灵活处理问题。大概因为我也是这样的人，所以和她相处会特别轻松吧。不过，她那种洒脱劲，我可就学不会啦。毕竟，我和她的职业可是完全不同呢。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_teammate_eula_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/ca/cj3gu3uxlnshutlc3u9a23fa1wyra1s.mp3"
+    },
+    {
+      "title": "关于夜兰…",
+      "desc": "夜兰是总务司的雇员，帮我搞定过做假账的硬茬，我还请她吃了饭呢。不过…和她交谈的时候，总觉得自己的心思会被轻易看穿…嗯，以后千万不要站在她的对立面就好。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_teammate_yelan_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bb/3lrvt0sl1f9t70l8t5mql1ghjvwgjdv.mp3"
+    },
+    {
+      "title": "关于久岐忍…",
+      "desc": "阿忍？我记得她，那个来璃月留学专修律法的稻妻人嘛。为了完成课业实习，她专门约我讨论过案件，每次结束后又是鞠躬又是谢谢的，搞得我都有点不好意思了…当时就觉得，她将来一定会成为出色的律法专家。算起来，稻妻锁国的时间正好是她毕业前后，不知道她回去后一切还顺利吗…",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_teammate_shinobu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ea/0ac51mk2vz8an6abxin0wlrb9adzmim.mp3"
+    },
+    {
+      "title": "想要了解烟绯·其一",
+      "desc": "是客人吗？幸会幸会，这是我的名牌，今天我可能不方便出外勤，有纠纷的话麻烦把双方都带过来，还有咨询费的收费标准我给你看一下，稍等一会儿…\n欸？只是随便聊聊天？嗯…那就不收钱了。居然会找关系一般的律法专家「随便聊聊天」，真是个特别的人。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9d/0a5pr80qb9sbay9tcppst2fd70nm8p7.mp3"
+    },
+    {
+      "title": "想要了解烟绯·其二",
+      "desc": "头上的鹿角？噢，这个啊，因为我的老爹是仙人，我有半仙之血嘛。不过，我是在璃月安定后出生的，没跟帝君签订契约，自然不用履行任何仙家职责，可以尽情过自己想要的生活。我还挺满意的，嘿嘿。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2e/hoy886duwzil6ehu4aevccdllad4oij.mp3"
+    },
+    {
+      "title": "想要了解烟绯·其三",
+      "desc": "那种维系一生的严肃契约…我只和老爹订过。唔…就是那种「要快乐生活」什么的，他就是那种人啦。不过嘛，我还是挺为老爹的这份通透自豪的。要是他想跟我定那种「要吃苦中苦，要做人上人」之类的契约，我肯定逃都要逃走了。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7c/qqkiv8xd757v6fmsv5xng5vamej9hqg.mp3"
+    },
+    {
+      "title": "想要了解烟绯·其四",
+      "desc": "有的时候，我处理的商业纠纷会以不太好看的形式收场。对方常常拿出数倍额度的赔偿，或者付出更多的代价…但这都是这些人违背「契约」后应得的苦果。有人会传流言说我很可怕，有人对我避之不及。虽然我没有解释给谁听，但我最初的目的是为了璃月港的大环境着想！\n你看，纠纷的起点是违背契约，但看到乱来的后果，他们还敢背信弃义吗？让大家意识到「契约」的重要性，也是我工作中的重要一环呢。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f0/10bg5zifc4yce48gps7qjcfc4h0z56r.mp3"
+    },
+    {
+      "title": "想要了解烟绯·其五",
+      "desc": "我常常觉得自己活得够潇洒轻松了。你看，我事业有成，衣食自由。走南闯北不成问题，论嘴上功夫也没几个人说得过我。但「快乐生活」这种东西嘛，也没有哪条律法、哪条规范能够定义。\n就我个人来说，遇见有趣的人、有趣的事，心里清楚该往何处迈出下一步，这样就已经获得快乐了。所以，你也是我的快乐源泉。\n但话又说回来了！无论怎么生活，最重要的还是要守法懂法。毕竟离开了律法，这个世界肯定马上就会毁灭掉了。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/97/n1fqeq4f85573wirvhii2i2nl50xx5q.mp3"
+    },
+    {
+      "title": "烟绯的爱好…",
+      "desc": "我的爱好是读书和估价。读书能长知识，估价则长眼力。所以什么书都读，什么价都估。你要是不信，随便找件东西给我，只要是市面有售的商品，我都能估个八九不离十哦。就说这块石头好了，错不了，六百摩拉。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0f/s43b8xwi0go7x78ojrnq4eqaunkfiea.mp3"
+    },
+    {
+      "title": "烟绯的烦恼…",
+      "desc": "和记厅的朋友们常约我一起钓鱼，说是切磋钓技，但其实大家心里多少都有些炫耀的成分。我有一百种方法赢过所有人，但他们长期关照我的生意，屡战屡胜未免太不给面子。所以，我每次都靠着精妙的演技假装垫底…等等，你那是什么表情，在怀疑我吗？！",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/66/hjfod3jeki52gkrlw2wk7kzahz44ots.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "哦！说到这种话题，我就要好好向你推荐我的心头挚爱了，豆腐，绝对是豆腐！豆腐本是清淡的食材，口感鲜嫩，温润滋补，搭配各色汤头都能完美融入。最重要的是一年四季均有供应，随时可以吃到！不求至尊，只求完美，豆腐菜就是我要的那种滋味。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4b/7z99s6rgsp6x6pv9zroyervyrr5bnze.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "我不喜欢冷菜，可能是因为我很少吃冷菜吧。以前如果很晚回到家，老爹也会为我留个灯，听见我的动静，还会问我肚子饿不饿。用他的话说，「菜嘛，总是热的好。」",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/15/2810isnpbvdkidbo6xp7die3z4ggwny.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "滋味不错，看来你也挺懂「豆腐律法」的嘛。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e4/7f01n9u76j4hddkhew2nspnpbmyy818.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "璃月俗话说「民以食为天」，还真是没说错啊。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/17/bu3fjgfqijikc81c0vzszmwyrt0ndvx.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "…有了！我把它热一热再吃吧。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3d/e7g3q8e10o6mocd5i8cvttyvinmtssc.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "生日快乐，这个匣子送你。里面是我为你准备的各国律法资料，你不是要去四处旅行了嘛，提前了解一下别国的律法肯定有用。\n不过也别学得太好哦，不然…我就没法帮你的忙了。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3f/snoyeltspe0le6gu2g3gs69n40g51dq.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "「不期修古，不法常可」，这句话是我必须牢记的教诲。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/f5i6yqgd29th8prgx0ke8zjympsacvd.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "唯有遵循应守之「律」，人才能获得解开一切问题的「法」。",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0a/5rvpwmsah9nwre92a7o2jsmb91x04s0.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "学习律法是为了跟别人有理有据地谈话，习武防身则是为了应付无理无据的场合。欸，等等…我这能算习武吗…",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/07/afnkluyin8n3vrdsnqod8wuluiu3y7k.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "我现在应该算「文武双全」了吧！多亏有你一路陪我走到修行之路的终点。报酬嘛…全天候专属私人顾问？还不错吧。喂…不准和我讨价还价！",
+      "voicefile": "VO_friendship/VO_yanfei/vo_yanfei_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a2/3i8tvh3tqjkddvyzkggm84lhdk07fj4.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "嘣嘣——",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a5/13fjyxbskvylgybfdaikvvr991aiebv.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "焚烧吧！",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/VO_ZH_Yanfei_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "速速退下！",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/VO_ZH_Yanfei_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "律火，引！",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/VO_ZH_Yanfei_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "食炎之罚！",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/VO_ZH_Yanfei_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "丹书铁契！",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/VO_ZH_Yanfei_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "这算是，「偶然所得」吗？",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/VO_ZH_Yanfei_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "品相卓越！",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/VO_ZH_Yanfei_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "嗯，让我来估个价。",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/VO_ZH_Yanfei_Opening_Treasure_Chest_03.ogg"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "得修正错误！",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/VO_ZH_Yanfei_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "你犯规…",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a8/gvmtydhavru3sghomit1t0yz8wbx3t4.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "什么，有纰漏？",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/VO_ZH_Yanfei_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "喂——还是交给我吧！",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a5/13fjyxbskvylgybfdaikvvr991aiebv.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "判断是…「紧急避险」！",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a8/gvmtydhavru3sghomit1t0yz8wbx3t4.mp3"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "判断…失误了吗…",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/VO_ZH_Yanfei_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "律法…还有漏洞…",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/VO_ZH_Yanfei_Fallen_02.ogg"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "我不能…接受…",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/VO_ZH_Yanfei_Fallen_01.ogg"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "麻烦了…",
+      "voicefile": "VO_gameplay/VO_yanfei/vo_yanfei_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/VO_ZH_Yanfei_Heavy_Hit_Taken_02.ogg"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "这次就算你预约过了。",
+      "voicefile": "VO_teamJoin/vo_yanfei_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/VO_ZH_Yanfei_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "出外勤要另外收费。",
+      "voicefile": "VO_teamJoin/vo_yanfei_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/VO_ZH_Yanfei_Joining_Party_02.ogg"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "放马过来。",
+      "voicefile": "VO_teamJoin/vo_yanfei_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/VO_ZH_Yanfei_Joining_Party_01.ogg"
+    }
+  ],
+  "cardArt": "assets/characters/10000048-card.webp",
+  "fullArt": "assets/characters/10000048-full.webp",
+  "fullArtWidth": 1064,
+  "fullArtHeight": 763
+}

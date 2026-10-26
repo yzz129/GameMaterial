@@ -1,0 +1,45 @@
+{
+  "id": "PORTAL_01_BG_nebula",
+  "version": 1,
+  "type": "BG",
+  "purpose": "统一游戏档案门户的静态远景星空；前景粒子与交互由代码实现",
+  "source": {
+    "provider": "OpenAI built-in image_gen",
+    "model": "tool-managed",
+    "taskId": "exec-8e3c1a61-d34d-4fff-a5e6-96fbde00985c",
+    "sourcePath": "C:/Users/Administrator/.codex/generated_images/01a170b7-2584-7f01-9252-3091f78674c8/exec-8e3c1a61-d34d-4fff-a5e6-96fbde00985c.png",
+    "reference": "C:/Users/Administrator/.codex/generated_images/01a170b7-2584-7f01-9252-3091f78674c8/exec-ed822bf9-bcf1-4ebb-a66b-4c09eba756d0.png",
+    "prompt": "Use case: precise-object-edit / background extraction for a website. Input image 1 is the completed star-glass homepage concept. Produce ONLY its standalone cosmic starfield background, full canvas edge-to-edge, removing ALL header, brand, navigation, text, lines, borders, glowing glass frames, game illustrations, UI panels, buttons, icons and footer. Reconstruct the background naturally under every removed element. Keep the exact concept's deep blue-black palette and fine photographic star texture. A wispy indigo and ice-blue Milky Way nebula band runs diagonally from bottom-left through center towards top-right, with soft violet dust details, many tiny crisp stars and just a very few medium luminous star points. Upper left area relatively dark and quiet for code-rendered UI to be placed over it. No text, no logos, no geometry, no characters, no planets, no buildings, no horizon, no lens flare or giant bokeh. Background should be ethereal, deep, airy and premium, moderate contrast rather than overpoweringly bright. Do not include any UI. Landscape aspect ratio 1.6:1, native high quality. This is a PRODUCTION BACKGROUND asset, separate from the live HTML/CSS interface."
+  },
+  "rights": "AI-generated project asset; no third-party stock asset used",
+  "review": "已检查：无文字、无界面、无角色；保留蓝紫银河，作为装饰背景使用",
+  "files": [
+    {
+      "path": "masters/PORTAL_01_BG_nebula_v1.png",
+      "role": "master",
+      "width": 1586,
+      "height": 992,
+      "channels": 3,
+      "bytes": 2424169,
+      "sha256": "98b796dd23cba1578e0708d8c433f1836ceb39665fb06533c19d2d83ecd45c9e"
+    },
+    {
+      "path": "assets/PORTAL_01_BG_nebula_v1.webp",
+      "role": "runtime",
+      "width": 1586,
+      "height": 992,
+      "channels": 3,
+      "bytes": 173786,
+      "sha256": "8215f85c7d9acf918b70994f8aac37e86e97da6e8559d862871453b880e00dac"
+    },
+    {
+      "path": "assets/PORTAL_01_BG_nebula-mobile_v1.webp",
+      "role": "runtime",
+      "width": 680,
+      "height": 992,
+      "channels": 3,
+      "bytes": 63916,
+      "sha256": "8facc4908764913d48886c9617c60278804a957326c0d4493b1143a21e7235eb"
+    }
+  ]
+}

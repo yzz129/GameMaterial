@@ -1,0 +1,59 @@
+{
+  "domain": "https://genshin.yzzwnw.asia/",
+  "deployment": "https://9032eaee.genshin-voice-archive.pages.dev",
+  "checkedAt": "2026-10-23T06:26:19.502Z",
+  "result": [
+    {
+      "file": "app.js",
+      "status": 200,
+      "bytes": 80224,
+      "sha256": "b2bca9beb071dc3ae15ad9a041c44ea9fa94b2117c9b7c4ab0d725d9561dfdce"
+    },
+    {
+      "file": "styles.css",
+      "status": 200,
+      "bytes": 103349,
+      "sha256": "8712a6df50274fb5fa792058c593e63f1f67ec12441d1ebe262441ee6c3857d4"
+    },
+    {
+      "file": "assets/typography/TEYVAT_04_FX_title-main-still_v1.webp",
+      "status": 200,
+      "bytes": 122168,
+      "sha256": "89b9d5ab55a27f6e7fe9fc693053b895d56fed660f01ccc9b260f28e19033935"
+    },
+    {
+      "file": "assets/typography/TEYVAT_04_FX_title-main-intro_v1.webp",
+      "status": 200,
+      "bytes": 1501302,
+      "sha256": "92c164d6c2b519fa5257b5345ecb23e0bce47af776ea5aaeaa844d4606de0a59"
+    },
+    {
+      "file": "assets/typography/TEYVAT_04_FX_title-nahida-still_v1.webp",
+      "status": 200,
+      "bytes": 119130,
+      "sha256": "6f4512df707c6afc95505a30cdfd900054cc584da16ee2fb1477d7356d183d0c"
+    },
+    {
+      "file": "assets/typography/TEYVAT_04_FX_title-nahida-intro_v1.webp",
+      "status": 200,
+      "bytes": 1396998,
+      "sha256": "22ae90e40bb41b1dc3e456b12ff9237062aa432d68a5ad8f7f4c3ca2b7d58d0d"
+    },
+    {
+      "file": "assets/typography/TEYVAT_04_FX_brand-gold_v1.webp",
+      "status": 200,
+      "bytes": 11884,
+      "sha256": "e3f669ebe99a2bf5435d02c583850a3c5ea18e0c1338c8aed3452ee5b773430d"
+    },
+    {
+      "file": "assets/video/TEYVAT_03_VID_windrise-pc_jimeng-2k_v1.mp4",
+      "status": 206,
+      "bytes": 128
+    },
+    {
+      "file": "assets/video/TEYVAT_03_VID_windrise-mobile_jimeng-2k_v1.mp4",
+      "status": 206,
+      "bytes": 128
+    }
+  ]
+}

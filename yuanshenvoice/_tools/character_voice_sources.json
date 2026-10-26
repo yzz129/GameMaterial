@@ -1,0 +1,607 @@
+{
+  "纳西妲": {
+    "enSpeaker": "Nahida",
+    "zipRelPath": "Chinese/501-plus/Nahida.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Nahida.zip"
+  },
+  "娜维娅": {
+    "enSpeaker": "Navia",
+    "zipRelPath": "Chinese/501-plus/Navia.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Navia.zip"
+  },
+  "玛拉妮": {
+    "enSpeaker": "Mualani",
+    "zipRelPath": "Chinese/501-plus/Mualani.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Mualani.zip"
+  },
+  "奈芙尔": {
+    "enSpeaker": "Nefer",
+    "zipRelPath": "Chinese/501-plus/Nefer.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Nefer.zip"
+  },
+  "法尔伽": {
+    "enSpeaker": "Varka",
+    "zipRelPath": "Chinese/501-plus/Varka.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Varka.zip"
+  },
+  "玛薇卡": {
+    "enSpeaker": "Mavuika",
+    "zipRelPath": "Chinese/501-plus/Mavuika.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Mavuika.zip"
+  },
+  "林尼": {
+    "enSpeaker": "Lyney",
+    "zipRelPath": "Chinese/501-plus/Lyney.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Lyney.zip"
+  },
+  "菈乌玛": {
+    "enSpeaker": "Lauma",
+    "zipRelPath": "Chinese/501-plus/Lauma.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Lauma.zip"
+  },
+  "茜特菈莉": {
+    "enSpeaker": "Citlali",
+    "zipRelPath": "Chinese/501-plus/Citlali.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Citlali.zip"
+  },
+  "温迪": {
+    "enSpeaker": "Venti",
+    "zipRelPath": "Chinese/501-plus/Venti.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Venti.zip"
+  },
+  "那维莱特": {
+    "enSpeaker": "Neuvillette",
+    "zipRelPath": "Chinese/501-plus/Neuvillette.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Neuvillette.zip"
+  },
+  "赛诺": {
+    "enSpeaker": "Cyno",
+    "zipRelPath": "Chinese/501-plus/Cyno.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Cyno.zip"
+  },
+  "提纳里": {
+    "enSpeaker": "Tighnari",
+    "zipRelPath": "Chinese/501-plus/Tighnari.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Tighnari.zip"
+  },
+  "艾尔海森": {
+    "enSpeaker": "Alhaitham",
+    "zipRelPath": "Chinese/501-plus/Alhaitham.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Alhaitham.zip"
+  },
+  "迪希雅": {
+    "enSpeaker": "Dehya",
+    "zipRelPath": "Chinese/501-plus/Dehya.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Dehya.zip"
+  },
+  "芙宁娜": {
+    "enSpeaker": "Furina",
+    "zipRelPath": "Chinese/501-plus/Furina.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Furina.zip"
+  },
+  "凯亚": {
+    "enSpeaker": "Kaeya",
+    "zipRelPath": "Chinese/501-plus/Kaeya.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Kaeya.zip"
+  },
+  "卡维": {
+    "enSpeaker": "Kaveh",
+    "zipRelPath": "Chinese/501-plus/Kaveh.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Kaveh.zip"
+  },
+  "钟离": {
+    "enSpeaker": "Zhongli",
+    "zipRelPath": "Chinese/501-plus/Zhongli.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Zhongli.zip"
+  },
+  "恰斯卡": {
+    "enSpeaker": "CS",
+    "zipRelPath": "Chinese/501-plus/CS.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/CS.zip"
+  },
+  "雅珂达": {
+    "enSpeaker": "Jahoda",
+    "zipRelPath": "Chinese/501-plus/Jahoda.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Jahoda.zip"
+  },
+  "菲林斯": {
+    "enSpeaker": "Flins",
+    "zipRelPath": "Chinese/501-plus/Flins.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Flins.zip"
+  },
+  "伊涅芙": {
+    "enSpeaker": "Ineffa",
+    "zipRelPath": "Chinese/501-plus/Ineffa.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Ineffa.zip"
+  },
+  "莱欧斯利": {
+    "enSpeaker": "Wriothesley",
+    "zipRelPath": "Chinese/501-plus/Wriothesley.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Wriothesley.zip"
+  },
+  "八重神子": {
+    "enSpeaker": "Yae_Miko",
+    "zipRelPath": "Chinese/501-plus/Yae_Miko.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Yae_Miko.zip"
+  },
+  "阿贝多": {
+    "enSpeaker": "Albedo",
+    "zipRelPath": "Chinese/501-plus/Albedo.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Albedo.zip"
+  },
+  "希诺宁": {
+    "enSpeaker": "Xilonen",
+    "zipRelPath": "Chinese/501-plus/Xilonen.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Xilonen.zip"
+  },
+  "诺艾尔": {
+    "enSpeaker": "Noelle",
+    "zipRelPath": "Chinese/501-plus/Noelle.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Noelle.zip"
+  },
+  "班尼特": {
+    "enSpeaker": "Bennett",
+    "zipRelPath": "Chinese/501-plus/Bennett.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Bennett.zip"
+  },
+  "尼可": {
+    "enSpeaker": "Nicole",
+    "zipRelPath": "Chinese/501-plus/Nicole.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Nicole.zip"
+  },
+  "托马": {
+    "enSpeaker": "Thoma",
+    "zipRelPath": "Chinese/501-plus/Thoma.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Thoma.zip"
+  },
+  "北斗": {
+    "enSpeaker": "Ei",
+    "zipRelPath": "Chinese/11-500/Ei.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Ei.zip"
+  },
+  "宵宫": {
+    "enSpeaker": "Yoimiya",
+    "zipRelPath": "Chinese/501-plus/Yoimiya.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Yoimiya.zip"
+  },
+  "奥黛塔": {
+    "enSpeaker": "Odette",
+    "zipRelPath": "Chinese/501-plus/Odette.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Odette.zip"
+  },
+  "莱依拉": {
+    "enSpeaker": "Layla",
+    "zipRelPath": "Chinese/501-plus/Layla.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Layla.zip"
+  },
+  "夜兰": {
+    "enSpeaker": "Yelan",
+    "zipRelPath": "Chinese/501-plus/Yelan.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Yelan.zip"
+  },
+  "凝光": {
+    "enSpeaker": "Ningguang",
+    "zipRelPath": "Chinese/501-plus/Ningguang.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Ningguang.zip"
+  },
+  "琳妮特": {
+    "enSpeaker": "Lynette",
+    "zipRelPath": "Chinese/501-plus/Lynette.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Lynette.zip"
+  },
+  "克洛琳德": {
+    "enSpeaker": "Clorinde",
+    "zipRelPath": "Chinese/501-plus/Clorinde.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Clorinde.zip"
+  },
+  "荒泷一斗": {
+    "enSpeaker": "Arataki_Itto",
+    "zipRelPath": "Chinese/501-plus/Arataki_Itto.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Arataki_Itto.zip"
+  },
+  "鹿野院平藏": {
+    "enSpeaker": "Oz",
+    "zipRelPath": "Chinese/11-500/Oz.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Oz.zip"
+  },
+  "杜林": {
+    "enSpeaker": "Durin",
+    "zipRelPath": "Chinese/501-plus/Durin.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Durin.zip"
+  },
+  "阿罗夏": {
+    "enSpeaker": "Alyosha",
+    "zipRelPath": "Chinese/501-plus/Alyosha.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Alyosha.zip"
+  },
+  "琴": {
+    "enSpeaker": "Jean",
+    "zipRelPath": "Chinese/501-plus/Jean.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Jean.zip"
+  },
+  "迪奥娜": {
+    "enSpeaker": "Diona",
+    "zipRelPath": "Chinese/501-plus/Diona.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Diona.zip"
+  },
+  "卡齐娜": {
+    "enSpeaker": "Kachina",
+    "zipRelPath": "Chinese/501-plus/Kachina.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Kachina.zip"
+  },
+  "云堇": {
+    "enSpeaker": "Yun_Jin",
+    "zipRelPath": "Chinese/501-plus/Yun_Jin.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Yun_Jin.zip"
+  },
+  "柯莱": {
+    "enSpeaker": "Collei",
+    "zipRelPath": "Chinese/501-plus/Collei.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Collei.zip"
+  },
+  "神里绫华": {
+    "enSpeaker": "Isak",
+    "zipRelPath": "Chinese/11-500/Isak.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Isak.zip"
+  },
+  "爱诺": {
+    "enSpeaker": "Aino",
+    "zipRelPath": "Chinese/501-plus/Aino.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Aino.zip"
+  },
+  "妮露": {
+    "enSpeaker": "Nilou",
+    "zipRelPath": "Chinese/501-plus/Nilou.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Nilou.zip"
+  },
+  "安柏": {
+    "enSpeaker": "Amber",
+    "zipRelPath": "Chinese/501-plus/Amber.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Amber.zip"
+  },
+  "希格雯": {
+    "enSpeaker": "Sigewinne",
+    "zipRelPath": "Chinese/501-plus/Sigewinne.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Sigewinne.zip"
+  },
+  "五郎": {
+    "enSpeaker": "Gorou",
+    "zipRelPath": "Chinese/501-plus/Gorou.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Gorou.zip"
+  },
+  "芭芭拉": {
+    "enSpeaker": "Barbara",
+    "zipRelPath": "Chinese/501-plus/Barbara.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Barbara.zip"
+  },
+  "迪卢克": {
+    "enSpeaker": "Diluc",
+    "zipRelPath": "Chinese/501-plus/Diluc.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Diluc.zip"
+  },
+  "早柚": {
+    "enSpeaker": "Sayu",
+    "zipRelPath": "Chinese/501-plus/Sayu.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Sayu.zip"
+  },
+  "烟绯": {
+    "enSpeaker": "Yanfei",
+    "zipRelPath": "Chinese/501-plus/Yanfei.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Yanfei.zip"
+  },
+  "伊安珊": {
+    "enSpeaker": "Iansan",
+    "zipRelPath": "Chinese/501-plus/Iansan.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Iansan.zip"
+  },
+  "枫原万叶": {
+    "enSpeaker": "Kaedehara_Kazuha",
+    "zipRelPath": "Chinese/501-plus/Kaedehara_Kazuha.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Kaedehara_Kazuha.zip"
+  },
+  "珐露珊": {
+    "enSpeaker": "Faruzan",
+    "zipRelPath": "Chinese/501-plus/Faruzan.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Faruzan.zip"
+  },
+  "久岐忍": {
+    "enSpeaker": "Kuki_Shinobu",
+    "zipRelPath": "Chinese/501-plus/Kuki_Shinobu.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Kuki_Shinobu.zip"
+  },
+  "多莉": {
+    "enSpeaker": "Dori",
+    "zipRelPath": "Chinese/501-plus/Dori.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Dori.zip"
+  },
+  "重云": {
+    "enSpeaker": "Chongyun",
+    "zipRelPath": "Chinese/501-plus/Chongyun.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Chongyun.zip"
+  },
+  "欧洛伦": {
+    "enSpeaker": "Ororon",
+    "zipRelPath": "Chinese/501-plus/Ororon.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Ororon.zip"
+  },
+  "沃雅妮莎": {
+    "enSpeaker": "Vodyanitsa",
+    "zipRelPath": "Chinese/501-plus/Vodyanitsa.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Vodyanitsa.zip"
+  },
+  "梦见月瑞希": {
+    "enSpeaker": "Yumemizuki_Mizuki",
+    "zipRelPath": "Chinese/501-plus/Yumemizuki_Mizuki.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Yumemizuki_Mizuki.zip"
+  },
+  "基尼奇": {
+    "enSpeaker": "Kinich",
+    "zipRelPath": "Chinese/501-plus/Kinich.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Kinich.zip"
+  },
+  "丝柯克": {
+    "enSpeaker": "Skirk",
+    "zipRelPath": "Chinese/501-plus/Skirk.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Skirk.zip"
+  },
+  "达达利亚": {
+    "enSpeaker": "Tartaglia",
+    "zipRelPath": "Chinese/11-500/Tartaglia.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Tartaglia.zip"
+  },
+  "莉奈娅": {
+    "enSpeaker": "Linnea",
+    "zipRelPath": "Chinese/501-plus/Linnea.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Linnea.zip"
+  },
+  "可莉": {
+    "enSpeaker": "Klee",
+    "zipRelPath": "Chinese/501-plus/Klee.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Klee.zip"
+  },
+  "魈": {
+    "enSpeaker": "Xiao",
+    "zipRelPath": "Chinese/501-plus/Xiao.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Xiao.zip"
+  },
+  "千织": {
+    "enSpeaker": "Chiori",
+    "zipRelPath": "Chinese/501-plus/Chiori.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Chiori.zip"
+  },
+  "丽莎": {
+    "enSpeaker": "Lisa",
+    "zipRelPath": "Chinese/501-plus/Lisa.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Lisa.zip"
+  },
+  "艾梅莉埃": {
+    "enSpeaker": "Emilie",
+    "zipRelPath": "Chinese/501-plus/Emilie.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Emilie.zip"
+  },
+  "雷电将军": {
+    "enSpeaker": "Raiden_Shogun",
+    "zipRelPath": "Chinese/501-plus/Raiden_Shogun.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Raiden_Shogun.zip"
+  },
+  "闲云": {
+    "enSpeaker": "Xianyun",
+    "zipRelPath": "Chinese/501-plus/Xianyun.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Xianyun.zip"
+  },
+  "瓦雷莎": {
+    "enSpeaker": "Varesa",
+    "zipRelPath": "Chinese/501-plus/Varesa.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Varesa.zip"
+  },
+  "白术": {
+    "enSpeaker": "Baizhu",
+    "zipRelPath": "Chinese/501-plus/Baizhu.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Baizhu.zip"
+  },
+  "珊瑚宫心海": {
+    "enSpeaker": "Sango",
+    "zipRelPath": "Chinese/11-500/Sango.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Sango.zip"
+  },
+  "哥伦比娅": {
+    "enSpeaker": "Columbina",
+    "zipRelPath": "Chinese/501-plus/Columbina.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Columbina.zip"
+  },
+  "胡桃": {
+    "enSpeaker": "Hu_Tao",
+    "zipRelPath": "Chinese/501-plus/Hu_Tao.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Hu_Tao.zip"
+  },
+  "夏洛蒂": {
+    "enSpeaker": "Charlotte",
+    "zipRelPath": "Chinese/501-plus/Charlotte.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Charlotte.zip"
+  },
+  "爱可菲": {
+    "enSpeaker": "Escoffier",
+    "zipRelPath": "Chinese/501-plus/Escoffier.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Escoffier.zip"
+  },
+  "神里绫人": {
+    "enSpeaker": "Mitya",
+    "zipRelPath": "Chinese/11-500/Mitya.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Mitya.zip"
+  },
+  "洛恩": {
+    "enSpeaker": "Lohen",
+    "zipRelPath": "Chinese/11-500/Lohen.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Lohen.zip"
+  },
+  "莫娜": {
+    "enSpeaker": "M",
+    "zipRelPath": "Chinese/11-500/M.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/M.zip"
+  },
+  "行秋": {
+    "enSpeaker": "Xingqiu",
+    "zipRelPath": "Chinese/11-500/Xingqiu.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Xingqiu.zip"
+  },
+  "优菈": {
+    "enSpeaker": "Eula",
+    "zipRelPath": "Chinese/11-500/Eula.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Eula.zip"
+  },
+  "甘雨": {
+    "enSpeaker": "Ganyu",
+    "zipRelPath": "Chinese/11-500/Ganyu.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Ganyu.zip"
+  },
+  "香菱": {
+    "enSpeaker": "Xiangling",
+    "zipRelPath": "Chinese/11-500/Xiangling.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Xiangling.zip"
+  },
+  "夏沃蕾": {
+    "enSpeaker": "Chevreuse",
+    "zipRelPath": "Chinese/11-500/Chevreuse.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Chevreuse.zip"
+  },
+  "申鹤": {
+    "enSpeaker": "Shenhe",
+    "zipRelPath": "Chinese/11-500/Shenhe.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Shenhe.zip"
+  },
+  "兹白": {
+    "enSpeaker": "Zibai",
+    "zipRelPath": "Chinese/11-500/Zibai.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Zibai.zip"
+  },
+  "布伦妮": {
+    "enSpeaker": "Prune",
+    "zipRelPath": "Chinese/11-500/Prune.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Prune.zip"
+  },
+  "砂糖": {
+    "enSpeaker": "Sucrose",
+    "zipRelPath": "Chinese/11-500/Sucrose.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Sucrose.zip"
+  },
+  "菲米尼": {
+    "enSpeaker": "Freminet",
+    "zipRelPath": "Chinese/11-500/Freminet.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Freminet.zip"
+  },
+  "叶洛亚": {
+    "enSpeaker": "Illuga",
+    "zipRelPath": "Chinese/11-500/Illuga.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Illuga.zip"
+  },
+  "赛索斯": {
+    "enSpeaker": "Sethos",
+    "zipRelPath": "Chinese/11-500/Sethos.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Sethos.zip"
+  },
+  "七七": {
+    "enSpeaker": "Qiqi",
+    "zipRelPath": "Chinese/11-500/Qiqi.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Qiqi.zip"
+  },
+  "罗莎莉亚": {
+    "enSpeaker": "Aria",
+    "zipRelPath": "Chinese/11-500/Aria.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Aria.zip"
+  },
+  "刻晴": {
+    "enSpeaker": "Keqing",
+    "zipRelPath": "Chinese/11-500/Keqing.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Keqing.zip"
+  },
+  "九条裟罗": {
+    "enSpeaker": "Sara",
+    "zipRelPath": "Chinese/11-500/Sara.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Sara.zip"
+  },
+  "瑶瑶": {
+    "enSpeaker": "Yaoyao",
+    "zipRelPath": "Chinese/11-500/Yaoyao.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Yaoyao.zip"
+  },
+  "菲谢尔": {
+    "enSpeaker": "Fischl",
+    "zipRelPath": "Chinese/11-500/Fischl.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Fischl.zip"
+  },
+  "雷泽": {
+    "enSpeaker": "Razor",
+    "zipRelPath": "Chinese/11-500/Razor.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Razor.zip"
+  },
+  "坎蒂丝": {
+    "enSpeaker": "Candace",
+    "zipRelPath": "Chinese/11-500/Candace.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Candace.zip"
+  },
+  "伊法": {
+    "enSpeaker": "Ifa",
+    "zipRelPath": "Chinese/11-500/Ifa.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Ifa.zip"
+  },
+  "绮良良": {
+    "enSpeaker": "Kirara",
+    "zipRelPath": "Chinese/11-500/Kirara.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Kirara.zip"
+  },
+  "嘉明": {
+    "enSpeaker": "Gaming",
+    "zipRelPath": "Chinese/11-500/Gaming.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Gaming.zip"
+  },
+  "塔利雅": {
+    "enSpeaker": "Dahlia",
+    "zipRelPath": "Chinese/11-500/Dahlia.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Dahlia.zip"
+  },
+  "米卡": {
+    "enSpeaker": "Mika",
+    "zipRelPath": "Chinese/11-500/Mika.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Mika.zip"
+  },
+  "蓝砚": {
+    "enSpeaker": "Lan_Yan",
+    "zipRelPath": "Chinese/11-500/Lan_Yan.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Lan_Yan.zip"
+  },
+  "辛焱": {
+    "enSpeaker": "Xinyan",
+    "zipRelPath": "Chinese/11-500/Xinyan.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Xinyan.zip"
+  },
+  "阿蕾奇诺": {
+    "enSpeaker": "Arlecchino",
+    "zipRelPath": "Chinese/11-500/Arlecchino.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Arlecchino.zip"
+  },
+  "埃洛伊": {
+    "enSpeaker": "Aloy",
+    "zipRelPath": "Chinese/11-500/Aloy.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Aloy.zip"
+  },
+  "流浪者": {
+    "enSpeaker": "Wanderer",
+    "zipRelPath": "Chinese/11-500/Wanderer.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Wanderer.zip"
+  },
+  "空": {
+    "enSpeaker": "Aether",
+    "zipRelPath": "Chinese/11-500/Aether.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Aether.zip"
+  },
+  "荧": {
+    "enSpeaker": "Lumine",
+    "zipRelPath": "Chinese/11-500/Lumine.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Lumine.zip"
+  },
+  "桑多涅": {
+    "enSpeaker": "Sandrone",
+    "zipRelPath": "Chinese/11-500/Sandrone.zip",
+    "url": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Sandrone.zip"
+  }
+}

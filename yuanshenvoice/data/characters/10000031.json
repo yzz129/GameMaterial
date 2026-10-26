@@ -1,0 +1,510 @@
+{
+  "id": 10000031,
+  "name": "菲谢尔",
+  "enName": "Fischl",
+  "title": "断罪皇女！！",
+  "element": "雷",
+  "region": "蒙德",
+  "rarity": 4,
+  "weapon": "弓",
+  "birthday": "5月27日",
+  "constellation": "幻鸦座",
+  "description": "自称「断罪之皇女」，与名为奥兹的漆黑夜鸦同行的神秘少女。",
+  "affiliation": "冒险家协会",
+  "cv": {
+    "chinese": "Mace&赵悦程",
+    "japanese": "内田真礼&增谷康纪",
+    "english": "布兰特妮·考克斯&本·普罗斯基",
+    "korean": "朴高夽&李弦"
+  },
+  "avatarImg": "assets/characters/10000031-avatar.webp",
+  "splashArt": "assets/characters/10000031-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Fischl.zip",
+  "voicePackageEn": "Fischl",
+  "quoteCount": 68,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "菲谢尔：我即断罪之皇女，真名为菲谢尔。应命运的召唤降临在此间——哎？你也是，异世界的旅人吗…？那好吧，本皇女恩许你同行。\n奥兹：她的意思是「你好，很高兴认识你」。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/93/jx2xi2nu6evc8fpsri1vfklzbpuogu3.ogg"
+    },
+    {
+      "title": "闲聊·真命低语",
+      "desc": "我听见命运的嚅嗫，低声呼唤我之尊名…",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1e/nfturpxw10en3nb99amvjt2r3468qdg.ogg"
+    },
+    {
+      "title": "闲聊·天地创造",
+      "desc": "哼哼，就让皇女的光采荣耀此间天地吧。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e2/rcxo7f12dzitvnnb4qb9ocdoapb5e9s.ogg"
+    },
+    {
+      "title": "闲聊·彼方之人",
+      "desc": "菲谢尔：不知在遥远彼方的扈从…\n奥兹：毋须担心冒险家协会的大家。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4d/r282q179ltgq8y6d4ndm60ukl1wgwxt.ogg"
+    },
+    {
+      "title": "雨过天晴…",
+      "desc": "天晴了吗，真舒…咳，此间须臾的霁月光风，就如命运的转折点一般呢！愉快！",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_weather_afterRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4d/s1ds47n3h3s0fl6g72l8va8p3jeo4jo.ogg"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "菲谢尔：啊啊，看那昭告命运的圣裁之雷…\n奥兹：这么说来，是不是还有衣服没收？\n菲谢尔：欸？！",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/31/8l4s85x0k3w5ziwkidxmlnmm7az6ce2.ogg"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "菲谢尔：哼哼，这可是好光景。就像在「那个世界」，罪人的血与泪在断罪的皇女面前凝结的模样呢——啊、啊——阿嚏！阿嚏！\n奥兹：面对小姐，罪人的鼻涕恐怕都要凝结了。\n菲谢尔：奥兹——啊、阿嚏！",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2a/7k2crarc1cvvwlkzdnn7lut91o2qjwn.ogg"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "菲谢尔：奥兹，我之眷属啊…\n奥兹：喔？怎么突然——\n菲谢尔：以皇女之名，以你的祝圣之翼，遮蔽日月星空，带来永恒的幽夜吧。\n奥兹：不要强人所难！",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/32/25yoea9w5awop0q2w4knh1x4u64070r.ogg"
+    },
+    {
+      "title": "早上好·问候菲谢尔",
+      "desc": "昼夜时空皆为虚像，命运的纽带却再次将你带到了我的永恒长夜中。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cb/iy3g77c2tzl7gybdkb3uhu6dhngu4l0.ogg"
+    },
+    {
+      "title": "早上好·问候奥兹",
+      "desc": "奥兹：早上好！听说你要来，小姐在准备早点…\n菲谢尔：奥兹！…咳，有何贵干？",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_dialog_greetingMorning2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/88/4qpamk9y2tcyi45cc1y6la1x7inrca4.ogg"
+    },
+    {
+      "title": "中午好…",
+      "desc": "哈…即使贵为皇女，在这样的时辰也不免困乏…",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6c/k3uxn0aid4wn7d55c0fhq7giqewpjv6.ogg"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "菲谢尔：天穹上的星光，都是奥兹在无尽的夜幕上啄出来的洞。\n奥兹：是才怪啦！",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ea/fjb6qtitrfhg5gpicnz8jn6m26lzf2a.ogg"
+    },
+    {
+      "title": "晚安…",
+      "desc": "菲谢尔：你的深眠将平安无梦。毕竟，岂有梦魇，敢染指幽夜净土所祝圣之人…\n奥兹：她说「晚安」。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fc/rxmh1d736xqmdxgclnn0vybjv61pdqm.ogg"
+    },
+    {
+      "title": "关于菲谢尔自己·断罪之皇女",
+      "desc": "菲谢尔：我吗？哼哼。记好了，我乃幽夜净土的主人，断罪之皇女菲谢尔，裁断此世一切罪责，透彻此间一切真知。\n奥兹：就是冒险家协会的调查员。\n菲谢尔：…那只是肤浅的表象！",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5d/oe00baskhy0840vncmhnmu03a84h1yp.ogg"
+    },
+    {
+      "title": "关于我们·降临此间之人",
+      "desc": "我与你同为异世界的旅人，在此相遇。错不了，想必是命运的意志吧。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/gew0ra7h8oaeip0xaa6h8jjq1jjftkb.ogg"
+    },
+    {
+      "title": "关于我们·射落世界之兽",
+      "desc": "看你有什么烦恼的样子…？旅人啊，不必困惑。因为，我以我的左眼，这只透彻因果之丝的「断罪之眼」，守望着你的命运；以奥兹那见证过一千世界寂灭的鸦眼，观察着你的进路。假若名为「世界」的夜巡凶兽觊觎你的梦想，那我便以断罪的圣裁魔矢将其射落！",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2b/7xqxl6v6lxkdmtohhnqbi91wxxhncsy.ogg"
+    },
+    {
+      "title": "关于我们·重要之人",
+      "desc": "菲谢尔：奥兹，我之忠友啊…能遇到「那个人」，与本皇女同样不属于这个世界的旅人…连残酷的命运，也会对我罪孽深重的血脉，展露微笑呢。就算是我的命运，我无法逃离的「现实」…\n奥兹：啊啊，我明白。那个旅行者的话，不管发生了什么，都不会抛弃小姐的吧。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_dialog_close2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a0/ly56rzgbxv35o4nom53f5e5kdi8dpog.ogg"
+    },
+    {
+      "title": "关于我们·守望",
+      "desc": "菲谢尔：奥兹华尔多·赫芙那梵茵斯。为我，为幽夜净土的主宰，断罪的皇女，做好献出生命的觉悟，守望{PLAYERAVATAR#SEXPRO[INFO_MALE_PRONOUN_HE|INFO_FEMALE_PRONOUN_SHE]}注定多舛的命运吧。\n奥兹：不要随便让我送命啊！",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_dialog_close3b",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/67/b6xfcpf70jcauq939bh1ggboj3semle.ogg"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "嗯？这个「渊色的幽邃秘珠」吗。那是我族的王器，向一切无礼者昭告断罪皇女之仪。即使流落到了这个荒芜的世界，王器仍然追随着皇族之血与崇高之魂，找到了我，这就是无法斩断的因果吧…",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e9/c6wi5h4taomsavokrg8oy7yzq2astyr.ogg"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "菲谢尔：这么说来，按照这个世界的历法，我有三千多岁了。当然，日月流转的虚像对看破三千宇宙因果的我而言没有意义。\n奥兹：小姐，这招是骗不过酒保的，没到喝酒的年纪就是没到喝酒的年纪。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_dialog_share",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ef/0orno2rmtymn7eetwsh2a9ljk318byl.ogg"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "奥兹的全名，是奥兹华尔多·赫芙那梵茵斯，在「那个世界」主宰着三个宇宙的星海与夜空，以影之翼荫蔽所有战死的勇者之魂。顺带一提，叫错他的名字会被处以拔舌之刑。但我是皇女，而你是我认可的人，所以我们可以随意叫他奥兹。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/59/lb5mg0uuzhyv0ct11owvpt459usg0dm.ogg"
+    },
+    {
+      "title": "关于班尼特…",
+      "desc": "菲谢尔：那位厄运的少年吗…错不了的，我这只「断罪之眼」见证过，他那被世界唾弃的悲哀——\n奥兹：那个倒霉蛋，置之不理可不行。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_teammate_bennett_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a8/3okwjaagxstiwtd2528328e4ymcd6ml.ogg"
+    },
+    {
+      "title": "关于丽莎…",
+      "desc": "菲谢尔：那司书的魔女，坐拥着宇宙知识的宝库…如果能赢取她的信任，或许就能获得伟大智慧…\n奥兹：她说「图书馆的规矩就是有借有还，再借不难」。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_teammate_lisa_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7f/s7xcz48h5wmq87dyhje3749s1hgf61x.ogg"
+    },
+    {
+      "title": "关于凯亚…",
+      "desc": "菲谢尔：无法看透的真实，无法断明的因果，虚实交织的狂言…那个人，或许也与我一样，背负了「魔眼」的命运…\n奥兹：也可能暗地里是个海盗…？",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_teammate_kaeya_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/75/6myp6g8beyfxr73wlz35holmm1bga9u.ogg"
+    },
+    {
+      "title": "关于莫娜…",
+      "desc": "菲谢尔：啊啊，那位「伟大的占星术士莫娜」…哼，此人曾经妄图窥探本皇女的命运，结果却浑身颤抖呢。\n奥兹：当时占星术士似乎在努力憋笑，非常不容易。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_teammate_mona_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/12/kgznvzs8ofxf3rydwb5ahz7lr7l7tpn.ogg"
+    },
+    {
+      "title": "关于罗莎莉亚…",
+      "desc": "菲谢尔：她吗？似乎是虔信风神的忠实修女呢。\n奥兹：「虔信」？「忠实」？\n菲谢尔：没错。有天晚上看到过，她对什么人说「以风神巴托巴斯的名义，去死吧」这样的话，想必是在领祷吧。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_teammate_rosaria_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/68/4bvvhvfc9ssv4ek3tkjj9pgpz17zpz6.ogg"
+    },
+    {
+      "title": "想要了解菲谢尔·其一",
+      "desc": "哼哼，为应受罪罚之徒断罪，为命运青睐之人祝圣，以无尽的幽夜净土收容世间一切不被容赦的梦想，这就是断罪皇女血脉背负的沉重使命，谁人也不许质疑。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/22/nfjdrtso90kem3fr93ilmr9y2tsivvl.ogg"
+    },
+    {
+      "title": "想要了解菲谢尔·其二",
+      "desc": "我的左眼？我的左眼是透彻世间一切真相的「断罪之眼」。至于为何要遮起来…那么，窥见此间与彼方一切真实的负担与痛，你愿意承受吗？再说了，通晓此世与常世一切妄念与谎言，又是何等无趣的事，哼哼。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f1/th318o2scfokanc2muot5s72hqv9b48.ogg"
+    },
+    {
+      "title": "想要了解菲谢尔·其三",
+      "desc": "菲谢尔：风魔龙？那种本皇女寝宫花园里拴着的宠物级别的东西，没想到在这个世界也能形成灾祸呢。哼，一群没用的家伙…\n奥兹：虽然小姐这么说，当时不也为大家担心得不得了吗。\n菲谢尔：那、那还不是因为身为皇女，有守护尘世众生一切灵魂的崇高职责…",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5e/1du4w08fmvj107rfr9kym5q3moev5ju.ogg"
+    },
+    {
+      "title": "想要了解菲谢尔·其四",
+      "desc": "奥兹：有的人会用其他的名字呼唤小姐。但对我来说，将生命与力量分给我的人，只有「菲谢尔」这个名字。这才是符合她命运的名字，千万不要弄错…\n菲谢尔：你们，商谈之事为何？\n奥兹：关、关于至夜幻现！还有断罪之名！",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/27/s88i02zi1yzx4lvz1h67uvs7er0n2pp.ogg"
+    },
+    {
+      "title": "想要了解菲谢尔·其五",
+      "desc": "皇女应断之罪为何，那当然是「违逆命运」了…毕竟，正是命运，让你…是命运，令你我降临此世，将因果交织相连。我、我会守护你，只、只因这是命运的默示录中昭告之事！",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3f/o87qtb4xrb47xp22h4fvyu3hh47xjas.ogg"
+    },
+    {
+      "title": "菲谢尔的爱好·询问菲谢尔",
+      "desc": "本皇女驰骋星间，行遍诸多世界，领略过一万种宇宙的命运，通读一切灵魂的默示录。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_pref_hobby_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/56/o18kn1xbbrdcesbfi6xsg9hfhrh4dty.ogg"
+    },
+    {
+      "title": "菲谢尔的爱好·询问奥兹",
+      "desc": "奥兹：小姐喜欢看小说。唉…「奥兹」这个名字，也是她从喜欢的小说里挑的。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_pref_hobby_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c2/plpzirdms52xr3awjqp5wydfjnoraeq.ogg"
+    },
+    {
+      "title": "菲谢尔的烦恼…",
+      "desc": "嗯？这世间能困扰皇女的事情…硬要说的话，那就是，总有人无法接受我的真实身份。但无妨，毕竟高贵者注定孤独嘛。只要我不失却这颗崇高之心…",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c9/cafwhibtjfvxra1hy9qoy7kmtfdpb7r.ogg"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "菲谢尔：哼，食物只是凡骨肉胎所受的桎梏。但硬要说的话，能配得上断罪皇女的，那莫过于罪人之泪与谎言之舌…\n奥兹：并不是小姐常做的「常夜夏宫蜜吐司」吗？\n菲谢尔：——只，只是为了补充这具躯壳所需的能量！",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c4/kayzw3q5eqm6ljro8cxtbj05b8133e5.ogg"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "奥兹：小姐讨厌的，应该是那个吧…\n菲谢尔：那个吗。被违抗自然的锁链束缚的肢体…\n奥兹：再也不能如我这般飞翔…\n菲谢尔：失去了那生来便仰慕皇族王者的卑下头颅，简直是「那个世界」的地狱略影。其名为…\n奥兹：好像是叫什么酿鸡来着？",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f5/k1zmgihumm8voc5qjk8445nchuowvum.ogg"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "菲谢尔：此等珍馐，可纳于忘忧之御膳园中。\n奥兹：小姐说，这就是她理想的美味。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/ff/r92hp7my2itw0rg7pjdxjq9d2pepv2c.ogg"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "菲谢尔：为射落世界之兽，必须突破尘俗欲望，编织通向命运之间的道路。\n奥兹：但刚才，小姐不是吃得很香吗？",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/VO_ZH_Fischl_Receiving_a_Gift_-_02.ogg"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "菲谢尔：为何要将残破与毁灭，呈于本皇女面前？\n奥兹：小姐不太喜欢这道菜肴，请你见谅。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/VO_ZH_Fischl_Receiving_a_Gift_-_03.ogg"
+    },
+    {
+      "title": "生日…",
+      "desc": "菲谢尔：哼哼，既然今日是你的命定之日，那我不可能坐视不管。来，说吧！在这腐朽而幽邃的世界里，在你渺小而短暂的人生中，有什么想要实现的愿望，尽管说来，让本皇女听听！嗯…即使是…\n奥兹：她说「生日快乐，如果你想要，她」…\n菲谢尔：奥兹！多嘴！",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/ff/r92hp7my2itw0rg7pjdxjq9d2pepv2c.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "菲谢尔：至夜的魔箭…它在高声呼唤着我的祝圣之名，祈求着罪罚的苍紫雷光，射落命运之敌！\n奥兹：伟哉！考虑到晚饭，如果能射落鸽子就更好了。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d3/sp4ywj84s9sm49cjaypqmk4xdmd8z3e.ogg"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "菲谢尔：有了这个，就能更好地行使断罪皇女的威仪，击败名为「现实」的命运之敌了。\n奥兹：嗯，就能更好地完成协会的工作了。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/89/gnc6xxxqfnzxdfacbcvk7inawh3kylr.ogg"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "狂喜吧！战栗吧！要问为何的话，须知幽夜净土的断罪皇女，已经用这只左眼，看清了编织宇宙的命运之丝！",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/73/6exe3qlzr13gvw25valv2bt9cefqyw3.ogg"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "来到这个世界而失去的力量，似乎已经恢复了大半。哼哼哼，定罪之时即将…啊啊，不必担心。即使到了终末之刻，我在此世降下罪罚之雷时，也不会伤及你。因为，你可是我的祝圣之人啊。",
+      "voicefile": "VO_friendship/VO_fischl/vo_fischl_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/89/gp95v7illtv1bi89sefocouazqocpxo.ogg"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "以断罪之名！",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/VO_ZH_Fischl_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "现身吧，奥兹！",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/VO_ZH_Fischl_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "回应我吧！",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/VO_ZH_Fischl_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其四",
+      "desc": "奥兹：又来了…",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_battle_skill1_04",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/VO_ZH_Fischl_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "黑之翼，屏断昼夜——",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/VO_ZH_Fischl_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "至夜幻现！",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/VO_ZH_Fischl_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "影之鸦，渴求幽夜——",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/VO_ZH_Fischl_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其四",
+      "desc": "奥兹：一如小姐所愿！",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_battle_skill3_04",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/VO_ZH_Fischl_Elemental_Burst_04.ogg"
+    },
+    {
+      "title": "元素爆发·其五",
+      "desc": "奥兹：至夜幻现！",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_battle_skill3_05",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/VO_ZH_Fischl_Elemental_Burst_02.ogg"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "命运，指引我来此！",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/VO_ZH_Fischl_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "荒芜的世界，竟藏有这等瑰宝！",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/VO_ZH_Fischl_Opening_Treasure_Chest_02.ogg"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "哈哈哈，高呼我的祝圣之名吧！",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/VO_ZH_Fischl_Opening_Treasure_Chest_03.ogg"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "只好稍微认真一点了，哼。",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/VO_ZH_Fischl_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "奥兹：小姐，如果你倒下了，我——！",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/VO_ZH_Fischl_Low_HP_02.ogg"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "皇女的命运，不应在此完结…！",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/VO_ZH_Fischl_Low_HP_03.ogg"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "哼，就让我来吧！",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/VO_ZH_Fischl_Ally_at_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "奥兹：小姐，那边有些不妙…",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/VO_ZH_Fischl_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "这个世界，也容不得本皇女吗…",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/VO_ZH_Fischl_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "我将再度降临…呜…",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/VO_ZH_Fischl_Fallen_02.ogg"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "奥兹：小姐！…",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/VO_ZH_Fischl_Fallen_01.ogg"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "不敬之徒。",
+      "voicefile": "VO_gameplay/VO_fischl/vo_fischl_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/VO_ZH_Fischl_Heavy_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "以皇女之名！",
+      "voicefile": "VO_teamJoin/vo_fischl_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/VO_ZH_Fischl_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "菲谢尔：赞颂我的降临吧。奥兹：伟哉！",
+      "voicefile": "VO_teamJoin/vo_fischl_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/VO_ZH_Fischl_Joining_Party_02.ogg"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "你的命运，已成为我掌间之丝！",
+      "voicefile": "VO_teamJoin/vo_fischl_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/VO_ZH_Fischl_Joining_Party_03.ogg"
+    }
+  ],
+  "cardArt": "assets/characters/10000031-card.webp",
+  "fullArt": "assets/characters/10000031-full.webp",
+  "fullArtWidth": 937,
+  "fullArtHeight": 964
+}

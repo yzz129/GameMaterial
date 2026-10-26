@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "path": "portal/assets/PORTAL_03_DATA_brush_v1.woff2",
+      "bytes": 198444,
+      "sha256": "03b081a4cd0435315999a13a57eecb82f1e6894d4dd0f150604922ff6e4d2337",
+      "source": "https://github.com/googlefonts/mashanzheng",
+      "master": "portal/masters/editorial-v1/MaShanZheng-Regular.ttf",
+      "license": "SIL OFL 1.1",
+      "purpose": "Self-hosted portal typography",
+      "glyphs": 540
+    },
+    {
+      "path": "portal/assets/PORTAL_03_DATA_text_v1.woff2",
+      "bytes": 180180,
+      "sha256": "78b17aabf688ae2d57fbda41a4b16285d4c15e575c280dd924559b8e13134489",
+      "source": "https://github.com/google/fonts/tree/main/ofl/notoserifsc",
+      "master": "portal/masters/editorial-v1/NotoSerifSC.ttf",
+      "license": "SIL OFL 1.1",
+      "purpose": "Self-hosted portal typography",
+      "glyphs": 546
+    },
+    {
+      "path": "portal/assets/PORTAL_03_BG_celestial-editorial_v1.webp",
+      "bytes": 181734,
+      "sha256": "6d6f100e775b8b932549a81f6e25b51040ae90e1ba7064740cc5a340845ddce4",
+      "master": "portal/masters/editorial-v1/PORTAL_03_BG_celestial-editorial_v1.png",
+      "source": "OpenAI built-in image_gen",
+      "taskId": "exec-254e3ac9-2a3f-4c80-a06a-4ec358e2e114",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "purpose": "Celestial editorial hero scene",
+      "transformation": "WebP format conversion only"
+    },
+    {
+      "path": "portal/assets/PORTAL_03_VID_celestial-sea_v1.mp4",
+      "bytes": 9445052,
+      "sha256": "33346fc6135b7ce3f3493b5ab6639d54cdacf9a872976767fdc063dc18a2094c",
+      "master": "yuanshenvoice/assets/masters/video/teyvat-starry-sea.mp4",
+      "dimensions": [
+        1248,
+        704
+      ],
+      "fps": 60,
+      "duration": 8.016667,
+      "channels": "H.264 video only",
+      "source": "Existing project reviewed source",
+      "purpose": "Silent looping footer background",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "path": "portal/assets/PORTAL_03_BG_celestial-sea-poster_v1.webp",
+      "bytes": 76136,
+      "sha256": "3d2a1a3eee18d4cd285acc1eb67631e89df65a6a0b2e7e3f5e88dc83deaecf83",
+      "source": "Existing project video poster",
+      "purpose": "Footer poster and reduced-motion fallback"
+    }
+  ]
+}

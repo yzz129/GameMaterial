@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "heroId": "190",
+      "skinId": "190-5d1941027311",
+      "file": "assets/characters/190-5d1941027311-cutout-v1.webp",
+      "master": "source-snapshots/character-cutouts/190-5d1941027311-cutout-v1.png",
+      "width": 1234,
+      "height": 1274,
+      "transparent": true,
+      "transparentPixelFraction": 0.35062934287291775,
+      "sha256": "047c95fa056bfeb46612dd7a6f70822c9f40a1708b09e29d9afbbe976bece3a2",
+      "sourceArtwork": "assets/heroes/190-cover.webp",
+      "sourceArtworkSha256": "edf6bb0e2b47347987037c829d264552f09d4744f0dc78f69f5999a1e696b748",
+      "processing": "Background removal using built-in image_gen; official character design retained; original art preserved",
+      "generatedSource": "C:\\Users\\Administrator\\.codex\\generated_images\\01a168ff-d97b-7262-8336-b7b3ad299762\\exec-a9e1079f-ee75-4949-9a38-39dbbcb1ad9a.png",
+      "generatedAt": "2026-10-24T03:14:36.794Z",
+      "license": "Derivative display of Tencent / respective rights holders character artwork",
+      "purpose": "Freestanding character in reused character-detail display stage",
+      "prompt": "Extract existing Zhuge Liang figure, hands, clothing and held fan from the official source; remove starfield and detached holographic rings; preserve pose, face, armor, colors and original visible anatomy; transparent RGBA background, no rectangle, no text or border."
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "id": 10000021,
+  "name": "安柏",
+  "enName": "Amber",
+  "title": "飞行冠军",
+  "element": "火",
+  "region": "蒙德",
+  "rarity": 4,
+  "weapon": "弓",
+  "birthday": "8月10日",
+  "constellation": "小兔座",
+  "description": "永远充满活力的女孩，骑士团最优秀，同时也是最后的侦察骑士。",
+  "affiliation": "西风骑士团",
+  "cv": {
+    "chinese": "蔡书瑾",
+    "japanese": "石见舞菜香",
+    "english": "凯莉·巴斯金",
+    "korean": "金延佑"
+  },
+  "avatarImg": "assets/characters/10000021-avatar.webp",
+  "splashArt": "assets/characters/10000021-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Amber.zip",
+  "voicePackageEn": "Amber",
+  "quoteCount": 79,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "侦察骑士安柏，前来报到！今后有什么需要帮忙的，尽管说好啦！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d0/evc0eowz7yjzsnhqjmduvmii908kedf.ogg"
+    },
+    {
+      "title": "闲聊·兴趣",
+      "desc": "好想跑一会儿步呀。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_explore_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/13/es98f47b4se7ux80wbto2okpl77iu14.ogg"
+    },
+    {
+      "title": "闲聊·挂念",
+      "desc": "要是被琴发现我们在偷懒，她会不高兴的。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_explore_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/43/3f3utm049zonle5ojkc5ufdjuvd5vim.ogg"
+    },
+    {
+      "title": "闲聊·新发现",
+      "desc": "那边好像有什么奇怪的东西耶…不去看吗、不去看看吗？",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_explore_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3c/1h9gq1ka5wee3kq9aplsp7og27vuck0.ogg"
+    },
+    {
+      "title": "下雨的时候·担忧",
+      "desc": "下雨了…蝴蝶结会淋湿的…",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/82/mcp9um3kmfdtp7f192h1eysq9k9i6j9.ogg"
+    },
+    {
+      "title": "下雨的时候·提醒",
+      "desc": "下雨了啊…视野会有影响，要小心哦。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_weather_heavyRain_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b8/1m3ri3b4msynvtifviz3xe97q24tmjj.ogg"
+    },
+    {
+      "title": "雨过天晴…",
+      "desc": "唔哇~天气真好。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_weather_afterRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/05/rlr7g1kx3774cz1zi32e9kgn8w97mjd.ogg"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "嗯…要是风大点就好了。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6e/tks6yf18b5ggnaj5d6ig78hf4yr3w4m.ogg"
+    },
+    {
+      "title": "起风的时候·惬意",
+      "desc": "真舒服呀…",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_weather_breezy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/35/gu95k6br7oowz8fxfh311pafzlwgto5.ogg"
+    },
+    {
+      "title": "起风的时候·放松",
+      "desc": "我喜欢这种天气，嗯…真轻松！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_weather_breezy_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/df/76wohgibhm7t0x993fixp4u8kcv6zn9.ogg"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早上好哟！要不要一起晨跑？",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e7/8exy1pelf6rmvcq85zqwvon76neq0ml.ogg"
+    },
+    {
+      "title": "中午好…",
+      "desc": "可以跟你一起吃午饭吗？",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/86/9dpsbslq5hf87hr164hc8wgb64v5s5w.ogg"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "天黑了，要我点个火把吗？",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/16/5d34y015231twt6wzyfe8m3o2341uw3.ogg"
+    },
+    {
+      "title": "晚安…",
+      "desc": "没错，休息也很重要！那就说好了哦，明天见！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3d/rfogtnmauuel67db4boe3ubs9m650b3.ogg"
+    },
+    {
+      "title": "关于安柏自己…",
+      "desc": "蒙德城的飞行冠军，就是我啦！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7d/h8qchf03wcntcnigh6ttmi07pbu3nk1.ogg"
+    },
+    {
+      "title": "关于我们·比赛",
+      "desc": "就算是你，比赛我也不会放水！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d4/75eclpeec2mg64lzvvk5d7cmlsuwols.ogg"
+    },
+    {
+      "title": "关于我们·飞行",
+      "desc": "教你飞…与你一起飞行的时候，我自己好像也能飞得更快…欸，你在笑什么啊？来比赛吧！现在就比！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_dialog_close2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/27/thtjjacf79roktonuz7key8j0r9qv3v.ogg"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "「神之眼」，是神对我的认可吧。嗯，我要成为最优秀的侦察骑士才行！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7b/koi82b7s4g79fwjz802vr34dxqykzmm.ogg"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "走嘛~去大教堂的钟楼上看看，风景超棒的！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_dialog_share",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/60/qt1fsorvz5v8pqb62xd713grh755i1i.ogg"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "看，那里有鸽子！嗯…想跟它们一起飞呢。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/82/trjonoasvpdmtxk0wrtezzuau2d9y3d.ogg"
+    },
+    {
+      "title": "关于琴·帮忙",
+      "desc": "大团长出征之后，大大小小的事务都压在了琴的身上。如果我也能多帮到她一点就好了…",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_teammate_qin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f0/9tdk15so1ezjsxlajalta7067oowjfi.ogg"
+    },
+    {
+      "title": "关于琴·关怀",
+      "desc": "琴可能还在工作？…走，一起请她喝杯咖啡吧。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_teammate_qin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/16/3x7om6qlnp3xi2hwl0ncwdq5287a0so.ogg"
+    },
+    {
+      "title": "关于丽莎·听故事",
+      "desc": "等你有空，我们一起去找丽莎吧！她上次和我讲了一个龙脊雪山宝藏的故事，只讲到一半。唔，我还想知道后续！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_teammate_lisa_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4f/lzrhkj0bdf5gujskqh2xkjmq833dh9w.ogg"
+    },
+    {
+      "title": "关于丽莎·钦佩",
+      "desc": "丽莎好像除了睡觉的时间都在看书！真厉害啊，我就坐不住那么长时间。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_teammate_lisa_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d9/3c2ecsia851wqsi4gy21vm1hr9tld9q.ogg"
+    },
+    {
+      "title": "关于凯亚·忧虑",
+      "desc": "…有种不安的感觉！刚才是凯亚陪着你吧？他没给你添麻烦吧？",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_teammate_kaeya_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/46/65nkse988qh8xqhipouoolwyg3wmxq4.ogg"
+    },
+    {
+      "title": "关于凯亚·祸首",
+      "desc": "花圃里的蒲公英看上去蔫蔫的，哼…一定又是凯亚捣的鬼！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_teammate_kaeya_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e9/bvkl2y5zzijtk2f1cngsbwa3ok2f9lh.ogg"
+    },
+    {
+      "title": "关于班尼特…",
+      "desc": "嗯？班尼特…好像在哪里听过…哦！你说的是冒险家协会那个热血的男孩子啊！嗯，我有时会在秘境附近见到他，好像对寻宝很有热情呢。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_teammate_bennett_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d9/bgd6s6pa4im8f3f221wgaxqczny3mim.ogg"
+    },
+    {
+      "title": "关于可莉…",
+      "desc": "可莉呀，偶尔会有点调皮，但骑士团的大家都很喜欢她！唔…为了不让她又被琴抓去关禁闭，还是看紧她一点吧。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_teammate_klee_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/52/e5gpkd2yuxhxrwos3gh4zpo9f6xw6jk.ogg"
+    },
+    {
+      "title": "关于阿贝多…",
+      "desc": "阿贝多，大多数时候都呆在自己的工坊里，捣鼓一些很厉害的东西。但是，见到他的时候，会有种猜不透他在想些什么的感觉。嗯，猜不透呢…",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_teammate_albedo_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0d/p08kqmkxna1mdxyv19yyg5jkc1swmhp.ogg"
+    },
+    {
+      "title": "关于诺艾尔…",
+      "desc": "你问诺艾尔吗？她的韧性可是很强的。作为前辈，你也要多照顾她一点哦。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_teammate_noel_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/08/ts1se5d74dc51ggjtp0x8oqd3ramf1n.ogg"
+    },
+    {
+      "title": "关于优菈…",
+      "desc": "优菈是我的好伙伴！只要习惯了优菈开的玩笑，你就会发现，其实她是很好相处的。只不过，优菈因为自己的姓氏，经常被很多人误解，怎么样才能让大家理解她呢…",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_teammate_eula_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/56/cjy8efvf4rrh6ic0n2ib6r7tolr12o4.ogg"
+    },
+    {
+      "title": "关于柯莱…",
+      "desc": "柯莱和我写信说，她的「魔鳞病」已经彻底康复…我太为她高兴了！真想下一秒就飞到她身边，紧紧地抱住她。她还说很想念蒙德的大家，想等哪一天独当一面之后，亲口来汇报自己的成长…啊，要是能赶上下一次羽球节就好了，我都快等不及了！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_teammate_collei_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/VO_ZH_Amber_About_Collei.ogg"
+    },
+    {
+      "title": "关于米卡…",
+      "desc": "哦，米卡是优菈那儿的老队员了，最初可能是看我和优菈关系比较好吧，总是长官长官地叫我。在我跟他分享自己的侦察心得之后，他又改叫我前辈了…弄得我挺不好意思的。明明我们的职责不一样，他在绘制地图上的专业性，是我怎么都比不上的。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_teammate_mika_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/16/VO_ZH_Amber_About_Mika.ogg"
+    },
+    {
+      "title": "想要了解安柏·其一",
+      "desc": "狩猎我也很擅长哦！怎么样，想不想看看我的身手？还是…要来个狩猎比赛？",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/VO_ZH_Amber_More_About_Amber_-_01.ogg"
+    },
+    {
+      "title": "想要了解安柏·其二",
+      "desc": "和你分享我的飞行冠军经验吧！最重要的，就是要有勇气！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bb/6b8fvixuw606ugsu2ykx9w2up3ppzjb.ogg"
+    },
+    {
+      "title": "想要了解安柏·其三",
+      "desc": "其实我不擅长解谜，羽球节里看到猜谜的摊位都要绕着走…你呢？",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/ca/rhz3xfel6xpwtg23fxbxxmf5pcjey39.ogg"
+    },
+    {
+      "title": "想要了解安柏·其四",
+      "desc": "我因为爷爷才加入骑士团，因为琴留在了团里。现在，是你陪我见到了蒙德以外的天空。我真的很开心。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2b/qdkle5yxlk1exwmac406ljqm8lo1ngb.ogg"
+    },
+    {
+      "title": "想要了解安柏·其五",
+      "desc": "我还想去更远的世界。我想去看天空的尽头！你也会继续陪着我的，对吧、对吧？",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4b/b9ktt9sljbgj2hnlq66wd20cmpusian.ogg"
+    },
+    {
+      "title": "安柏的爱好…",
+      "desc": "兔兔伯爵，今天也是干干净净的一天！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5b/3gy48flib7ygd0n4ssaj8opf9svvaes.ogg"
+    },
+    {
+      "title": "安柏的烦恼…",
+      "desc": "唔…你知道，怎样才能做出好吃的月亮派吗？",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a6/j38g8p7q8wlni81vem3dwwcg52mtr2u.ogg"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "琴泡的咖啡真的好香！有机会你要尝尝哦。",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3f/s6ajbjsnqx7l2ast6fe07ayj5hpxs38.ogg"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "只要不是冰钩钩果汁…唔…我都应付得来！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/10/fu6emcuv2it0oabdhmmngivk9l1sbw2.ogg"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "哇，这个太好吃了。你真厉害！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e8/4rasge8j6ve0nbnrdr6k7tqjsew7kr6.ogg"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "要是我也有这样的手艺就好了…",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/VO_ZH_Amber_Receiving_a_Gift_-_02.ogg"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "我不太习惯这种味道，抱歉啦！不是你的问题！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/VO_ZH_Amber_Receiving_a_Gift_-_03.ogg"
+    },
+    {
+      "title": "生日…",
+      "desc": "嘿嘿嘿，生日快乐！来，这个给你，是我亲手缝的「兔兔伯爵·特别定制版」…放心放心，是特别定制版哦，不会爆炸的！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/VO_ZH_Amber_Birthday.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "哇！像乘着风一样轻快~",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/20/j2jcpd9tzit132h0b6yvzhumtd6fs8m.ogg"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "现在的速度，没有人能追得上了吧！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/09/mkdjre2om1t0nixk3px3canzgm45d8y.ogg"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "蒙德的天空好像变小了…还是因为我的视野变大了？",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/24/sz4a0bkx4372cy1n52pxe5cjy5hec4t.ogg"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "我现在…比起最初跟你认识的时候，又进步了不少吧。嘿嘿，非常感谢！让我请你吃蜜酱胡萝卜煎肉吧，跟我来跟我来！",
+      "voicefile": "VO_friendship/VO_ambor/vo_ambor_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1b/8dkdmw6904gd1ckqbiur1yhmxk2sku8.ogg"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "靠你咯。",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/VO_ZH_Amber_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "兔兔伯爵，出击！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/VO_ZH_Amber_Elemental_Skill_1_02.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "♪哼哼~哼哼哼~",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/VO_ZH_Amber_Elemental_Skill_1_03.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "百发百中！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/VO_ZH_Amber_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "箭如…雨下！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/VO_ZH_Amber_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "你没有退路了！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/VO_ZH_Amber_Elemental_Burst_03.ogg"
+    },
+    {
+      "title": "冲刺开始·其一",
+      "desc": "来比赛吧！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_explore_sprint_start_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/VO_ZH_Amber_Sprint_Start_01.ogg"
+    },
+    {
+      "title": "冲刺开始·其二",
+      "desc": "跟得上我吗？",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_explore_sprint_start_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/VO_ZH_Amber_Sprint_Start_01.ogg"
+    },
+    {
+      "title": "冲刺结束·其一",
+      "desc": "说了你们跑不过我。",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_explore_sprint_end_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/VO_ZH_Amber_Sprint_End_01.ogg"
+    },
+    {
+      "title": "冲刺结束·其二",
+      "desc": "就是这种感觉！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_explore_sprint_end_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Amber_Sprint_End_02.ogg"
+    },
+    {
+      "title": "打开风之翼·其一",
+      "desc": "我可是蒙德城的飞行冠军！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_explore_fly_start_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/VO_ZH_Amber_Deploying_Wind_Glider_01.ogg"
+    },
+    {
+      "title": "打开风之翼·其二",
+      "desc": "尽管交给我吧！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_explore_fly_start_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/VO_ZH_Amber_Deploying_Wind_Glider_02.ogg"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "打开宝箱的一瞬间，最兴奋了！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/VO_ZH_Amber_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "侦察骑士，发现目标！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/VO_ZH_Amber_Opening_Treasure_Chest_02.ogg"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "哇，都是好东西！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/VO_ZH_Amber_Opening_Treasure_Chest_03.ogg"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "…我可不会认输！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/VO_ZH_Amber_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "好痛…这家伙…",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/VO_ZH_Amber_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "别小瞧我！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/VO_ZH_Amber_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "小心啊！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/VO_ZH_Amber_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "你…要不要紧？我来帮帮你吧？",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/VO_ZH_Amber_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "跑累了…",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/VO_ZH_Amber_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "训练…还不够…",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/VO_ZH_Amber_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "这次我…输了啊…",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/VO_ZH_Amber_Fallen_03.ogg"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "真难缠！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/VO_ZH_Amber_Light_Hit_Taken_02.ogg"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "好痛！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f3/VO_ZH_Amber_Heavy_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "犯规啦！",
+      "voicefile": "VO_gameplay/VO_ambor/vo_ambor_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f3/VO_ZH_Amber_Heavy_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "交给我吧！",
+      "voicefile": "VO_teamJoin/vo_ambor_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/VO_ZH_Amber_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "准备就绪！",
+      "voicefile": "VO_teamJoin/vo_ambor_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/VO_ZH_Amber_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "侦察骑士登场！",
+      "voicefile": "VO_teamJoin/vo_ambor_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/VO_ZH_Amber_Joining_Party_03.ogg"
+    }
+  ],
+  "cardArt": "assets/characters/10000021-card.webp",
+  "fullArt": "assets/characters/10000021-full.webp",
+  "fullArtWidth": 1044,
+  "fullArtHeight": 922
+}

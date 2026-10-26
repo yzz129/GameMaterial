@@ -1,0 +1,32 @@
+{
+  "id": "558",
+  "name": "影",
+  "slug": "ying",
+  "title": "黯羽东君",
+  "roles": [
+    "战士"
+  ],
+  "portrait": "assets/heroes/558-portrait.webp",
+  "cover": "assets/heroes/558-cover.webp",
+  "skins": [
+    {
+      "id": "558-97fd80beeb72",
+      "name": "黯羽东君",
+      "voiceCount": 0
+    },
+    {
+      "id": "558-c1bd5cd588d8",
+      "name": "魅影绮裳",
+      "voiceCount": 0
+    }
+  ],
+  "skinCount": 2,
+  "voiceCount": 0,
+  "sourceUrl": "https://pvp.qq.com/zlkdatasys/yuzhouzhan/herovoice/558.json",
+  "officialPage": "https://pvp.qq.com/web201605/herodetail/558.shtml",
+  "voiceStatus": "not-published",
+  "region": "大河流域",
+  "faction": "全知者",
+  "updatedAt": "2026-10-23T13:50:05.071Z",
+  "voices": []
+}

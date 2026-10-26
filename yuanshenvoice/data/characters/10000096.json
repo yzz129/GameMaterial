@@ -1,0 +1,552 @@
+{
+  "id": 10000096,
+  "name": "阿蕾奇诺",
+  "enName": "Arlecchino",
+  "title": "孤暝厄月",
+  "element": "火",
+  "region": "至冬",
+  "rarity": 5,
+  "weapon": "长柄武器",
+  "birthday": "8月22日",
+  "constellation": "净炼火座",
+  "description": "愚人众执行官第四席，「仆人」。沉静冷酷的外交官，「壁炉之家」所有孩子们畏惧又依赖的「父亲」。",
+  "affiliation": "愚人众",
+  "cv": {
+    "chinese": "黄莺",
+    "japanese": "森奈奈子",
+    "english": "艾琳·伊薇特",
+    "korean": "李明禧"
+  },
+  "avatarImg": "assets/characters/10000096-avatar.webp",
+  "splashArt": "assets/characters/10000096-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Arlecchino.zip",
+  "voicePackageEn": "Arlecchino",
+  "quoteCount": 74,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "我是愚人众执行官第四席，「仆人」阿蕾奇诺，也是壁炉之家的孩子们口中的「父亲」。希望我们相处愉快——这并非什么难事，现在的我们还没有冲突的理由，不是吗？",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_draw_appear_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fd/4hg48ogk1c7o2qnzxura4z5rrwhvrwg.mp3"
+    },
+    {
+      "title": "闲聊·眼睛",
+      "desc": "不要一直盯着我的眼睛，不保证你会看到什么。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/53/bik4v5n7rcfz89bshzfwoc3l8rj6hmn.mp3"
+    },
+    {
+      "title": "闲聊·家庭",
+      "desc": "孩子们在做什么？算了，由他们去吧。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/91/ak8ptqwo0oedcawf7v8ak891e5vuwx1.mp3"
+    },
+    {
+      "title": "闲聊·汇报",
+      "desc": "有事情向我汇报？说吧，我在听。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c5/78rwjlvjk72aged533efkn60unfi9wo.mp3"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "无需畏惧，雷光也要避让我们。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/23/5r9w2nbjrfj04pyy27urlj6bfhy8836.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "身处寒冷之中，人们才会怀念火焰的温暖。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/76/pwspoloian7ytw8nbjs4snnd2qdkg7w.mp3"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "这个天气更适合待在树荫下。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/36/skmfxoctz6n6mlh0q7351wt5efzbp5y.mp3"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "不要轻易讲述自己的秘密，你不知道风会把它们带去什么地方。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0b/e6td73xmc8kgv0kopbbcxqfm92huste.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早安，今天有什么计划吗？",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/57/pgo0nnuoixgrxnrnvlzq1r8nodv8fe4.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "正午回到家，总能见到孩子们横七竖八地睡在地上。这个时间很容易犯困，休息一下再走吧。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/64/r7ajtndvcahpxtpnojned60zmezjp59.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "有人说月亮就像俯瞰人间的眼睛，只是我们已经习惯被它注视。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/57/g3frwz0gvcphxrgabm5sik47km87jur.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "睡觉的时间到了。「睡不着」？那你得自己想想办法了。我猜你不会喜欢我的方案。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c6/70932xttqxoa46wg9iw84py4qpo26cd.mp3"
+    },
+    {
+      "title": "关于自己·认知",
+      "desc": "清醒地认识自己并不容易。通常来说，做不到的人反而活得比较开心。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/03/8fjn7c3cp13rkmtj1443hgemljgmps0.mp3"
+    },
+    {
+      "title": "关于自己·冷血",
+      "desc": "偶尔，我会听到其他人在暗处的议论，说我是个感情淡漠、手段狠辣的人。对此我无意澄清，偏见会将真相包裹起来，对我来说是件好事。不过，我确实需要采取一些手段，来「满足」他们的期待…希望他们有足够的实力和地位，能从我手上活下来。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/38/ctcnds8bollfoii7qyu0gkm8q59i6p8.mp3"
+    },
+    {
+      "title": "关于我们·让步",
+      "desc": "你我所持理念不尽相同，想要并肩而行，彼此都要做出让步。我可以分享一些秘密，至于隐瞒的那部分——不要深究，这也是为了你好。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4e/6aejfmeveyjhy066ld4a41vw624h6ry.mp3"
+    },
+    {
+      "title": "关于我们·做客",
+      "desc": "孩子们很喜欢听你讲故事。时常问我你什么时候会再来。期望落空总需要支付代价，希望你能将它纳入到考虑之中。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/08/m5ul8yhgbmy291hj3jwfeu785m1g4ex.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "很长时间里，我没有什么愿望，直到某天产生了「刺杀库嘉维娜」的想法。这个主意当时看来很荒诞，毕竟她是成名已久的执行官，而我的武艺几乎都是她教出来的。\n不过神明似乎只看愿望是否强烈，最终我得到了神之眼，在付出一些代价之后，成功掌控了这份力量。徒弟想要战胜老师，总要做出些意料之外的事情。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_dialog_pendant_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4e/tmgzq5icmsxbjt26p44hx5khf4g4i02.mp3"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "「火焰如血液般在我的身体中流淌」…对普通人来说，这是一句蹩脚的小诗，对我来说却是一种无奈的现实。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f0/4n26xmrw2ihdjfhl2bnigoqf1mhhe3h.mp3"
+    },
+    {
+      "title": "感兴趣的见闻·极光",
+      "desc": "至冬的极光很美丽，可以去看看。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_pref_gift_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/35/ekomwppyrjdjqff6urk7kwysv15jcu9.mp3"
+    },
+    {
+      "title": "感兴趣的见闻·蜘蛛",
+      "desc": "我曾养过一只叫「斑比」的蜘蛛。饲养蜘蛛是件有趣的事情，相较于猫狗一类的宠物，蜘蛛是养不熟的。它并不会给你回报，你也不会在它身上寄托多余的情感。这样的关系对我正好。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_pref_gift_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/81/ah369wb510gq3h0td12sac0gpruw9bj.mp3"
+    },
+    {
+      "title": "关于林尼…",
+      "desc": "克雷薇曾问过我一个问题：什么是真正的「家」？我无法回答，因为构成壁炉之家的，正是一群「无家可归」的人。\n我否定家中不合理的地方，制定新的规矩，杀死库嘉维娜，成为了孩子们的「父亲」。但我很清楚，这仍然算不上真正的家。我会把这个问题保留下去。期待有一天，林尼能够给我全新的答案。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_lyney_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/49/lch0b1ko1mdssdl8dn4nflgl3xopfhn.mp3"
+    },
+    {
+      "title": "关于琳妮特…",
+      "desc": "沉静的性格是琳妮特的特点，也是她的优势。我相信她足够聪明理解到这一点。她在那支小队中有着无可替代的作用，而这么做，也令她感到幸福。作为「父亲」，我会给她足够的空间施展才华。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_lynette_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fa/1hfw1f957rtrqxlezkgmmxpokoiezc8.mp3"
+    },
+    {
+      "title": "关于菲米尼…",
+      "desc": "菲米尼的内心非常复杂，藏着各种各样的感情。他会将许多无关的问题归因到自己，并为此感到很难过，其他孩子未必能理解他在想什么。我注意到你的情感也很细腻，或许你能和他成为很好的朋友。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_freminet_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4b/nsk05ia637e5k11qj7arqkwuekaojso.mp3"
+    },
+    {
+      "title": "关于那维莱特…",
+      "desc": "工作，以及私下，那维莱特先生刻意维持着一种「距离感」。很多人说他不近人情，我认为恰恰相反，就像律法的冰冷源于其庇护众生的公平，这本质上是一种特殊的善意。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_neuvillette_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/78/t1ocm9ml0ywwme0ki9r3xhn9q1kje9h.mp3"
+    },
+    {
+      "title": "关于芙宁娜…",
+      "desc": "我托林尼帮忙带去了一些蛋糕，分给剧团的人做茶点。蛋糕是孩子们亲手做的，用「热心观众」的名义赠送，希望她喜欢。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_furina_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/31/b8m3379nop9zg2bna4feepw8736vpxa.mp3"
+    },
+    {
+      "title": "关于「女皇」…",
+      "desc": "在我入狱时，是女皇大人赦免了我的罪过，赐予我执行官的身份。相较于伪善之人冠冕堂皇的话术，我能从她身上感受到真正的「慈爱」。然而…这份慈爱能否融化辽阔的冰雪，没有人清楚答案。我只知道，如果有一天我们被迫决裂，我会毫不犹豫地向她挥剑，这是我能给出的最高敬意。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_tsaritsa_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/57/jwddvmlknstyp46jpt5r6xitj646m4r.mp3"
+    },
+    {
+      "title": "关于「丑角」…",
+      "desc": "作为最初的执行官，他的一切都很神秘。初次见面他就能轻易看出我的身世，而我时至今日仍然对他所知甚少。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_jester_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/76/9nqquhgr8sgnkmaluoqqxg724avtw14.mp3"
+    },
+    {
+      "title": "关于「队长」…",
+      "desc": "他所拥有的力量让他背负着更多的责任，不过在我看来，即使没有强悍的力量，他仍然是一位值得尊敬的人。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_capitano_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/69/n64bogo4p6qwyuq9dwud0d6b5q8jr9n.mp3"
+    },
+    {
+      "title": "关于「博士」…",
+      "desc": "我刚接手壁炉之家，他就向我提出了许多合作计划，让我将「淘汰的孩子」交给他去做实验，他则向我共享实验成果。听说他跟前代「仆人」合作得很愉快，如果不是同为执行官，我很想送他去见前代「仆人」。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_dottore_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8c/t4d1s3rwnw4j9f8503l4by8v84387z2.mp3"
+    },
+    {
+      "title": "关于「少女」…",
+      "desc": "她是一位非常特别的执行官。如果你向她提问，她不会给你「预料之中的回答」，有时甚至不会给出「正式的回答」，但那一定是个「有趣的回答」。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_damselette_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ec/n1fvwcex6p3gtz94tt0ttzg1zpz0m04.mp3"
+    },
+    {
+      "title": "关于「公鸡」…",
+      "desc": "就像「公鸡」先生不喜欢我一样，我对他也没什么好印象。他是一位合格的市长，甚至可以用出色来形容。他能用很小的代价换取巨大的收益，在政要圈子中广受好评。可惜这「很小的代价」中经常出现壁炉之家的影子，我们早晚…哼。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_pulcinella_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bb/hix5ke24sk3z191ndxp7lbkkhuqdq18.mp3"
+    },
+    {
+      "title": "关于「木偶」…",
+      "desc": "我对她没什么兴趣。她热衷于研究，很少公开露面，许多士官甚至都没有见过她。相较于另一个把自己切成很多份、满世界乱跑的人，她算是另一个极端。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_marionette_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/VO_ZH_Arlecchino_About_Marionette_-_Research.ogg"
+    },
+    {
+      "title": "关于「富人」…",
+      "desc": "不可否认，他既有想法也有手腕，但我认为他并不「清醒」。他可以制定宏伟的计划、操控冰冷的经济，但驱使他行动的仍是内心深处压抑的仇恨与憎恶。理性的人往往自认为能控制情感，这种自信就是最大的弱点。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_pantalone_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/64/cybotbw6rmzo0pynh7axqeu0bq1a7xb.mp3"
+    },
+    {
+      "title": "关于「女士」…",
+      "desc": "她与皮耶罗是我最先认识的两位执行官。她第一次来壁炉之家做客，一副趾高气昂的做派，不受孩子们喜欢。那之后她每次来访都会带些礼物，堂而皇之地表示「不喜欢我的人没份」。为了礼物，孩子们很快学会了逢场作戏，她也照单全收。我猜测她很享受孩子们围在身旁的感觉，这或许源于她内心的孤独…对于她的牺牲，我深感遗憾，愿她能与死去的爱人重逢。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_signora_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ab/h8ma5bc5i9kh5agxrwuz54is7exgwzp.mp3"
+    },
+    {
+      "title": "关于「公子」…",
+      "desc": "平心而论，他的性格并不适合做执行官。他常以善意揣测别人，也常被别人利用。当然，他的天赋很好，仍然在不断成长，对他的评价不必急于一时。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_teammate_tartaglia_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ec/4naioani0nm636jmikx1d4zoo7x3p4b.mp3"
+    },
+    {
+      "title": "想要了解阿蕾奇诺·其一",
+      "desc": "想要了解我的事情？当然可以。本着互信的原则，我不会对你有太多隐瞒。不过你真的做好准备了吗？秘密比刀剑更锋利，危险往往源于不起眼的好奇心。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/94/6vixhcgknjqz3yv74mh6hfy7riankbj.mp3"
+    },
+    {
+      "title": "想要了解阿蕾奇诺·其二",
+      "desc": "当你刺出手中的利刃，你会意识到生命有不同的分量。有的人看似荣耀等身，却不过是一具无聊的空壳，临终前最后的思考仍是求饶与苟活。有的人外表平平无奇，灵魂却意外地沉重。即使如此，死亡对于每个人都是平等的。残酷？我只不过说了现实。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ad/fkgefklnkje4q2b0by5b5zxnelf8nc5.mp3"
+    },
+    {
+      "title": "想要了解阿蕾奇诺·其三",
+      "desc": "雪奈茨维奇、雪奈茨芙娜…敢于在阴影中睁开明亮双眼的孩子们，敢于在火焰旁起舞的孩子们，我尽己所能，教他们如何面对生活。壁炉之家无需讨好他人，我们像蜘蛛那样狩猎。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/73/14iogbak8n5lhooiq5xeivvmmne6tst.mp3"
+    },
+    {
+      "title": "想要了解阿蕾奇诺·其四",
+      "desc": "人们无法选择自己的出身，世界就是这样不公；但世界又是公平的，每个人都有抗争的权力。我收留孩子并非为了获得回报。只要愿意付出代价，想要离开的孩子可以追求新的生活。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8f/7h3cg4lmnsl2xwl1e6jnnxnssusvghn.mp3"
+    },
+    {
+      "title": "想要了解阿蕾奇诺·其五",
+      "desc": "命运是种很奇妙的东西。小时候，我就能使用一些特别的力量，「母亲」因此对我格外偏爱。但那时没有人知道这份力量的本质是什么——包括我自己，都将它视为延续在血脉中的诅咒。它让我变得强大，也给我带来痛苦。直到我成为执行官，才从「丑角」口中得知真相。他说自己很惊讶，原来「赤月」的血脉仍未断绝，而壁炉之家兜兜转转，居然又重新回到了赤月遗孤的手里。\n命运会将我导向怎样的未来？总有一天它会给我答案。而我，也做好了斩破它的准备。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3e/8oeiok0bi7plo7wwdj6yteh5bvcot5w.mp3"
+    },
+    {
+      "title": "阿蕾奇诺的爱好…",
+      "desc": "空闲时，我会独自观察丛林中的昆虫。它们之间的博弈很有意思，捕食、竞争、合作…看似强大的个体未必能存活到最后，一着不慎就可能丢掉性命。我会把它垂死前的挣扎慢慢记下，一如我记下那些败者的结局。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6c/c4kdt2ilor5c5opljes8z3hy1657z96.mp3"
+    },
+    {
+      "title": "阿蕾奇诺的烦恼…",
+      "desc": "孩子们会讲很多只有彼此能听懂的流行词，就像执行任务用的暗语。他们需要一些安全的空间，对此，我充分理解。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_dialog_annoyed_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/75/f6pgi6i9sh93oy6bdqrnjs8v0k1fr3n.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "家里会不定期举办烧烤晚会，食材交由孩子们自己准备。他们很喜欢参加这种活动，我也一样。毕竟谁都无法预料，下次举办晚会的时候，人群中又会减少哪些熟悉的面孔。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/ce/pzgble8835lt1xmqgm2yy9mqrqk4emx.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "我不喜欢调味复杂的食物，它们会让嗅觉与味觉变得迟钝。让食材保持原有的味道，也算是对它们的一种尊重。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/80/52j7n6w59f2t85ahyrb0cpp4u8mcoxd.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "好手艺，有兴趣来壁炉之家开烹饪课吗？",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/80/igc75cgwggfmhl42bbl3bekhrn3jlrn.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "尝起来还不错，或许孩子们会喜欢。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b6/7v23kzvrzmgpjcuimtaz6vhyr2htw81.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "感谢你的一片心意，不过在味道上还有很大的提升空间。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d0/57dcntlnyyss8xu5lj54s4pfhrr79wq.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "备忘录上写着今天是你的生日，对吗？生日还是要过得热闹些，人们总是需要理由让自己从繁忙的事务中抽出身，或是为自己庆祝，或是为别人庆祝。走吧，我在壁炉之家中准备了宴会，孩子们已经在等你了。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_pref_birthday_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b6/bw6v3knrz0pipsgk0o0wqwcth5xb2nk.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "不要停下前进的脚步，也不要为力量所困。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/21/jwe98tpn4bvwgrbv62hx1f5b0li21gi.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "愤怒带来冲动，伤感让人犹豫。时刻记住调整自己的心态。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fc/lwl6v7ahahen4x9gk0zfhju16twkj43.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "有些人说我过于严格，事实上，我对自己也一样。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0c/adyh0pe5whs48jxth0c08na0hktoye4.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "这段时间我从你身上学到了许多，希望你也有所收获。就让我们继续保持这份友好关系吧…或许将来，我们会共同应对某些棘手的麻烦。",
+      "voicefile": "VO_friendship/VO_arlecchino/vo_arlecchino_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f3/fa9z45i4yqdyviq09h6zxipfclv4hgf.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "贯穿。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0f/b3ih9yc4j2uulaqs1zgi0s968iej59q.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "否决。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b3/e2yzeke8i4do2r2ukyjkyf2bednsxjo.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "展现。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4f/mt7buflt85xpo46k9n6sean6gc6gmt2.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "于此坠落。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/db/2a3e7ck53v6xs74haochvo0bta1btq8.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "于此升起。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/57/cpyjr8jayv8jfwi2n2rsj0jj8fgmjx2.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "如月长存。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/56/g97cgqeoblwwceof6svgme7jmii5jfg.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "意外是最大的乐趣。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/66/9g3ejdqiaj9635ejzhkw4uwnm39nlog.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "不错的收获。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b7/6o5zed9zc6myh51ss0u7snaf606tibb.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "纪念此刻的欢愉。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5b/blpsm78hrd3qethh8b4jims975f104n.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "不错的进攻。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8a/8hcgn3ufycnakq9oxl9dzotenqcamxa.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "该反击了。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/66/adjxgj5r0flzowmsyk5h9k2nlwq63v7.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "看来要再认真一点。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5d/pfuk2gass50be08f490qmlg0qz1zpqm.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "退后。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7b/rl9l5e6jh9lly7gj5pta5omdvwdd0xh.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "计划变更。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d7/0q9x5c0xhtf86m4j278ex62kdc8wnd1.mp3"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "炉火，熄灭了…",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/92/2txg87q7kidgfqr4u3v17wjfvgiqf9u.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "我听见…孩子们的歌声…",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8a/lkyv3ildcs4x1080ny3y3zhos3anuhl.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "我不会接受这样的命运。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1e/q4af1uf6llrp0sfejcjdc9pehhi1oyu.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "平庸。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/22/qp1ebzzlcb0cfxy9p0k9c3jjkm3opp7.mp3"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "继续。",
+      "voicefile": "VO_gameplay/VO_arlecchino/vo_arlecchino_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a4/c7ydukv9mjar7w8ahb5lblcf4fo1ous.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "别担心，我会处理好。",
+      "voicefile": "VO_teamJoin/vo_arlecchino_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/88/daudjnm8gfpd7wgmn7t0nj2d66xk8f6.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "遇到解决不了的麻烦了？",
+      "voicefile": "VO_teamJoin/vo_arlecchino_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/58/9qpwgz6wwjahp69d54ofwoagvnlrxe2.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "希望是一次有价值的合作。",
+      "voicefile": "VO_teamJoin/vo_arlecchino_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/25/ijtx2tm3ai3togzrkmebk8ru3pwmswk.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000096-card.webp",
+  "fullArt": "assets/characters/10000096-full.webp",
+  "fullArtWidth": 1448,
+  "fullArtHeight": 1019
+}

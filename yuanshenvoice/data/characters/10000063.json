@@ -1,0 +1,545 @@
+{
+  "id": 10000063,
+  "name": "申鹤",
+  "enName": "Shenhe",
+  "title": "孤辰茕怀",
+  "element": "冰",
+  "region": "璃月",
+  "rarity": 5,
+  "weapon": "长柄武器",
+  "birthday": "3月10日",
+  "constellation": "愁疏座",
+  "description": "气质出尘的仙家子弟。隐修在璃月群山之间，个性也如仙人般淡漠疏离。",
+  "affiliation": "留云借风真君洞天",
+  "cv": {
+    "chinese": "秦紫翼",
+    "japanese": "川澄绫子",
+    "english": "切尔希·克沃卡",
+    "korean": "李贤真"
+  },
+  "avatarImg": "assets/characters/10000063-avatar.webp",
+  "splashArt": "assets/characters/10000063-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Shenhe.zip",
+  "voicePackageEn": "Shenhe",
+  "quoteCount": 73,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "我名申鹤，命格孤煞，易伤身边人，仙人叮嘱要以此红绳锁魂，控制杀心。若你不畏惧与我同行…很好，就请伸出手来吧。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/50/3d4fhyppxc49nztnowjmtjubvs58amm.mp3"
+    },
+    {
+      "title": "闲聊·归宿",
+      "desc": "人间的归宿是一种奢望，我早已习惯跟山川与鸟兽作伴了。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8a/0uijj87ah3tg2nyqci3pgdbbihsah7b.mp3"
+    },
+    {
+      "title": "闲聊·要诀",
+      "desc": "回向正道，保身护命…",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/82/mxet0y513iz6l4xprxaqs8e21wutstb.mp3"
+    },
+    {
+      "title": "闲聊·刀枪无眼",
+      "desc": "刀枪无眼，红绳的力量也有极限，所以我才不喜欢人多的地方。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3c/87n9uf7b5dffrhgm5mf47edz25u9wwc.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "按照凡人的做法，这种时候，是否应该…撑伞？",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/43/tq3vx8n1ne9q2iwpffofrc6mo6wup3x.mp3"
+    },
+    {
+      "title": "雨过天晴…",
+      "desc": "天气变好，我也很开心。只希望没有人来打扰…如果有，就让他们消失好了。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_weather_afterRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a2/gv3m2g4bvpf03vpqmohsg2147hvmij7.mp3"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "把魔物冻在原地，雷劈下来就能瞬间解决它们，还不会让衣服沾上尘土。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b7/9c9uo1qxyb2o41r9x0tvu0f46ev2s39.mp3"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "嗯…师父最喜欢庆云顶上的罡风。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6c/0jlu15667u3l2rug9udh0ernmxydn9i.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早安。晨露很甜，要分一点给你吗？",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/89/ngsusxl2nv49ewdjj42jnbx7j7npflb.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "若是午后困乏，不妨试试打坐养神，很有效果。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/85/2ekf2tyhmf3il7pqu9uw4w8g15d30gh.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "不知道你是喜欢人间的灯火，还是山林的月光？",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/23/9jmfamc54kryfhmllevfiugln1f6ci6.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "放心休息吧，我睡眠很浅，有什么动静，我会替你查看的。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0e/h22usfwmqz5jlnqvq3ud2xm517u5v1b.mp3"
+    },
+    {
+      "title": "关于申鹤自己·本能",
+      "desc": "磨砺自身，修炼方术，都是本能使然，想要保全自己而已。我没有兼济苍生的胸怀，惩奸除恶只是顺手，不必感谢我。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6a/mtafdvyvktukfdmi9bz0wwstqiodehh.mp3"
+    },
+    {
+      "title": "关于申鹤自己·异类",
+      "desc": "受我恩惠的人叫我仙人，被我惩罚的人喊我魔女，呵…不管是仙是魔，终究都是跟凡人不同的异类罢了…",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8f/ivvcs7ovxeuznk05m2sw4nn96kf5r8p.mp3"
+    },
+    {
+      "title": "关于我们·待人接物",
+      "desc": "我很少下山，不懂得多少待人接物的道理。发生冲突的时候，我一律按自己的方式处理。但，如果你觉得不妥，都请告诉我，即使不理解，我也会听你的。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f5/mtkardv5bll0c59z8jbsyr2me8mv6o0.mp3"
+    },
+    {
+      "title": "关于我们·红绳",
+      "desc": "师父赐我红绳用以压制心性，但这些日子你我同修，我才真正领悟到要诀，力量收放也更自在…你才是真正能锁住我的红绳。若你懂得这份心情，就请留在我身旁。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5e/nszdq006cmihiz1kwrcq5p8dctrh7s3.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "原来这颗闪耀的石头叫做「神之眼」？呵…有缘既得，无缘便失。日后倘若缘分消散，它也会熄灭吧。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/09/4pljb39t60aeoz0havv53wm2z7z5et1.mp3"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "邪祟易驱，心魔难除。若自身无法放下执念，仙法与术式都无从挽回。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/40/ffycmkuxrql3qeqfnuadlrm4gult14n.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "为什么说「初雪多浪漫」？那处山巅日日下雪，何日才算是初雪？我不理解，请你告诉我。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_pref_gift_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/09/aylq07wkslir79nph900qe9c0xccycu.mp3"
+    },
+    {
+      "title": "关于凝光…",
+      "desc": "人们所谓的财富，对我而言没什么用。但到了凝光小姐手里，却能解决连刀枪都无法处理的难题。她能掌握人间规则，洞察人心…师父说，这些连仙人都无法做到。我很佩服她。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_teammate_ningguang_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/32/pjvk3yz3s4jwi3dapaqyme7orbeh7m1.mp3"
+    },
+    {
+      "title": "关于北斗…",
+      "desc": "与她相处不用讲究礼节，交谈时也不用揣测深意，让我轻松了不少。只是…她身边总是有人，听说船上还有诸多船员…我需要跟你一起，才能应对人多的场合。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_teammate_beidou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/60/bogpz7ylughdg6olgdsxsxmjyq7vcr8.mp3"
+    },
+    {
+      "title": "关于云堇…",
+      "desc": "云堇唱的…叫做「璃月戏」吧？我很喜欢这种形式。不必亲见其面，就能了解他人的事迹。如果将来她把你唱进戏里，那一定会是非常精彩的故事，我很期待。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_teammate_yunjin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/59/hyg1p3gsvmh1dsgd74j8szmkxtpuqyg.mp3"
+    },
+    {
+      "title": "关于甘雨…",
+      "desc": "我从师父那里听过许多有关她的事…她原先在我心中的形象，和实际差距还是挺大的。放心，我不会说出去。说起来，璃月港的工作竟这般繁忙…看来融入人间，也要付出一些代价。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_teammate_ganyu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/28/dl4fggbbwmft7xtsr9r83v6rfd2hpd7.mp3"
+    },
+    {
+      "title": "关于重云…",
+      "desc": "真没想到我在这世上…还有「亲缘」。他若是有什么修行上的困惑，我愿帮忙解答。不过，得请他上山来。他们一家太过热情，我不知道该如何回绝才符合礼数…",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_teammate_chongyun_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1b/fji0virmwtm7i0u5wsrtx6hn9nrais1.mp3"
+    },
+    {
+      "title": "关于行秋…",
+      "desc": "我曾见到他凑在你耳旁不知说些什么。若他敢威胁你，我一定会将他…嗯？只是朋友间的玩闹话？当真如此吗…",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_teammate_xingqiu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f0/g76difwf453mdlim8gmygfa2iy6u8rc.mp3"
+    },
+    {
+      "title": "关于钟离…",
+      "desc": "那位先生自称是凡人，却与身为仙人的师父很熟络。师父曾说，如果碰见他在仙府前的石凳上饮酒，莫要打扰，让他静静独坐一会。我照做了。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_teammate_zhongli_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2d/ilpt3mrumsmplsdhdiisg4v26bnp5tc.mp3"
+    },
+    {
+      "title": "关于白术…",
+      "desc": "他的药草品质很好，为人也随和周到。相比起来，脖子上的小蛇倒是口无遮拦…放心，我没有动手。我还不至于和一条蛇置气。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_teammate_baizhu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8d/8dingb3i6oljer8203k1s46rwklfkkz.mp3"
+    },
+    {
+      "title": "关于胡桃…",
+      "desc": "她在附近山林游荡时，经常会唱奇怪的歌。久而久之，我把她的歌断断续续听了个遍。听习惯了也还是觉得奇怪，但，我并不讨厌。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_teammate_hutao_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ab/dyrjg97nfw6gjnwwsl6m1w5iaevqbx6.mp3"
+    },
+    {
+      "title": "关于魈…",
+      "desc": "印象中他一直不苟言笑。近来见他，虽说沉默依旧，但…像是比从前轻松了不少。兴许是结识了哪位良人吧。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_teammate_xiao_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/34/dki7ogvf7s2iii9ik0hi2h746n89cyy.mp3"
+    },
+    {
+      "title": "关于闲云…",
+      "desc": "上回，师父带漱玉来万民堂吃饭，漱玉言谈间已有了几分师父的神形…我也是在师父的呵护下如此成长，不知道我的举止，是否也带着些师父的样子呢…",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_teammate_xianyun_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5e/p1shdrs4focrn0mwpkz4iipwgnvpal7.mp3"
+    },
+    {
+      "title": "想要了解申鹤·其一",
+      "desc": "请不必在意人们对我的称呼，我不是仙人，也没什么神通。生于驱魔世家的旁系，长在远离璃月港的山间，只能算是个仙家弟子，仅此而已。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cf/c14vncdw4l8zcqb4hxabq3udj36yir9.mp3"
+    },
+    {
+      "title": "想要了解申鹤·其二",
+      "desc": "遇到恶意滋事的人，人们似乎都会选择上前说教，我不太明白。明明可以直接将这些拦路碍事、心存歹念的恶人斩草除根，为什么要这般麻烦？",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cd/glptrdyq3walv8lr1pitscggwgdlb6r.mp3"
+    },
+    {
+      "title": "想要了解申鹤·其三",
+      "desc": "我师从多位仙家，静心修炼。随着修为提升，他们不再传授我新的术式，而是改教我怎样收敛杀性。别紧张…像平地凿出深坑，树木连根拔起之类的事，只在远离人烟的山林中发生过，从未波及过无辜性命。况且，现在我也已经能控制自我了。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3f/pqijx0o35l774f9b66tzfn6k8lzakj6.mp3"
+    },
+    {
+      "title": "想要了解申鹤·其四",
+      "desc": "父亲想用我的血肉换回母亲的生命。自从被他丢在山洞，我一度期盼过他会回来救我。一天、两天、三天…我拼尽全力与魔物厮杀，直到倒下都没能等到他。我不知道，究竟是我命格孤煞才遭人遗弃，还是命途坎坷使得我萌生出这股煞气？",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/03/ia754qgumbqj157ynpn73i2ynfd5jvv.mp3"
+    },
+    {
+      "title": "想要了解申鹤·其五",
+      "desc": "有一回，我瞒着师父偷偷下山回到村里，却发现原本的村庄荒弃了，父亲早已去世。我突然明白，自己与血亲的缘分彻底断绝了。在乎的往事永无后话。自那日起，我一度舍弃人间种种…直到遇见你。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c4/lucg8bhnk7rkmqfv6vpgb0tehekupjb.mp3"
+    },
+    {
+      "title": "申鹤的爱好…",
+      "desc": "打坐的要点在于「静」，需要摒弃杂念，用身体感受周遭气息，它能让我迅速回归自我。听师父说，修为达到足够境界后，打坐的姿势就不用再拘泥，仙人哪怕站立着都能打坐…我还远远不够。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1f/esfdwipg8dfgt4fu44jdnzj9br6jirm.mp3"
+    },
+    {
+      "title": "申鹤的烦恼…",
+      "desc": "害怕失去重要之人、想要拯救重要之人…这种心情会将整颗心紧紧揪住，以前从未体会过。这是困扰，但…也是寄托。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3d/laocmung77fjh1g8r3kpjt2g4w0fgo3.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "下山期间尝了不少菜，但都不太记得味道了。唯独从前在家吃的那碗面，永远忘不了…不该记住才对，不该记住才对…",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ac/6ix56k87jkccbvitod186y63lgsqtky.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "药草嚼得久了，只剩苦味与涩味…修行多年，我早已习惯这些清规戒律了。仙人们？「仙人不会被人间俗物阻碍修为，所以可以敞开吃各式菜肴。」…这是师父的原话。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/07/d5my38p2ymtarpsyoddqnthwixezwgv.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "这般滋味…真的是我能够享受的吗？",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d3/cvikxaxq0yu4avyhbv8iv5d6tm57wp4.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "你做的饭菜，确实美味。无法割舍。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/86/3b2lg6dtn6246ktkj3b3z4qsyuuuwy5.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "也好。这样的味道，我早就熟悉了。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4b/k3uw6dc9pk77l6y9bjhnig8m2i9o59u.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "我听说生辰是个值得铭记的日子，人们会向寿星送上礼品以示庆贺。身外之物，我不太了解。银河夜色，是我在山林中见过最美丽的事物。我将湖面冻成明镜，让浮云和星斗映照在眼前，跟你共贺生辰…希望你喜欢。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_pref_birthday_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e2/f1qxxq5lug8h6iy2x31f4z4gysy2crv.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "我能操控的力量…愈发强大了。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c7/kgw11bs7nb5wcuz7enghxmj0a2o1p9r.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "师父若知道了，怕是会让我多系几根红绳吧…",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/43/pzehdwngt0x5o2dygvs5jgefok9x909.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "这段日子，我闭关修炼的时长有所削减，修为却不知不觉地增进…嗯，也许只有跟你一起才能做到。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c5/3typ2biw1j8zh4nmmurvet0zb50wgr5.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "「心无杂念，方可超然」，这是我从前所想。经历种种才明白，唯有心存牵挂，才能唤醒守护的欲望，让力量…变得有意义。",
+      "voicefile": "VO_friendship/VO_shenhe/vo_shenhe_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b1/nofpjfhf2qhrheg46moshm0i2hwqgge.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "听令！",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cb/6vcusau1qttarvrdl02udgp1s2ripjr.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "显！",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fd/nzzx55eth7bj43m1yfjc08fqfqds0z9.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "魂出！",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fc/az932mia0o4w93ptok0y8imcxe0m8fi.mp3"
+    },
+    {
+      "title": "元素战技·其四",
+      "desc": "炼气化神！",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_battle_skill1_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7a/etnllql1ne162ptenzdsbno4rzfhza4.mp3"
+    },
+    {
+      "title": "元素战技·其五",
+      "desc": "意生冰身！",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_battle_skill1_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a9/k07o251sn0ti5yivkp1ma374k8sr3nl.mp3"
+    },
+    {
+      "title": "元素战技·其六",
+      "desc": "付君真形！",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_battle_skill1_06",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2a/jglbtfq0iiz3wlueecsa0vw0um3ibut.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "天真敕奏！",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/83/giwv1eavlh70d2rmtabtc5bumuy8vxb.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "寒冰变神！",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/65/q63jyxwcr0syhpc3i9oe0l29id8yrme.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "依律奉行！",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8c/bzb55wqhzw9pgchd0h9fahqpvtl55dh.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "这就是凡间的宝物吧。",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6e/ilsk1rz6bxg15rpn72gvcxg8k8lttg9.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "与仙人法宝有何区别？",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/52/p31ldkck0fws6g0lb5yqiekzbzwmvei.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "这些东西…该用到何处？",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/22/g05xkszw76jet449ktv75r84k0mcl77.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "休要怪我…",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d5/96ojidpijtfdqq34uin1u9mogsvzr43.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "我不甘心…",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/99/hxnf5licq580505fsyqko8uenmr23fm.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "必须…诛除！",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/ca/nfk0lue87nd8grgpasr6hg5tx798wvk.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "不必勉强。",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c9/rzbmklyqcndvi4da81x8wqzt9k2d3xd.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "我来了结。",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/34/i1aosz5pe2w4bol8xnncfmxt84ythx3.mp3"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "难逃…宿命…",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/98/q5l44om45kz3rs6ofwz4pyyw8zry4hh.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "死丧既定…",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f8/fbkryf076utk6vvmf7g0nohr62tkgj7.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "劫煞为灾…",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d3/turkdu87mrilczdw2nt60a65vu1j981.mp3"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "不成气候。",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7a/8it18j3kgwnook8pr3jiwxwy9bm8d2j.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "休想！",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a4/6sbymw9r6b8j6ls2z8rsauyzv2u3l9c.mp3"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "别后悔！",
+      "voicefile": "VO_gameplay/VO_shenhe/vo_shenhe_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/01/m21xxsze0mrsqv0zk1bfsqst2erdmhu.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "团队作战…是什么意思？",
+      "voicefile": "VO_teamJoin/vo_shenhe_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/90/qy3deug04z2u6vm57nrf4t0j677hip9.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "明白，站在这里就行了是吧。",
+      "voicefile": "VO_teamJoin/vo_shenhe_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7b/7sf9vvlb4tzd4v1u9sqowmnzt944ls9.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "…听君敕令。",
+      "voicefile": "VO_teamJoin/vo_shenhe_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/51/qb1zt4vr4hcyk8fk2jwickyxgdn8avk.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000063-card.webp",
+  "fullArt": "assets/characters/10000063-full.webp",
+  "fullArtWidth": 1167,
+  "fullArtHeight": 983
+}

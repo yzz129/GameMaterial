@@ -1,0 +1,27 @@
+{
+  "id": "581",
+  "name": "元流之子(坦克)",
+  "slug": "yuanliuzhizi_tank",
+  "title": "止戈之道",
+  "roles": [
+    "坦克"
+  ],
+  "portrait": "assets/heroes/581-portrait.webp",
+  "cover": "assets/heroes/581-cover.webp",
+  "skins": [
+    {
+      "id": "581-167a9bf8e502",
+      "name": "止戈之道",
+      "voiceCount": 0
+    }
+  ],
+  "skinCount": 1,
+  "voiceCount": 0,
+  "sourceUrl": "https://pvp.qq.com/zlkdatasys/yuzhouzhan/herovoice/581.json",
+  "officialPage": "https://pvp.qq.com/web201605/herodetail/581.shtml",
+  "voiceStatus": "not-published",
+  "region": "逐鹿",
+  "faction": "稷下学院",
+  "updatedAt": "2026-10-23T13:50:05.071Z",
+  "voices": []
+}

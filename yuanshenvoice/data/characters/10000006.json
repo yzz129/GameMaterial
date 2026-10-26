@@ -1,0 +1,552 @@
+{
+  "id": 10000006,
+  "name": "丽莎",
+  "enName": "Lisa",
+  "title": "蔷薇魔女",
+  "element": "雷",
+  "region": "蒙德",
+  "rarity": 4,
+  "weapon": "法器",
+  "birthday": "6月9日",
+  "constellation": "沙漏座",
+  "description": "慵懒而博学的图书管理员，须弥教令院「两百年一见」的天才毕业生。",
+  "affiliation": "西风骑士团",
+  "cv": {
+    "chinese": "钟可",
+    "japanese": "田中理惠",
+    "english": "玛拉·朱诺",
+    "korean": "朴高夽"
+  },
+  "avatarImg": "assets/characters/10000006-avatar.webp",
+  "splashArt": "assets/characters/10000006-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Lisa.zip",
+  "voicePackageEn": "Lisa",
+  "quoteCount": 74,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "嗨，小可爱，你是新来的助理吗？啊？魔导师大人？那是很久以前的事啦，现在的我不过是一介图书管理员而已。放心吧，姐姐会照顾好你的。那么…",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/aa/p55d1qrfc7exi9w2ioeuru1e8hhl9bn.ogg"
+    },
+    {
+      "title": "闲聊·下午茶",
+      "desc": "明明是该喝下午茶的时间。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_explore_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/84/c4m6shxr7vwdj7s0akjmuhv1dywujev.ogg"
+    },
+    {
+      "title": "闲聊·任务",
+      "desc": "任务是做不完的，还不如陪姐姐…聊会儿天。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_explore_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/82/s9z1c15d09jktqmzx68sg2gki33bi20.ogg"
+    },
+    {
+      "title": "闲聊·不宜出门",
+      "desc": "今天不宜出门…欸，我昨天也是这么说的？",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_explore_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/94/ctp767bni55l3366mgxifm97tmsi3yp.ogg"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "这种天气，泡一杯茶，坐着看雨多好。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a6/fey5g597btuvd7iber1dbqkbant8wvh.ogg"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "在雷雨天训练事半功倍哦~呵呵，骗你的。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/nkcq3s57s9pr6jfun7i7v3v7wxw884y.ogg"
+    },
+    {
+      "title": "起风的时候…",
+      "desc": "天气真好，能躺下来补个觉就更好了。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_weather_breezy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ed/12nrdg818mn49msgrn3kap64zdv0r7r.ogg"
+    },
+    {
+      "title": "早上好…",
+      "desc": "啊…早安，琴。嗯？不好意思，我看错了。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c0/7rjot65syeagsqlwmyycbmgwxzgxggv.ogg"
+    },
+    {
+      "title": "中午好…",
+      "desc": "午休时间到了…",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cc/cl7kzh3zxxn9k0cbbwkqwe13jb7pnlb.ogg"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "你还不睡吗？我已经困了呢…",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d2/j6xvdkrbefefr8v245ksp9y6da9163e.ogg"
+    },
+    {
+      "title": "晚安…",
+      "desc": "你努力的样子，姐姐全都见到了哦。嗯…让我想想，给你什么奖励吧…",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/08/p3tihbtku4afvo4n1voljzovmy8civg.ogg"
+    },
+    {
+      "title": "关于丽莎自己…",
+      "desc": "这可不是偷懒呀。谁不想用最省力的方法达到目的呢？",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/70/nye3ow8q3ukrc3k82iapv8njkqmxhfb.ogg"
+    },
+    {
+      "title": "关于我们·关系",
+      "desc": "你想把我当作你的老师、前辈，还是朋友？都可以哦。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6b/li4nkfbuxhrjpbj93igxir495tvibr7.ogg"
+    },
+    {
+      "title": "关于我们·本领",
+      "desc": "哎呀，再不拿出点真本事出来，就对不起你的努力了吧。嗯哼…也好也好。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_dialog_close2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cd/k6jfejm0of8kicf1ez9bw6a97lktnwc.ogg"
+    },
+    {
+      "title": "关于我们·仪式",
+      "desc": "再等一下，「将悔罪的记号吻在弟子的前额」…好了，那么仪式就完成了~今后你就是我丽莎的首席弟子了哟。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_dialog_close3",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/VO_ZH_Lisa_About_Us_-_Ceremony.ogg"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "「神之眼」啊…那可是导引元素力所必要的装置呢。唯独在你身上却是例外。唔…究竟是什么原理呢，啊，有了，你…有空陪姐姐做个实验么？",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cd/k6jfejm0of8kicf1ez9bw6a97lktnwc.ogg"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "图书馆楼上的炼金工坊，可以随意使用哦？不过进去之前记得敲门，如果撞见什么不该见到的东西那就麻烦了。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_dialog_share",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/99/r7u07ueo83q3c2u6r76dutpefngsafq.ogg"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "嘟嘟莲是有着解毒功效的药草。有了它，就不用再担心魔药的副作用了…哼哼。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/34/phyq6h7yin0iburc7bzneascd7f4v6f.ogg"
+    },
+    {
+      "title": "关于琴…",
+      "desc": "琴是个称职的好团长。看到她认真工作的样子，就连我也忍不住想要多帮她一把。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_qin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0c/p12qna7q3fvqux6gwp56opu5fmujefk.ogg"
+    },
+    {
+      "title": "关于安柏…",
+      "desc": "小安柏刚进骑士团的样子我还记得呢，一转眼都那么能干了。啊，再过几年，又会变成什么样呢？",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_ambor_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a7/lxr24yvpt4r30b3tga101ugqg4yqi5e.ogg"
+    },
+    {
+      "title": "关于芭芭拉…",
+      "desc": "芭芭拉的歌，你听过么？哼哼，听说她的旋律里有种治愈的魔力在流动喔。和我的魔药相比，不知道哪边更合你的胃口呢？",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_barbara_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a6/7mr26mqwdirwdk6w0vm9izkq41k7jwf.ogg"
+    },
+    {
+      "title": "关于迪卢克…",
+      "desc": "哦，想听迪卢克的故事？哈哈，那我知道一个更好的聊天对象。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_diluc_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/94/okce3sohim0cvvfdoglqw2ty62yznnk.ogg"
+    },
+    {
+      "title": "关于雷泽…",
+      "desc": "小狼狼，来来，过来这边。今天就临时来一场实战练习吧，对手我已经给你找好了哟。欸？怎么跑了，真是的…",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_razor_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/89/aogxjx5olksmh28ecf8o7kl2znzzuxb.ogg"
+    },
+    {
+      "title": "关于可莉…",
+      "desc": "上次小可莉想借用我的工坊做实验，被我拒绝了，她可是生了我一天的气呢。嗯？你问第二天？第二天，她当然又高高兴兴地出门去玩了。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_klee_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1a/n36unxnp1ajyuyitdeq1pxqalidm4vu.ogg"
+    },
+    {
+      "title": "关于莫娜…",
+      "desc": "莫娜？似乎是一位很优秀的魔导师小姐呢。但我并不是她们「魔女会」的成员哦。古树考察，组织茶会，一听就是麻烦的事情吧。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_mona_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/af/32e5fr3qo8yd1vust1p2t5flw9xl3nz.ogg"
+    },
+    {
+      "title": "关于阿贝多…",
+      "desc": "姐姐我觉得，阿贝多是很优秀的炼金术士。跟他只需要用三言两语，就能得到不错的结论。而且脸也长得好看。和小可爱你很像喔，嗯。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_albedo_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/91/jsgl7fikx2sjat9xqmpiwidrxoscor0.ogg"
+    },
+    {
+      "title": "关于菲谢尔…",
+      "desc": "菲谢尔…哦，那个总是来图书馆借幻想小说的女孩子。每次还书都会提前三天，对书籍也十分爱护，是个好孩子呢。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_fischl_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9f/h2kz74smic8zgl8keksnfx3vmufg5g0.ogg"
+    },
+    {
+      "title": "关于诺艾尔…",
+      "desc": "拜托诺艾尔清扫书架的时候，总感觉这孩子，越是疲惫就越开心，嗯…到底是怎么回事呢？",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_noel_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a7/9fxslx1qizv4maq1hhrogoihxeikb3c.ogg"
+    },
+    {
+      "title": "关于砂糖…",
+      "desc": "没事就不要去打扰小砂糖哦，会吓到她的。呵呵，她擅长和各种各样的生物打交道，却唯独，不怎么善于和人类相处呢。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_sucrose_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/48/dgidgd47xk3oh7dor16oiylvbspubx8.ogg"
+    },
+    {
+      "title": "关于赛诺…",
+      "desc": "离开须弥之后，除了和恩师保持礼节性的通信，我和教令院已经没有什么往来了。幸好，不是每位被寄予了重望的弟子，都像我一样怠惰…听说那位师弟赛诺就相当活跃呢。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_cyno_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7f/3b68w8t1pza38p2lg5abe9fhusoz7to.ogg"
+    },
+    {
+      "title": "关于柯莱…",
+      "desc": "小柯莱每次写信都会使用新词，尝试与之前不同的表述方式。呵呵，也难怪她进步得那么快。除了自己的努力之外，她那位善良而又热忱的师父，一定也给予了很多帮助吧。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_collei_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/VO_ZH_Lisa_About_Collei.ogg"
+    },
+    {
+      "title": "关于米卡…",
+      "desc": "真羡慕霍夫曼先生有这样一位擅长照顾人的弟弟。不仅帮着打点生活起居，连喝醉后的护理也无微不至。啊，我也好想什么都不用操心，懒洋洋地度过每一天啊…嗯？你说我现在也差不多？哼，小可爱…胆子变大了嘛。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_teammate_mika_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/VO_ZH_Lisa_About_Mika.ogg"
+    },
+    {
+      "title": "想要了解丽莎·其一",
+      "desc": "那么，今天想学习哪种元素力的知识呢？",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7f/3b68w8t1pza38p2lg5abe9fhusoz7to.ogg"
+    },
+    {
+      "title": "想要了解丽莎·其二",
+      "desc": "我的过去？嗯？想要更多地了解我一些吗？…可今天我恰巧有点累了。不过这份心意，姐姐我还是很高兴的。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/34/133kaie5x1cer3j99oc5vz2fcwoj7xs.ogg"
+    },
+    {
+      "title": "想要了解丽莎·其三",
+      "desc": "我教雷泽掌握元素力量的时候，完全没想到那个孩子的悟性有那么好。仔细想想的话，你也相当能干啊，小可爱。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b7/89ci6wp2ekm7orezis7d0w4uhvz4der.ogg"
+    },
+    {
+      "title": "想要了解丽莎·其四",
+      "desc": "什么？想学习须弥教令院的魔法？可对现在的你来说，负担会有些重…啊？至少想学会入门的知识？那先看完这本《绪论》吧，也就800多页而已。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3c/8gj4xyk30ralfbh7f9q0joz5k74jhx4.ogg"
+    },
+    {
+      "title": "想要了解丽莎·其五",
+      "desc": "总有一天，这「眼」中的力量会毁灭一切的吧…到了那时，如果有你在的话…啊，没什么。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0c/3epzkrtchu2nu7mko20w7mg8f9f2m5w.ogg"
+    },
+    {
+      "title": "丽莎的爱好…",
+      "desc": "小可爱，你想要来挑一瓶神奇的药水么？喝下去之前完全不知道会有什么效果，呼呼。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0c/3epzkrtchu2nu7mko20w7mg8f9f2m5w.ogg"
+    },
+    {
+      "title": "丽莎的烦恼…",
+      "desc": "二楼的审讯大厅已经闲置两年了，明明给我用作元素工坊的话，就不至于那么荒废…赫塔小姐真是死脑筋。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6b/n0ka91bhxd3xd74ftlhtzladz9eftd9.ogg"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "我喜欢蔬菜汤哦。只要把所有的蔬菜全都丢进一口大锅子里，再用长柄的勺子搅一搅…欸，问我好不好吃？哼哼，来，啊——",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ae/p30370u80kv0lr41jxrgepvlul6314f.ogg"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "我有南瓜恐惧症，每年的秋收节对我来说都太煎熬了。啊，要不要干脆把南瓜这个物种，彻底抹除呢？",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/26/dkz4bzdwpckm565chqfxzlxrr7vt20b.ogg"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "真贴心呢，小可爱。姐姐我很满意哦。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/04/5zmhf78dmn6h7ujlm48k3tkf98awhs1.ogg"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "呵呵，你很擅长做这些呢。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/VO_ZH_Lisa_Receiving_a_Gift_-_02.ogg"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "哎呀…这可真是…",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/VO_ZH_Lisa_Receiving_a_Gift_-_03.ogg"
+    },
+    {
+      "title": "生日…",
+      "desc": "来，拿着，护身符，就作为生日礼物送给你了。虽然制作起来花了我不少时间…不许弄丢哦。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/VO_ZH_Lisa_Birthday.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "该不会想让我加班吧…那可不好哦。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/04/5zmhf78dmn6h7ujlm48k3tkf98awhs1.ogg"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "锻炼的机会，应该多留给新人，不是吗？",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/25/qo1hk5oov7421wll0qltqjxwp0h6qp0.ogg"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "…要是我恢复全盛状态的话，说不定会发生什么不得了的大事哟。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/62/VO_ZH_Lisa_Feelings_About_Ascension_-_03.ogg"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "明明已经用各种方法劝过你了…真有你的，小可爱。到这份上还装作无动于衷的话，恐怕连丘丘人都看得出来我在撒谎了。那就让你见识一下，「蔷薇魔女」的真实吧。",
+      "voicefile": "VO_friendship/VO_lisa/vo_lisa_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/VO_ZH_Lisa_Feelings_About_Ascension_-_04.ogg"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "哼哼。",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Lisa_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "该电一电了。",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/VO_ZH_Lisa_Elemental_Skill_1_02.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "别逃哟。",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Lisa_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其四",
+      "desc": "…Blitz！",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_battle_skill1_04",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Lisa_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其五",
+      "desc": "这是…惩罚哦！",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_battle_skill1_05",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Lisa_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其六",
+      "desc": "…呵呵~",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_battle_skill1_06",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Lisa_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "酥酥麻麻的哟。",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/VO_ZH_Lisa_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "快点投降吧。",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/VO_ZH_Lisa_Elemental_Burst_02.ogg"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "可别上瘾喔。",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/VO_ZH_Lisa_Elemental_Burst_03.ogg"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "努力，获得回报了哟。",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/VO_ZH_Lisa_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "我也来兴致了…",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/VO_ZH_Lisa_Opening_Treasure_Chest_02.ogg"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "小可爱会喜欢吗？",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/VO_ZH_Lisa_Opening_Treasure_Chest_03.ogg"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "有你的嘛。",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/VO_ZH_Lisa_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "有点生疏了呀…",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/VO_ZH_Lisa_Low_HP_02.ogg"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "哎呀，手套要破了呢。",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/VO_ZH_Lisa_Low_HP_03.ogg"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "逞强可不好。",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/VO_ZH_Lisa_Ally_at_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "要姐姐帮忙吗？",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/VO_ZH_Lisa_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "出门好累…",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/VO_ZH_Lisa_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "看来我大意了呢…",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/VO_ZH_Lisa_Fallen_02.ogg"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "果然不该出门的…",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/VO_ZH_Lisa_Fallen_03.ogg"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "疼…",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_battle_hit_L_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/VO_ZH_Lisa_Light_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "不要那么粗暴。",
+      "voicefile": "VO_gameplay/VO_lisa/vo_lisa_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/VO_ZH_Lisa_Heavy_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "让姐姐帮帮你吧。",
+      "voicefile": "VO_teamJoin/vo_lisa_teamJoin_01a",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/VO_ZH_Lisa_Joining_Party_01_%28A%29.ogg"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "我会看着你的。",
+      "voicefile": "VO_teamJoin/vo_lisa_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/VO_ZH_Lisa_Joining_Party_02.ogg"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "要出门了吗？",
+      "voicefile": "VO_teamJoin/vo_lisa_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/VO_ZH_Lisa_Joining_Party_01_%28A%29.ogg"
+    }
+  ],
+  "cardArt": "assets/characters/10000006-card.webp",
+  "fullArt": "assets/characters/10000006-full.webp",
+  "fullArtWidth": 843,
+  "fullArtHeight": 896
+}

@@ -1,0 +1,484 @@
+{
+  "schemaVersion": 1,
+  "assets": {
+    "logo": "assets/brand/HOK_01_FG_logo-official_v1.png",
+    "placeholder": "assets/placeholder.svg",
+    "font": "assets/fonts/HOK-Official-Title-Regular.woff",
+    "scenes": {
+      "pc": {
+        "src": "assets/video/TEYVAT_03_VID_windrise-pc_jimeng-2k_v1.mp4",
+        "poster": "assets/video/TEYVAT_03_BG_windrise-pc_poster_v1.webp"
+      },
+      "mobile": {
+        "src": "assets/video/TEYVAT_03_VID_windrise-mobile_jimeng-2k_v1.mp4",
+        "poster": "assets/video/TEYVAT_03_BG_windrise-mobile_poster_v1.webp"
+      }
+    },
+    "favicon": "assets/brand/HOK_01_FG_logo-official_v1.png",
+    "fontBold": "assets/fonts/HOK-Official-Title-Bold.woff",
+    "fontFallback": "assets/fonts/HOK-Calligraphy-Fallback-v2.woff2",
+    "fontPatch": {
+      "src": "assets/fonts/HOK-UI-Calligraphy-v3.woff",
+      "codepoints": [
+        20379,
+        20445,
+        20540,
+        20572,
+        20943,
+        20999,
+        21047,
+        21097,
+        21153,
+        21305,
+        21477,
+        21916,
+        24102,
+        24211,
+        24490,
+        24674,
+        25226,
+        25302,
+        25311,
+        25442,
+        25509,
+        25552,
+        25554,
+        25910,
+        25928,
+        25972,
+        26049,
+        26391,
+        26448,
+        26816,
+        27427,
+        27454,
+        27573,
+        27973,
+        27983,
+        28040,
+        29087,
+        29366,
+        30418,
+        30784,
+        31186,
+        31245,
+        31579,
+        31614,
+        32476,
+        32570,
+        32593,
+        32622,
+        33616,
+        34920,
+        35272,
+        35302,
+        35753,
+        35759,
+        35823,
+        36712,
+        38083,
+        38169,
+        38190,
+        38381,
+        38500,
+        39034
+      ]
+    }
+  },
+  "data": {
+    "catalog": "data/catalog.json",
+    "characters": "data/characters",
+    "search": "data/voice-search-index.json",
+    "music": "assets/audio/music/music_catalog.json"
+  },
+  "home": {
+    "characterId": 131,
+    "preferred": [
+      "李白",
+      "貂蝉",
+      "孙悟空",
+      "大乔",
+      "韩信",
+      "瑶",
+      "诸葛亮",
+      "不知火舞"
+    ],
+    "titleLines": [
+      "循着星光",
+      "重逢熟悉的声音"
+    ],
+    "tagline": "将峡谷的回响 · 收进你的荣耀典藏",
+    "titleArt": {
+      "still": "assets/typography/HOK_04_FG_home-title-still_v3.svg",
+      "intro": "assets/typography/HOK_04_FG_home-title-intro_v3.svg",
+      "text": "循着星光\n重逢熟悉的声音"
+    },
+    "artMode": "illustration"
+  },
+  "copy": {
+    "archiveTitle": "英雄图鉴",
+    "characterUnit": "位英雄",
+    "friendTab": "展示台词",
+    "actionTab": "战斗语音",
+    "detailKicker": "VOICE MEMORIES · 峡谷留声",
+    "detailTitle": "峡谷中的声音",
+    "edition": "荣耀典藏",
+    "editionBadge": "✧ 荣耀",
+    "editionCredit": "英雄官方插画",
+    "quoteEmpty": "当前筛选下暂无语音",
+    "quoteEmptyHint": "试试其他皮肤或台词分类；部分皮肤未单列语音，部分英雄官方尚未提供音源",
+    "searchLabel": "搜索英雄、皮肤或台词",
+    "searchPlaceholder": "搜索英雄、皮肤，或一句熟悉的台词…"
+  },
+  "filters": {
+    "allRegions": "王者大陆",
+    "elementLabel": "职业",
+    "elements": [
+      {
+        "name": "战士",
+        "icon": "sword"
+      },
+      {
+        "name": "法师",
+        "icon": "star"
+      },
+      {
+        "name": "坦克",
+        "icon": "grid-four"
+      },
+      {
+        "name": "刺客",
+        "icon": "lightning"
+      },
+      {
+        "name": "射手",
+        "icon": "compass"
+      },
+      {
+        "name": "辅助",
+        "icon": "heart"
+      }
+    ],
+    "primary": {
+      "label": "收录状态",
+      "allLabel": "全部状态",
+      "options": [
+        {
+          "value": "1",
+          "label": "已收录语音"
+        },
+        {
+          "value": "0",
+          "label": "语音待收录"
+        }
+      ]
+    },
+    "secondary": {
+      "label": "阵营",
+      "allLabel": "全部阵营",
+      "options": null
+    },
+    "raritySort": "已收录优先"
+  },
+  "detail": {
+    "metadata": [
+      {
+        "field": "roles"
+      },
+      {
+        "field": "skinCount",
+        "suffix": "款皮肤"
+      },
+      {
+        "field": "quoteCount",
+        "suffix": "条语音"
+      }
+    ],
+    "voices": {},
+    "officialLink": true
+  },
+  "features": {
+    "music": true,
+    "skins": true,
+    "rarity": false
+  },
+  "music": {
+    "title": "王者 · 留声八音盒",
+    "badge": "王者荣耀原声大典",
+    "artist": "王者荣耀",
+    "autoplay": true,
+    "proxy": false,
+    "tabs": [
+      {
+        "id": "all",
+        "label": "全部音乐"
+      },
+      {
+        "id": "local",
+        "label": "站内原声",
+        "mode": "playable"
+      },
+      {
+        "id": "游戏原声",
+        "label": "游戏原声",
+        "match": {
+          "category": [
+            "游戏原声"
+          ]
+        }
+      },
+      {
+        "id": "英雄主题",
+        "label": "英雄主题",
+        "match": {
+          "category": [
+            "英雄主题"
+          ]
+        }
+      },
+      {
+        "id": "赛事音乐",
+        "label": "赛事音乐",
+        "match": {
+          "category": [
+            "赛事音乐"
+          ]
+        }
+      },
+      {
+        "id": "主题曲",
+        "label": "主题曲",
+        "match": {
+          "category": [
+            "主题曲"
+          ]
+        }
+      },
+      {
+        "id": "共创音乐",
+        "label": "共创音乐",
+        "match": {
+          "category": [
+            "共创音乐"
+          ]
+        }
+      },
+      {
+        "id": "无限王者团",
+        "label": "无限王者团",
+        "match": {
+          "category": [
+            "无限王者团"
+          ]
+        }
+      },
+      {
+        "id": "其他音乐",
+        "label": "其他音乐",
+        "match": {
+          "category": [
+            "其他音乐"
+          ]
+        }
+      }
+    ]
+  },
+  "theme": {
+    "default": "dark",
+    "dark": {
+      "--bg": "#101a26",
+      "--gold": "#ead3a2",
+      "--brand-logo-width": "82px",
+      "--brand-logo-mobile-width": "66px",
+      "--brand-logo-small-width": "48px"
+    },
+    "light": {
+      "--bg": "#edf1f4",
+      "--gold": "#835e2c"
+    }
+  },
+  "styles": [
+    "theme.css"
+  ],
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8081
+  },
+  "build": {
+    "directory": "dist",
+    "target": "static"
+  },
+  "storage": {
+    "namespace": "wangzhe",
+    "favorites": "wangzhe_fav_quotes_v2"
+  },
+  "id": "wangzhe",
+  "brand": {
+    "title": "王者回响 · 王者荣耀英雄语音与音乐档案",
+    "shortName": "王者回响",
+    "englishName": "HONOR OF KINGS",
+    "world": "王者大陆",
+    "description": "王者荣耀英雄、皮肤语音与音乐档案",
+    "copyright": "王者荣耀同人语录档案 · 游戏与角色素材版权归腾讯及相关权利人所有",
+    "tagline": "每一个声音，都有荣耀的回响"
+  },
+  "publicFiles": [
+    "assets/fonts/HOK-Calligraphy-Fallback-OFL.txt",
+    "wangzhe-data.js",
+    "wangzhe-dialog.css",
+    "data/audio-audit.json",
+    "data/teyvat-search-index.json"
+  ],
+  "portal": {
+    "name": "王者荣耀",
+    "titleArt": {
+      "text": "王者荣耀",
+      "src": "assets/typography/HOK_02_FG_portal-calligraphy_v1.webp",
+      "width": 2172,
+      "height": 724
+    },
+    "englishName": "HONOR OF KINGS",
+    "characterUnit": "位英雄",
+    "description": "让熟悉的台词，再次回响在峡谷。",
+    "keywords": [
+      "honor of kings",
+      "王者",
+      "王者荣耀",
+      "hok"
+    ],
+    "art": {
+      "background": "assets/hero-libai.webp",
+      "backgroundMotion": {
+        "light": 3,
+        "regions": [
+          {
+            "area": [
+              0.43,
+              0.22,
+              0.21,
+              0.17
+            ],
+            "motion": [
+              0.006,
+              0.012,
+              1.05,
+              0.2
+            ]
+          },
+          {
+            "area": [
+              0.36,
+              0.43,
+              0.1,
+              0.17
+            ],
+            "motion": [
+              0.01,
+              0.018,
+              1.05,
+              1.1
+            ]
+          },
+          {
+            "area": [
+              0.22,
+              0.53,
+              0.29,
+              0.25
+            ],
+            "motion": [
+              0.008,
+              0.018,
+              0.72,
+              0.6
+            ]
+          },
+          {
+            "area": [
+              0.53,
+              0.9,
+              0.26,
+              0.21
+            ],
+            "motion": [
+              0.012,
+              0.014,
+              0.82,
+              1.9
+            ]
+          },
+          {
+            "area": [
+              0.83,
+              0.29,
+              0.24,
+              0.27
+            ],
+            "motion": [
+              0.006,
+              0.013,
+              0.66,
+              1.4
+            ]
+          },
+          {
+            "area": [
+              0.22,
+              0.075,
+              0.3,
+              0.12
+            ],
+            "motion": [
+              0.003,
+              0.004,
+              0.32,
+              0
+            ]
+          },
+          {
+            "area": [
+              0.65,
+              0.55,
+              0.14,
+              0.29
+            ],
+            "motion": [
+              0,
+              0.003,
+              0.9,
+              0.4
+            ]
+          }
+        ],
+        "locks": [
+          [
+            0.606,
+            0.145,
+            0.048,
+            0.1
+          ],
+          [
+            0.838,
+            0.757,
+            0.055,
+            0.12
+          ]
+        ],
+        "lines": [
+          {
+            "points": [
+              0.339,
+              0.18,
+              0.977,
+              0.963
+            ],
+            "width": 0.016
+          }
+        ]
+      },
+      "position": "61% 38%"
+    },
+    "accent": "#e5bd9b",
+    "voiceUnit": "条语音"
+  }
+}

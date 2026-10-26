@@ -1,0 +1,503 @@
+{
+  "id": 10000041,
+  "name": "莫娜",
+  "enName": "Mona",
+  "title": "星天水镜",
+  "element": "水",
+  "region": "蒙德",
+  "rarity": 5,
+  "weapon": "法器",
+  "birthday": "8月31日",
+  "constellation": "映天座",
+  "description": "神秘的少女占星术士，声称自己是「伟大的占星术士莫娜」，拥有与名号相符的不俗实力，博学而高傲。",
+  "affiliation": "蒙德城",
+  "cv": {
+    "chinese": "陈婷婷",
+    "japanese": "小原好美",
+    "english": "费丽茜娅·安吉尔",
+    "korean": "禹贞信"
+  },
+  "avatarImg": "assets/characters/10000041-avatar.webp",
+  "splashArt": "assets/characters/10000041-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/M.zip",
+  "voicePackageEn": "M",
+  "quoteCount": 67,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "我的名字是阿斯托洛吉斯·莫娜·梅姬斯图斯，意为「伟大的占星术士莫娜」。如果想找我占卜，记住我的名字是最基本的尊重…而且要一次性全念对！",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8a/oigsdo9qjdx0y69kibx756x3z6fh106.ogg"
+    },
+    {
+      "title": "闲聊·占卜",
+      "desc": "占卜就是把既定的命运准确地展示出来。过度的修饰，只会让人们产生误解。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_explore_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2e/rqzzp4zvqcidyafd17ug6o2c2yitg02.ogg"
+    },
+    {
+      "title": "闲聊·生活",
+      "desc": "限制物欲是占星术士修行的一部分，只有简朴地生活，才能窥探到世界的真实。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_explore_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cc/czk2vayg79nywiyfnpbgxhi8mdyzpm8.ogg"
+    },
+    {
+      "title": "闲聊·命运",
+      "desc": "正是因为无法更改，无可违逆，只能接受，命运才会被称之为命运。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_explore_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4c/tn86zhve17dalnwd9t6oujm7kithabx.ogg"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "这么大的雨…不仅看不见星光，连水占盘都模糊了。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/22/4ckcxo5bky9a575h0xwr8wga02ktmlm.ogg"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "这些落雷…究竟是从哪个星空降下的呢？",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e7/jwnfxutix36q8asrwsoep9rd9jfol0d.ogg"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "纯净的融雪之水，很适合用在水占盘里。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/77/5stf842ceccxq0hczeez17hyd29weir.ogg"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "嗯，是个无须占卜也能感觉到的好天气。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b1/155vegsxwzdnptgvdnvkhzl7z4bwzu8.ogg"
+    },
+    {
+      "title": "早上好…",
+      "desc": "你来得不巧，清晨的启明星刚刚消失了…早餐？我，我已经吃过了。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/39/6sz5onrajplawedya4lbsyztxomimx6.ogg"
+    },
+    {
+      "title": "中午好…",
+      "desc": "已经正午了，去吃点东西吧，嗯？我…我吃份沙拉就行了，呃…简朴的生活是…是占星术士修行的一环！",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a1/lk4lrfbn3kpdczexbz6xw0u754c7csa.ogg"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "入夜了，过会就可以开始占卜…呃，昨天的稿子我写了没…",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/02/ensfj0z4hjzeyv7jextpdlyesyofqa8.ogg"
+    },
+    {
+      "title": "晚安…",
+      "desc": "已经这么晚了，明天截稿的稿子一点没动…什么？你要去休息了？呜…我也想去睡觉…",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5e/d5isfds4sbn72fh6iluojv1xls3fb4v.ogg"
+    },
+    {
+      "title": "关于莫娜自己…",
+      "desc": "占星术士的工作，是向人们明确地展示他们即将面对的命运，我也是这么做的…不过，总有些人不愿意接受。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0d/1fw63h7s4kaxm0rwepoo4dwfrc8rl7y.ogg"
+    },
+    {
+      "title": "关于我们·工作",
+      "desc": "为什么要写稿，不用占卜来赚钱？…我才不会为摩拉而使用「水占术」…我也不是因为这个而学习「水占术」的。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e1/0xp0r46ssykokpj46dp5lezmff1gc6b.ogg"
+    },
+    {
+      "title": "关于我们·我的命运",
+      "desc": "我不知道。除非万不得已，占星术士不会占卜自己的命运。老太婆以前说过，这种行为可能会导致命运的自相矛盾，很危险。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bd/39ndhn3bq54x0a928fi0a59ue1ivqlb.ogg"
+    },
+    {
+      "title": "关于我们·你的命运",
+      "desc": "你不是这个世界的人，所以我无法准确地为你预言。我只能告诉你，你要走的路还远未到尽头。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/77/hhov82r1zryg05n2zi76lvb43vzjm7y.ogg"
+    },
+    {
+      "title": "关于「神之眼」·嫌弃",
+      "desc": "我刚刚拿到「神之眼」的时候，那个老太婆还假模假样地说什么「愿你求真之心永在」。结果这东西在「水占术」上一点用场都派不上，只会糊我一身水…",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_dialog_pendant_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1f/avtpgyna4h9eg0u3e57nx0f1a74cikr.ogg"
+    },
+    {
+      "title": "关于「神之眼」·价值",
+      "desc": "哎…不过，「神之眼」当成个小饰品，装在身上倒是无所谓。毕竟，这也算那个抠门老太婆破天荒送我的「教具」。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_dialog_pendant_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/07/d3jnesruif5kjkshogt38ahib99uv2x.ogg"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "你听说过「命之座」吗？占星术士认为，「命之座」是「神之眼」持有者的命运在星空上的映射，过去，现在和未来，所有的一切都在其中昭示。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_dialog_share",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3d/koa5r1ryhpi14armytwz2e77k9lwgju.ogg"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "欸——你身边带着的这个小家伙，到底来自哪里？无论我用什么方法，都没法找到一丝关于她命运的踪迹。\n…哈？你也不知道？",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5f/du9152f7ks4303my5uhx734iahdvfkz.ogg"
+    },
+    {
+      "title": "关于琴…",
+      "desc": "那位西风骑士团代理团长？她的「命之座」是「幼狮座」，象征着力量，还有过早担负的责任。「雄狮」早早离群，但她会继续成长，直到能完全继承狮群的荣耀。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_teammate_qin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/94/sasjn4eszdup8screoii6ydpy980r3w.ogg"
+    },
+    {
+      "title": "关于阿贝多…",
+      "desc": "阿贝多？啊…我真羡慕他，只用专注于研究就好，不用管其他的杂事，真是美好的生活啊。如果那个老太婆脑筋正常一点，我应该也过着这种生活吧…",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_teammate_albedo_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ab/1vyw0hjbq1m1e4z753naogjwxgv1gh7.ogg"
+    },
+    {
+      "title": "关于可莉…",
+      "desc": "你是说，艾莉丝的女儿啊。她住在西风骑士团，还有阿贝多照顾…怎么说呢，哎…她的「命之座」不愧是象征着幸运的「四叶草」啊，真羡慕…\n啊不过，要是我也有这么好的运气，首先就不会遇见那个老太婆了。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_teammate_klee_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/17/c1epfyk1reove41f5vhwx38ql0xrtrv.ogg"
+    },
+    {
+      "title": "关于迪卢克…",
+      "desc": "迪卢克·莱艮芬德。「夜枭」是他的「命之座」，象征着黑夜中的警觉，和孤独的守望。在他所认可的白昼来临之前，他都将孤独前行。\n等等，「夜枭」象不象征财富来着？",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_teammate_diluc_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d4/19uy5gk7jjv0olzjtlpitku89amkpiv.ogg"
+    },
+    {
+      "title": "关于凯亚…",
+      "desc": "凯亚·亚尔伯里奇吗？他的「孔雀羽座」象征着高贵，但同时也象征着「华丽的掩饰」。他以为已经和过去一刀两断。但到了命中注定的那天，他依然必须做出自己的选择。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_teammate_kaeya_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7e/hvrxfulafuzk7cmzlx0tkuk57fqk390.ogg"
+    },
+    {
+      "title": "关于丽莎…",
+      "desc": "她的「命之座」以「沙漏」为名，象征着知识、时间与等价交换。一粒沙子落下，时间…或者说生命，就消逝一刹。如果想要止住沙粒奔流，只能平放沙漏，让它永不流动。嗨…简单来说，就是变着法偷懒啦。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_teammate_lisa_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6b/4jht748bsucux7m7jaz5v2yw7tys94d.ogg"
+    },
+    {
+      "title": "关于温迪…",
+      "desc": "温迪？那个成天无所事事的吟游诗人？咦，他有什么有趣的吗？我占卜看看…\n咦，水占盘怎么…什么也看不清，怎，怎么起风了，眼睛都睁不开了！我的帽子！衣服，衣服要被吹跑了！停下来！我不干了！我不干了！",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_teammate_venti_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/86/ntptndf5nnj3pzecqo7fud3mrzul8tv.ogg"
+    },
+    {
+      "title": "想要了解莫娜·其一",
+      "desc": "你的意思是…想要闲聊？唔，我很少做这种浪费时间的事，而且稿子还有很多没写…嗯，不过，对象是你的话，也不是不行。呵呵，就当是换个心情吧。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/38/5xy07ercny4ax66t2ehal0e93tdvj1n.ogg"
+    },
+    {
+      "title": "想要了解莫娜·其二",
+      "desc": "占卜的收入…？不要用钱财这种…「东西」来衡量占星术！你听好了，我的「水占术」可是这片提瓦特大陆上，唯一能窥探到真实命运的占卜术！无论是摩拉还是宝石，都无法用来称量「命运」！所以，不要再问这种蠢问题了！",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c7/d40mnsivz8kac92zpsbpay1btkeh13k.ogg"
+    },
+    {
+      "title": "想要了解莫娜·其三",
+      "desc": "我的占卜术？说了你也不明白，哼，不过…给你解释一下也不是不行。\n我使用的是「水占术」。是基由星空映射在水面上的幻象进行推演的占卜术，以水中幻相倒映虚假之天，以此来窥探着世界的真实。这是那个老太婆唯一一个正经的研究成果。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/33/hjplxlcgnc408n5ngx77jj2gaie61js.ogg"
+    },
+    {
+      "title": "想要了解莫娜·其四",
+      "desc": "阿斯托洛吉斯·莫娜·梅姬斯图斯。这是那个老太婆之前和我一起定的名字，她说这名字的拼写里有一些她很喜欢的要素。哼，不过她有时会叫我「梅姬」，和常用的「莫娜」不一样，更像是小名…喂！你不能这么叫！很害羞的！早知道…早知道就不告诉你了！",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d6/c26ntxtv5dvmiri5ptcuu7dxz493p2o.ogg"
+    },
+    {
+      "title": "想要了解莫娜·其五",
+      "desc": "占卜师有一个禁忌：在占卜时只陈述预言，绝不提出任何建议。以免自己也陷入别人的「命运」之中。但如果占卜对象是你，那这个「禁忌」就无所谓了。\n因为，我们的「命运」早就交织在一起了。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7c/gxj5nig7t6q7xdnz17jyo12yi2pda1b.ogg"
+    },
+    {
+      "title": "莫娜的爱好…",
+      "desc": "我的爱好？仰望星空。在这个真实得太过分的世界里，每个人都需要仰望星空，更何况，我还是个占星术士。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/ff/pwxn50d3v2mdv61w0ysag7f2de8ssb7.ogg"
+    },
+    {
+      "title": "莫娜的烦恼…",
+      "desc": "仪器修缮费，预订的星象仪要补款了，学术杂志的订购钱也没交，还有下个月的房租…到底先交哪个比较好。果然还是…先把星象仪的尾款补了，不然被抢购光了就糟糕了…",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b3/0ydkrem0yrzeoge6bh1mzxnemzis46e.ogg"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "沙拉，沙拉是天底下最棒的食物。原料便宜，容易做，饱肚子。而且吃起来很方便，在写稿或者修理仪器的时候，可以很快吃掉。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/24/lategkdj62b89ygeuuw80xtrohn0fp7.ogg"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "各种…价格很昂贵，吃起来又很麻烦的食物。因为，呃…用摩拉去满足不必要的食欲，是低俗又危险的。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a8/ers3yxgjjlz1uvduczs0p7k74x1jth4.ogg"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "啊，好满足——没想到，认识你还是挺不错的嘛。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/af/44g6j7jk8z0k8zxmcju74bjwbg2mrpz.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "我再确认一下。真的是…你请客吗？",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e3/mibtoiunfho5f5fz2hzbwkzganmamij.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "我没有什么想挑剔的。就是…唔…没怎么吃饱。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/72/4kglc7ej4u0th1t0k3fx4cg4af22xiw.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "生日快乐。这个袋子给你，里面有一个帮你渡过难关的「建议」。别着急打开，在往后的一年之内，这个袋子会有自己打开的机会。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ee/atz56goyubyng1vrt01lcmyjdpyvm67.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "命中当如此，我早已预知到了。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1f/ldky0mv2uwzzov21mi1443lnd4kiuz0.ogg"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "…再进一步，就能找到世界的真实了吗？",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/88/softgt74rd87kfh2agudrnct8q3zdw7.ogg"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "虚假之天，星空下的命运早已注定。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ec/t2wa39zbx7v7hleqq6vhnr2efei9miu.ogg"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "水中之影，涟漪中窥见启明星升起。",
+      "voicefile": "VO_friendship/VO_mona/vo_mona_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4e/aimbbm8rbrapero022kikycbbzrb1ni.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "水中幻愿。",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/VO_ZH_Mona_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "…命运的虚影。",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/VO_ZH_Mona_Elemental_Skill_1_02.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "命运，倒映水中。",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/VO_ZH_Mona_Elemental_Skill_1_03.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "命运，在此显现。",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Mona_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "命定于此。",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Mona_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "天命既定！",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Mona_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "打开风之翼·其一",
+      "desc": "这样更能看清星空了…",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_explore_fly_start_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/VO_ZH_Mona_Deploying_Wind_Glider_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "希望这种好事能多来几次…",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/VO_ZH_Mona_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "房租和伙食费，都有着落了！",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/VO_ZH_Mona_Opening_Treasure_Chest_02.ogg"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "呜…找到宝物的感觉真棒啊…",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/VO_ZH_Mona_Opening_Treasure_Chest_03.ogg"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "无法判断…",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/VO_ZH_Mona_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "讨厌的命运…",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/VO_ZH_Mona_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "还没…推算到这！",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/15/VO_ZH_Mona_Low_HP_03.ogg"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "再硬撑，你就会倒下咯。",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/VO_ZH_Mona_Ally_at_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "你还没到命运的终点。",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/VO_ZH_Mona_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "星空…黯淡…",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/VO_ZH_Mona_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "无法违抗的…命运…",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/VO_ZH_Mona_Fallen_02.ogg"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "推算结束了…",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/VO_ZH_Mona_Fallen_01.ogg"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "烦人。",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/VO_ZH_Mona_Light_Hit_Taken_02.ogg"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "离我…远点！",
+      "voicefile": "VO_gameplay/VO_mona/vo_mona_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/VO_ZH_Mona_Heavy_Hit_Taken_02.ogg"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "此乃，命运。",
+      "voicefile": "VO_teamJoin/vo_mona_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/VO_ZH_Mona_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "真没办法。",
+      "voicefile": "VO_teamJoin/vo_mona_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/VO_ZH_Mona_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "繁星，尽在掌握。",
+      "voicefile": "VO_teamJoin/vo_mona_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/VO_ZH_Mona_Joining_Party_03.ogg"
+    }
+  ],
+  "cardArt": "assets/characters/10000041-card.webp",
+  "fullArt": "assets/characters/10000041-full.webp",
+  "fullArtWidth": 1223,
+  "fullArtHeight": 1018
+}

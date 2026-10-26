@@ -1,0 +1,34 @@
+{
+  "name": "teyvat-voice-hall",
+  "version": "1.0.0",
+  "description": "原神全息全角色语音与台词殿堂",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "prepare:assets": "node _tools/prepare-assets.cjs",
+    "build": "node ../tools/game.mjs build --game yuanshen",
+    "test": "node --test ../tests/*.test.mjs",
+    "prepare:full-art": "node _tools/prepare-full-art.cjs",
+    "prepare:favicon": "node _tools/prepare-favicon.cjs",
+    "prepare:backgrounds": "node _tools/prepare-windrise.cjs",
+    "prepare:art-type": "node _tools/prepare-art-type.cjs",
+    "prepare:music": "node _tools/prepare-music-assets.cjs",
+    "build:cloudflare": "node ../tools/game.mjs build --game yuanshen",
+    "test:cloudflare": "node --test _tools/verify-cloudflare.test.cjs",
+    "create:cloudflare": "npx --yes wrangler@latest pages project create genshin-voice-archive --production-branch=main --force",
+    "deploy:cloudflare": "npm --prefix .. run deploy",
+    "test:legacy": "node --test _tools/verify-runtime.test.cjs _tools/verify-cinematic.test.cjs _tools/verify-video-stream.test.cjs _tools/verify-music-stream.test.cjs",
+    "validate": "node ../tools/game.mjs validate --game yuanshen",
+    "prepare:ui": "node ../tools/game.mjs prepare --game yuanshen",
+    "test:browser": "node ../tests/browser.mjs"
+  },
+  "dependencies": {
+    "genshin-db": "^5.2.14"
+  },
+  "devDependencies": {
+    "@phosphor-icons/core": "^2.1.1",
+    "css-tree": "^3.2.1",
+    "happy-dom": "^21.0.4",
+    "sharp": "^0.35.5"
+  }
+}

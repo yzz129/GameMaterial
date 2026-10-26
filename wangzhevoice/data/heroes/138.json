@@ -1,0 +1,27 @@
+{
+  "id": "138",
+  "name": "王维",
+  "slug": "wangwei",
+  "title": "空山遗客",
+  "roles": [
+    "法师"
+  ],
+  "portrait": "assets/heroes/138-portrait.webp",
+  "cover": "assets/heroes/138-cover.webp",
+  "skins": [
+    {
+      "id": "138-c37fd226de35",
+      "name": "空山遗客",
+      "voiceCount": 0
+    }
+  ],
+  "skinCount": 1,
+  "voiceCount": 0,
+  "sourceUrl": "https://pvp.qq.com/zlkdatasys/yuzhouzhan/herovoice/138.json",
+  "officialPage": "https://pvp.qq.com/web201605/herodetail/138.shtml",
+  "voiceStatus": "not-published",
+  "region": "河洛",
+  "faction": "径山书院",
+  "updatedAt": "2026-10-23T13:50:05.071Z",
+  "voices": []
+}

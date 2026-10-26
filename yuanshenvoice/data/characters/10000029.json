@@ -1,0 +1,531 @@
+{
+  "id": 10000029,
+  "name": "可莉",
+  "enName": "Klee",
+  "title": "逃跑的太阳",
+  "element": "火",
+  "region": "蒙德",
+  "rarity": 5,
+  "weapon": "法器",
+  "birthday": "7月27日",
+  "constellation": "四叶草座",
+  "description": "西风骑士团禁闭室的常客，蒙德的爆破大师。人称「逃跑的太阳」。",
+  "affiliation": "西风骑士团",
+  "cv": {
+    "chinese": "花玲",
+    "japanese": "久野美咲",
+    "english": "帕娜姆·巴苏",
+    "korean": "房莲知"
+  },
+  "avatarImg": "assets/characters/10000029-avatar.webp",
+  "splashArt": "assets/characters/10000029-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Klee.zip",
+  "voicePackageEn": "Klee",
+  "quoteCount": 71,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "西风骑士团，「火花骑士」，可莉，前来报到！…呃——后面该说什么词来着？可莉背不下来啦…",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/22/icnus2c6r8piuvz8k9uz2i5tt0w9ydb.ogg"
+    },
+    {
+      "title": "闲聊·收获",
+      "desc": "可莉今天又勇敢地抓到了花纹奇怪的蜥蜴！从没见过这种图案，你要看看吗？",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_explore_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8c/0nsgo6m9vxrxeuufw1mf1kptbo3kt1v.ogg"
+    },
+    {
+      "title": "闲聊·冒险",
+      "desc": "要和可莉一起去炸鱼吗？虽然被抓住就是一整天的禁闭，但鱼很好吃，所以值得！",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_explore_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4b/4ae86kju18be7etgop1mhw19a9w0gp8.ogg"
+    },
+    {
+      "title": "闲聊·守则",
+      "desc": "「城里放炮禁闭室报到」、「炸弹伤人琴找上门」、「放火烧山可莉完蛋」——这就是可莉在骑士团的生存守则。",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_explore_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/43/5m4do8haz040fdt5vxcs6junwqjcqkl.ogg"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "哼哼哼，这次的炸弹可是防水的。",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/de/86onctrzvgf88r2036d7uyhkwlivsx1.ogg"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "啊！什么东西爆炸了？！…哦，是打雷啊。",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cd/mse25h1jhnhsy32373w8wkc29lzfprr.ogg"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "风神保佑，把可莉的炸弹往合适的地方吹吧。",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/46/nt4jbt2kbp57zpvzi2hwija7aab8zjc.ogg"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早安！带可莉出去玩吧！我们一起来冒险！",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/83/iilujuoh67ogl6nivmxh6s86xc0oqdz.ogg"
+    },
+    {
+      "title": "中午好…",
+      "desc": "午饭时间到了！啊…吃什么呢？我来看看《提瓦特游览指南》…",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/98/eg8twp9wr1o5xma59npbsunpm6d65za.ogg"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "晚上好！拜托你也帮我跟霍夫曼先生说说吧，可莉不是小孩子了，可莉晚上也可以出去玩——带我出去玩——",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6d/8ndk3q9u2c0s5yei53t04c4rj8mskt8.ogg"
+    },
+    {
+      "title": "晚安…",
+      "desc": "虽然出来玩的时候说不想回家，但天黑以后的旷野，不认识路…拜、拜托你回去的时候，把我也送回家好不好…",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/16/sj1wlv0maflb94ddlythq3ajlv1bpw6.ogg"
+    },
+    {
+      "title": "关于可莉自己·肇事",
+      "desc": "呜…这次居然炸歪了大风车的叶片…真对不起！",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4b/k750h4rt435tlqh5gak0rnb0c592u3y.ogg"
+    },
+    {
+      "title": "关于可莉自己·赔偿",
+      "desc": "我，我还挺会做手工的，请让我帮你们重新做一个…什么？禁止雇佣童工？呜…",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a8/7ze8l3bf3g4i9onwbns10ywlvhh640f.ogg"
+    },
+    {
+      "title": "关于我们·骑士",
+      "desc": "呼呼…荣誉骑士，可莉作为「火花骑士」，可以说是你在西风骑士团的前辈喔？所以！所以…这次我闯的祸，能不能帮我隐瞒一下…",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0e/bz91c2owprob60vuhw1b3wf0nbb2g7j.ogg"
+    },
+    {
+      "title": "关于我们·玩伴",
+      "desc": "不行！才九点，可莉今晚一定要撑到看完马戏团的午夜专场！你是可莉的玩伴吧！那就别想现在就把我送回家，略略略略…",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_dialog_close1_b",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5b/tkzu9il0oprtkrmx15wlk13g50rdoek.ogg"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "这个小小的玻璃球，就代表了巴巴托斯大人对可莉的肯定吗…唔…究竟是认可了我的哪一部分呢？是自由吗？那以后要不要更自由地出去炸鱼，来回应巴巴托斯大人的期待呢…？",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d2/3t2sfdg6btor9vvjk2e4u9nbytjh6zv.ogg"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "可莉知道，骑士团的墙是不能炸的。虽然打通了能从禁闭室出去很方便，但凯亚哥哥说，这样做了以后，琴团长恐怕会让我再也见不到第二天的太阳…",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_dialog_share",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/12/h2edge9sbzbcv5dtemol2kzaank1bf5.ogg"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "每一只蜥蜴的花纹都是不同的，有些蜥蜴的尾巴干燥以后磨成粉，可以当做炸药的材料哦。这是阿贝多哥哥告诉我的事。",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c8/6mkmc1lwgd5zbvv02eyk9hjit9i9c59.ogg"
+    },
+    {
+      "title": "关于雷泽…",
+      "desc": "我们是朋友！雷泽努力对抗危机、保护可莉的样子，让人安心！…唔…虽然基本上都是我把危机带到他身边的…",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_teammate_razor_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/45/tj6nu9y9bg371mf4v0roac9zjmjlaqn.ogg"
+    },
+    {
+      "title": "关于父母…",
+      "desc": "爸爸和妈妈都是全大陆有名的旅行家！妈妈写的《提瓦特游览指南》，有好多餐馆和旅店都很在意它的权威评价呢。",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_teammate_parent_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7c/241sy3u098qzoup1x6udjf3co21g6ku.ogg"
+    },
+    {
+      "title": "关于凯亚…",
+      "desc": "凯亚哥哥是好人！《骑士团生存守则》就是凯亚哥哥帮可莉写的。可莉闯祸的时候，他也经常帮忙遮掩呢。",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_teammate_kaeya_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e0/505byu1ad5r78ta8mp7tgcpust7dxe1.ogg"
+    },
+    {
+      "title": "关于安柏…",
+      "desc": "安柏姐姐是好人！兔兔伯爵摸起来也是毛茸茸的，而且还会爆炸，太棒了！",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_teammate_ambor_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/76/kr6y365kzuewspk8pj5qepoqo7blz7n.ogg"
+    },
+    {
+      "title": "关于琴…",
+      "desc": "琴团长是好人！虽然…有点可怕…",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_teammate_qin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/76/kr6y365kzuewspk8pj5qepoqo7blz7n.ogg"
+    },
+    {
+      "title": "关于迪卢克…",
+      "desc": "奇怪的大人，一直都是不太开心的样子。唔…为什么不喜欢笑呢？",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_teammate_diluc_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/05/58voaq08w35jee98eipkbjzc8dswyjm.ogg"
+    },
+    {
+      "title": "关于丽莎…",
+      "desc": "丽莎阿…丽莎姐姐是好人！每次可莉靠近她的工坊，她就会给可莉好吃的茶点…欸？说起来我想进她的工坊，好像一开始是想做新的炸药来着…？",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_teammate_lisa_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e1/sjgrx86t1t5bwcuj1goomfoichmkhbk.ogg"
+    },
+    {
+      "title": "关于班尼特…",
+      "desc": "班尼特哥哥是好人！和他一起冒险，可莉总能有更多收获！…虽然班尼特哥哥自己总是什么宝物都找不到，嗯…这是为什么呢？",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_teammate_bennett_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/ba/0046268t6fl5d00z7pbx0x4o79492go.ogg"
+    },
+    {
+      "title": "关于迪奥娜…",
+      "desc": "迪奥娜姐姐是好人！「靠一己之力摧毁蒙德酒业」的想法好有趣，可莉也要用炸弹来帮忙！——呃，虽然不太懂什么叫做「蒙德酒业」，是怪物吗？",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_teammate_diona_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9d/0xkiznapwmw5dcpalkcv449lvtmpaqh.ogg"
+    },
+    {
+      "title": "关于阿贝多…",
+      "desc": "阿贝多哥哥跟可莉有个秘密的约定！要是可莉看到工坊门前挂着「实验进行中」的牌子，就要晚点再去找他。阿贝多哥哥不工作的时候，会很耐心地陪着可莉，所以可莉也会很耐心地等着的！",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_teammate_albedo_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9e/o548hql5im3iuflepm6v8c6rkhc8imo.ogg"
+    },
+    {
+      "title": "关于莫娜…",
+      "desc": "莫娜姐姐是好人！她每次找阿贝多哥哥和可莉玩的时候，都会说好多听不明白，但是很有趣的东西！可莉喜欢她来玩！",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_teammate_mona_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/67/hjy8bmxr1mt31fslspfmk69ul641zag.ogg"
+    },
+    {
+      "title": "关于砂糖…",
+      "desc": "砂糖姐姐是好人！她问我，想不想要一个会跑会跳的蹦蹦！嘿嘿嘿，当然想要了，我还想要好几百个，让蒙德的街道上，台阶上，广场上，全是蹦蹦！",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_teammate_sucrose_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e6/3xqebc788s8uvlvp94zwebpegoe94nj.ogg"
+    },
+    {
+      "title": "想要了解可莉·其一",
+      "desc": "你好！你是来找可莉玩的吗？",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9c/9f9ihhctv2crwmfmxbhfxpe663ukrjj.ogg"
+    },
+    {
+      "title": "想要了解可莉·其二",
+      "desc": "是啊，这个炸弹是可莉最新改良的作品！你看我做得好不好？…呃——如果是在什么纵火现场发现的话，那就不是我做的，绝对不是。",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a2/5ca0gre0ezqn9ek0vj5ou7ixeom4x3o.ogg"
+    },
+    {
+      "title": "想要了解可莉·其三",
+      "desc": "哎，虽然新炸药的配方，很多都是在被关禁闭的时候想出来的…但如果不被关禁闭的话就更好了…",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/52/arq8ov33u1231mxtrol04aweww5adqs.ogg"
+    },
+    {
+      "title": "想要了解可莉·其四",
+      "desc": "这是嘟嘟可，是可莉很久以前就交到的好朋友。要记得它的名字哦，以后别叫它「挂在你包上的玩偶」啦。",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4a/nqzi0q1sym60gnnpw80ijlu1kf40von.ogg"
+    },
+    {
+      "title": "想要了解可莉·其五",
+      "desc": "谢谢你总是帮可莉解决麻烦！就用这串「可莉烤鱼」来报答你吧！——呃，其实鱼是直接在湖里就被炸弹烤熟了，不过这件事就和平时一样，假装不知道好了。",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/ff/3vq4lrdctwigreznu8ucu2egpmcscft.ogg"
+    },
+    {
+      "title": "可莉的爱好…",
+      "desc": "可莉喜欢毛茸茸的东西。比如嘟嘟可、蒲公英，还有雷泽的头发。",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cc/m64r94xovgxwltxu6pd4rwwxtcdbrsb.ogg"
+    },
+    {
+      "title": "可莉的烦恼…",
+      "desc": "唉，你是好人，我是坏孩子…等我这次的禁闭结束、好好反省过以后，再来找你带我出去玩…",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/41/jd2s0nwm9ngkqiynwojudrnabz89fx6.ogg"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "蒙德的鲈鱼是很好吃的，从果酒湖里抓到的尤其好吃！这可不是瞎说的，连妈妈也认同可莉的想法喔。",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/34/i3fwl9rkmew6nhch00g6o848f695zqy.ogg"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "讨厌蒙德蟹——什么蟹都讨厌——可莉要出去玩——不要坐在餐桌前慢慢剥壳——",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5d/dcerksmdzw6lqq17t76mu2q5155n431.ogg"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "好香好香！可莉已经吃到吃不下啦…",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b5/qhis1dce5ezlw6a2b4wssvfgmtrwqv8.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "今天也吃到了好吃的东西，可莉好开心！谢谢你！",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/85/likcrqlkvj0buysxroa9p35emkncbc2.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "看上去很好吃，但吃起来不太方便…嘿嘿，你来帮帮可莉好不好！",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bb/dxpk0s291niyklf2km8f2lgh489bg3h.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "生日快乐！过生日很开心，你比可莉大，那过生日的次数一定比可莉多吧？可莉很羡慕！",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fb/mle2ipsmiq6xrp3ezmx7a6ykw6gfhev.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "嗯，新型炸弹研究完毕！趁琴团长发现之前，开溜！",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2f/1ddtarp1qs2sfrm79lu66jlls4i6fwj.ogg"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "又进步了一点！不过琴团长总是说：「进步是分内之事。」",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dd/7evhd3z9tn3ryqz8qie6voaodl85hyb.ogg"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "谢谢你总是陪我一起收集研究用的材料！如果你想学习炸弹的制作方法，我也可以来教你哦。",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cd/ofk9kczoj6mkyb5drivj6tq02tsvxw6.ogg"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "很久以前，第一次听到爆炸声的时候，我没有害怕…后来我才知道，大部分人不是这样的…不过，你也不害怕我的炸弹呢！嘿嘿，太好了，可莉果然交到了很好的朋友！",
+      "voicefile": "VO_friendship/VO_klee/vo_klee_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/08/eqpbfuluhcpfadwo1nxujf2g3ub80z8.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "蹦蹦炸弹！",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/30/11ig8mu42l1nph7k4ooqyp5q7k25zv4.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "弹起来吧！",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2b/76czhpcwxkpdxzuz169zlmjb029p8t5.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "嘿咻！",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/98/3noeu8cbcvvbdwr5945a7g1zd5k76ii.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "轰轰火花！",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3e/m9r6n8n7zcqitmrx27idxkcidhhoqna.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "火力全开！",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/82/4t0n09jonqwcn1n8t7e5wlw2kwl8s38.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "全——都可以炸完！",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e4/a8xpa4arpq3zwsjuhtlrkcl813kf5qv.mp3"
+    },
+    {
+      "title": "冲刺开始·其一",
+      "desc": "啦啦啦~",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_explore_sprint_start_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/slgg7xuth5f6e81c7xpnfmrgdlxca26.mp3"
+    },
+    {
+      "title": "冲刺开始·其二",
+      "desc": "哒哒哒~",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_explore_sprint_start_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/51/73v77t4do8jtew3scvwrx9tvrk3sovs.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "可莉又找到新的宝物了！",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/15/gy5q7fm8n2fsfliou20r6s2ui26tgzg.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "亮闪闪的，好开心！",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/11/tjhye5z9niy0kmh8bv4qj3li2xxfqa2.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "地下会不会埋着更多宝箱呢…",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d3/avzu1auna670b81r3po20pqymim5nlg.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "哇…怎么会这样…",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dd/stgritsglmq7ekr9jum6dda67nhhsc1.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "琴团长…它欺负我…",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/91/hyozx0bv4q2djkoqk7x3nhesuw6l12h.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "玩累了，有点晕…",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c0/qghiwunmrhasf99mcnyx8ay2vveztpc.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "火花骑士，爆破支援！",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/01/84ny32y1zne75evvmcx80k1ybk6fpx9.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "你不要紧吧？",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/91/hyozx0bv4q2djkoqk7x3nhesuw6l12h.mp3"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "看我成功开溜…！啊，失败了。",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/01/84ny32y1zne75evvmcx80k1ybk6fpx9.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "可莉…想回家了…",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4a/ky33t5o4yg4bnbn4ojiulv4cigpvsy4.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "又闯祸了…",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/63/0mf59gbsy4z75yt7a4l3og3s3z8l2qg.mp3"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "过分…",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ac/nu6mkjc5siuzw90i0x9wdtlnznw3osh.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "好疼啊！",
+      "voicefile": "VO_gameplay/VO_klee/vo_klee_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/63/3gc10cej2xrpv0bke1w8jxwucwsswzx.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "可莉来帮忙！",
+      "voicefile": "VO_teamJoin/vo_klee_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bc/4n1zsuvuzfvmi7qzveu5844oxmiudx2.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "锵锵——可莉登场。",
+      "voicefile": "VO_teamJoin/vo_klee_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cd/asboretnxs3h9j3np80ewv9va6mqr73.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "好耶！是大冒险。",
+      "voicefile": "VO_teamJoin/vo_klee_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dd/9wf7uuirnj863rjom9zd7agajm9mgqm.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000029-card.webp",
+  "fullArt": "assets/characters/10000029-full.webp",
+  "fullArtWidth": 866,
+  "fullArtHeight": 852
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    "index.html",
+    "voice_index.html",
+    "app.js",
+    "model.js",
+    "audio-autoplay.js",
+    "styles.css",
+    "dialog.css",
+    "search-worker.js",
+    "site-config.js",
+    "theme.generated.css",
+    "theme.css",
+    "data/catalog.json",
+    "data/voice-search-index.json",
+    "assets/audio/music/music_catalog.json",
+    "assets/fonts/HOK-Calligraphy-Fallback-OFL.txt",
+    "wangzhe-data.js",
+    "wangzhe-dialog.css",
+    "data/audio-audit.json",
+    "data/teyvat-search-index.json"
+  ],
+  "generated": [
+    "app.js",
+    "model.js",
+    "audio-autoplay.js",
+    "styles.css",
+    "dialog.css",
+    "search-worker.js",
+    "site-config.js",
+    "theme.generated.css",
+    "data/voice-search-index.json",
+    "index.html",
+    "voice_index.html"
+  ],
+  "characters": "data/characters",
+  "aliases": {}
+}

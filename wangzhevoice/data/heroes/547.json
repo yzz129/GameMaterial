@@ -1,0 +1,27 @@
+{
+  "id": "547",
+  "name": "卢雅那",
+  "slug": "luyana",
+  "title": "蛇焰使者",
+  "roles": [
+    "射手"
+  ],
+  "portrait": "assets/heroes/547-portrait.webp",
+  "cover": "assets/heroes/547-cover.webp",
+  "skins": [
+    {
+      "id": "547-657633792ae9",
+      "name": "蛇焰使者",
+      "voiceCount": 0
+    }
+  ],
+  "skinCount": 1,
+  "voiceCount": 0,
+  "sourceUrl": "https://pvp.qq.com/zlkdatasys/yuzhouzhan/herovoice/547.json",
+  "officialPage": "https://pvp.qq.com/web201605/herodetail/547.shtml",
+  "voiceStatus": "not-published",
+  "region": "日落海",
+  "faction": "虹湾",
+  "updatedAt": "2026-10-23T13:50:05.071Z",
+  "voices": []
+}

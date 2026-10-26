@@ -1,0 +1,68 @@
+{
+  "method": "Isolated Chromium; IAB unavailable in Work settings",
+  "checkedAt": "2026-10-24T01:50:28.825Z",
+  "checks": [
+    {
+      "name": "original home, cards and music pill"
+    },
+    {
+      "name": "role, region and voice availability filters"
+    },
+    {
+      "name": "original worker full dialogue search"
+    },
+    {
+      "name": "official voice plays in original modal player",
+      "duration": 2.310113,
+      "time": 0.097258,
+      "src": "http://127.0.0.1:8081/assets/audio/131-f04f42b913ec.wav"
+    },
+    {
+      "name": "stable voice identity, favorite, seeking and pause"
+    },
+    {
+      "name": "skin, category, dialogue and empty source filters"
+    },
+    {
+      "name": "original quote poster export"
+    },
+    {
+      "name": "favorites persist in Wangzhe storage"
+    },
+    {
+      "name": "official music plays in original vinyl music box",
+      "duration": 38.189333,
+      "time": 0.114636,
+      "playing": true
+    },
+    {
+      "name": "music seek, volume, mute and loop modes"
+    },
+    {
+      "name": "song search opens QQ Music official source"
+    },
+    {
+      "name": "original pagination"
+    },
+    {
+      "name": "unavailable hero audio shown honestly"
+    },
+    {
+      "name": "original independent voice index"
+    },
+    {
+      "name": "responsive 390px"
+    },
+    {
+      "name": "responsive 320px"
+    },
+    {
+      "name": "responsive 768px"
+    },
+    {
+      "name": "no browser errors or missing local resources"
+    }
+  ],
+  "errors": [],
+  "failedResponses": []
+}

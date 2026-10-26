@@ -1,0 +1,559 @@
+{
+  "id": 10000027,
+  "name": "凝光",
+  "enName": "Ningguang",
+  "title": "掩月天权",
+  "element": "岩",
+  "region": "璃月",
+  "rarity": 4,
+  "weapon": "法器",
+  "birthday": "8月26日",
+  "constellation": "玑衡仪座",
+  "description": "「璃月七星」中的「天权」，其名下财富之多，全大陆鲜有人能望其项背。",
+  "affiliation": "璃月七星",
+  "cv": {
+    "chinese": "杜冥鸦",
+    "japanese": "大原沙耶香",
+    "english": "伊琳·艾伯丝",
+    "korean": "郭奎媄"
+  },
+  "avatarImg": "assets/characters/10000027-avatar.webp",
+  "splashArt": "assets/characters/10000027-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Ningguang.zip",
+  "voicePackageEn": "Ningguang",
+  "quoteCount": 75,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "我是七星之「天权」，凝光。要做个交易吗？你来做我的贴身侍卫，而我，会教导你在璃月出人头地的技巧。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/01/aop2mtdmoe6nv80quopzx6upqn192fl.ogg"
+    },
+    {
+      "title": "闲聊·古玩",
+      "desc": "就算古玩价值连城，给人的快乐也只有刚拥有的一瞬。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_explore_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1f/5pk1yeb6aro79cxmganb0p474jipvgb.ogg"
+    },
+    {
+      "title": "闲聊·商战",
+      "desc": "在商战中，完美的猎手不会留下任何痕迹。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_explore_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/38/d6vzsoq32cp0p6ofnlbulnjlsbpjqji.ogg"
+    },
+    {
+      "title": "闲聊·投资",
+      "desc": "找笔新的投资吧。无论如何，摩拉都不会嫌多。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_explore_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/ca/6vrczfsz5ew608gp1447d6a8bo7qz73.ogg"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "哦？下雨了啊。替我打伞吧。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6d/i1g0pnc61alpfgiyfreaa9hn8s587oh.ogg"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "不过是寻常雪景。我带你见见，真正的「碎雪」。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ae/bnik7fn7szc2kawc7hjdzempd9wcyq6.ogg"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "风平浪静？呵，不要相信你的眼睛，眼睛会说谎。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/71/o1xrqjaljurdridkkx09lt6hhwv0k9i.ogg"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "这样的大风天，会成为捕鱼人的灾难。也会成为…呵，没什么。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f6/7qmnwk7bte4b11da0rf20dpmlw5xgi8.ogg"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早，按事情的轻重缓急向我禀报吧。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3b/n71fzt6ua9pt1bhats8lv03wrwmjfri.ogg"
+    },
+    {
+      "title": "中午好…",
+      "desc": "「琉璃亭」和「新月轩」，你更常去哪一家？",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/17/nl2jf5mdivh9tjluv99rfg6mbg7e5tz.ogg"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "茶馆已经客满了？那就来「群玉阁」坐坐吧。只要…你付得起价钱。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7d/co325xb3bjdznkngdp7geo4uo52fg4b.ogg"
+    },
+    {
+      "title": "晚安…",
+      "desc": "嗯，去休息吧。要是发生了重要的事情，我会派人通知你的。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c1/tl274dhgimyvm4y70d5qoypvel763gy.ogg"
+    },
+    {
+      "title": "关于凝光自己·观点",
+      "desc": "无论是价格谈判还是商战博弈，声势和筹码都是次要的。想要取得胜利，就需要先去了解对手的底牌。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/81/07hvvu5bh9xp5xmt0zz8lk4r77zjwks.ogg"
+    },
+    {
+      "title": "关于凝光自己·印象",
+      "desc": "觉得我给你的印象变了？呵…那时我需要借助你的力量，当然要让你觉得我亲切热情。但现在我已将你当作重要的「契约」伙伴，伙伴之间，就不用这些虚情假意了。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_dialog_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/05/a7wto6xio292d1agp3yprusbeao1h1a.ogg"
+    },
+    {
+      "title": "关于我们·传言",
+      "desc": "关于我的传言，最近听了不少吧。我究竟是怎样的人？用你自己的双眼分辨吧…当然，你的看法，也会成为传言的一部分。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7d/iy35vfczewt65i08fv9ypa6bltx8nwg.ogg"
+    },
+    {
+      "title": "关于我们·观察",
+      "desc": "跟了我那么久，你学会「观察」了吗。那么，试着来「观察」我吧，直到成为我的心腹为止。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_dialog_close2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9a/b6xbk9fag54m2wq8goydqavt3h5987m.ogg"
+    },
+    {
+      "title": "关于我们·群玉阁",
+      "desc": "上前来，和我并肩站着。看到「群玉阁」了吗。它起初只有房间大小，如今却能遮蔽璃月上空。等到它的规模有朝一日笼罩七国，那时候，也这样和我并肩而立吧。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_dialog_close3",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5c/ipys9ieh2b87ehjsayn0zj0ktt3elyh.ogg"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "能用摩拉解决的事情，就无需使用「神之眼」。至于用摩拉也解决不了的事情…至今我只遇到过一件。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/18/mj16eiwy30h46j9chkglnfehjmww7xm.ogg"
+    },
+    {
+      "title": "有什么想要分享·庄家",
+      "desc": "赌徒永远会把希望寄托在下一颗骰子上…但最后赚钱的，当然是从来不碰骰子的庄家。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_dialog_share",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/ff/2df9y08aqp2udhats4uh2ayquzgnqdw.ogg"
+    },
+    {
+      "title": "有什么想要分享·目标",
+      "desc": "帝君的离去，无论对璃月还是七星来说，都是不小的考验。我也很久没有像最近这样辗转反侧了。\n不过，我不会放弃我的目标。总有一日，我会让群玉阁投下的影子笼罩七国——",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_dialog_share_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fb/sbap4rtne57uttbals4mggjhaj9zykb.ogg"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "璃月古代辞赋中不乏对于「琉璃百合」的溢美，但它现今却近乎灭绝，只在「玉京台」还有保留。名声在外却又不可多得，因此更加价格不菲。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/ba/ov81al8wqp8f8v73kxhifir7dzzxl2m.ogg"
+    },
+    {
+      "title": "关于北斗·罚金",
+      "desc": "那位…船长。明明也受到不少人推崇，却总是带头漠视规则。她缴纳的罚金，都够买一艘崭新的远洋船了吧。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_beidou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d3/fi45846m2sdg5tyezl94xj5gxp1fnjj.ogg"
+    },
+    {
+      "title": "关于北斗·态度",
+      "desc": "或许你没有遇到过这种糟糕的交流体验。将好话坏话说尽了，对方却依然自行其是。罢了，尽可能不要让我见到那位北斗船长。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_beidou_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/25/hhk3y1h3mkrzm7ha9er6hvdbwtrctcs.ogg"
+    },
+    {
+      "title": "关于钟离…",
+      "desc": "钟离…「往生堂」口中的这位先生，精通许多旁人不知的事物。但在掌握他的弱点之前，再优秀的棋子，也还不能为我所用。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_zhongli_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/72/905j88uytstns1yqx10el5ut3sgqfg8.ogg"
+    },
+    {
+      "title": "关于行秋…",
+      "desc": "飞云商会的二公子，那种性格的人看不惯我，是很自然的，而我也不会去为难他。「道不同不相为谋」，说的就是这个道理。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_xingqiu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5e/5z2pjc53qwkow9u48m6j7iqx4noppnu.ogg"
+    },
+    {
+      "title": "关于香菱…",
+      "desc": "「万民堂」的小丫头…总是把对我的猜疑写在脸上。呵，要是让她知道了，这些年来我对「万民堂」的资助…她会露出怎样的表情来呢？",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_xiangling_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/66/ln521udqb4rj7k1eh48i05l48bazxrl.ogg"
+    },
+    {
+      "title": "关于甘雨…",
+      "desc": "即使是甘雨，也不可过度依赖。璃月俗语说「百密终有一疏」。重要事情当前，只有自己亲手处理，亲眼查证，才可放心。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_ganyu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/90/aki0f6v1v5uc5jcccwx4keatacl3cje.ogg"
+    },
+    {
+      "title": "关于瑶瑶…",
+      "desc": "是在谈论甘雨正帮忙照看着的小姑娘么。呵，不用紧张，此事我并无声张的打算。就当那个船长，总能做一两件聪明事吧。对了，这瑶瑶，近来光顾着吃海产了，你得想办法劝劝甘雨，叫她为瑶瑶多补充些瓜果蔬菜才对。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_yaoyao_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/34/l79sywoyuiirpywt7ajueb09zsy17ot.ogg"
+    },
+    {
+      "title": "关于刻晴…",
+      "desc": "「玉衡星」…她最近的变化可真不小。璃月究竟更需要曾经的她，还是更需要现在的她呢？可能要多花一些时间，才能判断吧。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_keqing_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/93/77q2m8ihfhuovhr4ytjmgvwluzr65jy.ogg"
+    },
+    {
+      "title": "关于琴…",
+      "desc": "蒙德城的代理团长，想必是一位严谨而又细腻的女性吧。且不说她恰如其分的用词，连每张信纸的边缘都折叠得一丝不苟。越是这些容易被人忽视的细节，越能透过它窥见一个人真正的品质。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_qin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b4/to9wh4wsgxd3wwkq2zx1arpi8zymjjk.ogg"
+    },
+    {
+      "title": "关于烟绯…",
+      "desc": "烟绯？呵，某种意义上，她是个贴心的对手呢。若不是她「灵巧」地解释律法，为咨询者们提供各种「奇妙」的建议，要让我独自找到律法的缺口，逐步完善法典，怕是要多花数月的时间。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_yanfei_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9c/7jje0wjt9b2en7ct7x6sjm4hqwmlstp.ogg"
+    },
+    {
+      "title": "关于申鹤…",
+      "desc": "申鹤小姐近来可好？有劳你多多关照她了。你们帮忙重建群玉阁的事，我一直记在心里，也很是感激。啊，客套话就不多说了，我备了好茶，闲时多来坐坐吧。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_shenhe_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/VO_ZH_Ningguang_About_Shenhe.ogg"
+    },
+    {
+      "title": "关于云堇…",
+      "desc": "云堇啊…怎么样，你听得惯她的戏吗？起初可能是有些难懂，试着耐下性子多品味一下吧。我投资她的戏班不为别的，只是觉得，这般典雅的艺术，值得被一直传承下去。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_yunjin_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/VO_ZH_Ningguang_About_Yun_Jin.ogg"
+    },
+    {
+      "title": "关于夜兰…",
+      "desc": "她是个很有意思的人，对我而言，也是绝对可信之人。八面玲珑，才能无可挑剔。呵呵，既然同为聪明人，希望你们能相处愉快。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_yelan_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/VO_ZH_Ningguang_About_Yelan.ogg"
+    },
+    {
+      "title": "关于闲云…",
+      "desc": "再过些时日，我打算约闲云女士去茶室小坐。我恰巧收集了一些机巧玩物，想听听她的高见，也想趁此机会，听她讲讲仙人在璃月港生活的趣事。至于为我递这份邀请函的人选…你可有意？",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_teammate_xianyun_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/VO_ZH_Ningguang_About_Xianyun.ogg"
+    },
+    {
+      "title": "想要了解凝光·其一",
+      "desc": "既然是你，就不用恪守那些繁文缛节了，可以随意一些。不过，希望你能珍惜我的时间，言简意赅地进行说明。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9c/7jje0wjt9b2en7ct7x6sjm4hqwmlstp.ogg"
+    },
+    {
+      "title": "想要了解凝光·其二",
+      "desc": "我向来以为，孩子们最为天真纯粹，他们提供的情报也最有价值。那么，你又如何呢？你向我提供的东西，会是些什么呢。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/af/ifot7f3jc4lr26qpobpm8zz858x0o82.ogg"
+    },
+    {
+      "title": "想要了解凝光·其三",
+      "desc": "最近我在思考一个问题。如果能把你留在璃月，假以时日…或许能撬动这座城市的…呵，只是设想而已。这笔投资值不值，我还得再考虑考虑。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e6/bv7oyrvc8dt5janr64qr329fbeknnzp.ogg"
+    },
+    {
+      "title": "想要了解凝光·其四",
+      "desc": "你可以学我的做法，靠摩拉来为自己获取一些便利。但你要记住，摩拉维持的关系只能依仗一时。呵，这也是我从不用摩拉来试探你的理由。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9c/cl1sf92v0vxm7tp63z0u5qdhtgxvvr8.ogg"
+    },
+    {
+      "title": "想要了解凝光·其五",
+      "desc": "真是一笔不错的投资。虽然没有收益多少摩拉，但与你度过的这些时光，已是很不错的回报。呵，看来我又赢了——我，赌对了人。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/ce/h54pi7h3st4sp9hyjvdcpv86krs9m06.ogg"
+    },
+    {
+      "title": "凝光的爱好…",
+      "desc": "想来试试棋戏「璃月千年」么？正好也让我看看，你作为一名棋手的素质，究竟如何呢。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/ff/mv7mtp8zpdjgr4b3rypj1f53b8iqhc2.ogg"
+    },
+    {
+      "title": "凝光的烦恼…",
+      "desc": "烦恼…哦？「璃月七星」的烦恼告诉了你…你的肩膀，能够承受得住吗？而且，如果你一不小心说出去了的话…",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1b/1t5p42gea9x8s0w9kh6dsdvafs7wgtc.ogg"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "用老鸡和猪骨小火久煮熬制高汤，淋在只取菜心的鲜嫩白菜上。我对饮食追求不深。平日里吃点这样的东西，也就够了。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/06/748ifu7tvaa002dmoch2h3vmuuuptbt.ogg"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "我见过有人每次宴会必点「黄金蟹」这种看上去显得大富大贵的食物，但我对此始终不敢恭维。如果你想用这样的料理宴请我，还不如直接给我摩拉。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9a/bpt700azdvszl4a9dim52060bfxwoag.ogg"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "不错。你总能出乎我的意料。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b9/lr09zmq7lnmg1uc1zxp2xl5669ppag0.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "有时，没有把握关键要素，就等于徒劳无功…能明白么？",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/33/ondo7vvrosbfycal1s9cj2z2ikvb3rw.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "心意我领了。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/62/i0nq6spmrw3zoabnxkryo2q608ugyij.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "{M#这是选用上等的霓裳花织出的锦缎。这份是留给你的，这一份…等你找到自己的妹妹之后，拿去做件她喜欢的衣服吧。祝你们，生日快乐。}{F#这是选用上等的霓裳花织出的锦缎。拿去做件自己喜欢的衣服，过个开心点的生日吧。}",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_pref_birthday_b",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/VO_ZH_Ningguang_Birthday_-_Aether.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "「武斗」缺乏风度，只能作为下策中的下策。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4a/qgfwjm9hkaw8b0gdure413r6nye2hir.ogg"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "将时间和摩拉作为筹码，等价交换到「力量」吗…有趣。我认可它的价值。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d9/dknhzzck7w77hual9g5kppt980ccfvj.ogg"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "你是怀着怎样的心情坚持的呢？嘘…不要说出来。让我多花一点时间来看透你。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9c/4njpctk3uyh4hxfftgbej8j8aiil0up.ogg"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "我并不轻易肯定别人，但现在看来，我这赞扬是留不住了。呵…你做得很出色。要是我的手下能多一点像你这样的人…不，或许，有你一个就够了。",
+      "voicefile": "VO_friendship/VO_ningguang/vo_ningguang_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f4/sxuomxza17mkd6znn5aohs69yifst4g.ogg"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "雕虫小技。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/78/VO_ZH_Ningguang_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "别白费功夫。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/VO_ZH_Ningguang_Elemental_Skill_1_02.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "哼，劝你放弃。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/VO_ZH_Ningguang_Elemental_Skill_1_03.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "你的性命，我收下了。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/fb/VO_ZH_Ningguang_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "向我臣服吧。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/VO_ZH_Ningguang_Elemental_Burst_02.ogg"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "永别了。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/fb/VO_ZH_Ningguang_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "好一双慧眼。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/VO_ZH_Ningguang_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "颗粒归仓。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/VO_ZH_Ningguang_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "财富，多多益善。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/VO_ZH_Ningguang_Opening_Treasure_Chest_03.ogg"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "竟然敢伤我。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/VO_ZH_Ningguang_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "我记下了。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/VO_ZH_Ningguang_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "哼。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/VO_ZH_Ningguang_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "如今的局面，你没有几成胜算。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/VO_ZH_Ningguang_Ally_at_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "既然如此，就帮你一把。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/VO_ZH_Ningguang_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "这世上之人，皆为棋子…",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/VO_ZH_Ningguang_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "胜负已分…真是无可奈何。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/VO_ZH_Ningguang_Fallen_02.ogg"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "这就是，「天权」的终焉？…",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/VO_ZH_Ningguang_Fallen_03.ogg"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "无礼。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/VO_ZH_Ningguang_Light_Hit_Taken_02.ogg"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "等着吧。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/VO_ZH_Ningguang_Heavy_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "血债血还。",
+      "voicefile": "VO_gameplay/VO_ningguang/vo_ningguang_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/VO_ZH_Ningguang_Heavy_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "知道了。",
+      "voicefile": "VO_teamJoin/vo_ningguang_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/VO_ZH_Ningguang_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "抓紧时间吧。",
+      "voicefile": "VO_teamJoin/vo_ningguang_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/65/VO_ZH_Ningguang_Joining_Party_02.ogg"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "不要让我失望。",
+      "voicefile": "VO_teamJoin/vo_ningguang_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/VO_ZH_Ningguang_Joining_Party_03.ogg"
+    }
+  ],
+  "cardArt": "assets/characters/10000027-card.webp",
+  "fullArt": "assets/characters/10000027-full.webp",
+  "fullArtWidth": 1337,
+  "fullArtHeight": 900
+}

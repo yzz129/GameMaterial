@@ -1,0 +1,434 @@
+{
+  "checkedAt": "2026-10-24T01:55:24.490Z",
+  "method": "Real HTMLAudioElement metadata for every official MP3, no source interception",
+  "total": 48,
+  "passed": 48,
+  "differences": [
+    {
+      "id": "official-820b92fe205bc6ba",
+      "title": "玄微子",
+      "sourceDuration": 36,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20190415/5b50585e5160e51110c04e8bd936a50e.mp3",
+      "ok": true,
+      "duration": 38.189333
+    },
+    {
+      "id": "official-e66ef22d9794966b",
+      "title": "蘑菇里的神",
+      "sourceDuration": 212,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20190415/1541624cd815f8ad8e307748c04e36e5.mp3",
+      "ok": true,
+      "duration": 182.909333
+    },
+    {
+      "id": "official-ed865604675fbec1",
+      "title": "永远的长安城",
+      "sourceDuration": 181,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180115/f3ed7f9d5ee9e84737c64ecf429165eb.mp3",
+      "ok": true,
+      "duration": 172.898625
+    },
+    {
+      "id": "official-f5bb4f50acfe4a6b",
+      "title": "Volcano",
+      "sourceDuration": 103,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180116/22faf360cf45f615c9a2890be0b67e5d.mp3",
+      "ok": true,
+      "duration": 101.76288
+    },
+    {
+      "id": "official-711662fcce0676a9",
+      "title": "热夏summer",
+      "sourceDuration": 214,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all/music/20180116/e669cc71b7bbed7439823be1feae42d9.mp3",
+      "ok": true,
+      "duration": 138.166958
+    }
+  ],
+  "tracks": [
+    {
+      "id": "official-820b92fe205bc6ba",
+      "title": "玄微子",
+      "sourceDuration": 36,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20190415/5b50585e5160e51110c04e8bd936a50e.mp3",
+      "ok": true,
+      "duration": 38.189333
+    },
+    {
+      "id": "official-977bebbc0d70d1f0",
+      "title": "非谎之言",
+      "sourceDuration": 84,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20190415/0bcd41b808b838e87199e8813b7fea0f.mp3",
+      "ok": true,
+      "duration": 84.797333
+    },
+    {
+      "id": "official-fe359604e2b09cb5",
+      "title": "未失之明",
+      "sourceDuration": 59,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20190415/de617d41e86989e3f1a5d8040d88a7ca.mp3",
+      "ok": true,
+      "duration": 59.717333
+    },
+    {
+      "id": "official-e66ef22d9794966b",
+      "title": "蘑菇里的神",
+      "sourceDuration": 212,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20190415/1541624cd815f8ad8e307748c04e36e5.mp3",
+      "ok": true,
+      "duration": 182.909333
+    },
+    {
+      "id": "official-316f2ed86ea1226e",
+      "title": "目光里的神",
+      "sourceDuration": 160,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20190415/86a72b7873b6065e912a8487aa4b8a96.mp3",
+      "ok": true,
+      "duration": 160.061333
+    },
+    {
+      "id": "official-fba0ba1126e97c5b",
+      "title": "鹿与鸟",
+      "sourceDuration": 72,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20190415/764bcc54a47e85d6079b33dab7109777.mp3",
+      "ok": true,
+      "duration": 72.077333
+    },
+    {
+      "id": "official-c10e356bc8e0149d",
+      "title": "云中漠地",
+      "sourceDuration": 202,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180730/6036dfce560353db0ddae758651f9304.mp3",
+      "ok": true,
+      "duration": 202.572
+    },
+    {
+      "id": "official-daf5fc6062db234d",
+      "title": "陷阱",
+      "sourceDuration": 59,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20190415/f42eeaecb8039d47bbc6a15acf58f8c8.mp3",
+      "ok": true,
+      "duration": 59.213333
+    },
+    {
+      "id": "official-26fb6870ccda08c2",
+      "title": "崛起之都",
+      "sourceDuration": 192,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180412/2757a23f074bdbb4f643c4e8ed2f9cf8.mp3",
+      "ok": true,
+      "duration": 192.312417
+    },
+    {
+      "id": "official-aba137ad2df1df60",
+      "title": "长城守卫军",
+      "sourceDuration": 181,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios//ff7eb924edc7cad4b8c25715437fba64.mp3",
+      "ok": true,
+      "duration": 181.365397
+    },
+    {
+      "id": "official-e915c9afb9fd1b93",
+      "title": "王者峡谷起源",
+      "sourceDuration": 237,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180115/1070759d796c222138f3746b4149a29e.mp3",
+      "ok": true,
+      "duration": 237.403313
+    },
+    {
+      "id": "official-ed865604675fbec1",
+      "title": "永远的长安城",
+      "sourceDuration": 181,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180115/f3ed7f9d5ee9e84737c64ecf429165eb.mp3",
+      "ok": true,
+      "duration": 172.898625
+    },
+    {
+      "id": "official-bcb895d7687af08f",
+      "title": "【元歌】无间傀儡",
+      "sourceDuration": 194,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180703/d07e7c2fee9da7a0492e722d6a8f2102.mp3",
+      "ok": true,
+      "duration": 194.22
+    },
+    {
+      "id": "official-6748bde7a2bbbba2",
+      "title": "楚汉之地",
+      "sourceDuration": 192,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios//676ea4e2f604e471bcad0ffc122234d2.mp3",
+      "ok": true,
+      "duration": 192.373016
+    },
+    {
+      "id": "official-2cd1140de8053548",
+      "title": "【米莱狄】筑城者",
+      "sourceDuration": 191,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180514/b77d5f3b9a180f4df921a0d8efca4bb7.mp3",
+      "ok": true,
+      "duration": 191.405333
+    },
+    {
+      "id": "official-21ad96dd9797072d",
+      "title": "【狂铁】战车意志",
+      "sourceDuration": 186,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180412/1c46b2f2892afd5353c116711ee33bcc.mp3",
+      "ok": true,
+      "duration": 186.861
+    },
+    {
+      "id": "official-bb128e95d8b9177a",
+      "title": "【安琪拉亚瑟】心之骇客",
+      "sourceDuration": 191,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180115/24133ae487dfd01d2a101e519ed9dab8.mp3",
+      "ok": true,
+      "duration": 191.429063
+    },
+    {
+      "id": "official-84d0eadbf56aaffc",
+      "title": "【女娲】造物主",
+      "sourceDuration": 199,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180115/eec7a12e9a81bd996fadaa7fd588420e.mp3",
+      "ok": true,
+      "duration": 199.01325
+    },
+    {
+      "id": "official-d29ac3c29746f1dd",
+      "title": "Big Creature",
+      "sourceDuration": 127,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all/music/20180116/e49e9978f247615c5ba8b76448a5122b.mp3",
+      "ok": true,
+      "duration": 127.117167
+    },
+    {
+      "id": "official-578421f68e44dc87",
+      "title": "【明世隐】入世",
+      "sourceDuration": 185,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180115/6d7f386596497411600dbe9b14be279b.mp3",
+      "ok": true,
+      "duration": 184.809188
+    },
+    {
+      "id": "official-15f8898437e397f4",
+      "title": "【明世隐】归隐",
+      "sourceDuration": 182,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180115/3a6fb88c868bdff2eb7971f74aa68672.mp3",
+      "ok": true,
+      "duration": 182.176875
+    },
+    {
+      "id": "official-f5d2466f1151dab2",
+      "title": "Second War",
+      "sourceDuration": 92,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all/music/20180116/af75d31a593df59c95e05f5e33808dd7.mp3",
+      "ok": true,
+      "duration": 92.426542
+    },
+    {
+      "id": "official-3ed74c8f3153d0cf",
+      "title": "First War",
+      "sourceDuration": 90,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all/music/20180116/19091ad71f7b32056ffeafd13513782c.mp3",
+      "ok": true,
+      "duration": 89.918792
+    },
+    {
+      "id": "official-2b8af982bc53c940",
+      "title": "Desert",
+      "sourceDuration": 107,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180116/e4d58ea7334a7ec1f62b8c40cd466084.mp3",
+      "ok": true,
+      "duration": 107.401066
+    },
+    {
+      "id": "official-f5bb4f50acfe4a6b",
+      "title": "Volcano",
+      "sourceDuration": 103,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180116/22faf360cf45f615c9a2890be0b67e5d.mp3",
+      "ok": true,
+      "duration": 101.76288
+    },
+    {
+      "id": "official-57cd7f21b0f68270",
+      "title": "Forest",
+      "sourceDuration": 91,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180116/8ba8d964ae24f7406199e5d9b69d02f6.mp3",
+      "ok": true,
+      "duration": 91.360635
+    },
+    {
+      "id": "official-fc9b39e662067b23",
+      "title": "BanPick_Mix",
+      "sourceDuration": 207,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all/music/20180116/5da7bf4e6dd35e0d7ec0d1c6deb6a9f3.mp3",
+      "ok": true,
+      "duration": 206.790625
+    },
+    {
+      "id": "official-c4b8fb4599276444",
+      "title": "Dargon_Mix",
+      "sourceDuration": 167,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all/music/20180116/f69aa16b861fea907b7e3c95b5ad6805.mp3",
+      "ok": true,
+      "duration": 167.0845
+    },
+    {
+      "id": "official-9dce543af30be0fb",
+      "title": "正常对战",
+      "sourceDuration": 189,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all/music/20180116/64079ae9a948962068f2755fc124e9dd.mp3",
+      "ok": true,
+      "duration": 189.523708
+    },
+    {
+      "id": "official-80d2861cb32e11b3",
+      "title": "五军对决",
+      "sourceDuration": 375,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180116/a1a6b4bbd0572c042dfa94e096f688c6.mp3",
+      "ok": true,
+      "duration": 375.066125
+    },
+    {
+      "id": "official-cd7080c01500e241",
+      "title": "Let's Play Again",
+      "sourceDuration": 43,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all//ee1fd20d0cb3443f372b057b02db9f3a.mp3",
+      "ok": true,
+      "duration": 43.368583
+    },
+    {
+      "id": "official-0562879b626f315c",
+      "title": "The Back Ground Story",
+      "sourceDuration": 40,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180116/d1932bc6c207e08c316ed79cfdfef133.mp3",
+      "ok": true,
+      "duration": 40.396875
+    },
+    {
+      "id": "official-25099f4c76f2476d",
+      "title": "Relic",
+      "sourceDuration": 90,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180116/f83785255c5405474a4d1c6b225fbc4f.mp3",
+      "ok": true,
+      "duration": 89.57839
+    },
+    {
+      "id": "official-2f24c761bc97ff95",
+      "title": "王者同行 (动漫版)",
+      "sourceDuration": 216,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180115/d48a2d5f1494641a8ad73af1beb294c9.mp3",
+      "ok": true,
+      "duration": 216.032063
+    },
+    {
+      "id": "official-bfae2d91eabd77b5",
+      "title": "I am two years old",
+      "sourceDuration": 254,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180115/e632d54fbf1ed4f511741ac3cbe69d31.mp3",
+      "ok": true,
+      "duration": 253.874813
+    },
+    {
+      "id": "official-de47c4c1c21f0465",
+      "title": "梦境游乐园",
+      "sourceDuration": 185,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180115/5a9a56903d11777f4db71da6ce0e2902.mp3",
+      "ok": true,
+      "duration": 184.965563
+    },
+    {
+      "id": "official-711662fcce0676a9",
+      "title": "热夏summer",
+      "sourceDuration": 214,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all/music/20180116/e669cc71b7bbed7439823be1feae42d9.mp3",
+      "ok": true,
+      "duration": 138.166958
+    },
+    {
+      "id": "official-c40097ecf1e194ba",
+      "title": "christmas battle",
+      "sourceDuration": 214,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all//e4867e1ecdb04dee4e2d96fec3097d93.mp3",
+      "ok": true,
+      "duration": 214.522875
+    },
+    {
+      "id": "official-6952423afd54837c",
+      "title": "Main Theme",
+      "sourceDuration": 216,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all//a54b9b0547626b6c5ea4f4bbf64255b3.mp3",
+      "ok": true,
+      "duration": 215.829
+    },
+    {
+      "id": "official-6b13702ec5b88cb3",
+      "title": "Quiet Lobby",
+      "sourceDuration": 65,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all//912586449b869eab977dba0154cc7fe8.mp3",
+      "ok": true,
+      "duration": 65.363708
+    },
+    {
+      "id": "official-a32df53638707fc2",
+      "title": "Our Hero Is Back",
+      "sourceDuration": 182,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180116/58b4e7091ac81b4fc8dc0ced098641ea.mp3",
+      "ok": true,
+      "duration": 182.098688
+    },
+    {
+      "id": "official-102576a99aaaffe3",
+      "title": "Summoner",
+      "sourceDuration": 186,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all//b52ea430e4008c3fa4478b33146a9232.mp3",
+      "ok": true,
+      "duration": 186.495261
+    },
+    {
+      "id": "official-76a551d8efe82821",
+      "title": "王者归歌",
+      "sourceDuration": 70,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all/music/20180116/078057ca21d1fa0f5763b1b7cc7329a9.mp3",
+      "ok": true,
+      "duration": 69.909
+    },
+    {
+      "id": "official-4f2610951593fea7",
+      "title": "王者的新年",
+      "sourceDuration": 182,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all/music/20180116/e95df0b70aaebe73a6f7ad44deb74768.mp3",
+      "ok": true,
+      "duration": 182.418375
+    },
+    {
+      "id": "official-6988fe5dad2c19f7",
+      "title": "王者战歌",
+      "sourceDuration": 169,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/all/music/20180116/65c1b1a4c38a853f89c1edbeabfa5565.mp3",
+      "ok": true,
+      "duration": 169.513917
+    },
+    {
+      "id": "official-ba296b09dfe40c61",
+      "title": "希望之战",
+      "sourceDuration": 222,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180115/db8f72a6fac9997a27345ab903032d57.mp3",
+      "ok": true,
+      "duration": 222.417375
+    },
+    {
+      "id": "official-b3487592fa14e2a3",
+      "title": "斗龙",
+      "sourceDuration": 315,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180115/6fed731641cbb8f66ed88be9ab2f99be.mp3",
+      "ok": true,
+      "duration": 314.391938
+    },
+    {
+      "id": "official-768d41ae792fd3e9",
+      "title": "全军出击",
+      "sourceDuration": 237,
+      "url": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/music/20180115/6e1038378938592bb2d10fa6f4cb006f.mp3",
+      "ok": true,
+      "duration": 237.194813
+    }
+  ]
+}

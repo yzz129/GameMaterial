@@ -1,0 +1,27 @@
+{
+  "id": "582",
+  "name": "元流之子(法师)",
+  "slug": "yuanliuzhizi_magic",
+  "title": "万妙之心",
+  "roles": [
+    "法师"
+  ],
+  "portrait": "assets/heroes/582-portrait.webp",
+  "cover": "assets/heroes/582-cover.webp",
+  "skins": [
+    {
+      "id": "582-2e93e27f27c3",
+      "name": "万妙之心",
+      "voiceCount": 0
+    }
+  ],
+  "skinCount": 1,
+  "voiceCount": 0,
+  "sourceUrl": "https://pvp.qq.com/zlkdatasys/yuzhouzhan/herovoice/582.json",
+  "officialPage": "https://pvp.qq.com/web201605/herodetail/582.shtml",
+  "voiceStatus": "not-published",
+  "region": "",
+  "faction": "",
+  "updatedAt": "2026-10-23T13:50:05.071Z",
+  "voices": []
+}

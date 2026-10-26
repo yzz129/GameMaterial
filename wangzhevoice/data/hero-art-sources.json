@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "heroes": {
+    "505": {
+      "version": 3,
+      "portraitPosition": "0% top",
+      "portraitUrl": "https://game.gtimg.cn/images/yxzj/zlkdatasys/images/image/20220825/16614098876968.jpg",
+      "coverSkinId": "505-efe827a46c42",
+      "sourceRecord": "Official world hero list, hero 505, yxlbfm_9398",
+      "reason": "Use Yao's own official character portrait instead of the shared two-character mobile illustration."
+    },
+    "506": {
+      "version": 3,
+      "portraitPosition": "50% top",
+      "portraitUrl": "https://game.gtimg.cn/images/yxzj/zlkdatasys/images/image/20231229/17038477848519.jpg",
+      "coverSkinId": "506-e5f2b20aebd5",
+      "sourceRecord": "Official world hero list, hero 506, yxlbfm_9398",
+      "reason": "Use Yun Zhong Jun's own official character portrait instead of the shared two-character mobile illustration."
+    }
+  },
+  "sharedIdentityGroups": [
+    {
+      "heroIds": ["581", "582", "583", "584", "585"],
+      "reason": "Different classes of the same character, Yuan Liu Zhi Zi, intentionally share the official character portrait."
+    }
+  ]
+}

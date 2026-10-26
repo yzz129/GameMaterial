@@ -1,0 +1,489 @@
+{
+  "id": 10000038,
+  "name": "阿贝多",
+  "enName": "Albedo",
+  "title": "白垩之子",
+  "element": "岩",
+  "region": "蒙德",
+  "rarity": 5,
+  "weapon": "单手剑",
+  "birthday": "9月13日",
+  "constellation": "白垩之子座",
+  "description": "西风骑士团首席炼金术士兼调查小队队长，被称做「白垩之子」的天才。",
+  "affiliation": "西风骑士团",
+  "cv": {
+    "chinese": "Mace",
+    "japanese": "野岛健儿",
+    "english": "科伊·道",
+    "korean": "金明俊"
+  },
+  "avatarImg": "assets/characters/10000038-avatar.webp",
+  "splashArt": "assets/characters/10000038-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Albedo.zip",
+  "voicePackageEn": "Albedo",
+  "quoteCount": 65,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "我是阿贝多，西风骑士团首席炼金术士。我对你身上星海的气息很感兴趣，想要就近观察研究。相信以后我们会有很多独处的机会。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3c/kw7rtfpo4dmxbdmgx4ryfezznc6oo4i.mp3"
+    },
+    {
+      "title": "闲聊·写生",
+      "desc": "风景不错，趁着休息，就把这一幕画下来吧。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_explore_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8c/p8xi0dcivznnnyq8zbl3f0cslmnbvdt.mp3"
+    },
+    {
+      "title": "闲聊·探究",
+      "desc": "「世界的真相」…究竟是什么呢？",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_explore_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/VO_ZH_Albedo_Chat_-_Investigation.ogg"
+    },
+    {
+      "title": "闲聊·怀旧",
+      "desc": "用自己的双脚丈量土地，将「未知」变为知识。…这种感觉，真怀念啊。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_explore_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f6/5aasgtmpvvsgijwh5uk6n06o0xt8z56.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "土壤湿润，适合采集爆爆瓜的根。没事，我来动手就可以。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/59/oankxi7nflson8txx71zrawdmyvx148.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "师父…",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0e/j3wcm36ey1qnhq2bmcexxw124nypfyr.mp3"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "光线充足，生物行为活跃，嗯，很适合写生。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a1/3kbs5exf4eoddolgyj09sij56hs1llh.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早安，是准备出门寻找古代遗物吗？",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ef/9eppbd0tfncy0itou0nvsosr8u82ukz.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "午安，我听到了你的脚步声。工坊之外真是热闹啊。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9d/lpfmckmd69dczzlo9zwfkyhg2ieeeel.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "外面安静下来了，呼。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6b/qwoy5d863dltx8une3ysz1gq3h9ksko.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "晚安，你先去休息吧，我打算把最后一个实验做完。既然你那么感兴趣…明日再会时，我再与你一起探讨实验结果吧。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/44/hnz3end866afly3jk6nw90j55b9621y.mp3"
+    },
+    {
+      "title": "关于阿贝多自己·天才",
+      "desc": "天才？…不少人这么称呼我。其实，我不这样认为。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/43/118km7mlvel0s4m7cnasqy683nx7akf.mp3"
+    },
+    {
+      "title": "关于阿贝多自己·人际",
+      "desc": "与人交往…很麻烦。一旦开始就要不断维持，如果联系中断了，想再重新恢复，就得消耗更多的时间。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/02/mdhg0xx1lgb6c8xtpch9bl911lrpmkc.mp3"
+    },
+    {
+      "title": "关于我们·实验",
+      "desc": "你…这是准备陪我做实验吗？呼，真荣幸。\n啊，不用紧张。我的实验虽然危险，通常不会伤及无辜。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8c/bbckbei7qz1py7p8o9n7u59lm48vp1s.mp3"
+    },
+    {
+      "title": "关于我们·助手",
+      "desc": "能麻烦你当我的助手吗？鉴于你旁观了那么多次，想必早就熟练了吧。放心，我在你旁边。就算是第一次实际操作，也不会有问题的。我相信我的指导能力，更相信你的天赋。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6f/hiel2rzibckkhnl2bht7dgwt6g3vicb.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "「神之眼」？不过就是个实验用的工具罢了，和烧杯、坩埚没什么不同。唯一让我感兴趣的，就是它的原理…我总有一天会研究明白的，这只是时间问题。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3a/tcehg9v39df520ipabzckhxxubyv4ay.mp3"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "一直有些难以开口，因为假设被你拒绝的话，我可能会失落吧…\n嗯…我对你身边那个飞着的小家伙很感兴趣，方便让我拿去研究一下吗？",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/56/qzn9hho47oehx4iu1v92wwrdnibdmq7.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "想知道更多石化古树的事情？唔…你在附近秘境里观测到的那些，其实不算古老。稍微成熟一些的树，一般能长到两三公里高；在树的根部，常常聚集着一种大蜘蛛。那种蜘蛛啊，用地栀子和香茅草捆紧，抹上白豆蔻，熏烤上几个小时，那香味，是真的很…令我难忘。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bf/3vu2ftf7p08vjhshn3uubuguxrj1kz1.mp3"
+    },
+    {
+      "title": "关于亲人…",
+      "desc": "亲人吗？虽然艾莉丝总希望我喊她妈妈…唔，但在我心里，谈起亲人第一时间想到的还是师父吧。我从记事起就和她在一起探险了，她教会了我炼金术和无数世间的知识。或许…「亲人」或者「师父」，这些词汇都不足以描绘出她对我来说的意义吧。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_teammate_relatives_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/78/50vqwqrufmislmb1rdwkj6ehpgifknm.mp3"
+    },
+    {
+      "title": "关于砂糖·方向",
+      "desc": "砂糖吗？我大概能理解她一心专攻「生物炼金」的理由…不管怎样，看到她的研究越来越顺利，我也为她感到高兴。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_teammate_sucrose_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c5/ktmshfl5m3it9f3rfu4ap6xpkthlsvw.mp3"
+    },
+    {
+      "title": "关于砂糖·坚持",
+      "desc": "虽然在学术方面的合作非常愉快，但课题以外的部分，砂糖也有很多她自己的坚持。比如我告诉她我们是平辈，叫我阿贝多就好，她却坚持要用尊称。…只好随她去了。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_teammate_sucrose_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5a/q2f8b88lnokve2fc00s5c0k2xpknx5v.mp3"
+    },
+    {
+      "title": "关于丽莎…",
+      "desc": "丽莎吗？和她讨论总会得到很有价值的观点。如此有才华却满足于图书管理员一职，想必背后藏着与那才华等重的因缘吧。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_teammate_lisa_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e9/szcmf10rup2tgsr0cjpwnscncdjue0v.mp3"
+    },
+    {
+      "title": "关于可莉…",
+      "desc": "我的确把可莉当作亲妹妹一样看，所以每次当这位妹妹惹出麻烦的时候，我都只能安慰自己，至少她现在的破坏力，还不及艾莉丝女士的零头。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_teammate_klee_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/71/k9t413xj5e8zjbspx9xrx606igx1l8n.mp3"
+    },
+    {
+      "title": "关于琴…",
+      "desc": "琴吗？她是一位正直的代理团长，甚至可以说比那位团长大人更为可靠。可能大家心中都在期待着她成为正式团长的那一天吧。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_teammate_qin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1c/qrveuqvphoveb8al86tjspsrz2sy8kz.mp3"
+    },
+    {
+      "title": "关于行秋…",
+      "desc": "行秋吗？他写的小说挺有趣的。稻妻那边的「八重堂」一直在旁敲侧击希望让我和别的作者合作，说这样版税收入也会更好。哼，我缺这点钱吗？",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_teammate_xingqiu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4f/my48ebryy0twdx2zrx5vkyl27uvkmhm.mp3"
+    },
+    {
+      "title": "关于芭芭拉…",
+      "desc": "芭芭拉吗？她是一位认真的牧师，说来以前碰巧有机会给她画过速写…你问画哪儿去了？嗯…我拒绝了艾伯特的开价，直接把画送给了代理团长。人际交往…真是耗费精力啊。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_teammate_barbara_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/01/9ba5wsmjuej2w5umohrdayxoxqq8p4r.mp3"
+    },
+    {
+      "title": "想要了解阿贝多·其一",
+      "desc": "有问题想问我？请说吧。啊，冒昧地问一句，应该不会花费太长时间吧？手头的研究马上要进入最后一个阶段了。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/83/6p5n4czg29wqawez7n6eb9adbdmn2nu.mp3"
+    },
+    {
+      "title": "想要了解阿贝多·其二",
+      "desc": "啊，只是随口一提。不人为介入的话，黄金需要杀死一个八倍大的太阳才能自然生成。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/28/b4fcx7xyydzgmup29h9ch93yjvk4ug4.mp3"
+    },
+    {
+      "title": "想要了解阿贝多·其三",
+      "desc": "人物画的耗时主要和心情有关。有时候霍夫曼我也能画半天，有时候凯亚都只需要三笔——这个圆是脸，这个是眼罩的带子…这个是眼罩。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b7/879kfqhw8bouvcinq32ifs6ybfvv02n.mp3"
+    },
+    {
+      "title": "想要了解阿贝多·其四",
+      "desc": "除了画画和研究之外的生活…我偶尔会去看稻妻和璃月的小说吧，能看到很多很有趣的想法，有时也会为创作提供意想不到的灵感。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dd/n3exnfwh0ybkczlipnuwu1e00hs3jb8.mp3"
+    },
+    {
+      "title": "想要了解阿贝多·其五",
+      "desc": "即便到了现在，师父传授给我的「黑土之术」仍是充满了谜团，师父到底想要用这个技术创造出什么呢？…研究之期还远未到尽头，得麻烦你和我一起继续探索了。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/37/jtc4ymv2oxzmcxljd8wbcl6quk8mmom.mp3"
+    },
+    {
+      "title": "阿贝多的爱好…",
+      "desc": "嗯…研究之外我最愿意花时间去做的应该是画画吧。一开始只是为了理解物体与材料的构成，便于研究开展，不过到了后来就变成了爱好。嗯，也是一种很好的放松方式。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ae/0tk8ifp1j0xwxjfkxkxvxou2v7i2z3q.mp3"
+    },
+    {
+      "title": "阿贝多的烦恼…",
+      "desc": "时间真是不够用啊，即使把大部分麻烦的事情都推掉还是会觉得时间不够。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9a/gta8uj4tgiii9xhvl4ai9ovx2jf7sgq.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "我挺喜欢甜点的。怎么说呢…在体力和精力同时消耗殆尽的时候，高能量的物质会提供原始而高效的支持吧。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/13/o89azzzyop40l0ttlejdaaeniblq7uz.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "讨厌的食物？餐馆里分量比较大的肉吧。我的胃口吃不了多少，只会面临「浪费」或者「失去风味」的结局。后来我就干脆不去餐馆了，虽然这也意味着要花更多时间在做菜上…",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3a/sys4beygwoabm1eqcrtdoginxk8vftu.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "味觉仿佛折射出了色彩…我想它是金色的。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ec/1j5qrl6jjhk32x0xvdakv8bxcc8sts5.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "你似乎很愿意花时间在做菜上，所以才能做出这样的味道。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/VO_ZH_Albedo_Receiving_a_Gift_-_02.ogg"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "量有点大…要一起分享吗？",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/VO_ZH_Albedo_Receiving_a_Gift_-_03.ogg"
+    },
+    {
+      "title": "生日…",
+      "desc": "生日快乐。你看起来很高兴，可以将你的样子画下来吗？大脑的容量是有限的，人总会不断忘记。如果画在纸上，那么这些画就成了记忆的延伸，在未来重新看到这些画面时，一定能回想起当时的感觉吧。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ec/1j5qrl6jjhk32x0xvdakv8bxcc8sts5.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "「黑土」，是炼金术的词源，也是最初的状态。活在这个世界上，我等俗类必须寻找意义。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2b/8dpvwg1ivvbri5mlyumg5odms96sdv3.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "「白垩」，即是变化的开始。抽离了杂质，准备好接受一切知识。要和我一起去探索世界吗？",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/85/mjjzqwcs4tctrfppyws6wzeezgkwns7.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "「赤成」，炼金术中的意思是，情感的炼化。我的赤色好像来自于你。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/39/ja940navd83sl1jolxvf6utqjxvwpa1.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "「黄金」，炼金术最后的阶段。无价值的事物终于找到了自己的意义，变化成了黄金。我，也找到了意义。",
+      "voicefile": "VO_friendship/VO_albedo/vo_albedo_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/81/jzjpbud5ixkvhypbgog2fr9awgladbe.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "绽放吧。",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/VO_ZH_Albedo_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "拟造阳华。",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/VO_ZH_Albedo_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "创生之法。",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/VO_ZH_Albedo_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "此即，诞生之刻。",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/VO_ZH_Albedo_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "冥古，于此显生。",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/VO_ZH_Albedo_Elemental_Burst_02.ogg"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "见证伟业吧。",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/VO_ZH_Albedo_Elemental_Burst_03.ogg"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "大地的秘宝。",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/VO_ZH_Albedo_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "无言的叙事。",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/VO_ZH_Albedo_Opening_Treasure_Chest_02.ogg"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "虽无法比拟「黄金」，但终有价值。",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/VO_ZH_Albedo_Opening_Treasure_Chest_03.ogg"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "计算失误…",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/VO_ZH_Albedo_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "需要重新评估…",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/VO_ZH_Albedo_Low_HP_02.ogg"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "必须改变策略。",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/VO_ZH_Albedo_Low_HP_03.ogg"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "交给我吧。",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/VO_ZH_Albedo_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "换人，对你来说太危险了。",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/VO_ZH_Albedo_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "尘归尘，土归土…",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/VO_ZH_Albedo_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "实验失败了吗？",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/VO_ZH_Albedo_Fallen_02.ogg"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "我的研究，结束了…",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/VO_ZH_Albedo_Fallen_03.ogg"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "阈值以内…",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/VO_ZH_Albedo_Light_Hit_Taken_02.ogg"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "失算了…",
+      "voicefile": "VO_gameplay/VO_albedo/vo_albedo_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/87/VO_ZH_Albedo_Heavy_Hit_Taken_02.ogg"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "了解。",
+      "voicefile": "VO_teamJoin/vo_albedo_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/VO_ZH_Albedo_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "是拓展课题吗？",
+      "voicefile": "VO_teamJoin/vo_albedo_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/VO_ZH_Albedo_Joining_Party_02.ogg"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "一起探索吧。",
+      "voicefile": "VO_teamJoin/vo_albedo_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/VO_ZH_Albedo_Joining_Party_03.ogg"
+    }
+  ],
+  "cardArt": "assets/characters/10000038-card.webp",
+  "fullArt": "assets/characters/10000038-full.webp",
+  "fullArtWidth": 1374,
+  "fullArtHeight": 1018
+}

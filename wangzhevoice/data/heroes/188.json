@@ -1,0 +1,28 @@
+{
+  "id": "188",
+  "name": "大禹",
+  "slug": "dayu",
+  "title": "鼎镇山河",
+  "roles": [
+    "辅助",
+    "坦克"
+  ],
+  "portrait": "assets/heroes/188-portrait.webp",
+  "cover": "assets/heroes/188-cover.webp",
+  "skins": [
+    {
+      "id": "188-13bb0278fb56",
+      "name": "鼎镇山河",
+      "voiceCount": 0
+    }
+  ],
+  "skinCount": 1,
+  "voiceCount": 0,
+  "sourceUrl": "https://pvp.qq.com/zlkdatasys/yuzhouzhan/herovoice/188.json",
+  "officialPage": "https://pvp.qq.com/web201605/herodetail/188.shtml",
+  "voiceStatus": "not-published",
+  "region": "建木",
+  "faction": "归山一族",
+  "updatedAt": "2026-10-23T13:50:05.071Z",
+  "voices": []
+}

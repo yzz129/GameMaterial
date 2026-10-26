@@ -1,0 +1,30 @@
+node_modules/
+**/node_modules/
+.portal-cache/
+portal-dist/
+**/dist/
+**/cloudflare-dist/
+
+# Local runtimes, deployment state and temporary production files
+.tools/
+**/.wrangler/
+**/.openai/
+**/_backups/
+**/_jobs/
+**/_qa/
+**/__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+*.pem
+*.key

@@ -1,0 +1,517 @@
+{
+  "id": 10000054,
+  "name": "珊瑚宫心海",
+  "enName": "Sangonomiya Kokomi",
+  "title": "真珠之智",
+  "element": "水",
+  "region": "稻妻",
+  "rarity": 5,
+  "weapon": "法器",
+  "birthday": "2月22日",
+  "constellation": "眠龙座",
+  "description": "海祇岛的「现人神巫女」，统管海祇岛各项事宜的少女。",
+  "affiliation": "海祇岛",
+  "cv": {
+    "chinese": "龟娘",
+    "japanese": "三森铃子",
+    "english": "林丽莎",
+    "korean": "吕允美"
+  },
+  "avatarImg": "assets/characters/10000054-avatar.webp",
+  "splashArt": "assets/characters/10000054-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Sango.zip",
+  "voicePackageEn": "Sango",
+  "quoteCount": 69,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "我是珊瑚宫心海，海祇岛的「现人神巫女」。此次与你一起出行，就当做是放松一下…咳，就当做是对外考察吧。不用担心，临行前我留下了不少锦囊，将海祇岛近期的发展计划布置完毕了。稍微离开一会儿，也没有关系。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4d/0k65v3e7bjw1ka7oqzhthk4lg3t6spn.mp3"
+    },
+    {
+      "title": "闲聊·阅读",
+      "desc": "八重堂出版的许多作品，深入浅出地阐明了兵法原理，我很喜欢。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/97/g87t14ll9s3xzndr5jzjp827k2wfie2.mp3"
+    },
+    {
+      "title": "闲聊·游鱼",
+      "desc": "每个生灵的意志都值得尊重，就像海中的游鱼，也有自己的方向。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b0/dgt21frvtdn6be75hqbjfud96etjjzq.mp3"
+    },
+    {
+      "title": "闲聊·准备",
+      "desc": "未雨绸缪，才能临危不乱。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/96/61o2l43azgazdezpa860m6s959lnmvb.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "雨中行军，可以隐蔽声息，但对体能却是很大的考验…",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/54/85fupx61vtc3soxrjaecb95ukvx5yw8.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "雪…真漂亮呀。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/db/i0zity4sooy11zedbx8bo0j6d0vwfwv.mp3"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "天色真好，一起走走吧？",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/09/4uyka7mbbs1gzs8m51plsppnn65zb0e.mp3"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "嗯…这么大的风，正适合用火攻之计。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/76/rvm69e39rjtdpe1e06qytmw73fhbwnd.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早安。我刚刚读到一段有趣的兵法，要一起研究一下吗？",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cd/3s6mzeo3c77q0e0iokcacf6ie6cdyfi.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "下午的作战方案要进行一些修正，这样可以保证更高的效率。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/65/9bdkzufacfc6f8v0ukfwsyzw227nxjm.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "嗯？这么快就到晚上了？跟你在一起，时间总是会过得格外快。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f7/n385u1r57pjzii5v5u64m3f1tgpeh5s.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "好好休息，养精蓄锐。晚安。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/be/soxt6by0kmq26vshtd27j78ha14ch1o.mp3"
+    },
+    {
+      "title": "关于珊瑚宫心海自己·锦囊",
+      "desc": "战场局势千变万化，一念之差就可能葬送全局。所以在开战前，我会将所有情况纳入考量，写成锦囊交给将士们去执行。不过目前来看，他们对锦囊有些过于依赖了。我还是希望他们多读些兵书，靠自己的力量辨析战场的局势，这样才能更好地抓住战机。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/97/lx9ntpisq4n0rve3bp1eyqf0afmfkto.mp3"
+    },
+    {
+      "title": "关于珊瑚宫心海自己·放松",
+      "desc": "真希望这次作战快点结束。八重堂出版的新印《沉秋拾剑录》已经可以买到了，好想呆在房间里一口气看完…",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/iln2tidlvx401yu77ast67nb1w2ta7o.mp3"
+    },
+    {
+      "title": "关于我们·见闻",
+      "desc": "母亲曾教导过我，只有眼界开阔，才能成为合格的领袖。不过以前的我常年往返于珊瑚宫与军队之间，不曾亲自出来冒险，难免会有许多不懂的地方。嗯，这些就请你多担待啦。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b3/9krtgjq5q2upp41180cpy7vs6qm3xac.mp3"
+    },
+    {
+      "title": "关于我们·困惑",
+      "desc": "都说人心难测，但作为现人神巫女，我必须努力去理解每个人的想法才行。就从你开始吧，旅行者，让我猜猜…你现在在想些什么呢？",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/31/6x0gmqv8st43t29vybdx1q40jgam1on.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "在我眼中，「神之眼」便是愿望的象征。我们之所以成立反抗军，反对眼狩令，就是因为愿望是非常宝贵的东西，不该被轻易放弃，更不该被强行剥夺。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3b/c0fd2gyyvbqwpt9mtzn4z9xvjpiwjdt.mp3"
+    },
+    {
+      "title": "有什么想要分享·刊物",
+      "desc": "八重堂出版的刊物中，我尤其喜欢这本《提瓦特战争艺术》。你看，上面记录了许多经典战役，以及兵法名家对此的解析。其中有几篇我特别欣赏，让我来念给你听…",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/VO_ZH_Sangonomiya_Kokomi_Anything_to_Share_-_Periodicals.ogg"
+    },
+    {
+      "title": "有什么想要分享·潜水",
+      "desc": "水下的世界虽不如陆地上明亮，但每次呆在那里时，心都会慢慢沉静下来。鱼群在远处游动，水母在身旁起舞，让人不知不觉就会放下所有烦恼。有机会的话，我带你去看看吧？",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_dialog_share_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/VO_ZH_Sangonomiya_Kokomi_Anything_to_Share_-_Diving.ogg"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "我很喜欢海祇珊瑚真珠，它为海祇岛带来了许多财富，是大海给予我们的馈赠。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2a/8667nu07tc7dxxevjsz2byig64ypro4.mp3"
+    },
+    {
+      "title": "关于五郎…",
+      "desc": "五郎是不可多得的优秀将领。他真诚、坚毅、果敢…能够与部下同食同寝，也能够提出许多出人意料的作战方案。但他也有一个小小的缺点，就是在战斗中容易亢奋上头。如果你和他一起行动的话，一定要在关键时候拉住他。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_teammate_gorou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1b/imh5j9ide3f1lm7fyiaxjjbnf639y59.mp3"
+    },
+    {
+      "title": "关于九条裟罗…",
+      "desc": "不得不承认，九条裟罗是一个难缠的对手。虽然她很少使用计策与谋略，但她在正面战场做得很好。幕府军对她非常信服，在她的带领下团结一致、悍不畏死，曾经几度给反抗军带来了巨大的威胁。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_teammate_kujoSara_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6b/q4kqw8se3ipz4rif830mkj3s9lx8h9y.mp3"
+    },
+    {
+      "title": "关于八重神子…",
+      "desc": "八重宫司的许多事迹，我也有听说过。平心而论，我认为她是一位非常优秀的巫女，至少在「巫女」的本职上，她做到了无可挑剔的程度。听说她还负责八重堂轻小说出版事宜，真是个难以捉摸的人…",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_teammate_yaeMiko_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/12/65w1zt3kvqw0jj7d27pp2z5fnrh05mb.mp3"
+    },
+    {
+      "title": "关于雷电将军…",
+      "desc": "眼狩令结束之后，海祇岛也回归了正常的生活。时至今日，我已经不想去评判将军的对错，我更在意的是海祇岛的未来。我希望将军能够信守承诺，我们与幕府相安无事。但若是有一天，将军再次无视民众的愿望，那我们也绝不会坐视不管。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_teammate_raidenShogun_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/75/mm4wkr1gy6v0b4givzk048vifv7alko.mp3"
+    },
+    {
+      "title": "关于北斗…",
+      "desc": "当时与北斗一同伏击幕府军的时候，我也曾提出过「担心幕府军事先察觉」的担忧。不过北斗对我说，她的船队令行禁止，能够悄无声息地发动奇袭，事实证明果然如此。如今我们海祇岛的船队在训练时遇到了瓶颈，我倒真想请她来指导一番…",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_teammate_beidou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1b/918279pgpk7z9ekvb1ivwcrm7klwj5u.mp3"
+    },
+    {
+      "title": "关于枫原万叶…",
+      "desc": "万叶曾在反抗军待过一段时间。印象里，他跟五郎的关系很好，两个人经常并肩作战。万叶性格洒脱，不喜欢被约束，但身处军队的时候，他又会严格遵守各项纪律。在我看来，他不仅剑术高超，性格也非常成熟。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_teammate_kazuha_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c0/tj489p7jb06iaknw2gbb9gfdqgpqf36.mp3"
+    },
+    {
+      "title": "关于鹿野院平藏…",
+      "desc": "刚开始的时候，我非常诧异有人公开穿着天领奉行的制服来海祇岛。如果他是天领奉行的武士，就不该这么鲁莽；如果他是天领奉行的间谍，又不该这么招摇。不过接触过一段时间之后，我发现这位自称是「侦探」的鹿野院先生，对海祇岛的军事布防、政务商贸都不感兴趣，倒像是来旅游的。所以我只是加派了一些人手盯着他，并没有赶他离开。如果你见到他的话，倒是可以跟他聊上几句。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_teammate_heizou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dd/69bqw2fbo4351ib9yrgmjt3wjt5i1ie.mp3"
+    },
+    {
+      "title": "关于梦见月瑞希…",
+      "desc": "瑞希小姐的能力与才艺有目共睹。我曾想请她出任顾问，协力我一同发展海祇岛的各式文化项目。但几次交谈过后，我便明白，瑞希小姐的目光放眼在整个稻妻。我期待能够早日见证她的成就。如有任何需要，海祇岛也随时欢迎她的到来。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_teammate_mizuki_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e9/fvt2blee3t7544kbje09sy05wf0c5h2.mp3"
+    },
+    {
+      "title": "想要了解珊瑚宫心海·其一",
+      "desc": "越是情况紧迫，越要稳住心态。如果连我也陷入不安的话，其他人要怎么办呢？",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/04/azt1kkku3o718jcnrr8zh8q00aljb95.mp3"
+    },
+    {
+      "title": "想要了解珊瑚宫心海·其二",
+      "desc": "据说我们的祖先曾经生活在海底的渊下宫，是魔神奥罗巴斯将他们带到了地面上。我常常会猜想，海底的宫殿会不会很黑呢？每次想到这里，我就会倍加珍惜眼前的光亮。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/55/2hfwvnlk5m6ogjptbs7xpa4q6v21m7v.mp3"
+    },
+    {
+      "title": "想要了解珊瑚宫心海·其三",
+      "desc": "剑鱼二番队的士兵们，在你离开后也推选出了临时队长，但大家还是希望你能回去。我也只能跟他们说，你有一个重要的任务要独自完成，暂时没办法回来。有机会的话，你可以去看看他们，他们想必会很欢迎你的。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/92/klz2x8riue86w7nmhdwggtq5o5tr65g.mp3"
+    },
+    {
+      "title": "想要了解珊瑚宫心海·其四",
+      "desc": "其实很早以前，我并不想成为现人神巫女，只想每天读读兵书，做一个幕僚。这样就可以把自己隐藏在幕后，身上的担子也会减轻不少。不过最后还是事与愿违，毕竟血脉这种东西，是没办法违抗的…",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fe/5yin4k9e5wlrng5ohi3x6269txruijm.mp3"
+    },
+    {
+      "title": "想要了解珊瑚宫心海·其五",
+      "desc": "成为现人神巫女之后，我也慢慢习惯了这样的生活。起码当我看到不合理的事情时，我有力量去改变它。更重要的是，我因此和你相遇了不是吗？",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9e/6fiy4y44aj6o7u1mzxk10lhgzb9e2m6.mp3"
+    },
+    {
+      "title": "珊瑚宫心海的爱好…",
+      "desc": "喜欢的事情？我想要找一个安静的地方读兵书，读一天都不会有人来打扰的那种。如果你想跟我一起研究兵法的话，我也是很欢迎的。不过…你得睡地板。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_pref_hobby_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/74/dboqyju2zbj0bv0afvwfzohq3xp9ncg.mp3"
+    },
+    {
+      "title": "珊瑚宫心海的烦恼…",
+      "desc": "我其实，并不擅长与人交流。虽然也可以端起「现人神巫女」的架子来应付，但对我来说，这是一件很消耗能量的事情。一旦能量用尽，我也会露出消极的一面。那种形象肯定不能被外人看到啦，民众需要的是一个完美的海祇岛领袖，而不是一个喜欢宅在家里的小姑娘。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7a/dvj2zeuqex3dch113a6gb5dm9vuo5h0.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "鸟蛋寿司，是我很喜欢的一道料理。它材料常见、做法简单，很适合在军中普及。虽然在战事激烈的时候，吃上一顿鸟蛋寿司也是一种奢侈，但绝大部分时间里，这种朴素的料理能给士兵们带来许多满足。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f3/k2bizaktkpirym6ocpndx9hp89297qn.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "嗯…非要说的话，我不太喜欢跟鱼有关的料理。不过这个还请你帮我保密啦，渔业在海祇岛的占比很重，如果让民众知道我不喜欢鱼料理的话，他们说不定会有一些奇怪的担心。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/34/1hy7emfl0wyq7nful5k0525zg9h6bnb.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "嗯，真好吃！能量似乎也…不、没什么…",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/eb/o81ogmp5e7kirxmjbhuu4ngs49pr2sw.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "分几口慢慢吃的话，幸福感也会持续得更久吧。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/da/47pddr0bd113n2oyew28m76yzm6ry4g.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "嗯，你给我出了一个难题呢。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6a/2e5k2gxvkxvcmhg8tx8nqmebqu9ctzy.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "生日快乐！今天有什么安排了吗？没有的话，我们一起在海祇岛庆祝吧。早晨我带你去看日出，白天一起去潜水，晚上的时候在珊瑚宫散步。如果下雨的话，我们就找个地方读兵书，然后一起去尝试做蛋糕。总之今天你不用多想，交给我这个「军师」来安排就好啦。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/be/qgt99vlwfvuyzs3u7bd6vui3ypzr1c2.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "我虽然并不崇尚武力，但能够变强是一件好事。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/63/n73i2dbmmd6kfh4psjlv9h1pkevyjxj.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "力量在不断地涌出…想必下次作战，我们可以配合得更好。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/86/esq7vo0z2b6uli27ecom0fxts3ij3wh.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "沧海月明，潮起潮落。力量更进一步，心境也会有所不同。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/68/gizmln4gxcjprtvp8nthctfpfg4olmm.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "曾经，我也时常会陷入自我怀疑之中。像我这样的人，真的可以胜任现人神巫女的职位吗？不过现在，我已经很少再去想这些了。与你在一起的时候，任何困难都可以迎刃而解。",
+      "voicefile": "VO_friendship/VO_kokomi/vo_kokomi_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f2/isth5bijw9vi00gw0bni5l1jsebb00j.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "帮帮忙！",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/98/bco8go9ex6318w7jgmcndh40il7vqt9.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "别担心。",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fa/o39icmpi7q14o84m64jfuwevbm6ufjx.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "休养生息。",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c1/9qzat8ahswmyr6nu3d0jdt3v6a27bmi.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "沧海之约。",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b8/ta74g4dhmnffgee2hgpgt3qb1awr47u.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "翻涌吧！",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/df/kjfkb78g4rphzg7lveq6rwea5y0qcnq.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "深海的加护！",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/ff/6hq8rqx9ajrm9ec7p1xbxyxl1dcmyno.mp3"
+    },
+    {
+      "title": "冲刺开始·其一",
+      "desc": "我们走吧。",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_explore_sprint_start_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6d/5pqjs7gyzjlvx85tx5finbwxbsae0ul.mp3"
+    },
+    {
+      "title": "打开风之翼·其一",
+      "desc": "风景真好。",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_explore_fly_start_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fb/4c1xddlttulb1l4y0uje3bpowk63dwv.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "补给可是头等要事。",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/07/lldele7qw0volrr4xl76hrl98fztqjg.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "要好好规划一下如何使用。",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c3/jpj1f5umtz340fckdx66rcjbnrwuggp.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "嗯，这就是冒险的乐趣…",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/51/703l6r4u2qybnryve1d3skemry6t68m.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "好累…",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9e/0xkev8ctfunj6ytsxrqjiwjkp94pnk0.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "需要变更战术。",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/03/jba849b9ccagwiz1l0sm0ysh92z6r1c.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "谨慎为上。",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/55/7fu7mi6h44j54nrbsao0y3mx7pszajv.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "援军已至！",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dd/fe0lv031j31lpaaax3sm8c9qen1rxv6.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "请到后方休息。",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/VO_ZH_Sangonomiya_Kokomi_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "计策…出问题了吗？",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dd/fe0lv031j31lpaaax3sm8c9qen1rxv6.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "失误了…",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ae/bzxsr3xwrd1957czqvesbtwyym13bnd.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "不会再犯同样的错误。",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/60/7t6oa23d25rlw5m0hzskqugsakwisnw.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "失策！",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cb/21zj9bnyrrw53ns22neyddp6se6zmkg.mp3"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "真难缠…",
+      "voicefile": "VO_gameplay/VO_kokomi/vo_kokomi_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/75/28kx43oz7qz2xj0gyee46b5x7okevrj.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "这次的作战…让我想想。",
+      "voicefile": "VO_teamJoin/vo_kokomi_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/ca/7v3luncbu9w3o5mn44qyh4n6sx2tn77.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "别紧张，我们一定会赢。",
+      "voicefile": "VO_teamJoin/vo_kokomi_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/99/4ay0dtyafvgc989r2v7eq4fwjuhkp9s.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "万事俱备，出发吧。",
+      "voicefile": "VO_teamJoin/vo_kokomi_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a5/mjqqlbthf656yuiseeygt2uup886xop.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000054-card.webp",
+  "fullArt": "assets/characters/10000054-full.webp",
+  "fullArtWidth": 1158,
+  "fullArtHeight": 918
+}

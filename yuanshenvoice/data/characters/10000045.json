@@ -1,0 +1,517 @@
+{
+  "id": 10000045,
+  "name": "罗莎莉亚",
+  "enName": "Rosaria",
+  "title": "棘冠恩典",
+  "element": "冰",
+  "region": "蒙德",
+  "rarity": 4,
+  "weapon": "长柄武器",
+  "birthday": "1月24日",
+  "constellation": "荆冠座",
+  "description": "除了打扮哪里都不像神职人员的修女。冷淡的言行中透着锐利。总是单独行动。",
+  "affiliation": "西风教会",
+  "cv": {
+    "chinese": "张安琪",
+    "japanese": "加隈亚衣",
+    "english": "伊丽莎白·麦克斯韦",
+    "korean": "金洑娜"
+  },
+  "avatarImg": "assets/characters/10000045-avatar.webp",
+  "splashArt": "assets/characters/10000045-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Aria.zip",
+  "voicePackageEn": "Aria",
+  "quoteCount": 69,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "这位信徒，如果遇到难以解决的麻烦，可以来找我，如果只想祈祷，还请找其他修女。\n…嗯？你不是信徒吗？",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/40/8hs8albu79j65xcm1uoe0dkzsg7lgok.mp3"
+    },
+    {
+      "title": "闲聊·无聊",
+      "desc": "还不走吗？",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_explore_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6b/0f4xiz0f9fzo6ay37yiszzu9nyne91o.mp3"
+    },
+    {
+      "title": "闲聊·加班",
+      "desc": "什么都可以商量，除了加班。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_explore_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/71/hdan157cg8o5r1q6dxva1emoj9963pj.ogg"
+    },
+    {
+      "title": "闲聊·蒙德生活",
+      "desc": "好好完成工作，好好度过每一天。蒙德的生活不就是如此吗？",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_explore_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e1/l70jika3h6cq87fuvl8r39b8c8raxll.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "唉，影响效率。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bf/a2ygl5o2wsnui11mr5bkum73ahxxw5y.mp3"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "嘁，麻烦。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ae/9atfp7mtcma1b0b9l7704xvsr8pjju3.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "雪天赶路，最好小心一些。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f3/ly36cejdwvjud1qrmqoz1j8g78e4au3.mp3"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "是风神巴斯巴托的庇佑吗？等等，好像是巴托巴斯…",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bf/3wvec3lnd5i692zgd1kj6su259kf5nf.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早安，哈…晨祷已经开始了吗？也太早了。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4e/2g8jilyt5iz4tttq4zpgbgymmgqq2hh.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "午后的阳光对睡眠有好处。你也试试吧。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dd/7g02zw6yfwsjisjvmppwo77eja2ici7.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "晚上好。晚间祷告的话，我不参加。嗯？不为什么。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1f/asa1j4ks4wipfoqqo20aew6c5pywr1m.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "去休息吧，不用操心，剩下的事我会处理。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/22/4c72ikrmyigd5t7uexxrd4fs236k7pl.mp3"
+    },
+    {
+      "title": "关于罗莎莉亚自己·修女",
+      "desc": "我？只是个无趣的人而已。如你所见，不爱教会也不爱工作。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/52/04qkezack07ymirjedrip9g0ygdq5c1.mp3"
+    },
+    {
+      "title": "关于罗莎莉亚自己·麻烦",
+      "desc": "那些值班修女一个比一个麻烦，不是抓人去祷告，就是叫人去唱诗班。你可别告诉她们我在这里。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cf/c39u9yayts9eah5p6g33nck40e9oktp.mp3"
+    },
+    {
+      "title": "关于我们·信仰",
+      "desc": "神或许能庇护所有人，可他不会这样做。否则，人的苦难就成了笑话。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/56/h3n93kzvn8i4f4tahno2sqki995iqiv.mp3"
+    },
+    {
+      "title": "关于我们·祷告",
+      "desc": "祈祷吧。不是为了神或其他任何人，而是为了自己。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e0/b6nnucf7un9bs9pjgd24reahilm079q.mp3"
+    },
+    {
+      "title": "关于我们·战斗",
+      "desc": "不要勉强，有困难可以叫我。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_dialog_close2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/66/9fu1pvoh3hqjbno60fqw0eyzh4pwqiv.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "「神之眼」可以是实力的证明，也可以是幸存的勋章…谁知道呢？真正的好东西总是具有两面性。我不会定义「神之眼」。我和它只是互相见证的关系罢了。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/43/pawh2obvh186vz1yisoiw3p5259rkb0.mp3"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "要说什么是值得高兴的好事…呵，只是假设而已。如果有一天你遇到无法解决的难题，也别认为那就是人生的终点。说不定，会有人替你解决困境呢。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0e/ppeldgbw373htnd0jwkzgnqy8lsicw7.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "花草不属于我感兴趣的范畴。不过，蒲公英是个例外，它能酿出相当美味的蒲公英酒。休息时间来一杯，比睡懒觉还舒服。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6b/thpz9jyqg0oppc44vdpey7zzglfkl4o.mp3"
+    },
+    {
+      "title": "关于迪卢克…",
+      "desc": "一看就知道了吧？那位富豪老爷可不是个简单的人物。低调、自信…还有一点危险的气息。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_teammate_diluc_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c0/2c26q5y5t5499f7y66het48wdzj3gf2.mp3"
+    },
+    {
+      "title": "关于凯亚…",
+      "desc": "人往往要到醉酒以后才会露出真面目。油嘴滑舌算是凯亚的保护色吧，呵，一目了然的伪装。你该看看他喝醉的样子。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_teammate_kaeya_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/15/7ar8jtujoryj5vbic5jscpbp1aqcj4z.mp3"
+    },
+    {
+      "title": "关于温迪…",
+      "desc": "这个吟游诗人身上有种非常特殊的气息…我还不能确定真相，但他与别的市民似乎很不一样。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_teammate_venti_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/73/pwwyux5bdx4hgq95orjro98x29a1c3h.mp3"
+    },
+    {
+      "title": "关于芭芭拉…",
+      "desc": "芭芭拉总是缠着我，叫我参加礼拜和唱诗班。难道维多利亚给她下了监督我工作的命令？",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_teammate_barbara_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/77/l26kqqcrpkeaxl7dn45edynxubsya5q.mp3"
+    },
+    {
+      "title": "关于琴…",
+      "desc": "不仅完成本职工作，还会替他人收尾。值得钦佩的女人。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_teammate_qin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/96/ttz6vlsc762erq9wm439vvdhfkfw08a.mp3"
+    },
+    {
+      "title": "关于阿贝多…",
+      "desc": "他就像一副挂在古旧房屋里的油画…厚重、神秘，无法被一眼看透。我不讨厌有故事的人。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_teammate_albedo_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/85/lp0xtiokkpefluvrhqv2kxv1v19sswy.mp3"
+    },
+    {
+      "title": "关于丽莎…",
+      "desc": "我不喜欢上班偷懒的人，不过也很能理解她准点下班的心情。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_teammate_lisa_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/27/92o2luonudxtgbdsrrs2rg4ja4ug2zn.mp3"
+    },
+    {
+      "title": "关于可莉…",
+      "desc": "唉，除了麻烦就是麻烦，虽然是可爱的麻烦。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_teammate_klee_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ee/hnlrno5r258w9n49n1tfwezch1ahg8u.mp3"
+    },
+    {
+      "title": "关于法尔伽…",
+      "desc": "虽说是出于好意，但法尔伽啰嗦起来像个老头一样，相当在意身边的人呢。唉，那家伙。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_teammate_varka_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/ba/mfm1acyplbefhzs5fk1kqc770gg4g1z.mp3"
+    },
+    {
+      "title": "关于父亲…",
+      "desc": "父亲？好遥远的词汇啊。对我而言可以说没有，也可以说有不止一个。怎么？很惊讶吗？",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_teammate_father_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2a/igpmo9fu7a0umqskye69vu76fhhm7pn.mp3"
+    },
+    {
+      "title": "想要了解罗莎莉亚·其一",
+      "desc": "跳过寒暄吧。我来这里是为了完成工作，你解决不了的问题可以移交给我。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c7/5w3f0nvhdsyhij3lp60zo4gpjnkcwqk.mp3"
+    },
+    {
+      "title": "想要了解罗莎莉亚·其二",
+      "desc": "不信神的修女并不稀奇，就像世上也有不喜欢吃猪肉的猎人、讨厌鱼肉的渔民。做某一件事不代表爱它，不爱一件事也不意味着必须远离。工作就是这样的东西。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/68/7kchiyty0slyq838lb95rl71didfv87.mp3"
+    },
+    {
+      "title": "想要了解罗莎莉亚·其三",
+      "desc": "来一杯吗？这是今年的蒲公英酒，味道很不错。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fa/9sf6k9cuoibv2vzbq3jcvgq59ok7zas.mp3"
+    },
+    {
+      "title": "想要了解罗莎莉亚·其四",
+      "desc": "蒙德是一头既古老又年轻的白色野兽，古老到需要人去保护，也年轻到无法独立生存。只有这样的地方才会需要我这样的人。我像其他修女照顾市民那样照顾着蒙德，让它在自由的道路上平稳前进。你问我为什么它是白色的？…因为像我这样的人，是黑色的。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/76/9f9qxhos4j2d5caaw11spcqn8n6x7ne.mp3"
+    },
+    {
+      "title": "想要了解罗莎莉亚·其五",
+      "desc": "我偶尔能感觉到过去每一年的自己都存在着、围绕着我…对我有所寄托。你一定也有相同的感觉，所以，哪怕如今你已走上截然不同的道路，也不要否认从前的自己。从前的每一个你，都是你脚下的基石。不要害怕过去，不要畏惧与它抗衡。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/07/5jf6si58msaaywpf4k7z3d8dmo2r8wp.mp3"
+    },
+    {
+      "title": "罗莎莉亚的爱好…",
+      "desc": "小酌怡情，有些烦心事只能靠酒精解决。话虽如此，我是不会醉的。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1b/7joc3idxh7ij1xtxczu11b8e5oz2s5x.mp3"
+    },
+    {
+      "title": "罗莎莉亚的烦恼…",
+      "desc": "唉…真不想参加下个月的合唱活动，可维多利亚亲自点名了…",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/be/ohuoemihm8spdcfwspgwveakuhqpkwz.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "试过红酒炖兽肉吗？酒精和大块的动物肉出现在一个盘子里，相当有品味。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/97/q8zf4u8d47xgf43z4yna3xssceza1et.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "这个…这个土豆饼的蘸料居然是果酱？完全不合理！",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4e/2sxvbo8q4g9ssyj0tfp8pu0cquywtt2.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "看来这方面，我们品味相投。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2d/qqgevok7ok0uhsox0g15dzi546ahdbs.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "至少能填饱肚子。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/58/bwbbyzatkwql9tps3cmqhm3ozezt5t7.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "你对这种食物很感兴趣吗？",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/56/ifew30dz8a8s2emg5dvchwzn2ddqseo.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "今天是你生日，有什么想处理的人或事吗？我可以帮个小忙，别告诉其他人就行。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2a/gtu4zoruiii4yg6423hupm6lzdnldm2.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "嗯，感觉不错。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c0/o1xrdmg1wdelj8ti4htqg6176rz80yy.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "需要帮忙吗？我现在有空。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/29/phbfxbqrmn6yp3znk2vtd9cx67gdlx3.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "也好。能力越强，效率越高。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9a/8rh796vjbw0ki2oeh5yav3h4yl0el5x.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "哪怕是擅长战斗与杀戮的我，也从未拥有过如此强大的力量，谢谢你的祝福。",
+      "voicefile": "VO_friendship/VO_rosaria/vo_rosaria_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/11/69gilec27nuryi112k2oizg349hm5lt.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "嘿呀！",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/11/69gilec27nuryi112k2oizg349hm5lt.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "审判！",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7c/gkbm6tn1jqny0yd1qqyy4pb1kkyj982.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "别想跑！",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c3/ee096k3929e6wnr20u9bxzwnmajp65k.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "制裁！",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/95/pm89dc0r92nec50n7ehbdgbvht773f6.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "战栗吧！",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7e/ilb8j1lct6y8bth381i6dqzbfy27s5y.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "晚安了…",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/43/dphe6kzrabef4spqhucoll0u93aqy71.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "…倒也有不错的玩意。",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f3/rsxbliho9372pprnwjcl01jg0kkjqqn.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "还行，不算很麻烦。",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7a/3as75up44uda5wre24dwtqc5oqdoxgb.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "心情不错。",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a0/ooxblmssm69ilbkj7m051g86i8x45hb.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "没想到…哼。",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c3/egdq9f31ipytkq3ewd81i1xi5cr5xr8.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "得加个班了。",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/82/95rjszura8jckke8esgs7lnta970x9f.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "有两下子！",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/21/b8o7vztm2cnysf16zbgl4smjwu3b0km.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "退后！",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/4u2z5cioefdhz69d8nf8qtplcr91ofn.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "不要恋战！",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/82/95rjszura8jckke8esgs7lnta970x9f.mp3"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "这样也好…",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/4u2z5cioefdhz69d8nf8qtplcr91ofn.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "或许是…命中注定…",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e7/s3ui7z67faeyjk49annr5th0uo4fcyu.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "唔…到此为止了吗…",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4d/lin1psv4d9a2j7cwpz4fqroigv20gb5.mp3"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "不过如此。",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/25/51e2dwftwd1xytx0fx0jr3kqwscwwqb.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "啧，真麻烦！",
+      "voicefile": "VO_gameplay/VO_rosaria/vo_rosaria_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1f/ati77dcg8w1edas94cdjgf5cdtogzbn.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "又有新工作了？",
+      "voicefile": "VO_teamJoin/vo_rosaria_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d9/p59s9bk8php4nxpfqzdn2awn23eyiqz.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "但愿配合顺利。",
+      "voicefile": "VO_teamJoin/vo_rosaria_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/77/9f9fa8ut8y4ij4bql3e7aev8tvzyody.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "呼…速战速决。",
+      "voicefile": "VO_teamJoin/vo_rosaria_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ea/1d9oft464n59xpqccbr4dv64ztqi85k.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000045-card.webp",
+  "fullArt": "assets/characters/10000045-full.webp",
+  "fullArtWidth": 989,
+  "fullArtHeight": 901
+}

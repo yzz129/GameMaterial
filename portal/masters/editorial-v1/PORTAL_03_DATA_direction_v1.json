@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "direction": "星空画册，书法标题，大幅无框游戏插画，连续场景，页尾动态星海",
+  "designVariance": 8,
+  "motionIntensity": 6,
+  "visualDensity": 3,
+  "concept": {
+    "file": "PORTAL_03_DATA_mobile-concept_v1.png",
+    "provider": "OpenAI built-in image_gen",
+    "taskId": "exec-561c6797-77ef-40ba-894a-ed1b22ca7a7e",
+    "brief": "Complete mobile redesign of 游藏 / GAME MATERIAL, preserving the two game destinations, factual counts, search and existing silver AE headline. Open slim brand header, calligraphic typography, dark navy celestial art-book aesthetic, generous space, unboxed image-led 原神 and 王者荣耀 entries with a text CTA and circular arrow. Use original Paimon and Li Bai illustrations. Full-bleed cinematic video footer with 让热爱 / 有迹可循. No pinyin, sentence periods, large header border, nested glass panels, invented features or fake metrics.",
+    "references": [
+      "user screenshot 94c2284d76dae81cc17e2df46a8344aa.jpg",
+      "portal/assets/PORTAL_02_FG_title-mobile_v1.webp",
+      "yuanshenvoice/assets/video/teyvat-starry-sea-poster.webp"
+    ]
+  },
+  "background": {
+    "file": "PORTAL_03_BG_celestial-editorial_v1.png",
+    "provider": "OpenAI built-in image_gen",
+    "taskId": "exec-254e3ac9-2a3f-4c80-a06a-4ec358e2e114",
+    "prompt": "Create a standalone scenic website background asset from the TOP HERO scenic environment of the provided website concept. Output a wide 3:2 landscape illustration only, no typography, no logo, no UI, no characters, no frames, no watermarks. Preserve the exact midnight cobalt celestial art-book look: elegant curved gold crescent moon and white ruined columns on the left lower third, delicate dark green leaves and small pale flowers framing far left edge, layers of soft moonlit blue clouds along bottom, deep navy starry sky with a subtle blue nebula across the right. Broad clean dark blue negative space across the upper half and middle-right for a silver headline. Painterly premium fantasy game art, calm luminous depth, not photographic and not noisy, modest stars not dense glitter. No magenta, no green aurora in this asset. Match the provided concept's top scene, no Paimon or warriors, no lettering of any kind.",
+    "reference": "PORTAL_03_DATA_mobile-concept_v1.png"
+  },
+  "typography": {
+    "calligraphy": "Ma Shan Zheng, SIL OFL 1.1, navigation, section titles and footer",
+    "body": "Noto Serif SC, SIL OFL 1.1, readable metadata and copyright",
+    "gameNames": "Genshin existing gold wordmark and Honor of Kings official world-site title font",
+    "hero": "Existing Image Gen title with After Effects motion render"
+  },
+  "review": "Concept used as mobile composition reference; production uses original game artwork, semantic HTML controls and original video bytes"
+}

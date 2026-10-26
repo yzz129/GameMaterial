@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "games": [
+    { "id": "yuanshen", "slug": "genshin", "directory": "yuanshenvoice" },
+    { "id": "wangzhe", "slug": "honor-of-kings", "directory": "wangzhevoice" }
+  ]
+}

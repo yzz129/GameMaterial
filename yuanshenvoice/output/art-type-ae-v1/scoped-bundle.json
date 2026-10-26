@@ -1,0 +1,14 @@
+{
+  "scope": "AE typography, responsive layout and motion lifecycle only",
+  "baseline": "_backups/2026-10-23-art-type-v1",
+  "sharedWorkspacePreserved": true,
+  "files": {
+    "app.js": "b2bca9beb071dc3ae15ad9a041c44ea9fa94b2117c9b7c4ab0d725d9561dfdce",
+    "styles.css": "8712a6df50274fb5fa792058c593e63f1f67ec12441d1ebe262441ee6c3857d4"
+  },
+  "workspace": {
+    "app.js": "ef00957cb3d5824f91626c55a18fe82c0eb6f21b2277ca31208d65364b75c7f9",
+    "styles.css": "bafdec352ea3c8aea52eb06880cfbaa1bcf7696275a5463cd4dc61e37e5c9518"
+  },
+  "deferred": "Concurrent music-box feature and its audio packaging remain in the shared workspace."
+}

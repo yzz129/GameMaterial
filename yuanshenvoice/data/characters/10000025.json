@@ -1,0 +1,573 @@
+{
+  "id": 10000025,
+  "name": "行秋",
+  "enName": "Xingqiu",
+  "title": "少年春衫薄",
+  "element": "水",
+  "region": "璃月",
+  "rarity": 4,
+  "weapon": "单手剑",
+  "birthday": "10月9日",
+  "constellation": "锦织座",
+  "description": "经常能在书摊看到的少年人。手执长剑，胸中常怀侠义之心。",
+  "affiliation": "飞云商会",
+  "cv": {
+    "chinese": "唐雅菁",
+    "japanese": "皆川纯子",
+    "english": "克里斯蒂娜·比·巴伦苏埃拉",
+    "korean": "郭奎媄"
+  },
+  "avatarImg": "assets/characters/10000025-avatar.webp",
+  "splashArt": "assets/characters/10000025-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Xingqiu.zip",
+  "voicePackageEn": "Xingqiu",
+  "quoteCount": 77,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "在下行秋，不过书海一蠹。某虽不才，仍愿为君略尽绵薄。难得有机会说这种风格的台词，感觉还不错。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/17/ec2um96k1pxuedfegudsl8sw5l79ceg.mp3"
+    },
+    {
+      "title": "闲聊·无人夜",
+      "desc": "「有时明月无人夜，独向昭潭制恶龙。」",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_explore_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8f/7knvnmyz4im1yhrmzibwftqqvf8v921.mp3"
+    },
+    {
+      "title": "闲聊·文章",
+      "desc": "「衣裓贮文章，自言学雕虫。」",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_explore_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/02/degs1ts7yjmpqm0bjyr867u6rspqv6c.mp3"
+    },
+    {
+      "title": "闲聊·偷闲",
+      "desc": "正所谓「偷得浮生半日闲」，哈哈。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_explore_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b5/20lttx331q3b3213njk2dzumbx9cu8n.mp3"
+    },
+    {
+      "title": "闲聊·阅卷",
+      "desc": "如此如此，这般这般…欸？欲知后事如何，且听下回分解？唔…",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_explore_idle_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/70/pfxelhr0jqio39f68th0430163600fe.mp3"
+    },
+    {
+      "title": "闲聊·新书",
+      "desc": "盘算着也该到「万文集舍」新进小说的日子了，不妨…我们顺道去看看？",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_explore_idle_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/da/6p0xw01kmwkrske1l510mau4cif56qw.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "这么说来，我们家出品的锦缎伞，好像既不能遮阳也不能挡雨。唯一的用处就是挂在墙上。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c7/r3azi8y8oisghoakcjwli5m8oqv693z.mp3"
+    },
+    {
+      "title": "雨过天晴…",
+      "desc": "晴了就好，不然藏书会生霉的。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_weather_afterRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cd/dg4lijsieu5lb8qfiw3gi6e7m0uc94b.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "只有这种天气的时候，我才会觉得家里比书店好。家里炭火很足，而书堆里就不准用火。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/37/3imb7i1e1b24msik0mmwtnzdjvxhwr3.mp3"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "练功的好…啊不，是看书的好时节啊。好啦，我脸上又没有写字，别一直盯着我看了。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e2/88k5cxqoyhj5q95eaagj4f5wvpy416x.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早啊。早上的时间这么难得，能做做自己喜欢的事情就好了。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/97/cg3t26t6w076rol8spl4mq2suq7srus.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "午饭有点不想吃米饭，想吃糕点。待在书斋吃，父亲和兄长就不知道了…嗯？想一起来吗？嗯…只要你不把碎屑沾到书上就行。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8b/smoagn0zaygoha4264t6q7zux0avhio.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "去偷点萤火虫来看书，怎么样？唔，我的玩笑话你可别当真，对眼睛不好的。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cf/f9vgn7tvctn3hom94oo5cbleqi8yyss.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "明天我也在老地方。只要你不中途迷了路，就准能找得到我。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7c/0p04xxjiiv2twa38qgb5f3ojg6567oi.mp3"
+    },
+    {
+      "title": "关于行秋自己…",
+      "desc": "在人前彬彬有礼，是因为大家见我是飞云商会的二少爷；在你面前能这么轻松，大概因为你看我的方式并不一样吧。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/59/99ok5ui4p2p97hxrmhfso5mu3hkqqw6.mp3"
+    },
+    {
+      "title": "关于我们·书友",
+      "desc": "你算是我的书友吧。什么？打架？古华派？战友？…唔！你都在说些什么呢。不是说好这是我们两人间的秘密吗！",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bd/hqd14tvkauv9cceld5yqfyfv7qttn7j.mp3"
+    },
+    {
+      "title": "关于我们·结拜",
+      "desc": "我要和你结拜，就去绝云间的祭坛那边。不行，不能拒绝。你知道了我的底细，也就知道了一直被我掩饰着的真实的自己…我不能放你走。除非…你答应我不会撒手不干！",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bc/1lnzcdi804wfnbprb2heor32alh8amx.mp3"
+    },
+    {
+      "title": "关于「神之眼」·古书",
+      "desc": "「神之眼」的事情，虽然一般少有记载，但在我所收集的古书中却有一段特别的描述，待我找给你。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/30/4d25jban6e2qbi66x6khj1z0f4k2vpz.mp3"
+    },
+    {
+      "title": "关于「神之眼」·领悟",
+      "desc": "受书中启发，我领会到，枪术与剑术的本质，正是瞳术。唔，解释起来可能有点费力…如果你真想知道，就跟我去「王山厅」走一趟吧。事先声明，到时候你可不准笑。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_dialog_pendant_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dd/dk8a43qjgryah6u5tnizi72h02e9owo.mp3"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "璃月非去不可的地方？这个问题很难回答，不过，如果消失了会让我很难过的地方…「万文集舍」稳排第一，「古华堂」能进前十吧。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_dialog_share",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/83/icezuy2ekh0iod5z4du33eb2yetvbub.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "以前是兔子，后来是鹿。对我来说，「请从绝处，读我侠义」是舍弃一切的觉悟，鹿却是绝处逢得新生的希望。真想再见它一次啊。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5c/pkjxna4h1oa33p5zbjxtvl282hpix04.mp3"
+    },
+    {
+      "title": "关于北斗…",
+      "desc": "北斗阁下是我非常敬重的人。不过希望她不要喊我「小子」，也不要一见面就揉我头发。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_teammate_beidou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/91/be8j4jq4r0yn5ly1ps81okilod1ob6t.mp3"
+    },
+    {
+      "title": "关于凝光…",
+      "desc": "「天权」大人是我不得不敬重的人。不然会给家父以及家兄添麻烦。嗯？对她本人，我想想。嗯…还是算了，不说人坏话了。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_teammate_ningguang_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fb/1g26l6i3cp0dm2uzi0688mfmndbzza7.mp3"
+    },
+    {
+      "title": "关于重云…",
+      "desc": "唉，重云这家伙，虽然也知道我的底细，但真要和他搭档去完成任务还得审慎。他现在还是执着「武」技，却不理解「侠」心的境界。需要多练练。尤其…是吃辣的方面，哈哈。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_teammate_chongyun_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/15/gg386wuiz8odz9ta2r5v6tgne4jixyy.mp3"
+    },
+    {
+      "title": "关于云堇…",
+      "desc": "云堇啊，她只要能喝到满意的饮品，就会有动力去创作新戏。我呢，就一直在床底下囤着一小罐茶叶，就是为了等哪天她兴致索然的时候给她送去。这样，我就有听不完的异侠传奇了！",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_teammate_yunjin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ed/46hes01irmrsaura0go8dilvqacadp4.mp3"
+    },
+    {
+      "title": "关于胡桃…",
+      "desc": "那个小姑娘，正是「往生堂」的当代堂主。嗯？问我怎样看待她的为人？…行事作风嘛，坊间传闻是作不了数的。真想了解一个人，还得看她真正想要的是什么。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_teammate_hutao_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3d/mharsuou5m7n8nwm1s8nlfds2ip8qfv.mp3"
+    },
+    {
+      "title": "关于七七…",
+      "desc": "总感觉七七的身上藏着谜团。但只要白术先生在场，就跟她说不上几句话。除非，我们能找个白术先生外出看诊的机会，专门…",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_teammate_qiqi_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d1/nvhmjq5pxq0m477bf5kgkgxlqcfhi2k.mp3"
+    },
+    {
+      "title": "关于香菱…",
+      "desc": "见到香菱的时候，你可得多观察一下她的表情。尤其是刚刚添置完食材回来的香菱，笑得越开心，就越危险。要是被她缠上、逼你试吃新品…这种情况，我一般会靠重云来处理。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_teammate_xiangling_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6d/d0vpk4dapq1kgjzb7wbhchg294xa852.mp3"
+    },
+    {
+      "title": "关于辛焱…",
+      "desc": "辛焱到底是在哪里演出的？从吃虎岩到玉京台，哪里都躲不过那种鸡飞狗跳的穿透力…唉，能够安静看书的时日是多么宝贵啊。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_teammate_xinyan_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7d/e30y004o3tc35uywpvo5l41axliobg1.mp3"
+    },
+    {
+      "title": "关于阿贝多…",
+      "desc": "下一卷、下下卷、下下下卷的重要场景，我都已经想好要配怎样的插画了！啊，必须赶快把灵感记下来，修书一封，寄给白垩老师…",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_teammate_albedo_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d6/h2l0865bt48o0wqrw1jhwwyrmfasbug.mp3"
+    },
+    {
+      "title": "关于钟离…",
+      "desc": "我看见过家父和家兄接待这位先生，就从他们行礼时候的恭敬态度来看…对方应该是很有地位的人物吧。我还听说他是给仙人办丧事的人，感觉很有底蕴。要不要一起去挖掘他身上的秘密呢？",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_teammate_zhongli_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f3/7i8xdd0o66zhy8l1p8uh7mxqraqjl5g.mp3"
+    },
+    {
+      "title": "关于申鹤…",
+      "desc": "总觉得申鹤小姐看我的眼神里略显凶恶，让我不敢随便跟她搭话。奇怪，难道我无意中得罪过她吗？或者…得罪过她身边的人？",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_teammate_shenhe_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/16/ge319msoqxsp68i5j4pknyyd403res3.mp3"
+    },
+    {
+      "title": "关于夜兰…",
+      "desc": "你听说过「一人千面」这个词语吗？夜兰小姐就给我这种感觉。上门来访的时候，家父和家兄以礼相待，她也还之以礼，就像是个亲切稳重的大姐姐。可在别的地方见到她时，又完全是不同的印象。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_teammate_yelan_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/VO_ZH_Xingqiu_About_Yelan.ogg"
+    },
+    {
+      "title": "关于嘉明…",
+      "desc": "嘉明的工作颇有侠之风范。试想，功夫盖世的黑衣少年携手威武镇煞的瑞兽，在月黑风高夜，将盗贼与恶徒打得落花流水，狼狈而逃…等他得空，真想听他多分享一些走镖路途中的见闻。你也一起来吧？",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_teammate_gaming_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/15/VO_ZH_Xingqiu_About_Gaming.ogg"
+    },
+    {
+      "title": "想要了解行秋·其一",
+      "desc": "阁下近来可好？如果闲来无事，可以来「万文集舍」转转。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/16/ge319msoqxsp68i5j4pknyyd403res3.mp3"
+    },
+    {
+      "title": "想要了解行秋·其二",
+      "desc": "问我为什么总是一个人看书？好学…并不是什么坏习惯吧。没有什么特别的地方，嗯，真的没有。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d4/hpsa5cl4vfanftmc6qcik6u9606g71j.mp3"
+    },
+    {
+      "title": "想要了解行秋·其三",
+      "desc": "今天的时间已经空出来了吗？好，我也随时可以出发。书？没关系，书可以回来接着看，那些需要我们帮助的人可不能等啊。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8d/ckyhxihxsdvsuh61kk3e6o978y7ylpd.mp3"
+    },
+    {
+      "title": "想要了解行秋·其四",
+      "desc": "你说你有个好点子？用我们之前做的事情当原型，写一本探案集加武侠题材的小说，《万文集事件簿》？嗯，啊哈哈哈…是个好点子，但是不采纳。嗯，不会采纳的。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/4y3net8hoh8yakfsegzv2urw8rnpx1y.mp3"
+    },
+    {
+      "title": "想要了解行秋·其五",
+      "desc": "「洋洋万言，织诗成锦。」唉，我也想有这样的评价啊。这件事我只和你一个人说。其实，我也在写小说。现、现在当然不能给你看，以后…以后你会在书店里看到的。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6e/546lrjde0cq0c4kz9aftf1eecawgpoi.mp3"
+    },
+    {
+      "title": "行秋的爱好…",
+      "desc": "我的爱好自然是看书。什么书都会看。嗯？你一脸坏笑看着我干什么。唔，那事我们两个知道就行了，还是不适合明面上讲。说出来就没意思了。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ec/ijsbjivk8r5ngbl1oa5xhek18rb6hsb.mp3"
+    },
+    {
+      "title": "行秋的烦恼…",
+      "desc": "烦恼啊，嗯…未来有朝一日兄长继承了家业，我会怎么样呢？这样无忧无虑的生活恐怕…啊，我不是在说身份之类的，我不在乎那些。我是觉得大哥太呆了，没我帮忙不太行啊。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/56/t3b4spf3ieepyiqvc6fst9lop4znv2a.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "我比较喜欢吃糕点和月菜海鲜。主要是因为，我们家一直就吃得很清淡吧。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c0/0nxh7r4n733hru8z7wmbesqcu09zbag.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "我很讨厌胡萝卜，小时候家母经常捣碎胡萝卜做成…还是不要让我讲下去了。即使是在回忆里，那种味道也…",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e7/7uwfetueesx333n7bhfnp38kt3t70on.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "此等美食，吃过一次就再难忘怀了啊。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4c/etgtm9hgr1e43ahhzuc8zj4oczv89xe.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "既然你有这份手艺，不如我们开个路边餐馆，如何？",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/VO_ZH_Xingqiu_Receiving_a_Gift_-_02.ogg"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "你吃你吃，不必客气。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/VO_ZH_Xingqiu_Receiving_a_Gift_-_03.ogg"
+    },
+    {
+      "title": "生日·祝福",
+      "desc": "咳，咳咳。恭祝你福寿与天齐，庆贺你生辰快乐。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_pref_birthday_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/VO_ZH_Xingqiu_Birthday_-_Wishing.ogg"
+    },
+    {
+      "title": "生日·习俗",
+      "desc": "据记载，天成石桥是上古战争时候，岩之神摩拉克斯投出的石枪倒塌后形成的。要是生日当天在桥上走一趟，往两边海里投点摩拉，就能保佑一年安康…生日一年只有一次，想去的话就快点去吧…没骗你，是真的。真的，快去吧。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_pref_birthday_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/VO_ZH_Xingqiu_Birthday_-_Customs.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "如果没有能力，那我心中的那个字，可能也就停在纸面上了吧。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4c/etgtm9hgr1e43ahhzuc8zj4oczv89xe.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "如果心中没有善恶的标尺，努力就会错了方向。舍本逐末，变成追逐暴力的俗人。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f6/0xo5wqte534i6v8kyer15gnpdg0f8pm.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "我所追求的那个字，在璃月这方土地上并非处处通行。不过行道至此，我对这一点早就有了足够的认识。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7e/kr12kdjcono5xm8v9jf1xlvw3x9ig0o.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "多亏了你的陪伴。我对自己也很满意了——无论是武学，还是对那个字的理解。唉，算啦。我也不用对「侠」字讳莫如深了。我的「侠」，父亲和兄长应该也不会质疑了。只不过嘛，低调行事这点还是得保留的。",
+      "voicefile": "VO_friendship/VO_xingqiu/vo_xingqiu_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/VO_ZH_Xingqiu_Feelings_About_Ascension_-_04.ogg"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "雨线难画。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/VO_ZH_Xingqiu_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "裁——！",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/VO_ZH_Xingqiu_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "断！",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/VO_ZH_Xingqiu_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "古华深秘。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/VO_ZH_Xingqiu_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "织诗成锦。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/VO_ZH_Xingqiu_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "裁雨留虹。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/VO_ZH_Xingqiu_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "冲刺开始·其一",
+      "desc": "形随神至。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_explore_sprint_start_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/VO_ZH_Xingqiu_Sprint_Start_01.ogg"
+    },
+    {
+      "title": "冲刺开始·其二",
+      "desc": "该行动了。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_explore_sprint_start_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/VO_ZH_Xingqiu_Sprint_Start_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "甚好甚好。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/VO_ZH_Xingqiu_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "寻得珍宝，真是充满侠意的经历。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/VO_ZH_Xingqiu_Opening_Treasure_Chest_02.ogg"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "倘若还有几卷失传的古书，就完满了。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/VO_ZH_Xingqiu_Opening_Treasure_Chest_03.ogg"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "计划有变…",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/VO_ZH_Xingqiu_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "接下来就不再是「点到为止」了。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/VO_ZH_Xingqiu_Low_HP_02.ogg"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "「请从绝处，读我侠义。」",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/VO_ZH_Xingqiu_Low_HP_03.ogg"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "过来这边，我有一计。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/VO_ZH_Xingqiu_Ally_at_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "小心行事为好。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/VO_ZH_Xingqiu_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "承蒙…赐教…",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/VO_ZH_Xingqiu_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "灯华易散…我是知道的。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/VO_ZH_Xingqiu_Fallen_02.ogg"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "失手了…",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/VO_ZH_Xingqiu_Fallen_01.ogg"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "不妨事。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/VO_ZH_Xingqiu_Light_Hit_Taken_02.ogg"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "大意了。",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/VO_ZH_Xingqiu_Heavy_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "不好…",
+      "voicefile": "VO_gameplay/VO_xingqiu/vo_xingqiu_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/VO_ZH_Xingqiu_Heavy_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "厚积而薄发。",
+      "voicefile": "VO_teamJoin/vo_xingqiu_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/VO_ZH_Xingqiu_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "不惭世上英。",
+      "voicefile": "VO_teamJoin/vo_xingqiu_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/e3/VO_ZH_Xingqiu_Joining_Party_02.ogg"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "扶善惩恶，当仁不让。",
+      "voicefile": "VO_teamJoin/vo_xingqiu_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/e3/VO_ZH_Xingqiu_Joining_Party_03.ogg"
+    }
+  ],
+  "cardArt": "assets/characters/10000025-card.webp",
+  "fullArt": "assets/characters/10000025-full.webp",
+  "fullArtWidth": 785,
+  "fullArtHeight": 923
+}

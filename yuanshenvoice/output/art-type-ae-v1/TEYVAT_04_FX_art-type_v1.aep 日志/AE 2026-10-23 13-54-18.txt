@@ -1,0 +1,22 @@
+Adobe After Effects v26.5 Windows 64 为项目“TEYVAT_04_FX_art-type_v1.aep”渲染日志
+
+渲染在“13:54:18”的“2026/10/23”上开始
+
+  “2026/10/23”“13:54:18”: 开始合成“TITLE_MAIN_ALPHA”。
+
+  输出到: D:\yuanshenvoice\output\art-type-ae-v1\frames\main\TITLE_MAIN_[####].png    “2026/10/23”“13:54:22”: 完成的合成“TITLE_MAIN_ALPHA”。
+
+
+  “2026/10/23”“13:54:22”: 开始合成“TITLE_NAHIDA_ALPHA”。
+
+  输出到: D:\yuanshenvoice\output\art-type-ae-v1\frames\nahida\TITLE_NAHIDA_[####].png    “2026/10/23”“13:54:27”: 完成的合成“TITLE_NAHIDA_ALPHA”。
+
+
+  “2026/10/23”“13:54:27”: 开始合成“BRAND_GOLD_ALPHA”。
+
+  输出到: D:\yuanshenvoice\output\art-type-ae-v1\frames\brand\BRAND_GOLD_[####].png    “2026/10/23”“13:54:27”: 完成的合成“BRAND_GOLD_ALPHA”。
+
+
+  已用总时间: 9 秒
+日志在“13:54:27”的“2026/10/23”上关闭
+

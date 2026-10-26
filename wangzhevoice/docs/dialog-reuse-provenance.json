@@ -1,0 +1,9 @@
+{
+  "source": "shared/teyvat-styles.css",
+  "sourceSha256": "2376b1b3e31c0adc61b0a15987657306a9eb4c7a65198ac7fd09e65c3e6be297",
+  "derived": "shared/teyvat-dialog.css",
+  "derivedSha256": "7e829dd56ea524b637c45b064fd1267bf5dfdab0d1ada6f701acfb5c0b983b66",
+  "rules": 1495,
+  "policy": "Original selectors scoped to #characterDialog, original declaration values/priorities and media queries preserved; root typography/tokens inherited locally; old game dialog declarations reset",
+  "extension": "Wangzhe skin selector only, placed in the original header without changing its flow"
+}

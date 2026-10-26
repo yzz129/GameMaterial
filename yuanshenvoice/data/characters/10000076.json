@@ -1,0 +1,510 @@
+{
+  "id": 10000076,
+  "name": "珐露珊",
+  "enName": "Faruzan",
+  "title": "机逐封秘",
+  "element": "风",
+  "region": "须弥",
+  "rarity": 4,
+  "weapon": "弓",
+  "birthday": "8月20日",
+  "constellation": "蔓藤花饰座",
+  "description": "来自「一百年前」的学者，喜欢以前辈自居，对各类古老文字与古典机关都颇有研究。",
+  "affiliation": "室罗婆耽学院",
+  "cv": {
+    "chinese": "阎萌萌",
+    "japanese": "堀江由衣",
+    "english": "婵达妮·帕雷克",
+    "korean": "金愈琳"
+  },
+  "avatarImg": "assets/characters/10000076-avatar.webp",
+  "splashArt": "assets/characters/10000076-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Faruzan.zip",
+  "voicePackageEn": "Faruzan",
+  "quoteCount": 68,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "这是当年教令院的杰出学者奖，这是须弥解谜协会终身成就奖，还有遗迹机关研讨会的…如何，可有志愿拜入我门下？咳咳，顺带一提，珐露珊前辈我是知论派学者，找我请到室罗婆耽学院来，不是刹诃伐罗学院，别走错地了。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_draw_appear_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/47/ehe6eywevwq2ft56u15c7qobckb8ecj.mp3"
+    },
+    {
+      "title": "闲聊·规矩",
+      "desc": "都过去一百年了，教令院的这些傻规矩怎么一点没改啊…",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c4/62hdcl31mag3f5jl0tpeyas0lx65pne.mp3"
+    },
+    {
+      "title": "闲聊·前辈",
+      "desc": "啊——？什么？年纪大，听不见。先叫声前辈听听吧。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c7/n39xf1ytu1c9guzmvad1d69srex4ex6.mp3"
+    },
+    {
+      "title": "闲聊·做学问",
+      "desc": "做学问可不是赶潮流，没有冷门热门之说。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/57/7ax9emocpi60mt7xu6p5xpzlpl1rc7z.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "早不是小孩子了，下雨天有什么好兴奋的。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f4/dcuqo55dzq2uvql1zddaaqgi5ba1jl0.mp3"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "呜哇！？怎、怎么啦？年纪大就不可以害怕打雷了吗？",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0e/cggern36981u6e3oljp1nzmrzre8lbe.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "好美…让人着迷…阿嚏！好吧…也让人着凉…",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6a/s7jq981be19xhshpym9rgnut5ykz2xu.mp3"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "太舒服了，还是空气流通的环境好啊。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8c/38ekmhclmg5z4vd15qykjfuw4tl68xx.mp3"
+    },
+    {
+      "title": "在沙漠的时候…",
+      "desc": "怎么兜兜转转又到这边来了…",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_weather_desert_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c4/ltye2wpw6n6ri9fe22o54uegg66pzk6.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "年轻人，早上就该拿出点精气神来！快重新向我问候一遍。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/96/64228w12dufw11noot3rn0o8k7vct16.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "有点饿了…去大巴扎吃点吗？我口味不挑，别太新潮就行。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/15/q6tkaely1fhzje1i35mimkafzoxnuvg.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "别大惊小怪，不管哪个时代的学者，都会彻夜做研究。夜晚是能够宁静思考的宝贵时段。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/23/lpa6yz28cgk37816479ekxksia0amob.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "这篇古文看得我头昏眼花…今天就到这吧，早点休息，我也睡了，晚安。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/58/78wfd61nz2d72wd3ltxxxvpr5ydi5s7.mp3"
+    },
+    {
+      "title": "关于珐露珊自己·前辈",
+      "desc": "想了解什么？压力机关的变体？元素方碑的底层设计？嗯，等等…你刚刚向我提问的时候，是不是忘了叫我前辈？",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e1/0v1l9dzjy9j7q2w8ozfh3wa57olrclx.mp3"
+    },
+    {
+      "title": "关于珐露珊自己·光杆导师",
+      "desc": "我希望我的学生都能打心底里喜欢古文研究，要是遇不到这样的孩子，那就干脆当一辈子的光杆导师！啊、啊？找新生打下手的事？偶尔用课余时间帮助一下前辈很合理吧？说得像是谁不是这样过来的一样…",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1a/hpezr32m0agbd70pqofbdbl0sbhqbzl.mp3"
+    },
+    {
+      "title": "关于我们·招生",
+      "desc": "认真说，要不要当我的学生？我会针对实际给你定制课题，讲得比谁都要透彻。现代机关解谜是重点，相关文献解读作为拓展…我是过来人，这些知识对今后的冒险大有裨益，你还能不信我？",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bf/idujhv4aqq25gjoucdfyprmumgcgtx9.mp3"
+    },
+    {
+      "title": "关于我们·解谜时光",
+      "desc": "那一百年间，我不断重复着解谜，不知不觉变得麻木，连时间的流动都感受不到…现在好了，面对谜题，我不必再独自彷徨了。也许可以和你一起拓抄碑文、破译字符、解构机关…好好地品味每分每秒的钻研时光。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/54/hfqrbv1yx5s8yfkw13klv38pa81qci4.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "我的学术水平，哼，就算不谈我过去的光辉履历，这可是连神明他老人家都认可的。至于为什么招不到学生…不是我的问题，也不是学科的问题，大概是契机吧…就像我获得神之眼也是在特定的契机下。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0d/pnjnf139ujre2xrbwwlagdy00x1087x.mp3"
+    },
+    {
+      "title": "有什么想要分享·妙论派",
+      "desc": "「刹诃伐罗学院是未来唯一有能力研究机关的学院」…哼，现如今，妙论派的宣言也未免太过自大了，我在须弥解谜的时候，他们还不知道在哪玩积木呢。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/33/2qfizn71yvbrzra06ixhjiyzhm0p5ju.mp3"
+    },
+    {
+      "title": "有什么想要分享·知论派",
+      "desc": "知论派那群家伙总喜欢以太过冷门、无人问津为由卡我的研究经费。按照这个评判标准，知论派至今都是人数最少的学派，干脆把室罗婆耽学院都关了算了。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_dialog_share_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7d/ap1fnc45vsdtz463ld6s0s4cxmy5gro.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "我去过大大小小的遗迹，从有限的古代图文来解读，「遗迹龙兽」，确实是精妙绝伦的机关，唔…也许不能用「机关」二字来概括，说它们是一种从古代遗留至今的「生命」也不为过…",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_pref_gift_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dd/of1ch4u9rl90qd3l5jcbu6kwavhpgmy.mp3"
+    },
+    {
+      "title": "关于小吉祥草王…",
+      "desc": "就像知论派的研究也会被用在妙论派上…知识本就是无法被限制的。所有学者都会感激小吉祥草王，让教令院，不，让须弥这个智慧的学城得以摆脱私欲的裹挟，让求知之人都有机会在学术之海中钩深索隐…",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_teammate_nahida_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/90/mn2o8m2crm5gykwkye3rpkuigif6oxt.mp3"
+    },
+    {
+      "title": "关于提纳里…",
+      "desc": "雨林遗迹研究算是最让我省心的项目，哦，得叫上提纳里。把活的《雨林生存指南》带在身边多有意思。哎呀，不得不说，虽然我年纪大，但吃过的蕈子远不如他见过的多呢。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_teammate_tighnari_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f2/dfeigtwn82yc0qdhrnb6fjz8r8z6f19.mp3"
+    },
+    {
+      "title": "关于柯莱…",
+      "desc": "柯莱啊…这姑娘尊敬师长，又勤勉又好学，是一顶一的完美学生！对这样的孩子就该温柔激励才对，提纳里有必要这么严苛吗？真是的…得想办法把她抢过…咳咳！我是说…作为前辈…得想办法优化一下当今年轻人的求学环境才行…",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_teammate_collei_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/36/9eto8wi32dpokl4iqsl3xnqh93im404.mp3"
+    },
+    {
+      "title": "关于赛诺…",
+      "desc": "赛诺的笑话明明是由现代的文字和语言构成的，但我还是没法从文法和文义上推演出藏在话语中的意思…你是说就只是字面意思和谐音？真的…？那这些笑话也太没意思了…",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_teammate_cyno_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4d/bbzgagptwlvney2gl9xn2ifif1utbog.mp3"
+    },
+    {
+      "title": "关于莱依拉…",
+      "desc": "有时她看见我会低着头绕路走开，半夜里偶遇却又会大大方方地打招呼…搞不懂。算了，能挤进梨多梵谛的小崽子们大多都是天才，天才总有些自己的怪癖，我就不计较了。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_teammate_layla_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a1/7as2l3j8bj9ubd421rqhq6sl1urudot.mp3"
+    },
+    {
+      "title": "关于卡维…",
+      "desc": "卡维这孩子是个好苗子。我跟他随便聊过一些机关构造原理，怎么说呢…尽管浪漫思想和艺术细胞都有些过甚，但还算有自己的想法，不容易。听说他日子过得有点紧，我一直等着哪天拿到经费就请他吃顿好的…等着吧。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_teammate_kaveh_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/01/1old8neiy556j1x9t4yr8ex8cayl9g8.mp3"
+    },
+    {
+      "title": "关于妮露…",
+      "desc": "有印象，是个有礼貌的姑娘。去了大巴扎几次就把我记住了，还劝别人不要和我吵架。说的很对嘛，现在的年轻人啊，就该多向妮露学习。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_teammate_nilou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/17/dq0d2xeykpvnpizgnfbp9g038m5k6cv.mp3"
+    },
+    {
+      "title": "关于赛索斯…",
+      "desc": "噢？那个新来的小子？来得正好！我还不知道他是哪个院的，最近老看到他晃来晃去，街上呀，商店里呀，餐馆里呀…哪儿都有他，这孩子说起话来一直点头，像个…像个小狗脑袋？能说会道得很呢，应该是个好苗子。哎，你要是认识他，记得劝他转到我门下来。前辈我呀，肯定不会让他吃亏的。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_teammate_sethos_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b8/7ko2po4cb06xtltzawdrw6bqh5yizke.mp3"
+    },
+    {
+      "title": "想要了解珐露珊·其一",
+      "desc": "珐露珊前辈我的故事都赶得上某些文献的跨度了，得从一百多年前讲起…还想听吗？很好，积极求知，是学者不可或缺的品质。你入门了。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b8/7ko2po4cb06xtltzawdrw6bqh5yizke.mp3"
+    },
+    {
+      "title": "想要了解珐露珊·其二",
+      "desc": "从前的那些机关解谜需要配合大量的文献解读研究。不是我吹嘘，跟你解过的谜题恐怕完全不在一个层次。不服？好啊，你挑些你觉得难的，摆出来看看。能思考超过半小时就算我输。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bd/ouhwgbqkhccxa3nuvadghz72r9e208i.mp3"
+    },
+    {
+      "title": "想要了解珐露珊·其三",
+      "desc": "要不是误入那个赤王遗迹，我还能为须弥贡献更多…好在之前的手稿和论述没有白费，现在都便宜了妙论派，成了机关学的学科基础。呵呵，这一声「前辈」，我还是担得起的。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/ff/ezejhzqa8g09eiicl0lvgojdayfakax.mp3"
+    },
+    {
+      "title": "想要了解珐露珊·其四",
+      "desc": "作为学者，原本就该坦然接受失败、承受后果…我绝不希望别人可怜我，无论是过去还是现在！再说了，我明明是凭实力解开了最后的谜题，逃出了那个鬼地方…比起可怜，不该多从我身上找点激励和启发吗？",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/56/5kroa575h6ry9nf0c0ajs582511lpj7.mp3"
+    },
+    {
+      "title": "想要了解珐露珊·其五",
+      "desc": "我研究方向的地位已经大不如从前了，知论派卡我经费也不是一次两次了…妙论派三番四次邀请我到那边当导师，那条件还真诱人啊，更高的经费额度、更多的学生…但我还是拒绝了。不管怎样，总要有人负责钻研那些无人问津的领域，将全人类的智慧往外推出一小步。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/23/4j97c4ajgmajzcjoi0xegftlvpo35y0.mp3"
+    },
+    {
+      "title": "珐露珊的爱好…",
+      "desc": "有些黑心商贩和佣兵常常混进奥摩斯港，拿着不知从哪弄来的「古董」高价兜售，其实全是些用坏用旧的破烂！哼，我见一次就拆穿一次。论「鉴古」，除了「尘世七执政」，我还没觉得自己能差过谁的。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c8/hcjcyjc8x7ypgwjlut2r8lx8mf2criz.mp3"
+    },
+    {
+      "title": "珐露珊的烦恼…",
+      "desc": "一百年前，我最大的烦恼不过是解读不了遗迹碑文上的信息。一百年后，什么烦心事都比不过弄不到研究经费…唉！愁人…",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/df/a253ck0d4020qqxgk5fyzpk6xk6hri4.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "面糊拿去烤一烤，香味倍增！有机会我给你露两手，让你也尝尝我那辈的做法和风味。「古法秘制」，保准你逛遍大巴扎都找不来。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_pref_foodLike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c6/n87yi6l8aawpuop4afgb816r15ji35n.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "那个叫什么…帕蒂沙兰布丁，那是谁发明的做法啊？布丁不应该得用米饭做吗？现在的这些创意，越来越花里胡哨了。不…谢谢，我没有尝试的兴趣，即使是你做的也免了。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/af/idm1g3e5xaabpln7fnsdtii0yfaq4y7.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "唔…唔…比许多老字号做得都好吃，难道美食界也在不断进步？",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dc/81zhwlohoyee0l2aj3xps0gfdj671ua.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "色香味样样不差，莫非你常看美食制作类的书籍吗？",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/09/49byg6swabeoxieu0cmtx6emjy1cao9.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "嗯？这什么东西，好晦涩的食物，你是想让我解读吗？",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d3/mgeuttv5whhm0umrhaua9c609b3syao.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "生日快乐！给你做了个玩具，拿好。它集合了微缩机关装置，这里有按键和推杆…侧面有滚轮…你就随便放在手上拨弄吧，坏了包修。把你当小孩子？笑话。快乐和放松是每个人都需要的东西，管它什么孩子大人的。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_pref_birthday_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/88/hyozvkdiud3cdj40umzxx0cg1jima1t.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "哈，手脚很麻利呀年轻人，找起材料来都是风风火火的。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1b/15u40fx8ait3cilxzbwpqcwuu1uncbp.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "噢？你解开了什么机关吗？力量正源源不断地涌过来呢~",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4b/fcj9va92gotevfzl2euox36bikdobb9.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "呵，你倒是挺卖力的…放心吧，引导与保护，是前辈的职责，我不会让你陷入困境的。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5c/ghemrllf3h6vi16bhil6b4kl3vaedsi.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "在无边的智慧之海中，百年，也只能短暂地瞥见一角浪花…那些仍未深入的学问和没能解开的谜题，就靠你和我一起努力了。",
+      "voicefile": "VO_friendship/VO_faruzan/vo_faruzan_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/36/7oybwk28anuehi05lz6ngtq03yktqcn.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "后悔也晚了。",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e9/jkve9g2z083d4lt10hsdhoim086kmdq.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "敢惹我？",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/76/ditebkpifxaj7cfb7u6b0xz92eqbn1s.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "走着瞧。",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5e/imbumow9o0861xa0ul01uvwuxlkm59c.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "毗岚重机！",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a4/mzv0nc9do2b766vqkssl9rs82wx09x1.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "送你，拿去玩吧！",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5f/sovlydfgcezh9x5hp30ga55h1ao1j9h.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "真理，复始周转。",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/74/7lfbpz54j9aa81vab9sf1v60tqnjmr6.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "有文物出土？哦…这个啊。",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2e/gr3ewmu7t7beh1n0qtmv0dw5bgbtmu5.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "算没白跑一趟。",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/43/qzjjxvrz4m5s25bql5bdfzrly8ebro5.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "给你拿去用好了，快说谢谢前辈。",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7b/q8zoll7i7zn6nrqzwz9u8krxwlqtap0.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "也不是第一次了！",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7b/7bmsm4f1xf53dvhlthq4i3f234m9n7h.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "这种困境…不算什么…",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5a/9178k831uwzo6gs1ui871lrryxnfs4i.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "别小看我了…",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f5/jhcxk4z8evjei417898610oaz4lig6c.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "注意安全，别送命了。",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/25/pz4ys0y4lo18dghjqcbs081lbm5vvxa.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "这种时候要学着依靠前辈！",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e2/gqqz78817o073b44wn5fjxjqpoixj3h.mp3"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "谜题…仍未解开…",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/39/7ugu3kl3kjz0eirywj1j45jolgqcu1z.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "学者之路…不应有尽头…",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/62/sqlnvi35ha2nhrixuv0toovzr6c7u34.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "时间…没为我停留…",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c4/fkcly6xuj4q1fn06jfq4pyfv87tdv6n.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "宵小狂徒！",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d9/l3yzqh9jhe40049eyqymm6x3n4hpqn9.mp3"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "目无尊卑！",
+      "voicefile": "VO_gameplay/VO_faruzan/vo_faruzan_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c9/hlibc4sxjzo5j74q3kg7mi6nxu8kuvx.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "还得靠前辈帮忙吧？",
+      "voicefile": "VO_teamJoin/vo_faruzan_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7c/52h3xe2n9tjmhics1ic0zbs23uh3n7t.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "好久没舒展筋骨了。",
+      "voicefile": "VO_teamJoin/vo_faruzan_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/13/bzf0ttz5clgh2jlh9gk8ex3uzqtayzp.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "行吧，陪陪年轻人。",
+      "voicefile": "VO_teamJoin/vo_faruzan_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cb/npnwpgjeteyrwhzj07v5kmu2c2g80vy.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000076-card.webp",
+  "fullArt": "assets/characters/10000076-full.webp",
+  "fullArtWidth": 926,
+  "fullArtHeight": 872
+}

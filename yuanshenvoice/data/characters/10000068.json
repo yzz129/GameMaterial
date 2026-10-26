@@ -1,0 +1,545 @@
+{
+  "id": 10000068,
+  "name": "多莉",
+  "enName": "Dori",
+  "title": "梦园藏金",
+  "element": "雷",
+  "region": "须弥",
+  "rarity": 4,
+  "weapon": "双手剑",
+  "birthday": "12月21日",
+  "constellation": "神灯座",
+  "description": "神出鬼没的旅行百货商人，最喜欢亮闪闪的摩拉。",
+  "affiliation": "艾尔卡萨扎莱宫",
+  "cv": {
+    "chinese": "王晓彤",
+    "japanese": "金田朋子",
+    "english": "安洁丽·库娜帕内妮",
+    "korean": "李明浩"
+  },
+  "avatarImg": "assets/characters/10000068-avatar.webp",
+  "splashArt": "assets/characters/10000068-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Dori.zip",
+  "voicePackageEn": "Dori",
+  "quoteCount": 73,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "哎呀呀，这不是大名鼎鼎的旅行者吗？我是旅行商人多莉·桑歌玛哈巴依。作为给你的见面礼，我这儿的商品全部限时九折优惠，赶快来挑选吧，我帮你打包~",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/VO_ZH_Dori_Hello.ogg"
+    },
+    {
+      "title": "闲聊·摩拉",
+      "desc": "我爱摩拉，摩拉爱我，啦啦啦。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/VO_ZH_Dori_Chat_-_Mora.ogg"
+    },
+    {
+      "title": "闲聊·双赢",
+      "desc": "先把商品涨价百分之三十，然后再打八折卖出，不仅我赚得多了，顾客也会觉得划算，这就是双赢。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/VO_ZH_Dori_Chat_-_Win-Win.ogg"
+    },
+    {
+      "title": "闲聊·财迷",
+      "desc": "只要摩拉管够，和教令院对着干也没什么大不了的。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/VO_ZH_Dori_Chat_-_Money-Mad.ogg"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "需要伞吗？我这里有一把特制雨伞，收集雨水的同时能够净化水质，把雨水变成饮用水储存在小罐子里，可以说是旅行必备品！只需要五十万摩拉喔。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/VO_ZH_Dori_When_It_Rains.ogg"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "这种天气，恐怕商队也不太好前进了。又要少赚好多摩拉…",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/VO_ZH_Dori_When_Thunder_Strikes.ogg"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "哒啦，看我的全自动雪球机！想要吗想要吗？租金给你打九点五折喔！",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/VO_ZH_Dori_When_It_Snows.ogg"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "摩拉在阳光下闪闪发光，真好看！嘿嘿。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/VO_ZH_Dori_When_the_Sun_Is_Out.ogg"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "不会吧不会吧，不会真的有人选在大风天穿越沙漠吧。我当然有办法救这种蠢蘑菇，但费用…至少要翻三倍才行！",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/7a/VO_ZH_Dori_When_the_Wind_Is_Blowing.ogg"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早安，昨晚的梦里全是圆滚滚的可爱摩拉，今天一定会是盆满钵满的一天。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/VO_ZH_Dori_Good_Morning.ogg"
+    },
+    {
+      "title": "中午好…",
+      "desc": "想午睡吗？我可以给你一个软绵绵、蓬松松，完美贴合你背部曲线的靠垫。当然具体有多舒服就看摩拉有多少了。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/VO_ZH_Dori_Good_Afternoon.ogg"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "在夜色中赶路很有挑战性喔，不过这可难不倒常年在外行商的我！",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/VO_ZH_Dori_Good_Evening.ogg"
+    },
+    {
+      "title": "晚安…",
+      "desc": "你要睡觉了吗？嘿嘿，我就大发慈悲让你试试我的摩拉歌谣催眠法吧！一万摩拉入口袋，两万摩拉入口袋，三万摩拉入口袋，四、嘿四万…嘿嘿，摩拉，嘿嘿…",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/VO_ZH_Dori_Good_Night.ogg"
+    },
+    {
+      "title": "关于多莉自己·吆喝",
+      "desc": "万能的多莉商店，应有尽有，童叟无欺。只要摩拉够，只有想不到，没有买不到。需要任何东西，或者遇到任何困难，都可以来找我喔！",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/VO_ZH_Dori_About_Dori_-_Peddling.ogg"
+    },
+    {
+      "title": "关于多莉自己·妙论派",
+      "desc": "通常我会躲着教令院的人，他们的各种条条框框简直让人没办法做生意。不过呢，告诉你也没关系。妙论派有些人还算是头脑灵活，和我私下签了条约。我有摩拉，他们有技术和手艺，顺便还能让我的行商更加通畅。嘿嘿，大商人多莉，从不做亏本生意。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/VO_ZH_Dori_About_Dori_-_Kshahrewar.ogg"
+    },
+    {
+      "title": "关于我们·推销",
+      "desc": "你要在须弥旅行吗？须弥的沙漠很危险喔，就让大善人多莉来帮你吧！锵锵，沙漠旅行大礼包，只需要五百万摩拉！现在购买还会免费附送雨林旅行大礼包！机不可失，时不再来喔。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/VO_ZH_Dori_About_Us_-_Promotion.ogg"
+    },
+    {
+      "title": "关于我们·摩拉分配",
+      "desc": "我的摩拉是我的，你的摩拉还是我的，嘿嘿。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/VO_ZH_Dori_About_Us_-_Mora_Distribution.ogg"
+    },
+    {
+      "title": "关于我们·实价",
+      "desc": "好吧好吧，和你实话实说也行啦。沙漠和雨林的旅行大礼包，拆开来卖的话，分别都值二百五十万摩拉。但买一送一听起来比较划算嘛，你不觉得吗？",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_dialog_close2",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/VO_ZH_Dori_About_Us_-_Actual_Price.ogg"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "哎呀哎呀，我的神之眼亮晶晶的，很漂亮吧？既然看到了这么漂亮的东西，你是不是应该付摩拉呢？",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/VO_ZH_Dori_About_the_Vision.ogg"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "以前也有些蠢蘑菇试图欠账不还，嘿嘿，也不看看我是谁。不如，你来猜猜看他们的下场如何吧？",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/VO_ZH_Dori_Something_to_Share.ogg"
+    },
+    {
+      "title": "感兴趣的见闻·共同语言",
+      "desc": "如果盗宝鼬能开口说话的话，我们肯定很有共同语言。它们多有眼光呀！全提瓦特最惹人喜爱的，自然是亮闪闪金灿灿的摩拉。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_pref_gift_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/VO_ZH_Dori_Interesting_Things_-_Common_Language.ogg"
+    },
+    {
+      "title": "感兴趣的见闻·驮兽乐园",
+      "desc": "想见见驮兽吗？没问题！你想见多少我就有多少。只不过这个门票钱嘛，欸嘿嘿…",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_pref_gift_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/VO_ZH_Dori_Interesting_Things_-_Sumpter_Beast_Park.ogg"
+    },
+    {
+      "title": "关于赛诺…",
+      "desc": "我和他算是有点私交。毕竟能为他拿到「七圣召唤」所有周边产品的人，全须弥只有我一个。很罕见吧！教令院里居然有他这种特行独立，眼光不错，又从不讲价的人。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_teammate_cyno_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/VO_ZH_Dori_About_Cyno.ogg"
+    },
+    {
+      "title": "关于提纳里…",
+      "desc": "他热爱学术就和我热爱摩拉一样。听说他经常会做一些神奇的小玩意儿，只可惜会用什么公务繁忙作为理由，拒绝和我合作批量生产，要不然…可以赚上一大笔摩拉呢！",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_teammate_tighnari_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/VO_ZH_Dori_About_Tighnari.ogg"
+    },
+    {
+      "title": "关于艾尔海森…",
+      "desc": "他以前试探过我的手下。所以说，教令院的家伙真是又呆板又不诚恳。我又何必冒这个风险呢？懂了吗？小跟班。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_teammate_alhaitham_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/VO_ZH_Dori_About_Alhaitham.ogg"
+    },
+    {
+      "title": "关于卡维…",
+      "desc": "他是跟我有合作的妙论派的人之一，和某些教令院的死脑筋不一样，是个会为理想奋斗的人，我很欣赏他。我悄悄借了他一大——笔摩拉，让他造出了我的艾尔卡萨扎莱宫。可以说没有善良的多莉的资助，就没有今天的卡维。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_teammate_kaveh_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/98/VO_ZH_Dori_About_Kaveh.ogg"
+    },
+    {
+      "title": "关于迪希雅…",
+      "desc": "有时候我会雇佣她帮忙保护商队。毕竟她实力不错，要价也不高，可以说是性价比最优之选。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_teammate_dehya_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/VO_ZH_Dori_About_Dehya.ogg"
+    },
+    {
+      "title": "关于岩王帝君…",
+      "desc": "岩王帝君离去之前，我每天起来第一件事就是默念：财神在上，保佑多莉日进斗金。现在嘛，求神不如求己。多莉在此，保佑自己日进斗金！",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_teammate_morax_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/VO_ZH_Dori_About_Rex_Lapis.ogg"
+    },
+    {
+      "title": "关于小吉祥草王…",
+      "desc": "在须弥，小吉祥草王的信徒非常少。你问我吗？啊，如果她愿意给我摩拉的话，我就是她永恒的信徒。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_teammate_nahida_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/VO_ZH_Dori_About_Lesser_Lord_Kusanali.ogg"
+    },
+    {
+      "title": "关于妮露…",
+      "desc": "她的舞跳得不错，但只留在须弥，还是不能最大程度上发挥出她的价值…我是说，有点屈才。你说你说，如果能把她带出去，在提瓦特举办巡回演出的话，一共能赚多少摩拉呢？",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_teammate_nilou_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/VO_ZH_Dori_About_Nilou.ogg"
+    },
+    {
+      "title": "关于艾莉丝…",
+      "desc": "艾莉丝女士有源源不断的新奇东西，是我的最佳供货商，没有之一。嚯嚯，这种商业机密都告诉你了，你是不是应该交点学费，表示表示呢？",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_teammate_alice_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/VO_ZH_Dori_About_Alice.ogg"
+    },
+    {
+      "title": "关于绮良良…",
+      "desc": "在我跨国收购物资的时候，她为我送过好几次货。服务又好，收费还便宜。哦，对了，她很喜欢各种漂亮的小饰品，我这刚好进了一些，须弥特色，纯手工制品，可精致了。怎么样，要不要买来送给她呀？我给你打折。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_teammate_kirara_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/fb/VO_ZH_Dori_About_Kirara.ogg"
+    },
+    {
+      "title": "想要了解多莉·其一",
+      "desc": "想听故事？那就…给我一百万摩拉。嗯…看在我们交情的份上，给你打个九点九折好了，九十九万摩拉。怎么样？很划算吧！",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/VO_ZH_Dori_More_About_Dori_-_01.ogg"
+    },
+    {
+      "title": "想要了解多莉·其二",
+      "desc": "嘿嘿，你可真有眼光。那我开始讲了！\n这是一个商人的故事。很久很久以前，她在行商途中迷失了方向。这时候她遇到一只雾怪，雾怪要一口吞掉她。她连忙说，雾怪先生不要着急呀，我这里有个故事。您听听看，如果有趣的话，就请您不要吃掉我…",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/VO_ZH_Dori_More_About_Dori_-_02.ogg"
+    },
+    {
+      "title": "想要了解多莉·其三",
+      "desc": "雾怪答应了。于是商人开始讲自己的故事，当年她的生意还不像如今这么红火，在她一筹莫展之时，正巧，她从库房里翻出了一个不知从哪儿来的魔灯。她恍惚间擦亮了魔灯。一团红雾从里面弥漫了出来，她自称是「人美心善的大魔王」，见着这位商人就想起了自己乖巧可爱的女儿，所以她说，可以实现商人一个愿望。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/VO_ZH_Dori_More_About_Dori_-_03.ogg"
+    },
+    {
+      "title": "想要了解多莉·其四",
+      "desc": "还有什么比摩拉更吸引商人的呢，于是商人许愿：希望接下来的日子，能赚到数也数不清的摩拉。「人美心善的大魔王」同意了，她成为了商人的供货商，为商人提供了源源不断的奇妙商品。商人也因此赚得盆满钵满…",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/VO_ZH_Dori_More_About_Dori_-_04.ogg"
+    },
+    {
+      "title": "想要了解多莉·其五",
+      "desc": "雾怪听完这些觉得很神奇，明明自己和红雾大魔王也算同类，自己怎么没办法变出什么东西。商人呀，就夸了雾怪天赋异禀，说不定在同一个魔灯里待上一段时间，就能拥有大魔王的能力了。雾怪欣然同意，进入了商人的魔灯…\n咳咳，你问我这个故事是不是真的？这是另外的价钱喽，再给我九十九万摩拉，我就告诉你！",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/VO_ZH_Dori_More_About_Dori_-_05.ogg"
+    },
+    {
+      "title": "多莉的爱好…",
+      "desc": "我的爱好可多了，第一是赚摩拉，第二是数摩拉，第三是看摩拉，这世界上没有比摩拉更令人开心的东西了！",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/VO_ZH_Dori_Hobbies.ogg"
+    },
+    {
+      "title": "多莉的烦恼…",
+      "desc": "总有些人，拿着才三成利的生意就来打扰我，唉，我也是很忙的。没有百分百的利润，我连听完的兴趣都没有。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/VO_ZH_Dori_Troubles.ogg"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "我听说璃月有一种叫做摩拉肉的食物，名字里带摩拉，一定非常好吃。什、什么…你会做？咳咳，你当我的小跟班也有一段时间了，应该从我这儿学到了不少吧。作为交换，你要给我做摩拉肉吃！",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_pref_foodLike_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/VO_ZH_Dori_Favorite_Food.ogg"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "椰炭饼那种黑乎乎的东西，一点儿也不符合我的品味，我是绝对不会吃的！就算反过来给我摩拉，我…呃，我、我再考虑考虑。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/VO_ZH_Dori_Least_Favorite_Food.ogg"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "好吃好吃，啊不如你跟着我一起行商，兼职私人厨师吧。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/VO_ZH_Dori_Receiving_a_Gift_-_01.ogg"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "哇，我的小跟班做饭水平可以呀。能让我点餐吗？",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/VO_ZH_Dori_Receiving_a_Gift_-_02.ogg"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "居然让我吃这种东西，嘿嘿，你要赔偿我精神损失费！",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/VO_ZH_Dori_Receiving_a_Gift_-_03.ogg"
+    },
+    {
+      "title": "生日…",
+      "desc": "今天我可以满足你一个心愿！毕竟我是无所不能的多莉。说吧说吧，想要什么？不过呢，先和你说好，「一辈子都用不完的摩拉」这种愿望可不行喔。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_pref_birthday_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/42/VO_ZH_Dori_Birthday.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "你这是在投资我吗？你可真有眼光。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/VO_ZH_Dori_Feelings_About_Ascension_-_01.ogg"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "多多益善，多多益善。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/VO_ZH_Dori_Feelings_About_Ascension_-_02.ogg"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "喔！我好像有了一个奇妙钱袋，能掏出源源不断的力量。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/VO_ZH_Dori_Feelings_About_Ascension_-_03.ogg"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "恭喜你成为神通广大的桑歌玛哈巴依老爷的尊贵会员！以后你的订单一律八折，这种待遇你可是第一个喔。啊，好好珍惜吧。",
+      "voicefile": "VO_friendship/VO_dori/vo_dori_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/VO_ZH_Dori_Feelings_About_Ascension_-_04.ogg"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "看我的！",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/VO_ZH_Dori_Elemental_Skill_1_02.ogg"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "留下摩拉来！",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/VO_ZH_Dori_Elemental_Skill_1_02.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "嘿哟！",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/VO_ZH_Dori_Elemental_Skill_1_02.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "魔灯显灵！",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/VO_ZH_Dori_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "大显身手时间！",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/VO_ZH_Dori_Elemental_Burst_02.ogg"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "一手交钱，一手交货。",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/VO_ZH_Dori_Elemental_Burst_03.ogg"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "哇，分我一半！",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/VO_ZH_Dori_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "先让我看看。",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f3/VO_ZH_Dori_Opening_Treasure_Chest_02.ogg"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "我来我来！",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/VO_ZH_Dori_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "休想抢走我一分摩拉！",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/VO_ZH_Dori_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "啊救命啊，抢劫啦！",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/VO_ZH_Dori_Low_HP_02.ogg"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "一定要保护好摩拉。",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/VO_ZH_Dori_Low_HP_03.ogg"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "救命之恩，记得给钱！",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/VO_ZH_Dori_Ally_at_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "呆头菇，命和摩拉一样重要。",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/VO_ZH_Dori_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "摩拉…还没赚够呢…",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/VO_ZH_Dori_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "又是…这样…",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/VO_ZH_Dori_Fallen_02.ogg"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "摩拉也不管用吗…",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/VO_ZH_Dori_Fallen_03.ogg"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "小问题。",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_battle_hit_L_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/VO_ZH_Dori_Light_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "普通受击·其二",
+      "desc": "磕碰而已。",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/VO_ZH_Dori_Light_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "欺人太甚！",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/VO_ZH_Dori_Heavy_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "列进黑名单！",
+      "voicefile": "VO_gameplay/VO_dori/vo_dori_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/VO_ZH_Dori_Heavy_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "走吧走吧，赚笔大的！",
+      "voicefile": "VO_teamJoin/vo_dori_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c0/VO_ZH_Dori_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "摩拉不等人，快跟上。",
+      "voicefile": "VO_teamJoin/vo_dori_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/VO_ZH_Dori_Joining_Party_02.ogg"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "是什么大生意？",
+      "voicefile": "VO_teamJoin/vo_dori_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/VO_ZH_Dori_Joining_Party_03.ogg"
+    }
+  ],
+  "cardArt": "assets/characters/10000068-card.webp",
+  "fullArt": "assets/characters/10000068-full.webp",
+  "fullArtWidth": 807,
+  "fullArtHeight": 944
+}

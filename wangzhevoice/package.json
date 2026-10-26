@@ -1,0 +1,32 @@
+{
+  "name": "wangzhe-voice-archive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "王者回响 · 王者荣耀英雄语音与音乐档案",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "prepare:ui": "node scripts/reuse-teyvat.mjs",
+    "prepare:dialog": "node ../tools/game.mjs prepare --game wangzhe",
+    "prepare:skins": "node scripts/prepare-skin-art.mjs",
+    "prepare:art": "node scripts/prepare-hero-art.mjs",
+    "build": "node ../tools/game.mjs build --game wangzhe",
+    "sync:voices": "node scripts/sync-voices.mjs",
+    "sync:music": "node scripts/sync-music.mjs",
+    "test": "node --test ../tests/*.test.mjs",
+    "test:browser": "node ../tests/browser.mjs",
+    "test:motion": "node scripts/verify-motion.cjs",
+    "audit:audio": "node scripts/audit-audio.mjs --resume",
+    "test:routing": "node scripts/verify-audio-routing.cjs",
+    "test:views": "node scripts/verify-refined-views.cjs",
+    "test:music-media": "node scripts/verify-music-media.cjs",
+    "test:legacy": "node --test scripts/verify.test.mjs",
+    "validate": "node ../tools/game.mjs validate --game wangzhe"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

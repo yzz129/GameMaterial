@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "created": "2026-10-23",
+  "status": "generated concepts; visually inspected",
+  "purpose": "Separate desktop and mobile background image masters for the Teyvat Voice Archive; source artwork for the next background iteration",
+  "source": {
+    "type": "ai-generated",
+    "tool": "Built-in image_gen",
+    "model": null,
+    "model_note": "Model identifier not reported by the tool",
+    "task_id": null
+  },
+  "rights": "AI-generated Genshin Impact fan art; underlying game and character intellectual property remains with HoYoverse.",
+  "prompts": "TEYVAT_01_BG_windrise_v1.prompts.json",
+  "review": {
+    "result": "Both outputs visually inspected",
+    "checks": [
+      "No interface, text, border, or watermark",
+      "Matching Windrise/Mondstadt theme and palette",
+      "Desktop landscape and independently composed mobile portrait",
+      "Open sky and lake provide room behind website content"
+    ],
+    "runtime_integration": "Source assets only"
+  },
+  "assets": [
+    {
+      "id": "TEYVAT_01_BG_windrise-pc_v1",
+      "file": "assets/masters/backgrounds/TEYVAT_01_BG_windrise-pc_v1.png",
+      "channel": "desktop",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2657717,
+      "sha256": "2081d773bd4cea69326c8222209799df5314cef808e6408a99fd9573bb50f7ff",
+      "version": 1,
+      "generation_artifact_id": "exec-e7f162ec-dd0f-41dd-b8f1-38dd7385e2a3",
+      "purpose": "Desktop widescreen background master"
+    },
+    {
+      "id": "TEYVAT_01_BG_windrise-mobile_v1",
+      "file": "assets/masters/backgrounds/TEYVAT_01_BG_windrise-mobile_v1.png",
+      "channel": "mobile",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2904097,
+      "sha256": "1dafde4e52fafbb6d87391c9dae32c11d9a83ff426283cd5f9e163a0422a8836",
+      "version": 1,
+      "generation_artifact_id": "exec-19cb2945-e8f1-4026-a376-49aac9610274",
+      "purpose": "Mobile portrait background master"
+    }
+  ]
+}

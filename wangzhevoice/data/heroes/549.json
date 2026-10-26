@@ -1,0 +1,28 @@
+{
+  "id": "549",
+  "name": "心魔六耳",
+  "slug": "xinmoliuer",
+  "title": "孙悟空命格",
+  "roles": [
+    "刺客",
+    "战士"
+  ],
+  "portrait": "assets/heroes/549-portrait.webp",
+  "cover": "assets/heroes/549-cover.webp",
+  "skins": [
+    {
+      "id": "549-194755076670",
+      "name": "心魔六耳",
+      "voiceCount": 0
+    }
+  ],
+  "skinCount": 1,
+  "voiceCount": 0,
+  "sourceUrl": "https://pvp.qq.com/zlkdatasys/yuzhouzhan/herovoice/549.json",
+  "officialPage": "https://pvp.qq.com/web201605/herodetail/549.shtml",
+  "voiceStatus": "not-published",
+  "region": "北荒",
+  "faction": "日之塔",
+  "updatedAt": "2026-10-23T13:50:05.071Z",
+  "voices": []
+}

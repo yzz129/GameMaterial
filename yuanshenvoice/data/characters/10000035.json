@@ -1,0 +1,517 @@
+{
+  "id": 10000035,
+  "name": "七七",
+  "enName": "Qiqi",
+  "title": "冻冻回魂夜",
+  "element": "冰",
+  "region": "璃月",
+  "rarity": 5,
+  "weapon": "单手剑",
+  "birthday": "3月3日",
+  "constellation": "三清铃座",
+  "description": "药庐「不卜庐」的采药姑娘兼学徒，面色苍白如纸的不死之人。话很少，也没有什么表情。",
+  "affiliation": "不卜庐",
+  "cv": {
+    "chinese": "宴宁",
+    "japanese": "田村由加莉",
+    "english": "克莉斯蒂·凯特",
+    "korean": "李露"
+  },
+  "avatarImg": "assets/characters/10000035-avatar.webp",
+  "splashArt": "assets/characters/10000035-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Qiqi.zip",
+  "voicePackageEn": "Qiqi",
+  "quoteCount": 69,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "我是七七，是个僵尸…啊，还要说什么来着。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/59/o90h18wb0xuivuw6cw7wtmp8wotjzau.ogg"
+    },
+    {
+      "title": "闲聊·自言自语",
+      "desc": "咦，刚刚…我想说什么来着…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_explore_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4e/jwc4h78qv1e6bgsk5t1u9ngbiozbnk5.ogg"
+    },
+    {
+      "title": "闲聊·怕热",
+      "desc": "想去凉快点的地方。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_explore_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b6/r0zdiy9tii16jdpe1mwtpyokk4rreo1.ogg"
+    },
+    {
+      "title": "闲聊·锻炼",
+      "desc": "七二三四，七二三四…五六七七，五六七七…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_explore_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/df/221mpxviup2zognv68qlv760zase4fy.ogg"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "又忘记带伞了。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/32/2b3p13zwoea1a56f3p9u7guy3lske5a.ogg"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "想堆雪人…可以陪我吗？",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cb/5rsfh4kgakeumjue2w5wk1gdqv0v0rk.ogg"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "今天不该出门的。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/53/p9eoogxf2qqyi3iqct1h98l88g3wmw3.ogg"
+    },
+    {
+      "title": "起风的时候…",
+      "desc": "凉凉的，很舒服。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_weather_breezy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a1/eht6ld6osoiwg7htr6mq63mr7pjhaeo.ogg"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "拉手…拉手！要、要被吹跑了！…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/90/tf6xva7z36apzaj57rjl6femgrrwfr2.ogg"
+    },
+    {
+      "title": "早上好…",
+      "desc": "早上了吗？今天要做的是…我看看笔记。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ef/jie3svapkyc83lkr8q7ju0k85fvwmrh.ogg"
+    },
+    {
+      "title": "中午好…",
+      "desc": "…忘记帮白先生分拣药材了。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dd/5nx2st58sskqzraa8a3026lrx7magki.ogg"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "晚上好。今天…我做了什么来着…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/19/l4ibhjaz6mgpl1v59ihajmqd4ir7cez.ogg"
+    },
+    {
+      "title": "晚安…",
+      "desc": "你先休息吧，我该去做柔软体操了…不要偷看。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7d/1vxvk4q1chseobq6o71de5bbwoixjjl.ogg"
+    },
+    {
+      "title": "关于七七自己…",
+      "desc": "你问我吗…？对不起，我不记得了…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1a/al7ipz56jh3ajbscusyaotk22o2zpn5.ogg"
+    },
+    {
+      "title": "关于我们·记忆力",
+      "desc": "很多事情我都记不起来了，但是…也没什么不好。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a1/4jpkds89vtr3qeyf5kp03m4gzcyw51v.ogg"
+    },
+    {
+      "title": "关于我们·记忆力锻炼",
+      "desc": "最近我努力做了很多记忆力锻炼，所以不用担心我会忘记你了。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/50/qb2s29b91imcgvtp9yl09q7xqvmwdj4.ogg"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "「神之眼」，虽然无法停住时间，但是给了我守护重要之人的力量。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/91/1erx3dqgjwwgr8z51fhhob1tjgd48iq.ogg"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "其实我的身体状况比白先生好很多…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_dialog_share",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/28/bafegaoxwxhmxfn68y8wutkw8vsx4tr.ogg"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "药庐附近有时候会有小团雀出没，小小的一团。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/29/1m378clazsp0wprv0tedvhrzl1v142g.ogg"
+    },
+    {
+      "title": "关于白术…",
+      "desc": "我记不起来白先生的脸了，但是也没什么关系…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_teammate_baizhu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/78/l03cds6z7aosltejyz7ghtm7dlxx89t.ogg"
+    },
+    {
+      "title": "关于胡桃…",
+      "desc": "高温、假笑和死亡…讨厌。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_teammate_hutao_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/78/im88gvsccqv1hzd9hov6dtucvkapjwu.ogg"
+    },
+    {
+      "title": "关于魈·名字",
+      "desc": "唔，听起来像老古董…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_teammate_xiao_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/da/671lsoh3xrx92z6o2d1e3e9yghqprl9.ogg"
+    },
+    {
+      "title": "关于魈·记忆",
+      "desc": "我见过他吗…？",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_teammate_xiao_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/70/30zxalipcbauxhizaqdulcudofadvuk.ogg"
+    },
+    {
+      "title": "关于辛焱…",
+      "desc": "…是谁？",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_teammate_xinyan_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/63/1gk5g3sdmuu0hdm2d4sdjtvr7f6pacw.ogg"
+    },
+    {
+      "title": "关于瑶瑶…",
+      "desc": "可爱…像小团雀。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_teammate_yaoyao_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bd/c09kx0vcu6172pvl1tyafhea56rejqy.ogg"
+    },
+    {
+      "title": "关于小冥…",
+      "desc": "晚上…偶尔会感觉到有人和我一起做体操…是错觉吗？",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_teammate_duskyMing_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ef/23vv14b49udvv7ska2jk31iq2fs7ka8.ogg"
+    },
+    {
+      "title": "想要了解七七·其一",
+      "desc": "有什么事吗？",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c1/528b8tn3ezs9lwfm7lvfjqw9jnwe81e.ogg"
+    },
+    {
+      "title": "想要了解七七·其二",
+      "desc": "柔软体操，让我能够保持和人类一样的身体状态。但是如果放松下来的话，就会变回去…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/56/bma4d9bnl5lwyjxn1vt3cyc154i19ep.ogg"
+    },
+    {
+      "title": "想要了解七七·其三",
+      "desc": "有的人想要利用我，有的人很害怕我。但是你…和他们都不一样。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b8/3mq86c8lapn882vz9n2ofgl2gavssm3.ogg"
+    },
+    {
+      "title": "想要了解七七·其四",
+      "desc": "从第一次见面开始，你就给我一种很温暖的感觉。和让人不舒服的热不一样，是我的心，感觉到了温暖。谢谢你…我很高兴。可惜我只认识现在的你，如果以后我忘记了…我们就…不，我会「命令」自己记住你。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c8/6c26rhy5zxnla9xeiubwwvyezt8robd.ogg"
+    },
+    {
+      "title": "想要了解七七·其五",
+      "desc": "以前我只想要活下去，虽然不知道为了什么活下去…但现在我好像知道了，以后想要和你一起活下去。我、我们可以…永远一直在一起吗？啊…真的可以吗？嗯！我会保护好你的！",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ed/b1bbm5ez21f2qdit6htjlsfhsc6j8o9.ogg"
+    },
+    {
+      "title": "七七的爱好…",
+      "desc": "想要一只小宠物…小团雀那样子的。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/46/jhajbgcsydbe3ycd40bvixs90kplgzy.ogg"
+    },
+    {
+      "title": "七七的烦恼…",
+      "desc": "我不明白，但是，温度高会让身体很难受…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c9/b550qrtdxqbyjwk5ljy5bj7hehirao2.ogg"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "喜欢椰奶。但是…尝不出味道。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cd/cpm0cj7taisnxqeojg5rhuhrz5uwqy2.ogg"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "对不起，我不知道…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8b/qeeaxow0nl7wzctoj90uf90f2pj1vp4.ogg"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "凉凉的，很喜欢。虽然没有味道…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/ff/6vosx8bq3fv6ryydw91cq4utkzy6z6v.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "唔…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3d/o6uv2gt1hlpmbvaxru9jlw3t4z0605s.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "有点烫…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e7/cbgd16mx73rdfvxg2cnvfab7ubb0ikz.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "生辰快乐。给，草药香囊。很惊讶吗？上次你告诉我的时候，我就记在纸上了。每天都看一遍的话，今后也不会忘记的…",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b2/3rzkabhe62lkyvxcaw44go93kpo5gm0.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "啊，变强了吗…变强，是什么呢？",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/05/i9etms6dy44z40c515rzplf3pb3o81l.ogg"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "啊，理解了。变强之后，控制力量需要更多的精力了。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7f/ez04dxk60nfllyebb5qpmjx9j9xyytl.ogg"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "以前我对更加强大并没有概念，但是现在…我希望能够再强一点。",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a8/oevq5nk34wlhtexwpxsbu7q2rnypkrt.ogg"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "这一切都是因为你在，谢谢你…可以答应我一个愿望吗？今后…就让我来保护你吧，好不好？",
+      "voicefile": "VO_friendship/VO_qiqi/vo_qiqi_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/VO_ZH_Qiqi_Feelings_About_Ascension_-_04.ogg"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "流转不息。",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/VO_ZH_Qiqi_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "生生不绝。",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/VO_ZH_Qiqi_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "去。",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/VO_ZH_Qiqi_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其四",
+      "desc": "起。",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_battle_skill1_04",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/VO_ZH_Qiqi_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "听诏，宣此诰命。",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/VO_ZH_Qiqi_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "真名，度厄真君。",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/78/VO_ZH_Qiqi_Elemental_Burst_02.ogg"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "玉签，仙法开匣。",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/VO_ZH_Qiqi_Elemental_Burst_03.ogg"
+    },
+    {
+      "title": "冲刺开始·其一",
+      "desc": "要更快一点吗？",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_explore_sprint_start_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/VO_ZH_Qiqi_Sprint_Start_01.ogg"
+    },
+    {
+      "title": "打开风之翼·其一",
+      "desc": "欸？",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_explore_fly_start_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/VO_ZH_Qiqi_Deploying_Wind_Glider_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "好看。",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/VO_ZH_Qiqi_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "宝箱…有用吗？",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/VO_ZH_Qiqi_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "里面，是什么？不记得…",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/VO_ZH_Qiqi_Opening_Treasure_Chest_03.ogg"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "痛。",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/VO_ZH_Qiqi_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "啊——",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/VO_ZH_Qiqi_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "要活下去…",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/VO_ZH_Qiqi_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "危险。",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/VO_ZH_Qiqi_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "我来吧。",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/VO_ZH_Qiqi_Low_HP_01.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "还会...被封印吗…",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/VO_ZH_Qiqi_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "好冷…",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/VO_ZH_Qiqi_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "不要…",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/VO_ZH_Qiqi_Fallen_01.ogg"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "没感觉…",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/VO_ZH_Qiqi_Light_Hit_Taken_02.ogg"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "居然…",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/VO_ZH_Qiqi_Heavy_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "糟了…",
+      "voicefile": "VO_gameplay/VO_qiqi/vo_qiqi_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/VO_ZH_Qiqi_Heavy_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "…我来了。",
+      "voicefile": "VO_teamJoin/vo_qiqi_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/VO_ZH_Qiqi_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "有什么事吗？",
+      "voicefile": "VO_teamJoin/vo_qiqi_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/VO_ZH_Qiqi_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "我带着…笔记。",
+      "voicefile": "VO_teamJoin/vo_qiqi_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/VO_ZH_Qiqi_Joining_Party_03.ogg"
+    }
+  ],
+  "cardArt": "assets/characters/10000035-card.webp",
+  "fullArt": "assets/characters/10000035-full.webp",
+  "fullArtWidth": 1098,
+  "fullArtHeight": 1020
+}

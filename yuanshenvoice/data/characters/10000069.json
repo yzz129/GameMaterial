@@ -1,0 +1,566 @@
+{
+  "id": 10000069,
+  "name": "提纳里",
+  "enName": "Tighnari",
+  "title": "浅蔚轻行",
+  "element": "草",
+  "region": "须弥",
+  "rarity": 5,
+  "weapon": "弓",
+  "birthday": "12月29日",
+  "constellation": "郭狐座",
+  "description": "精通植物学的少年学者，现于道成林任巡林官一职。直率热忱，擅长教导脑瓜糊涂的人。",
+  "affiliation": "化城郭",
+  "cv": {
+    "chinese": "莫然",
+    "japanese": "小林沙苗",
+    "english": "扎克瑞·戈登",
+    "korean": "郑义宅"
+  },
+  "avatarImg": "assets/characters/10000069-avatar.webp",
+  "splashArt": "assets/characters/10000069-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Tighnari.zip",
+  "voicePackageEn": "Tighnari",
+  "quoteCount": 76,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "你好，我叫提纳里，是道成林的巡林官，负责维护雨林生态与行人安全。若你初入此地，我的建议是先通读《道成林生存指南》，并重点阅读「如何分辨可食用蕈与有毒蕈类」一章。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a4/1cttuwyxoha2qp2fui9tc53fmjrdh3f.mp3"
+    },
+    {
+      "title": "闲聊·叶片书签",
+      "desc": "将树叶夹在干燥的纸页之间简单压制，就能做成好看又好用的书签了。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/27/p9f1tamlmxwl9dgyeeso2n9n4zxurip.mp3"
+    },
+    {
+      "title": "闲聊·犯错",
+      "desc": "不要害怕犯错，犯错也是学习过程中的一环。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/15/5l0exfu2eyv0mxmhwofgw1tvxp01lry.mp3"
+    },
+    {
+      "title": "闲聊·知识的价值",
+      "desc": "知识的价值，是不能用金钱简单衡量的。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/67/smiobmb2paedfc26po671khvbn0sqh3.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "这种天气我已经习惯了，但你最好还是打个伞哦。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/13/2rfxfwx5f9jwd8m9z6n61zsx95lg47e.mp3"
+    },
+    {
+      "title": "雨过天晴…",
+      "desc": "我的尾巴涂过用来防水的植物精油，甩甩就干啦。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_weather_afterRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/34/6cowyvaafmw0y8bp14k4i60oqk37lxn.mp3"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "哎呦，好响的雷！呜…震得脑瓜疼。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8a/6mlp9xv8mf7mozt2gpeb5bym59hnowi.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "这种天气可真少见！哎，你冷吗？冷的话可以把手埋进我的尾巴毛里。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/48/4z61c33vu6j3hpjrtwsu8dsb4n37jqk.mp3"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "耳朵！…耳朵要吹翻过去了。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/37/kjrfs5vsxs6ni36rjf8koqqlr837zn3.mp3"
+    },
+    {
+      "title": "在沙漠的时候…",
+      "desc": "…好热啊…这么毒的太阳下，哪怕是冰雾花也会融化的吧…啊，仔细想想，其实不会啦，啊哈哈…唉…",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_weather_heat_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e6/6ke5n5v6vmlgotdbi8umk72kkzbjrmf.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "听！是晨露滴落叶梢的声音。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/35/4dz8xerlbrt3yapu5i1l9qvlx7iinag.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "午休的时候我喜欢坐在树上，盯着从树枝缝隙间漏下来的阳光发呆，一不留神就会睡着…哈哈。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6a/8fu17kuce03d1w77yf7t1jbnbnt51q2.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "晚上好。我正准备去观察夜光植被，要一起来吗？",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dd/qiyvehyii50awbazdweejj0zqrt9rc1.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "你睡吧，我来守夜，顺便记录下今天的巡林日志。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/67/sya0xtwmct7ler2028svidda0pvprt5.mp3"
+    },
+    {
+      "title": "关于提纳里自己·专业",
+      "desc": "我以前上学时从属生论派，主攻植物学。本来导师想让我毕业后留校任教，但说实话，我喜欢更自由一些的研究环境，而且就我的观察，教令院的某些行事作风令人不敢恭维。还好当时导师没有强求——…他强求也没用。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/11/9xk5p4pc64sa4w9krmpy7ilhlayqgto.mp3"
+    },
+    {
+      "title": "关于提纳里自己·族人",
+      "desc": "确实有不少人觉得我这一族性格孤僻，也不怪他们这样想。我的族人确实数量很少，还大多是学者，总是为了研究到处跑，一年也见不到一根尾巴毛。像我爸就是昆虫学家，最近好像在沙漠里研究甲虫的古今演化过程，啊我就不跟着去凑热闹了。说来惭愧，我不擅长应付烈日。晒久了脑袋里就一团浆糊，晃晃荡荡的。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b9/4mdt4e4ufspx7xqpbh19wzhwzubuwi8.mp3"
+    },
+    {
+      "title": "关于我们·相处",
+      "desc": "我认为人与人之间相互了解的最好办法就是多花时间相处，其他的都不实际。所以不必急着自我介绍，时间会沉淀一切。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/62/cvqmz40yrm6d0pnar5gfevrafb2phbv.mp3"
+    },
+    {
+      "title": "关于我们·朋友",
+      "desc": "你问我们算是朋友吗？怎么，原来这种事情是需要官方认证的吗？那赶紧把你的「朋友证书」拿出来，我必须在上面签字。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0d/4hdcl7m1ewitm7cg9eokl1d1rnooc6d.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "我记得自己小时候曾经祈祷过，如果能有幸拥有「神之眼」，可一定得是草元素呀。不过那时的原因不是为了搞研究，而是想要制造藤蔓梯子，爬上去摘高处的果子吃。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c1/b3kn355ahpi1wjwzz1j3ly46zx8h7oz.mp3"
+    },
+    {
+      "title": "有什么想要分享·兰那罗",
+      "desc": "我对这种生物早有耳闻，却一直没有亲眼见过。有时树林深处会有一些窸窸窣窣的响动，等我靠近时却又消失不见。这样也好，至少它们懂得如何保护自己，比那些碰见丛林豹还要上去亲切慰问的笨蛋冒险家们强多了。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/9u3idjjsdsh40uisst88yxpd5wenohh.mp3"
+    },
+    {
+      "title": "有什么想要分享·卡卡塔",
+      "desc": "卡卡塔的事情你不必担心。我已经跟认识的风纪官打过招呼，说卡卡塔是我研究工作中的助手，要动它的话得先找我过问——嗯怎么，看你还挺惦记它的，要不要去素论派选些课程学学？那样就算有一天我不在了，你也能继续照管它。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_dialog_share_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/db/i0kgs2m6561h5ar0d5cx6xvpavybj51.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "你知道吗？植物会伪装术。有些会拟态成昆虫或者鸟类，恐吓天敌；有些会制造诱饵，吸引其他生物为自己传播花粉；还有一些则是纯粹的捕食者，用香味或蜜糖吸引猎物上门…嗯，说到这里，感觉已经不只是植物会这样了。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_pref_gift_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9d/qgt2hyekrjjk3t90h6d0rdpxt7eb3jj.mp3"
+    },
+    {
+      "title": "关于柯莱…",
+      "desc": "这孩子刚被带过来的时候，可以说是大字不识一个。不过问题不大。她学习勤奋，态度也认真，进步很快。只是，距离她习得精湛医术的目标还有很远的路要走。她有时会给自己很大的压力…噢，你有机会的话也多帮帮她吧？就当是我这个做师父的拜托你啦，多谢。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_teammate_collei_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/35/qnwrpsi2uyvxauaryf41j0p0wsketbe.mp3"
+    },
+    {
+      "title": "关于赛诺·大风纪官",
+      "desc": "你想见赛诺？那我丑话说在前头，被他因为公事追在屁股后面可是要倒大霉的。大风纪官毕竟位高权重，平日里还真不好找。不过他偶尔会到化城郭附近偷偷看望柯莱，就算他不想让人看见，我也能听出是他。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_teammate_cyno_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3c/qetai6g00d84hc1z6dgp758vzkh5lwg.mp3"
+    },
+    {
+      "title": "关于赛诺·为什么呢",
+      "desc": "在导师被救出来后，我给他写了一封问候信，但没想到导师说已经有人以我的名义拜访过他了，并在回信的结尾附上了一个问题：「为什么大风纪官说要靠须弥『强威』重振贤者们的名望？」\n…问得好，到底是为什么呢。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_teammate_cyno_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ac/i3h4pwkiy39ad1ud6flanqey0wyqqkk.mp3"
+    },
+    {
+      "title": "关于艾尔海森…",
+      "desc": "小心艾尔海森。啊，倒不是说他是什么坏蛋啦，但他做事始终被理性主导，总会有让常人觉得无法接受的地方。不信的话可以去看看他的室友，经常被他气得比风史莱姆还鼓。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_teammate_alhaitham_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/15/g95oervb50yiow9xtazx9nermt4u3xp.mp3"
+    },
+    {
+      "title": "关于卡维…",
+      "desc": "卡维是须弥著名的建筑师，代表作就是那座醒目的卡萨扎莱宫。当初在设计建造的时候，他还来找我咨询过有没有合适的观赏植物推荐。但不知是怎么搞的，他在宫殿完工后却给自己欠了一屁股的债，目前正被学弟艾尔海森接济，借住在他家。这个…该说是幸，还是不幸呢…",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_teammate_kaveh_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/00/7r94yzwb4oalcce9lq18zw7py6foyfb.mp3"
+    },
+    {
+      "title": "关于多莉…",
+      "desc": "大名鼎鼎的桑歌玛哈巴依老爷——就是多莉啦。我能认识她，还是因为有次研究需要用到很稀有的材料，只有进货渠道成谜的多莉才能搞得到。啊那个…别问我找她买了什么，也别问我当时在研究什么，嗯。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_teammate_dori_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/42/n4x8vft7nr6mivffu8ndm8cgkcdt7fn.mp3"
+    },
+    {
+      "title": "关于莱依拉…",
+      "desc": "我听说过她，远近闻名的「梦游怪人」。关于她「梦游」的传闻真是千奇百怪，什么怪力千斤顶啦，夜闯阿如村啦，徒手翻越防沙壁啦…甚至还有说她能边睡边写完十万字论文的！这都什么跟什么，哪也不挨哪。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_teammate_layla_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/42/06glcn1v528blm25ys5zx33mp3ij9wl.mp3"
+    },
+    {
+      "title": "关于丽莎…",
+      "desc": "我听赛诺说过他的这位师姐，是难得一见的天才，博学多闻，才华横溢，只可惜早早就回到了蒙德。难道她在进修的过程中，见到了「知识」令人畏惧的一面吗…",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_teammate_lisa_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dc/anx8hbdor9p563hb0ez2fv5l07brcmo.mp3"
+    },
+    {
+      "title": "关于小吉祥草王…",
+      "desc": "我在上学的时候曾听过这样的说法：「植物的历史，便是草之国的历史。」也许说者无心，但我总觉得此话另有深意。如果我有一天能见到小草神大人，她会给我解释吗？",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_teammate_nahida_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6a/qivcm7ohbzneli1pg8ltnj5hyfhvt3s.mp3"
+    },
+    {
+      "title": "关于迪希雅…",
+      "desc": "之前情况危急，都没来得及好好向她道谢。能有这样强大又可靠的同伴是件非常幸运的事情，想要拉拢她的人一定不少。不过迪希雅看上去不像是愿意加入教令院或者巡林队的样子，我就不去自讨没趣了。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_teammate_dehya_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/87/g3nr4leslcveqoeu18anszx5vd0glla.mp3"
+    },
+    {
+      "title": "关于珐露珊…",
+      "desc": "珐露珊前辈见识广博，我经常邀请她来检查雨林里的机关…只是希望下次她来化城郭的时候，不要再给柯莱偷偷塞吃的了——营养就跟药剂一样得均衡适量，过剩了可没好处。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_teammate_faruzan_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e0/cgtlzk3fu1kj1lybad7ac960ogbsgxi.mp3"
+    },
+    {
+      "title": "关于赛索斯…",
+      "desc": "你说赛索斯？他很有意思，有点像赛诺的远房亲戚，而且很好相处。上次他来化城郭作客，抢着要秀一手搭帐篷的技术，还跟赛诺争着捞鱼，柯莱觉得自己的工作被替代了，很郁闷呢。\n大家都说赛索斯很擅长逗自己开心，过得很快活，工作起来又很认真。噢，说工作好像不太贴切，缄默之殿的事对他而言，比起工作更像是义务。如果你在沙漠需要帮助，可以找他。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_teammate_sethos_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f3/oifyaz3yg8rjik2ipswav91akb3xu6v.mp3"
+    },
+    {
+      "title": "想要了解提纳里·其一",
+      "desc": "雨林生活还过得习惯吗？建议眼观六路，耳听八方，注意安全，有事记得找巡林员。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f3/oifyaz3yg8rjik2ipswav91akb3xu6v.mp3"
+    },
+    {
+      "title": "想要了解提纳里·其二",
+      "desc": "哎，有时还挺羡慕那些什么都搞不清楚，还敢到处乱摸乱吃的家伙——在他们的世界里，一定处处都有「奇迹」发生吧？",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/57/b4uudcm9usvpbtsxzrjwx8iiq0zyoly.mp3"
+    },
+    {
+      "title": "想要了解提纳里·其三",
+      "desc": "为了更好地管理道成林，我时不时会给巡林员们开设「培训」课程。要是逐字逐句深究的话，这些课程其实都算是在「传播知识」。不过教令院又能怎样呢？有本事就把我关起来，看看「健康之家」每天要多收多少千奇百怪的病患吧。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/58/9404jqfxvuj90btf0y49oppr88lji7u.mp3"
+    },
+    {
+      "title": "想要了解提纳里·其四",
+      "desc": "悄悄跟你说啊，其实我很喜欢城里大巴扎的氛围。买卖兴旺，生活热闹，还有人在剧场里唱歌跳舞。但是很遗憾，嘈杂的声音对我的耳朵太不友好了。嗯？你说可以在背后帮我捂住？哈哈，那也太难走路了，但是心意我领啦。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/36/8wstgc4n5w9kfyaf72bt6rjwvjg9apk.mp3"
+    },
+    {
+      "title": "想要了解提纳里·其五",
+      "desc": "我小时候做过许多美妙又奇幻的梦，但它们在我长大后的某一天，永远地消散在了记忆中。你还可以做梦吗？给我讲讲你的梦吧。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f2/6x5li10ly7avppv9f9ug96rw9r571e6.mp3"
+    },
+    {
+      "title": "提纳里的爱好…",
+      "desc": "道成林里经常有掉在地上的树叶和花朵，有些在掉落的时候还很完整，就这么扔在地上太可惜了…我总是忍不住把它们捡回来做成标本。既可以变成培训巡林员的教具，还可以当作漂亮的装饰品，一举多得。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/26/ti0i2wg088pgmbo4nt3jq5u0i8n8rri.mp3"
+    },
+    {
+      "title": "提纳里的烦恼…",
+      "desc": "烦恼吗？嗯，我想想…道成林中出现的污染、经常惹麻烦的冒险家、总是想要扑我尾巴的救援犬…但这些问题总有解决的办法。要说大的烦恼，还真没有。这么一看，巡林官的生活还挺简单的呢。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/27/kykljqkh264q4f7p7gg2ce5jeku40c5.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "说来稀奇，我身体里虽然流淌着食肉动物的血脉，但最无法割舍的食物却是蘑菇。可食用的蘑菇种类繁多，无论是新鲜的还是晾干的，都会散发独特的香味。与肉类一起炖煮时，就连肉香也要为它们让步。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_pref_foodLike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5d/qlsjf0pr7wey58bnlvz0r4dlbb42rnu.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "因为嗅觉太灵敏，我无福享受添加了太多香料的佳肴。唉，这在须弥可以说是重大遗憾了。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2b/s0q46yni8mr1ubx4lwurj0t2w1sjd5r.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "食材优质，调味精妙，简而言之——非常好吃。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/01/mr7pa9a1hr46d04gmtr1ppqt5qlfsm3.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "不错的搭配。可以请你抄份食谱给我吗？我想把它加入巡林小队下次聚餐的菜单里。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b4/gzi74oz3bx3gfkvhfgl27vtl3dujpdn.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "…需要我教你一些新菜吗？",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/35/o0clwijy5intoblvuu88vpctojtc0av.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "生日快乐！我选了一盆今日花期正盛的盆栽给你，另附养花指南。万一它之后出现任何问题，都请不要客气，随时找我，它有「巡林官终生保育凭证」。\n你知道吗，在你生日时开的花可多了，我挑了好久呢。等到明年，再送你新的品种吧！",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_pref_birthday_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b7/cg9nxpkszao7xvnjqwufvu41k42tg65.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "种籽萌发，破土生根。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2b/4qriqjo6ybfrs7hxu8vcqegvsyun4yo.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "幼苗拔高，开枝展叶。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ab/owy3llvkkgjblu3c32t5i55il60jdii.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "花蕾满枝，杏雨梨云。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/55/3d7ipf38s15mlj7zey08gn0zs00joux.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "硕果丰熟，来日更盛。",
+      "voicefile": "VO_friendship/VO_tighnari/vo_tighnari_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b3/mmw07ddwsooybf2drnshwj85xqj8ssp.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "一叶障目。",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f0/cy5epah1e4s8v2iob4wkw6nbv3x0cet.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "障眼法！",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/29/qg3p3t1ytm2ooxvhlgbwkermhuvtqns.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "看不清了吧？",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/62/26jhh35prfdmwixbz1frw0oqlkaamyj.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "斩草除根！",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5d/d2mc3ehqi0aum1wef2hrbuqz6xcnz05.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "蔓引株连！",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/40/ntuuvjklj2sq1o49ueicwgxkqrjkwc2.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "声音，我听见了。",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f6/5bcqznabrm2j1rl714p2hfcxa13uvca.mp3"
+    },
+    {
+      "title": "冲刺开始·其一",
+      "desc": "跟紧了。",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_explore_sprint_start_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/38/cw7b26z4xks89mfxsczde7w58xheqjm.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "这里怎么会有宝箱？",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/62/35mspqm4vx6ktc46p7sqfpqhbfqvt4i.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "这个，应该不用写失物招领吧。",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/36/3hfz9sorgrtw6u8q8weimjq4s9k4jdl.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "闻起来有好东西哦。",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/41/2elu8bmshel4luodgg6mq1veizk2z0o.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "唉，真是麻烦。",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7b/by8dt05knx0r1dke5e21bydd683elz2.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "尾巴毛都乱了…",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9b/kktn2mwch18s6jyejzgqn3yg45xh6fj.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "该清杂草了。",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3a/trhtgh5s33mkfvrgyn3l1x84nwugvg1.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "快去疗伤。",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2f/3svkeu3ixkx61mixrh2cjgbme6gq302.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "救人要紧。",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fe/aqsg9ywlxgbul294aq725zkxxxu8r5h.mp3"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "叶落…归根…",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d0/k9syoah9cryursmf2p5ux9ni6xgi32j.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "还有未完成的研究…",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/32/meo5xnu7py7g22g9oswomawgfmngci1.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "没能等到花开…",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/af/s1hvzllryrfgftzwfi3yg7cbuv8p2jz.mp3"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "哎呦。",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_battle_hit_L_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2e/owl5l9hqfn8kti7tawvasnqv9s32jsj.mp3"
+    },
+    {
+      "title": "普通受击·其二",
+      "desc": "行啊？",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ef/h000bpiodfvkin27dh0h48zumd1zek3.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "没完没了！",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/38/5u8s5wi9l5jw0vpih7zcxucjss6mjgk.mp3"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "等着入土吧！",
+      "voicefile": "VO_gameplay/VO_tighnari/vo_tighnari_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4b/8g9apuj02vhn64w1m59y3k1pgnvjx2d.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "我来领路。",
+      "voicefile": "VO_teamJoin/vo_tighnari_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d7/9wt1333rpsrp6zm1zb0e18yg4i5e9wr.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "唉！有谁又吃毒蘑菇了吗？",
+      "voicefile": "VO_teamJoin/vo_tighnari_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d0/1x7ngbmovumu9a12vvulhh333rnl7p1.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "走，去采些样本！",
+      "voicefile": "VO_teamJoin/vo_tighnari_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/81/p7guapnekev23g027tp1mpnsgmmxq8y.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000069-card.webp",
+  "fullArt": "assets/characters/10000069-full.webp",
+  "fullArtWidth": 982,
+  "fullArtHeight": 960
+}

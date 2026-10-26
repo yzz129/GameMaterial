@@ -1,0 +1,538 @@
+{
+  "id": 10000026,
+  "name": "魈",
+  "enName": "Xiao",
+  "title": "护法夜叉",
+  "element": "风",
+  "region": "璃月",
+  "rarity": 5,
+  "weapon": "长柄武器",
+  "birthday": "4月17日",
+  "constellation": "金翅鹏王座",
+  "description": "守护璃月的仙人，「夜叉」。美号「降魔大圣」，妙称「护法夜叉大将」。",
+  "affiliation": "璃月仙人",
+  "cv": {
+    "chinese": "kinsen",
+    "japanese": "松冈祯丞",
+    "english": "莱拉·贝尔津什",
+    "korean": "沈揆赫"
+  },
+  "avatarImg": "assets/characters/10000026-avatar.webp",
+  "splashArt": "assets/characters/10000026-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Xiao.zip",
+  "voicePackageEn": "Xiao",
+  "quoteCount": 72,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "如遇失道旷野之难，路遭贼人之难，水火刀兵之难，鬼神药毒之难，恶兽毒虫之难，冤家恶人之难，便呼我名。\n「三眼五显仙人」——「魈」，听召前来守护。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/db/ctqa5ep665wx298njy1xuajmw7431hf.mp3"
+    },
+    {
+      "title": "闲聊·闲散",
+      "desc": "我居然沦落到如此闲散的地步，可笑。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_explore_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c1/p0t0qar8tmcxjogbotavh70loxyqj3h.mp3"
+    },
+    {
+      "title": "闲聊·荒魂",
+      "desc": "荒野上的孤魂，休想伤我分毫。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_explore_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/57/16xsek00zz6uvcqiuhadh1tru0wy6e4.mp3"
+    },
+    {
+      "title": "闲聊·侵蚀",
+      "desc": "…呃啊…哼，想起了一些不愉快的事。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_explore_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/ba/n6pj11zzzd67l88vwj547pkfhpghb7m.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "魔物不会因为下雨就休息。我们走。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8a/0q78bq09e7r7wfokb4zkhipcf2grhgk.mp3"
+    },
+    {
+      "title": "雨过天晴…",
+      "desc": "天晴了？哼，我不关心天气。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_weather_afterRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/01/n253cm6spj8pvy9ynxoscw34yc21rit.mp3"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "不少凡人害怕打雷。无法理解，这分明很寻常。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/87/rj6oa8ccvgyocli2ncu4avlmkl3b2e0.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "雪积起来之后，就可以挖着吃了。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/11/6d94o1pwygwq4b9dm3rw3f37uq0qhlh.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "时候不早了。出发吧。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3f/98v6qrxj0xztfykxj71zlg6zt4o5f0s.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "午餐…回望舒客栈吧。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/82/evihp4zk0bfjeuv4xxvjj3he2sfcgl0.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "夜晚，不祥之物最易骚动。你最好别出门。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5a/33qg1b79unkby6kl7av1xax5fjbetnj.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "你去吧，我会在这里等你。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2b/1pvekgoo87p9uwlygifvk2q3wpiwbum.mp3"
+    },
+    {
+      "title": "关于魈自己·非人",
+      "desc": "我并非人类，不太能够理解人类的感情。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/27/q0he62esxi6jttbfrckl9ehy7r93kic.mp3"
+    },
+    {
+      "title": "关于魈自己·璃月",
+      "desc": "近来璃月变化得过于迅速了…呵，罢了，我也没打算适应。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f0/7t4j35ez0exhai9sshwwgkfsyqwtlf7.mp3"
+    },
+    {
+      "title": "关于我们·警示",
+      "desc": "如果有一天，连你也陷入了黑暗。就由我来——",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c3/dm67l3qdyfvrs6wvtvofsznpbruqky4.mp3"
+    },
+    {
+      "title": "关于我们·信任",
+      "desc": "别被污染，我不会留情的。\n…我是说，既然是「你」，「你」应该能够保持坚定。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_close2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c1/soe1g5kdivq0ss795s40sgwmrvrff80.mp3"
+    },
+    {
+      "title": "关于我们·犯困",
+      "desc": "…谁！？…你觉得我是站着睡着了？哼，不敬仙师！",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_close3",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8a/48fz1gbm8zol0nclhhv30iwbwxwuqow.mp3"
+    },
+    {
+      "title": "关于我们·海灯节",
+      "desc": "海灯节？哼，原来又到了凡人用发光垃圾塞满璃月港的时候了，唉，为何如此幼稚。\n不过你若无聊，我便陪你去。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_close4",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/64/heegojbfj3kgkkdpojdbdo9gp89lcna.mp3"
+    },
+    {
+      "title": "关于「神之眼」·欲望",
+      "desc": "「神之眼」、欲望？呵…不要用凡人的标准来揣测仙人，我没有欲望。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_pendant_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/00/7b4ss1ublipmibfopw19x5vx01gqwqh.mp3"
+    },
+    {
+      "title": "关于「神之眼」·理由",
+      "desc": "并不是有意隐瞒。我的欲望，不应对外人讲。\n人间不是有着愿望说出口就会失效的规矩…呃，不是一回事？",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_pendant_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8b/9qfgor0y0krpr0cqth51phxj62qdtqt.mp3"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "杀戮是我的强项。如果你下不去手，就叫我来。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_share",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d8/eha2u4s4k53ubhbhvrlaf6wbvafzu8s.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "荻花洲，曾经一度荒芜。\n虽然，是过去好多年…不，好几百年的事了。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a7/5uxydl5ykmvkrt3e28q1mmzhqrfioj2.mp3"
+    },
+    {
+      "title": "关于钟离…",
+      "desc": "嗯…打听一下。请问钟离大人平日里都在…呃，遛鸟？赏花？品鉴古玩？\n…钟离大人做这些，是有什么深意…",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_teammate_zhongli_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/92/h9psnuwj4iwyzs4ljs8gdst6zeyqvkz.mp3"
+    },
+    {
+      "title": "关于北斗…",
+      "desc": "北斗吗？我与她没有什么交情。不过，冥海巨兽确有其事。能够将「海山」击败，作为人类，她的实力值得肯定。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_teammate_beidou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/fbekqtxv68nkurer9rydciaewbtma54.mp3"
+    },
+    {
+      "title": "关于白术…",
+      "desc": "你想…托付白术研制缓解我痛苦的药物？呵…你的好意我心领了。凡人的药物，对仙人是无法起效的。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_teammate_baizhu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/df/1ig4wctamkdxezlt8tbvbdzxtm7tfqx.mp3"
+    },
+    {
+      "title": "关于胡桃…",
+      "desc": "胡桃？那孩子，活泼到令人头疼。所幸她还算风趣，不必担心会成长为无趣的人类。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_teammate_hutao_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c8/glxaelgue20om6g93x4k8gb1zozx3nl.mp3"
+    },
+    {
+      "title": "关于温迪…",
+      "desc": "温迪…？原来如此，名字叫作温迪啊。他演奏的曲调…不，没什么。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_teammate_venti_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/80/l2t4h4n90gx7ly5g2d6p9qf96asckhe.mp3"
+    },
+    {
+      "title": "关于甘雨…",
+      "desc": "甘雨既非仙兽，又非凡人，游走于仙人两界，靠着职责支撑自我，困惑是免不了的。...你说，我？呵，要让只懂杀戮与生存之道的夜叉，去开导瑞兽？天方夜谭。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_teammate_ganyu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/69/b3cyiv7pyhj2rb5jmin4sfxbni8aj6d.mp3"
+    },
+    {
+      "title": "关于申鹤…",
+      "desc": "申鹤似乎对你颇为信赖。…也是。毕竟，世间难得几人能有你这般的善心与热忱。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_teammate_shenhe_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5b/4614qeela9fnl7us0b6mqmzjlk825fv.mp3"
+    },
+    {
+      "title": "关于夜兰…",
+      "desc": "我听说她曾调查千岩军在层岩巨渊的相关痕迹。孤身追查秘密，想来也是有点本事的人。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_teammate_yelan_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/71/8fbmanbnhmy9e4dklnybe9blukr7chk.mp3"
+    },
+    {
+      "title": "想要了解魈·其一",
+      "desc": "我会为你护法。\n但是…别靠近我，别妨碍我。否则，你会后悔的。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0a/pi4her7tolv5ddi9wtzruer3krmcfjl.mp3"
+    },
+    {
+      "title": "想要了解魈·其二",
+      "desc": "在这千年以来，我猎杀过数以万计的怨魂。不想惹上麻烦，就离我远点。把我当作「工具」就好。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/79/crzv0ztwsch76q1bu1z1fgnbi9718f3.mp3"
+    },
+    {
+      "title": "想要了解魈·其三",
+      "desc": "「它们」的声音…常常在我的耳边出现。咆哮、号哭…嘶喊着杀戮…\n这是我自己的选择和自己的报应。与你无关。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/31/tubs18nqd811lblx9w9tntjwd5lflde.mp3"
+    },
+    {
+      "title": "想要了解魈·其四",
+      "desc": "摩拉克斯？关于这个名字，你究竟知道多少？\n他是赐予我「魈」之名之人，将我从漫长的痛苦中解放。\n胆敢对他不敬的话。即使是你，我也不会原谅。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/35/l6iwc443uhyjtgf1bktizzeoq9qlgol.mp3"
+    },
+    {
+      "title": "想要了解魈·其五",
+      "desc": "已经迟了。我们之间的关联已经太多了。即使你想要放弃，也来不及了吧。嗯？没有这样想过？\n…「靖妖傩舞」，我的战斗是不会停下的。\n但是，关于你的事情，我想了解更多。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/66/833wp4sm6g96kkxw2h0wwci3c6es3dm.mp3"
+    },
+    {
+      "title": "魈的爱好…",
+      "desc": "你还真是胆量不小，有勇气询问我的爱好。\n那便来战吧。以你的身躯，扛得住我几招呢？",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bb/8wlcmqysv4zkb2a5fhkbhd08z555knw.mp3"
+    },
+    {
+      "title": "魈的烦恼…",
+      "desc": "烦恼？呵…这个问题对仙人毫无意义，没有什么烦恼能够存在千年。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d8/3om22lorl4yh26ei206a8fzot5htqfc.mp3"
+    },
+    {
+      "title": "喜欢的食物·杏仁豆腐",
+      "desc": "我对人间的食物并无兴致。烹饪繁琐，等待漫长。唯独杏仁豆腐，勉强可以入口。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_pref_foodLike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3a/6uyqnx55cy44ijr7ce7epxynut779vp.mp3"
+    },
+    {
+      "title": "喜欢的食物·回忆",
+      "desc": "杏仁豆腐的味道，和「美梦」非常相似呢。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_pref_foodLike_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/58/3rubbrjmg2hajsspm5fdj3xqzfkfeee.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "要我亲手在薄饼中包入肉片？啊…然后…一起吃下去？呵…麻烦。如今的人间，真是越来越缺乏常识了。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e4/cat7kw3m7x05gj24oqin0p6ocu2yokh.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "嗯，不错…为什么要盯着我看。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e3/5x5ubb160st0nvuta3zqy9v4d47jy5s.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "不用麻烦。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ea/etdkyy1lwtp5sjxnoezqufeh9iij111.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "下次做点别的吧。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0f/femzx7vqclzfk04vy6zp7xwvagpvnvm.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "诞生的时日…人类的这些纪念，真是冗余。嗯…等着。我给你折一只梧桐树叶蝴蝶。\n好了，拿去吧。这是仙法，可以辟邪。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/34/dhn1fbml4d261unq717oizn6dkav0o8.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "只是这种程度而已。没什么值得大惊小怪的。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/74/rwtc0bunqougi8tpd9l9yihc9oe3g1v.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "新的力量？这力量，也只会被用于斩杀。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/ba/64e33n50bhdsziw9xfco3e52l0m1o4m.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "力量的尽头，是自我毁灭。回答我，为何如此执着呢？",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/89/182poepzhsuta5es9ap18o3hzx52ww1.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "我的枪缨，早就屠戮了无尽的怨魂。连我本人，不免也被黑暗吞噬。——你却敢于驱使这样的我，将我当作…「同伴」。\n…你是想要救赎我吗？…你，真是难以理解的生物。",
+      "voicefile": "VO_friendship/VO_xiao/vo_xiao_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/39/8bzjkid1dgvow29a2d6n32g0m61devq.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "哼。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/VO_ZH_Xiao_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "无聊。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/VO_ZH_Xiao_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "无用。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/VO_ZH_Xiao_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "下落攻击·其一",
+      "desc": "这里！",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_battle_skill2_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/VO_ZH_Xiao_Elemental_Skill_2_01.ogg"
+    },
+    {
+      "title": "下落攻击·其二",
+      "desc": "无能。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_battle_skill2_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/VO_ZH_Xiao_Elemental_Skill_2_01.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "就此消失。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/VO_ZH_Xiao_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "靖妖傩舞。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/VO_ZH_Xiao_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "悲鸣吧。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/VO_ZH_Xiao_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "对你有用便好。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/VO_ZH_Xiao_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "这些物品的用途…算了，我不关心。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/VO_ZH_Xiao_Opening_Treasure_Chest_02.ogg"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "嗯…品质尚可。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/VO_ZH_Xiao_Opening_Treasure_Chest_03.ogg"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "住口。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/VO_ZH_Xiao_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "愚蠢。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/VO_ZH_Xiao_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "很好。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_life_less30_04",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/VO_ZH_Xiao_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "…弱小。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/VO_ZH_Xiao_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "想活命，就退后。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/VO_ZH_Xiao_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "这是…报应吗。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/VO_ZH_Xiao_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "这一天…到来了呀。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/VO_ZH_Xiao_Fallen_02.ogg"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "不可能…",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/VO_ZH_Xiao_Fallen_01.ogg"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "就凭你？",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/VO_ZH_Xiao_Light_Hit_Taken_02.ogg"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "别妨碍我。",
+      "voicefile": "VO_gameplay/VO_xiao/vo_xiao_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/VO_ZH_Xiao_Heavy_Hit_Taken_02.ogg"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "听召而来。",
+      "voicefile": "VO_teamJoin/vo_xiao_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/VO_ZH_Xiao_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "诸邪退散。",
+      "voicefile": "VO_teamJoin/vo_xiao_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/VO_ZH_Xiao_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "降魔乃分内之事。",
+      "voicefile": "VO_teamJoin/vo_xiao_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/VO_ZH_Xiao_Joining_Party_03.ogg"
+    }
+  ],
+  "cardArt": "assets/characters/10000026-card.webp",
+  "fullArt": "assets/characters/10000026-full.webp",
+  "fullArtWidth": 1262,
+  "fullArtHeight": 1012
+}

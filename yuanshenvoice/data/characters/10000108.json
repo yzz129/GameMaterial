@@ -1,0 +1,510 @@
+{
+  "id": 10000108,
+  "name": "蓝砚",
+  "enName": "Lan Yan",
+  "title": "翦玉编春",
+  "element": "风",
+  "region": "璃月",
+  "rarity": 4,
+  "weapon": "法器",
+  "birthday": "1月6日",
+  "constellation": "玄燕座",
+  "description": "沉玉谷来的藤编师，神清骨秀，像山间清泉一般灵动。",
+  "affiliation": "沉玉谷",
+  "cv": {
+    "chinese": "刘十四",
+    "japanese": "若山诗音",
+    "english": "安娜·德夫林",
+    "korean": "金顺美"
+  },
+  "avatarImg": "assets/characters/10000108-avatar.webp",
+  "splashArt": "assets/characters/10000108-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/11-500/Lan_Yan.zip",
+  "voicePackageEn": "Lan_Yan",
+  "quoteCount": 68,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "你好，我是沉玉谷手工艺工会的蓝砚。是想做点摆件、篮子还是花瓶、家具之类的呢？呃，备用的藤枝藤条不多了，得先去山里采一趟…你也想帮忙？嘻嘻，你人真好，我多送你一顶藤编遮阳帽可好？",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_draw_appear_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0b/9iymkh0jq0fwlrv9rd6x4ne73x9t2q3.mp3"
+    },
+    {
+      "title": "闲聊·每日计划",
+      "desc": "今天的计划？嗯…听随当下的心意而动。明天也是，每天都是，嘻嘻。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d8/3b52f8zy0md4tlefkhzdtgqiida0b2k.mp3"
+    },
+    {
+      "title": "闲聊·传家宝",
+      "desc": "好的藤器经篾薄如绸，纬条细若丝，经久不坏…说它能跟银器一样当传家宝一点都不夸张。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ea/j2v0zf5ymwcd4npzq8paf75dqw1m8gu.mp3"
+    },
+    {
+      "title": "闲聊·燕子",
+      "desc": "天暖燕子么搭窝窝，升雷扯闪么我家躲。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/32/02cti2ng7gknv3osa68j6z6o1u977uh.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "赶不及躲雨了，那——安心淋雨吧，还省了跑步的力气。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/41/8hr03esz65z7yqjwg0axrawtv7m9hkx.mp3"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "呜哇！借、借你手握一会！",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f4/9evb6g444fv75gnixig22n46f6j8k0p.mp3"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "看，阳光扫到的地方都镀上了一层金欸。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/66/a6jnwx7czu4hihx90jlcup1puhyc92s.mp3"
+    },
+    {
+      "title": "起风的时候…",
+      "desc": "听见吗？我头上的银饰叮铃…叮铃…风很温柔呢！",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_weather_breezy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0f/t271n7dft4vw6mpy2m1p7088yndge00.mp3"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "叮叮叮叮叮——风有点生气了啊。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/39/iutb6i5b83tt40m0ytr39fifpdk7ksh.mp3"
+    },
+    {
+      "title": "在沙漠的时候…",
+      "desc": "喝点水吗？尝尝我瓶子里的吧，泡薄荷叶子果然是明智的选择呢。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_weather_desert_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8b/59tqtdd7ivwjlv4cdv4006aefqnisnf.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "被鸟叫吵醒了？哈哈，我去跟它们商量商量，但不一定奏效哦，它们有时也不听我的话。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2c/laxksx4sakijbnv89bzr5v92o4oxe60.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "采了些很新鲜的花，我这就带回去给妈妈做好吃的…你也来嘛，我家里人见到你肯定高兴！",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/85/ds2wwa2vjwmev0rm5co30nsw4yqy41h.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "夜市里有碳烤小昆虫！想一起去尝尝吗？",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/83/9y4vmf34696cdsk7ay0s0ny1onhwsze.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "我好困…先睡了先睡了，就不陪你熬夜了。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/ce/e3pyk1vog2i8976o1hclucxpe3rqrz7.mp3"
+    },
+    {
+      "title": "关于蓝砚自己·幸福感",
+      "desc": "幸福感就是…每一口都细嚼慢咽直到吃完碗里最后一粒米，躺在草地上听着耳边的呼呼风声睡午觉，不被打扰地看完整整十册的志怪连载小说！",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1f/4p7kevkykzjmf0goe7aa0nb7bu3m5tj.mp3"
+    },
+    {
+      "title": "关于蓝砚自己·奇门世家",
+      "desc": "那位万象风角灵官在蓝氏的族谱中确有记载，可我家这一脉早已从宗家分枝散叶了。奇门术法纷繁复杂，我也只是学了个皮毛而已，有很多难题我还要向前辈们请教呢…但唯独扎藤人的手艺就连爷爷都要向我看齐，哈哈…这能算一种「独当一面」吗？",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/55/gc2gst7e13vglrlltjv8m2sg4ahhn9g.mp3"
+    },
+    {
+      "title": "关于我们·握手？",
+      "desc": "坐好。朋友。握手~\n啊不不，我是让小动物们看我，不是叫你坐下啦！快请起来…这句话的意思是「大家看过来哦，今天有一位新朋友跟我们一起玩！」有点难懂吗？唔…「坐好」可以是「先别动」或者「听我说」，也可以是「停下来」…规律吗？哎呀总之你多来山里跟我们玩，自然就懂啦。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/af/0gosntj5c3qayrb6jtil4yj5qisr0t5.mp3"
+    },
+    {
+      "title": "关于我们·握手！",
+      "desc": "来呀，握个手，抱一个吧。\n嗯…？来握手呀？哈哈，这回真的是我想要跟你握手的意思啦！好朋友之间不是这样相互鼓励的吗？对不起哦，怪我没有事先说清楚。但也没关系，我会多去找你玩，这样自然你也懂我我也懂你啦。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f8/p6ydasi4rvtjq18pxdu2b0pqdsj22do.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "感谢神之眼的助力，我居然能毫不费力地将环刃抛起又稳稳接住…啊，环刃非常锋利，小朋友切勿模仿！但如果是你…要上手试试吗？身要定，臂要稳，手要疾，你的话一定能做到！",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_dialog_pendant_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/49/9ir7ensi0tkiaamt0d40bxcu25kl2cu.mp3"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "想吃野蕈真的不能马虎，许多有毒的蕈子根本吃不得。另一些，则必须在处理的时候加工到位，用油炒熟！如果一顿吃不完，第二顿也要再次炒熟炒透，很多人就是在第二次中的招！如果吃两口后看到家里的鸡来找你借火，或者院子里的狗喊你去收衣服了，那么不要犹豫，赶快叫它们带你去看医生吧。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fd/m6c4u41yo0urp99iw9h4jpo318db1iq.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "有一回，我坐在树上编小摆件，伸个懒腰的功夫，刚编的藤制松果就被小松鼠全偷走了！还好后来我用双倍数量的真松果跟它们换回来了…东西被拿走是小事，但破坏小松鼠一天的好心情就不好了！忙活了一天采松果，回家发现是假的！唔…说不定还会被别的小松鼠嘲笑呢…",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_pref_gift_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6d/akdiw33xc81vspzmsa8tmgc8usa8rog.mp3"
+    },
+    {
+      "title": "关于香菱…",
+      "desc": "都说第一印象很重要，在万民堂吃过在璃月港的第一顿饭后，我就后悔了。后悔怎么没有早点来璃月港，这样说不定能早点认识香菱！她听说我老家山里有许多罕见食材后，忙不迭就开始计划来沉玉谷的行程了，到时我一定得让她满载而归。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_teammate_xiangling_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/70/san1rzw6d8fb4j6l23zztj5k1xzwsph.mp3"
+    },
+    {
+      "title": "关于胡桃…",
+      "desc": "胡堂主给人感觉总是嘻嘻哈哈的，哪怕在危急的困境中她都没有忘记说玩笑话来安抚我…我跟她认识的时间不长，她一直都这样乐观积极吗？嗯…不管怎样，至少从今天开始，祝愿她笑的时候是真的很开心，而不是为了不让身边的人担心。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_teammate_hutao_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2b/lu2p6n6cv0i57wo7szteavytt682fr0.mp3"
+    },
+    {
+      "title": "关于刻晴…",
+      "desc": "玉衡大人什么时候能闲下来呢？海灯节期间看她东奔西跑忙个不停，也没能找到机会请她吃顿饭，好好感谢她的招待…我还想拜托她帮我梳一对跟她一样的猫猫耳朵呢…会不会很僭越？但直觉告诉我她不会介意欸…",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_teammate_keqing_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8a/fsbtotlapqifrimo8gyd7v9fylg0dax.mp3"
+    },
+    {
+      "title": "关于行秋…",
+      "desc": "我曾在山林里偶遇过行秋少爷几回，他身边没有飞云商会的伙计跟着，看起来不像在办公事…在那以后他时不时会给我送几本最新出版的志怪小说，请我帮他保守秘密。完了…我是不是不小心说出来了…这下请你帮我们俩都保守住秘密啊！",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_teammate_xingqiu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9a/2m70t4xg9n17jm3sze131s0nuh9enlj.mp3"
+    },
+    {
+      "title": "关于重云…",
+      "desc": "有一次我跟着爷爷上门占卦，正巧碰到他从事主家中沮丧离开…我本以为屋里头的情况不容乐观，就连他也无计可施了。可我进屋后并没有感受到任何不妙的气息，爷爷这边得出的也是吉卦…兴许是他费了大功夫，累到没力气说话了。你说他很可能什么都没做？那我就更不懂了…",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_teammate_chongyun_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9d/57lbqe8rbfazwx6j7zimi28y246p042.mp3"
+    },
+    {
+      "title": "关于嘉明…",
+      "desc": "我跟嘉明从小就认识，还记得他小时候是家喻户晓的淘气大魔王，现在完全看不出来？哈哈，也许这就是成长吧，我也跟小时候不太一样呢。但有一点他始终没变——就是走到哪总会带点好吃的在身上，每次回来都不会忘记给家乡朋友带些外地的点心。当然，更不会忘记打包一堆家乡小吃带走…",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_teammate_gaming_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e7/ompr0y4cnc3ew15ek6dcd91xjrcrs33.mp3"
+    },
+    {
+      "title": "关于七七…",
+      "desc": "七七姑娘喜欢小团雀对吗？想用藤皮编一只送给她…你知道她喜欢什么颜色吗？",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_teammate_qiqi_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/ce/e183ik2ubqk34ggec4a1mqsz8aq51of.mp3"
+    },
+    {
+      "title": "想要了解蓝砚·其一",
+      "desc": "先别说话！稍等一下…马上…编完这个把手就好…呼…搞定！嘻嘻别见怪，我脑筋比较简单，一时只能干一件事。但现在可以专心跟你聊天啦。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/91/t9wrecc02gsffkg7977pqs2hh8ram1o.mp3"
+    },
+    {
+      "title": "想要了解蓝砚·其二",
+      "desc": "要来山里面玩吗？可以和柔柔羊玩躲避头槌，或者让朱喙鹈鹕扮演大嘴巴强盗，在限定时间内从它嘴里解救可怜的玉玉心羽鲈…想玩风行迷踪？你当猎手？哼哼，很自信嘛。好吧，要是你急得打转，我会摇响银铃给你提示的，摸到我的发尖就算你赢，我也是很自信的哦。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/ba/rgat9txmmheu950qcx7inaflcqsdm41.mp3"
+    },
+    {
+      "title": "想要了解蓝砚·其三",
+      "desc": "我头上的银饰是「银翎翦玉玄鸟」，是家中祖传的宝贝。银簪、银项圈、胸兜坠是爸爸妈妈给我的庆生礼物…噢，银手镯是有一年海灯节爷爷送的，银耳坠好像是逐月节的礼物…还有庆祝我学会用风之翼送的、庆祝我拿到神之眼送的、庆祝我吃了满满三大碗米饭送的…\n呵呵，在我们家族的传统里，银器有避邪解毒，护佑平安的作用，所以家人们总会想着法子给我添置…\n一套行头下来确实很沉呢…是沉甸甸又令人安心的爱哦。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/09/n87prc65plm017qbv1uyvwdkd5d8icc.mp3"
+    },
+    {
+      "title": "想要了解蓝砚·其四",
+      "desc": "小时候，家里放的藤人常常让我发怵，该怎么描述好呢…黑黑灰灰的枯草随便一扎，是小孩子看了就会做噩梦的程度！当时我觉得爷爷一定是中邪了，才把我送去跟宗家的姐姐学害人的法术呢！于是半夜壮着胆子，把能找到的藤人统统烧掉了。好在吸收了病气的藤人本来就是要被焚毁的，算是没捅大篓子…\n从那时我就开始思考，如果把藤人做得可爱一些，是不是就不容易被人误解成歪门邪术了呢？",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a1/smd9okqiwrka0r6xvhysrwcgomam2oe.mp3"
+    },
+    {
+      "title": "想要了解蓝砚·其五",
+      "desc": "藤编不难的，我真没骗你！再怎么复杂精妙的工艺，也离不开最简单的一行一竖，一经一纬，只要稍微有点耐心都能编出东西来！比起手艺，更难的是「细心」，再难一些，是要有「恒心」…但在我看来这些都不是最关键的，要我说，最最重要的，是「开心」。要是做起来不开心，什么事情都做不好的，我讲的不止是藤编…总之，要开心呀！我也是，你也是！",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/eb/jw16r2q137i04ri3bwa942qroyfu8l4.mp3"
+    },
+    {
+      "title": "蓝砚的爱好…",
+      "desc": "之前我特别想要求证溺鬼的传说，就用棍子伸进闹水鬼的湖里…结果棍子真的被拽住了！水下面全是水草！要是下去游泳不被缠住才怪了…\n我还听说，日落后不要吃日落果，半夜时分不能对着镜子削苹果，这里头到底有什么依据呢…唔…",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4e/dm0n6hze38nah4qbnigfbi5nem5rfte.mp3"
+    },
+    {
+      "title": "蓝砚的烦恼…",
+      "desc": "剪毛刺可真累人啊，既费眼睛又费手…把我十个指头都扎了个遍…呜。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_dialog_annoyed_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a0/fr4bkgx49b6n6qnkzwqbxsxdqgrw5qq.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "新鲜的花不仅好看好闻，做成糕饼还很好吃！清新不甜腻，再泡上一壶花茶…唔…走吧，一起去采花？不用找花篮啦，去到山里我现编一个。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ed/dmp71xmrj6xly8yhu77h3d2p0vxyrm5.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "「糖也只在开心的时候吃才甜」，没心情的话吃什么都觉得差点意思…嘻嘻，好在这种情况很少发生。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/44/ec9p9jnyugi8emib47nlld6gfxt9m90.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "好吃欸！稍等，我去把珍藏的纯银餐具拿出来，这才配得上这道菜嘛！",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b1/agesnwb54wb01qj0ljs3agkli2ust75.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "噢，谢谢。这里有蘸水哦，蘸着吃更美味。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3f/chotmv2ywzvu30tyivfgms2ue247e52.mp3"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "你尝过了？肚子疼吗？眼前有小人在打转吗？",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/51/2do5n3uhh4qbt6ud7vq38tr28n5m2xk.mp3"
+    },
+    {
+      "title": "生日…",
+      "desc": "按照家里的传统，生日嘛，总得收点银器傍傍身的。喏，这两个小藤人送你，头上有银燕的是我，{M#拿着小银剑的是你}{F#戴着花的是你}，嘻嘻，像不像？\n藤草我提前熏制过，挂在背包上可以帮你驱蚊除虫。小银饰样式也是我自己设计的，从银匠师傅手里拿回来后又仔细打磨了边角，绝对不会刮手。\n那么，祝你生辰快乐，愿福气运气常伴你左右！",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_pref_birthday_01b",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/VO_ZH_Lan_Yan_Birthday_%28Aether%29.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "等等，我才编了两个结你怎么就…是你太快了还是我太慢了呢…",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/02/azhx0jf2wbneti6lrf4dduvoixknqyu.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "银器要时常擦拭才能焕发光亮，人果然也要不断磨练才能「身轻如燕」呀。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/31/gtgh3ursk5lv6l994tw1vlm3phxu2if.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "握手~握手~握手~还记得吗？意思是表示开心，表示感谢，表示一切好的事情好的心情。",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/85/d2avcczpojq27bqfssxqtubse51c9wl.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "「燕衔泥，莫与齐」…别小瞧我哟，我的实力一路增长，如今要保护你也算绰绰有余了吧。哎呀，我知道这有不少你的功劳在里头…很感谢你！",
+      "voicefile": "VO_friendship/VO_lanyan/vo_lanyan_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9f/0m0wr86vtzf53m2jba2mwkno9fg0q6j.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "翻飞。",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_battle_skill1_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a1/swxohh7wrc7hochrt80aab366halx3e.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "穿织。",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_battle_skill1_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1d/bnk1j2qlwrtcbqzjhhaq3raccqlo2xf.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "跃风。",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_battle_skill1_06",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b2/g3e89g58ahjyxdy7928cl4dxul62pgr.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "搬疾运厄。",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/38/6qmxzzk1q5cfa1pu5a7f4qtnchpp6xl.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "玄燕传喜。",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/81/1gzvs5v69yqu7ranvh80d8sq8bqm2fs.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "漫卷翩翩。",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/61/mf2utzv8agmbvf5qd3sx1onncd6z1bo.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "可以分我一些吗？沾沾喜气。",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/54/2gonzzgttai7s02cf0k57qud0qljgg2.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "好消息！你快看里面有什么？",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e3/mnafe0lnrbw4ma8zakqd5ly9vu48qdk.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "别急，我来数数…",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/64/0h05m2q8qjalphqzi42gxa9nm6solsy.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "给我点时间…",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bf/t68ia6hcwyr1cg5thui3vrs1vhv8yqw.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "有人帮忙吗？",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/73/ezyhise8mrorix0aw03zzq7n07k2aim.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "难办了…",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0c/4b7q8qj3tjcd29jo07nb72azhgwjra6.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "不能硬撑了，快撤下来！",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2d/7gg9nmt78gswrmtf304vm0w38k4w45l.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "换我来吧，它们抓不住我。",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/44/0090xjs9otmgd6snvpg5koly719bxiv.mp3"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "唯独现在…不能倒下…",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cf/mwfdz0omor0hv0ct18ke0dyk8ct3u4c.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "银铃…不响了…",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b5/4s61mehfjtgc550vgc4g5s3mgt431tu.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "飞不起来…",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5f/7cmt670ilgo05tows572rl5p2mvnt28.mp3"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "别。",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/22/dr5rzt7oit7vftfngq33hhmzuo23sgq.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "不对头！",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/64/aw5wcnbatgizf810sy9ogb6akagf6f2.mp3"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "脾气真差！",
+      "voicefile": "VO_gameplay/VO_lanyan/vo_lanyan_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/10/5em9e8y40ijdtuuqj6wwx2g4wsb72bg.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "去哪都行，不去也行。",
+      "voicefile": "VO_teamJoin/vo_lanyan_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/28/jii8yvwzxyhzs2v51j3lfwq6ft7wuic.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "赶街子去喽。",
+      "voicefile": "VO_teamJoin/vo_lanyan_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4d/cur6o53j1dqsk9xn997ucazy5q4puy0.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "来啦来啦。",
+      "voicefile": "VO_teamJoin/vo_lanyan_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f4/g1rrxlu7f4pdfdlluuhdzbb8khacj2f.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000108-card.webp",
+  "fullArt": "assets/characters/10000108-full.webp",
+  "fullArtWidth": 1015,
+  "fullArtHeight": 818
+}

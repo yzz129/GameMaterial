@@ -1,0 +1,27 @@
+{
+  "id": "583",
+  "name": "元流之子(刺客)",
+  "slug": "yuanliuzhizi_assassin",
+  "title": "守望之诺",
+  "roles": [
+    "辅助"
+  ],
+  "portrait": "assets/heroes/583-portrait.webp",
+  "cover": "assets/heroes/583-cover.webp",
+  "skins": [
+    {
+      "id": "583-dffc6379648d",
+      "name": "破局之识",
+      "voiceCount": 0
+    }
+  ],
+  "skinCount": 1,
+  "voiceCount": 0,
+  "sourceUrl": "https://pvp.qq.com/zlkdatasys/yuzhouzhan/herovoice/583.json",
+  "officialPage": "https://pvp.qq.com/web201605/herodetail/583.shtml",
+  "voiceStatus": "not-published",
+  "region": "",
+  "faction": "",
+  "updatedAt": "2026-10-23T13:50:05.071Z",
+  "voices": []
+}

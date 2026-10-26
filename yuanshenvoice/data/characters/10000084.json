@@ -1,0 +1,538 @@
+{
+  "id": 10000084,
+  "name": "林尼",
+  "enName": "Lyney",
+  "title": "惑光幻戏",
+  "element": "火",
+  "region": "枫丹",
+  "rarity": 5,
+  "weapon": "弓",
+  "birthday": "2月2日",
+  "constellation": "黑斑猫座",
+  "description": "伶牙俐齿，演技精湛的著名枫丹魔术师，以精妙的手法和言语牵动着观众的心。",
+  "affiliation": "布法蒂公馆",
+  "cv": {
+    "chinese": "锦鲤",
+    "japanese": "下野纮",
+    "english": "达曼·米尔斯",
+    "korean": "朴成楹"
+  },
+  "avatarImg": "assets/characters/10000084-avatar.webp",
+  "splashArt": "assets/characters/10000084-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Lyney.zip",
+  "voicePackageEn": "Lyney",
+  "quoteCount": 72,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "是我哟，全提瓦特最棒的大魔术师——林尼。惊喜吗？意外吗？想知道我是怎么出现在你面前的吗？嗯——你那双像黄宝石一般晶莹剔透的眼睛，让我很中意哦！让我再为你表演一次吧。看好了哦，这回，千万不要眨眼。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_draw_appear_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/VO_ZH_Lyney_Hello.ogg"
+    },
+    {
+      "title": "闲聊·分心",
+      "desc": "大魔术师就在面前，还有心思东张西望吗？这样可就要错过最精彩的一幕咯！",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/VO_ZH_Lyney_Chat_-_Distraction.ogg"
+    },
+    {
+      "title": "闲聊·妹妹",
+      "desc": "我亲爱的妹妹——琳妮特此刻在做什么呢？肯定想我想得不得了吧！",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/VO_ZH_Lyney_Fallen_01.ogg"
+    },
+    {
+      "title": "闲聊·眼见为实",
+      "desc": "我希望观众们都相信「眼见为实」的道理，那我就能变出数不尽的戏法。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/VO_ZH_Lyney_Chat_-_Seeing_is_Believing.ogg"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "哎呀，这种天气，看来今晚没办法看到星星了。除非…我试着把星星变出来？",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/VO_ZH_Lyney_When_It_Rains.ogg"
+    },
+    {
+      "title": "雨过天晴…",
+      "desc": "真幸运，天晴了，该不会天上有谁在变魔术吧？",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_weather_afterRain_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/VO_ZH_Lyney_After_the_Rain.ogg"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "啊嚏…呼…我听过一种说法，说打喷嚏是有人在想自己。琳妮特吗？哦——还是你呢？",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/VO_ZH_Lyney_When_It_Snows.ogg"
+    },
+    {
+      "title": "起风的时候…",
+      "desc": "呼，好险。要是帽子被风吹跑的话，里面的道具就会哗啦啦砸在我脑袋上了。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_weather_breezy_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/VO_ZH_Lyney_When_It%27s_Windy.ogg"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "这风也太大了，我的纸牌都——等等，哎，别迷路啊！你的主人在这边！",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/VO_ZH_Lyney_When_the_Wind_Is_Blowing.ogg"
+    },
+    {
+      "title": "早上好…",
+      "desc": "…唔，再让我睡会儿…嗯？是你呀——嗯，我说怎么今天的阳光那么好，原来是你来了。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/VO_ZH_Lyney_Good_Morning.ogg"
+    },
+    {
+      "title": "中午好…",
+      "desc": "下午我需要检查一下魔术用品，构思新的魔术创意。你要一起来吗？来嘛，别推脱啦！你可以试着喂喂我的动物助手们，我想你们一定合得来。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/98/VO_ZH_Lyney_Good_Afternoon.ogg"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "晚上好。今晚有大魔术师的演出，你肯定没忘吧？",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/VO_ZH_Lyney_Good_Evening.ogg"
+    },
+    {
+      "title": "晚安…",
+      "desc": "晚安。要是睡不着的话，我有些催眠小道具可以用…啊，还是算了吧。睡吧，愿美梦陪你到天亮。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/VO_ZH_Lyney_Good_Night.ogg"
+    },
+    {
+      "title": "关于林尼自己·嘴甜",
+      "desc": "对了，有件事情，我必须强调一下。我可不是对所有人都这样说话的哦，主要还是因为对象是你。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/VO_ZH_Lyney_About_Lyney_-_Sweet_Talker.ogg"
+    },
+    {
+      "title": "关于林尼自己·搭档",
+      "desc": "啊——琳妮特不在，我要进入待机模式了。虽然一个人也能处理好身边的事，但还是会有些不习惯。你能理解的吧？毕竟你也…我是说，毕竟派蒙总陪着你。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/VO_ZH_Lyney_Fallen_01.ogg"
+    },
+    {
+      "title": "关于我们·隐瞒",
+      "desc": "哇，好尖锐的话题…这么说吧，甜美的浆果通常出没于荆棘丛生之地，不然就会被馋嘴的狐狸一口吃完…这都是为了保护自己呀！好吧，我承认我确实不介意偶尔对别人撒点小谎，但我们之间最多只能算是有所隐瞒吧？不是吗？",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/VO_ZH_Lyney_About_Us_-_Withholding_the_Truth.ogg"
+    },
+    {
+      "title": "关于我们·原则",
+      "desc": "魔术师一般不会透露魔术的核心秘密…但如果你愿意喊我「林尼老师」，成为我的学生，那么「原则」就产生了变化。也不知道你的领悟力和耐心到底能有几分呢？真让人期待。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/VO_ZH_Lyney_About_Us_-_Principles.ogg"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "魔术师佩戴着神之眼上台，难免会遭到质疑，所以我习惯了提前摘下它。既然你有兴趣，要不下次我表演的时候，就由你帮我保管它吧？要看紧一点哦，可千万别让它又偷偷滑到我手上了。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/VO_ZH_Lyney_About_the_Vision.ogg"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "魔术不仅是一种表演形式，也是一种思维方式。世界上有很多看似平平无奇的东西，其中大有玄机。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/VO_ZH_Lyney_Something_to_Share.ogg"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "猫咪的耳朵能表达情绪，向后翻折说明恐惧或者警戒，向前竖起，偶尔朝外多半表明心情愉快，快速晃动则是在警觉地判断四周情况…多观察就有经验了。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_pref_gift_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/VO_ZH_Lyney_Interesting_Things.ogg"
+    },
+    {
+      "title": "关于「父亲」·家",
+      "desc": "「父亲」给了我们一个家，教导我们成长，告诉我们每个人应该努力的方向。我能做的也很简单。保持忠诚之心，以及…守护我们的家。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_teammate_arlecchino_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/VO_ZH_Lyney_About_Father_-_Family.ogg"
+    },
+    {
+      "title": "关于「父亲」·王",
+      "desc": "在这座只有孩子们构成的王国里，「父亲」是我们的王。我知道国王早晚会选继承者，也知道那会是我…但同时，我对那样的情况感到恐惧…请不要告诉任何人，尤其是妹妹和菲米尼。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_teammate_arlecchino_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/VO_ZH_Lyney_About_Father_-_King.ogg"
+    },
+    {
+      "title": "关于琳妮特·模式",
+      "desc": "你觉得妹妹她话很少？明白了，那是运行模式不对。下次，先对她说「激活，聊天模式」，运气好的话，她会和你说上很长一段话。你问运气不好要怎么办？别担心呀，就算被她瞪几眼，你也见到了和平时不一样的琳妮特！",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_teammate_lynette_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/VO_ZH_Lyney_About_Lynette_-_Modes.ogg"
+    },
+    {
+      "title": "关于琳妮特·双子",
+      "desc": "我和妹妹从小到大都在一起，艰难的时光只要有彼此就能度过，开心的时候也会和对方共享。家人，就是我们最宝贵的归宿。我们都能理解你与家人分别的痛苦…如果发现了任何线索，一定会告诉你的。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_teammate_lynette_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/VO_ZH_Lyney_About_Lynette_-_Twins.ogg"
+    },
+    {
+      "title": "关于菲米尼…",
+      "desc": "我这位天真的弟弟，至今还相信童话故事。真让人有些羡慕。哦，这不是他自己告诉我的，是有次我不小心看到了他锁在秘密抽屉里的东西…真的是不小心哦！所以还请你不要告诉他，不然他肯定会生我气的。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_teammate_freminet_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/VO_ZH_Lyney_About_Freminet.ogg"
+    },
+    {
+      "title": "关于那维莱特…",
+      "desc": "那维莱特先生很少公开露面，似乎刻意和人们保持着距离。一开始我还以为是我的错觉，但观察最最敏锐的琳妮特也有同感，那看来确实是这样了。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_teammate_neuvillette_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/VO_ZH_Lyney_About_Neuvillette.ogg"
+    },
+    {
+      "title": "关于芙宁娜…",
+      "desc": "水神芙宁娜大人的行事作风不可捉摸，说得更露骨些，她平时说话也像是一种表演。枫丹人对精彩的舞台演出情有独钟，因此崇敬她的人也有不少。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_teammate_furina_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/VO_ZH_Lyney_About_Furina.ogg"
+    },
+    {
+      "title": "关于千织…",
+      "desc": "恭维话在她那里是行不通的，只有真正懂得欣赏的人，才能让她另眼相待。你问她怎么看我？这问题可让我有些伤心哦，我可是既懂欣赏，又对大家真心相待的人呀。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_teammate_chiori_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/VO_ZH_Lyney_About_Chiori.ogg"
+    },
+    {
+      "title": "关于娜维娅…",
+      "desc": "没想到她在不认识我的情况下愿意出手相助。要是没有你们的话，我和琳妮特肯定无法脱身…总之，非常感谢你们。就请让我等待一个阳光灿烂的日子，邀请大家去露泽咖啡厅吃最美味的茶点吧。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_teammate_navia_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/VO_ZH_Lyney_About_Navia.ogg"
+    },
+    {
+      "title": "关于夏洛蒂…",
+      "desc": "自从那次见面之后，夏洛蒂小姐多次邀请我接受专访，呃…好像快有个二十次了吧。她对新闻有种与生俱来的敏锐，个性还异常执着。但说老实话，我可不想成为她笔下「爆炸性新闻」的主角，只好一次又一次用不同的理由婉拒了。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_teammate_charlotte_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/VO_ZH_Lyney_About_Charlotte.ogg"
+    },
+    {
+      "title": "关于克洛琳德…",
+      "desc": "作为决斗代理人，克洛琳德小姐颇有名望。但我最近在报纸上看到，她似乎麻烦缠身…媒体非常喜欢挖掘她的故事，至于她本人…应该相当厌恶这种行为吧。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_teammate_clorinde_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/59/VO_ZH_Lyney_About_Clorinde.ogg"
+    },
+    {
+      "title": "关于艾梅莉埃…",
+      "desc": "你闻过她设计的香水吗？我还挺喜欢的，原本想买一瓶试试…但琳妮特的尾巴似乎有不同的意见。那我也只好算喽。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_teammate_emilie_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/VO_ZH_Lyney_About_Emilie.ogg"
+    },
+    {
+      "title": "想要了解林尼·其一",
+      "desc": "看来我们彼此都对对方很感兴趣呢，我的荣幸！哈哈，放心吧，只要看到你那令人着迷的眼睛，我就舍不得对你撒谎。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/VO_ZH_Lyney_More_About_Lyney_-_01.ogg"
+    },
+    {
+      "title": "想要了解林尼·其二",
+      "desc": "魔术表演当然没办法保证永远不出现纰漏。对我而言，演出的重点也不是百分之百避免穿帮，而是时时刻刻保持镇定，随机应变。就算露出了小破绽，只要能让观众相信那也是表演的一环，依旧能成为一场精彩难忘的演出。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/20/VO_ZH_Lyney_More_About_Lyney_-_02.ogg"
+    },
+    {
+      "title": "想要了解林尼·其三",
+      "desc": "没有父母遮风挡雨，从小流落街头的孤儿，总要经历比常人更多的磨难。但正因为那些事情，才造就了如今的我和琳妮特。现在，我们都过得不错…「家人」、观众…我的帽子里装着很多很多人的期待呢！",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/VO_ZH_Lyney_More_About_Lyney_-_03.ogg"
+    },
+    {
+      "title": "想要了解林尼·其四",
+      "desc": "哈哈，到现在还没办法完全相信我说的话吗？看来你警惕心很强，这是好事，我就不用担心你被别人骗了。另外嘛，你可要负起责任来，盯着我，谨慎挑选眨眼时机…不然的话，趁你不注意，我就去撒弥天大谎咯！到时候你也脱不开干系。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/VO_ZH_Lyney_More_About_Lyney_-_04.ogg"
+    },
+    {
+      "title": "想要了解林尼·其五",
+      "desc": "「真实」的我，并没有我所表现出得那么外向、健谈。更多时候，我是为了跟大家拉近关系，才使用了语言上的「魔术」…你会同情原本的我吗？还是会觉得这种戏法…很愚蠢呢。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/VO_ZH_Lyney_More_About_Lyney_-_05.ogg"
+    },
+    {
+      "title": "林尼的爱好…",
+      "desc": "嘿，看这儿——可爱的小白兔，喜欢吗？好奇它是什么时候来到这里的吗？那就对了！观众脸上惊喜的表情，正是每一位魔术师的最爱。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/VO_ZH_Lyney_Hobbies.ogg"
+    },
+    {
+      "title": "林尼的烦恼·掩饰",
+      "desc": "怎么办呢？我最大的烦恼就是——你在我这样的大魔术师面前，还能想到烦心的事情。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_dialog_annoyed_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/VO_ZH_Lyney_Troubles_-_It%27s_All_a_Disguise.ogg"
+    },
+    {
+      "title": "林尼的烦恼·鸽子",
+      "desc": "过去，我总是放养我的鸽子，它们也总会飞回我的身边。后来有一次，回家的鸽子少了几只，等我们循着痕迹找到的时候，它们已经变成了鸽子派。至今我也不知道，我要怎样同时带给它们「自由」和「安全」。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_dialog_annoyed_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/VO_ZH_Lyney_Troubles_-_Doves.ogg"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "看到这个鱼缸了吗？来，你可以把手伸进去感受一下，是不是真的只有水。确认好了吗？那就开始咯！看这块布，现在盖上去了…嘿呀，鱼变出来咯！怎么样？这精彩的表演，能换一道你亲手制作的鱼肉菜肴吗？",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/VO_ZH_Lyney_Favorite_Food.ogg"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "出于表演需要，我和琳妮特得保持身形相似，我们会尽量不吃油炸食品。我倒是无所谓，妹妹就比较辛苦了——街头的炸鱼实在很香嘛！",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/VO_ZH_Lyney_Least_Favorite_Food.ogg"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "能吃到你亲手制作的美味，真是荣幸之至。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/VO_ZH_Lyney_Receiving_a_Gift_-_01.ogg"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "你的厨艺不错嘛，很好吃哦！多谢款待。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/VO_ZH_Lyney_Receiving_a_Gift_-_02.ogg"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "想看魔术吗？来吧，看我把布盖在上面，你跟着我一起念——三、二、一！食物消失咯！",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/VO_ZH_Lyney_Receiving_a_Gift_-_03.ogg"
+    },
+    {
+      "title": "生日…",
+      "desc": "这里有一根羽毛，请伸出手来确认一下，它的确是一片普通的羽毛。好了吗？啪嚓——其实是礼花哦，生日快乐！看到了吗？礼花里飘下的一片彩纸，被我抓住了。在我点燃它的同时，你就可以许愿了，顺带想象一下你的生日礼物。三、二、一——嗯，很~好~我已经明白你的想法了。来吧，把手伸进我的帽子里——如何？这份礼物是你想要的吗？",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_pref_birthday_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/VO_ZH_Lyney_Birthday.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "哎呀，我还以为你想让我用这些素材变魔术呢。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/59/VO_ZH_Lyney_Feelings_About_Ascension_-_01.ogg"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "要是什么变化都没有，会不会让你更加吃惊？",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/VO_ZH_Lyney_Feelings_About_Ascension_-_02.ogg"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "你愿意信任我，没有比这个更令我开心的事情了。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/VO_ZH_Lyney_Feelings_About_Ascension_-_03.ogg"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "为我付出这么多，是想要偷走我的心吗？那就让我恭喜你、祝贺你吧！我亲爱的学徒，或者说伙伴——你已经做到咯。",
+      "voicefile": "VO_friendship/VO_lyney/vo_lyney_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/VO_ZH_Lyney_Feelings_About_Ascension_-_04.ogg"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "一点小把戏。",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/78/VO_ZH_Lyney_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "看看这个吧！",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/78/VO_ZH_Lyney_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "惊喜连连。",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/78/VO_ZH_Lyney_Elemental_Skill_1_01.ogg"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "压轴表演！",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/VO_ZH_Lyney_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "好戏开演！",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/VO_ZH_Lyney_Elemental_Burst_01.ogg"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "响起你的掌声！",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/VO_ZH_Lyney_Elemental_Burst_03.ogg"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "用这个道具，把它们全部变走…开玩笑的啦。",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/VO_ZH_Lyney_Opening_Treasure_Chest_01.ogg"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "装进魔术口袋里吧。",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/VO_ZH_Lyney_Opening_Treasure_Chest_02.ogg"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "这也算是一种宝箱魔术吗？",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/7d/VO_ZH_Lyney_Opening_Treasure_Chest_03.ogg"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "这是要我表演诈死魔术吗？",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/VO_ZH_Lyney_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "不错的戏法…",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/VO_ZH_Lyney_Low_HP_01.ogg"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "不会有事的。",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/VO_ZH_Lyney_Low_HP_03.ogg"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "可别忘了还有我啊！",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/VO_ZH_Lyney_Ally_at_Low_HP_01.ogg"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "节奏已经乱了哦？",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/VO_ZH_Lyney_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "琳妮特…",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/VO_ZH_Lyney_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "我的表演，不会失败！…",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/VO_ZH_Lyney_Fallen_02.ogg"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "幕布…快点拉上…",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/VO_ZH_Lyney_Fallen_03.ogg"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "没事。",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_battle_hit_L_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/VO_ZH_Lyney_Light_Hit_Taken_01.ogg"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "冷静…",
+      "voicefile": "VO_gameplay/VO_lyney/vo_lyney_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/VO_ZH_Lyney_Heavy_Hit_Taken_02.ogg"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "噢！「旅行魔术团」。",
+      "voicefile": "VO_teamJoin/vo_lyney_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/VO_ZH_Lyney_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "乐意效劳。",
+      "voicefile": "VO_teamJoin/vo_lyney_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/VO_ZH_Lyney_Joining_Party_01.ogg"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "能被你邀请是我的荣幸。",
+      "voicefile": "VO_teamJoin/vo_lyney_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/VO_ZH_Lyney_Joining_Party_03.ogg"
+    }
+  ],
+  "cardArt": "assets/characters/10000084-card.webp",
+  "fullArt": "assets/characters/10000084-full.webp",
+  "fullArtWidth": 1409,
+  "fullArtHeight": 965
+}

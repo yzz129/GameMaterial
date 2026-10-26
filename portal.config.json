@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "domain": "gamematerial.yzzwnw.asia",
+  "name": "游藏",
+  "englishName": "GAME MATERIAL",
+  "title": "游藏｜游戏语音与音乐典藏",
+  "heading": "每个世界，都有回响",
+  "titleArt": {
+    "text": "每个世界，都有回响",
+    "desktop": {
+      "still": "PORTAL_02_FG_title-mobile_v1.webp",
+      "motion": "PORTAL_02_FG_title-mobile-motion_v4.webp",
+      "width": 960,
+      "height": 540
+    },
+    "mobile": {
+      "still": "PORTAL_02_FG_title-mobile_v1.webp",
+      "motion": "PORTAL_02_FG_title-mobile-motion_v4.webp",
+      "width": 960,
+      "height": 540
+    }
+  },
+  "description": "收藏熟悉的声音，重温热爱的世界",
+  "gamesTitle": "选择你的世界",
+  "sectionTitleArt": {
+    "text": "选择你的世界",
+    "src": "PORTAL_04_FG_worlds-calligraphy_v1.webp",
+    "width": 2172,
+    "height": 724
+  },
+  "tagline": "让热爱，有迹可循",
+  "backgroundMotion": {
+    "light": 1,
+    "regions": [
+      {"area": [0.67, 0.88, 0.5, 0.2], "motion": [0.007, 0.006, 0.48, 0]},
+      {"area": [0.09, 0.82, 0.19, 0.22], "motion": [0.003, 0.005, 0.7, 1.2]},
+      {"area": [0.07, 0.23, 0.13, 0.3], "motion": [0.002, 0.003, 0.8, 0.5]},
+      {"area": [0.8, 0.35, 0.4, 0.36], "motion": [0.001, 0.0015, 0.26, 0]}
+    ],
+    "locks": [[0.22, 0.63, 0.14, 0.16], [0.17, 0.46, 0.12, 0.18]]
+  },
+  "taglineArt": {
+    "text": "让热爱，有迹可循",
+    "src": "PORTAL_04_FG_tagline-calligraphy_v1.webp",
+    "width": 1774,
+    "height": 887
+  },
+  "footerVideo": {
+    "src": "PORTAL_03_VID_celestial-sea_v1.mp4",
+    "poster": "PORTAL_03_BG_celestial-sea-poster_v1.webp"
+  },
+  "port": 8090,
+  "output": "portal-dist"
+}

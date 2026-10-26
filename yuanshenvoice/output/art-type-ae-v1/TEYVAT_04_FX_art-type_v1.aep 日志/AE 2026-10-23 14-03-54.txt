@@ -1,0 +1,28 @@
+Adobe After Effects v26.5 Windows 64 为项目“TEYVAT_04_FX_art-type_v1.aep”渲染日志
+
+渲染在“14:03:54”的“2026/10/23”上开始
+
+  “2026/10/23”“14:03:54”: 开始合成“TITLE_MAIN_ALPHA”。
+
+  输出到: D:\yuanshenvoice\output\art-type-ae-v1\frames\main\TITLE_MAIN_[####].png  After Effects: 无法分配内存的 5.778 MB。减少此帧渲染的内存要求，或安装更多的内存。(12803 / BM WORLD)。有关详细信息，请访问 www.adobe.com/go/learn_ae_mem_cn (37  ::  3)After Effects: 无法分配内存的 5.778 MB。减少此帧渲染的内存要求，或安装更多的内存。(12803 / Unidentified caller.)。有关详细信息，请访问 www.adobe.com/go/learn_ae_mem_cnAfter Effects错误: 无法分配足够内存来渲染当前帧 (1487 x 508 @ 16 bpc)。请降低渲染此帧的内存要求，或安装更多的 RAM。(12805)。有关详细信息，请访问 www.adobe.com/go/learn_ae_mem_cn (37  ::  66)  After Effects 意外耗尽了内存，无法完成此导出。
+
+您可能需要简化合成，降低渲染分辨率或通过“首选项”->“内存和 CPU”增加 After Effects 的可用内存。  “2026/10/23”“14:03:57”: 完成的合成“TITLE_MAIN_ALPHA”。
+
+
+  “2026/10/23”“14:03:57”: 开始合成“TITLE_NAHIDA_ALPHA”。
+
+  输出到: D:\yuanshenvoice\output\art-type-ae-v1\frames\nahida\TITLE_NAHIDA_[####].png  After Effects: 无法分配内存的 4.614 MB。减少此帧渲染的内存要求，或安装更多的内存。(12803 / BM WORLD)。有关详细信息，请访问 www.adobe.com/go/learn_ae_mem_cn (37  ::  3)After Effects: 无法分配内存的 4.614 MB。减少此帧渲染的内存要求，或安装更多的内存。(12803 / Unidentified caller.)。有关详细信息，请访问 www.adobe.com/go/learn_ae_mem_cnAfter Effects错误: 无法分配足够内存来渲染当前帧 (1400 x 431 @ 16 bpc)。请降低渲染此帧的内存要求，或安装更多的 RAM。(12805)。有关详细信息，请访问 www.adobe.com/go/learn_ae_mem_cn (37  ::  66)  After Effects 在此帧上遇到了一个与启用 GPU 的效果相关的错误（代码：\1）。这可能是因为您的 GPU 显存不足。
+
+请降低渲染分辨率、关闭可能正在使用 GPU 资源的应用程序，或者在“文件”>“项目设置”>“视频渲染和效果”中将此项目设置为使用“仅 Mercury 软件”来渲染效果  “2026/10/23”“14:03:57”: 完成的合成“TITLE_NAHIDA_ALPHA”。
+
+
+  “2026/10/23”“14:03:57”: 开始合成“BRAND_GOLD_ALPHA”。
+
+  输出到: D:\yuanshenvoice\output\art-type-ae-v1\frames\brand\BRAND_GOLD_[####].png  After Effects: 无法分配内存的 3.668 MB。减少此帧渲染的内存要求，或安装更多的内存。(12803 / BM WORLD)。有关详细信息，请访问 www.adobe.com/go/learn_ae_mem_cn (37  ::  3)After Effects: 无法分配内存的 3.668 MB。减少此帧渲染的内存要求，或安装更多的内存。(12803 / Unidentified caller.)。有关详细信息，请访问 www.adobe.com/go/learn_ae_mem_cnAfter Effects错误: 无法分配足够内存来渲染当前帧 (800 x 600 @ 16 bpc)。请降低渲染此帧的内存要求，或安装更多的 RAM。(12805)。有关详细信息，请访问 www.adobe.com/go/learn_ae_mem_cn (37  ::  66)  After Effects 在此帧上遇到了一个与启用 GPU 的效果相关的错误（代码：\1）。这可能是因为您的 GPU 显存不足。
+
+请降低渲染分辨率、关闭可能正在使用 GPU 资源的应用程序，或者在“文件”>“项目设置”>“视频渲染和效果”中将此项目设置为使用“仅 Mercury 软件”来渲染效果  “2026/10/23”“14:03:57”: 完成的合成“BRAND_GOLD_ALPHA”。
+
+
+  已用总时间: 3 秒
+日志在“14:03:57”的“2026/10/23”上关闭
+

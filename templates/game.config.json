@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "example",
+  "brand": {
+    "title": "示例游戏 · 声音档案",
+    "shortName": "示例游戏",
+    "englishName": "GAME VOICE ARCHIVE",
+    "world": "示例世界",
+    "description": "角色、语音与音乐档案",
+    "copyright": "游戏素材版权归各自权利人所有",
+    "tagline": "每一个声音，都值得珍藏"
+  },
+  "assets": {
+    "logo": "assets/placeholder.svg",
+    "placeholder": "assets/placeholder.svg",
+    "font": "assets/fonts/archive.woff",
+    "scenes": { "pc": { "poster": "assets/placeholder.svg" }, "mobile": { "poster": "assets/placeholder.svg" } }
+  },
+  "data": { "catalog": "data/catalog.json", "characters": "data/characters", "search": "data/voice-search-index.json", "music": "data/music.json" },
+  "home": { "characterId": 1, "preferred": [], "titleLines": ["循着声音", "重逢熟悉的世界"], "tagline": "珍藏角色的故事与回忆" },
+  "copy": { "archiveTitle": "角色图鉴", "characterUnit": "位角色", "friendTab": "角色故事", "actionTab": "战斗语音", "detailKicker": "VOICE MEMORIES", "detailTitle": "角色的声音", "edition": "典藏立绘", "editionBadge": "✧ 典藏", "editionCredit": "角色插画", "quoteEmpty": "暂无收录的语音", "quoteEmptyHint": "可以切换角色或其他台词分类" },
+  "filters": {
+    "allRegions": "全部地区", "elementLabel": "职业", "elements": [{ "name": "探索者", "icon": "compass", "color": "#65b8b855" }],
+    "primary": { "label": "星级", "allLabel": "全部星级", "options": [{ "value": "5", "label": "五星角色" }] },
+    "secondary": { "label": "阵营", "allLabel": "全部阵营", "options": null }, "raritySort": "星级优先"
+  },
+  "detail": { "metadata": [{ "field": "weapon" }], "voices": {} },
+  "features": { "music": false, "skins": true, "rarity": true },
+  "music": { "title": "留声八音盒", "badge": "游戏原声", "artist": "游戏原声", "autoplay": false, "proxy": false, "tabs": [{ "id": "all", "label": "全部音乐" }, { "id": "local", "label": "站内原声", "mode": "playable" }] },
+  "theme": { "default": "dark", "dark": { "--bg": "#101c27", "--gold": "#8ad8d0" }, "light": { "--bg": "#eff5f5", "--gold": "#287f7a" } },
+  "styles": ["theme.css"],
+  "server": { "host": "127.0.0.1", "port": 8082 },
+  "build": { "directory": "dist", "target": "static" },
+  "storage": { "namespace": "example", "favorites": "example_fav_quotes_v2" }
+}

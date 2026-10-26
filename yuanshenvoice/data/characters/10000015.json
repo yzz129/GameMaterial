@@ -1,0 +1,552 @@
+{
+  "id": 10000015,
+  "name": "凯亚",
+  "enName": "Kaeya",
+  "title": "寒风剑士",
+  "element": "冰",
+  "region": "蒙德",
+  "rarity": 4,
+  "weapon": "单手剑",
+  "birthday": "11月30日",
+  "constellation": "孔雀羽座",
+  "description": "异国面容的剑斗士，西风骑士团的头脑派人物。",
+  "affiliation": "西风骑士团",
+  "cv": {
+    "chinese": "孙晔",
+    "japanese": "鸟海浩辅",
+    "english": "乔西·蒙塔纳·麦科伊",
+    "korean": "郑周元"
+  },
+  "avatarImg": "assets/characters/10000015-avatar.webp",
+  "splashArt": "assets/characters/10000015-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Kaeya.zip",
+  "voicePackageEn": "Kaeya",
+  "quoteCount": 74,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "西风骑士团，凯亚。请让我与你同行吧。比起团里的差事，还是做你的护卫要有趣得多。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/64/56jz1pov2pfl3b9u1667qbudsiggcmh.mp3"
+    },
+    {
+      "title": "闲聊·无所事事",
+      "desc": "没想到你也知道忙里偷闲。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_explore_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d7/s3wjhljpf4n770v9ajil5vrusa00ea8.mp3"
+    },
+    {
+      "title": "闲聊·骑士团",
+      "desc": "骑士团的战友们已经忙得不可开交了吧，哼哼。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_explore_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a9/61ukupj5d4shbxnnfxqhn28vmfpuwaq.mp3"
+    },
+    {
+      "title": "闲聊·懒散",
+      "desc": "逗留够久了吧，再不活动活动筋骨，要长出蘑菇来了。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_explore_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3f/f36tim6jxeml0dg6j5alsyuqf6w6u0x.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "这雨天里，冰冻的力量会更强吧，有趣。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4f/6izgyr3gc3ddt5lvkucijx0edqpjgqy.mp3"
+    },
+    {
+      "title": "下雪的时候·逸闻",
+      "desc": "呼…趁着这雪天，跟你讲一个鬼故事吧。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/05/fzwcqr3q05ryo82p96df5a8v2nq9ziy.mp3"
+    },
+    {
+      "title": "下雪的时候·寒冷",
+      "desc": "怎么，你怕冷？",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_weather_snowy_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/35/3mgnzucxyb8wssnui4uvuf3xkcdx0rn.mp3"
+    },
+    {
+      "title": "起风的时候…",
+      "desc": "真是和平啊，可又能持续多久呢？",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_weather_breezy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/95/fev12lt84g03snmx4voi0f6k5iactcb.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "享受这一天吧。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/98/74lyhbhwkmjwqvaqs0tt10t87h1cnwr.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "哟，要不要一起去酒馆坐坐。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/65/rfszk0i9zhe6mkhhqs9evh5wczlxm0w.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "你该不会怕黑吧？哦？那我…可找到新素材了。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/dd/azugcdoqs6cf77w7rpq3c9q7pakk2i1.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "这就要走了吗。那就下回见了，别让我等太久啊。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/37/dj5wuixgpgxxd1kb3lqmuidev5gtqv5.mp3"
+    },
+    {
+      "title": "关于凯亚自己…",
+      "desc": "你最近有没有被深渊教团找麻烦？有什么心烦的可以跟我聊聊。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/78/5dctbbwlkdj6lekoi58y3gcqetpiype.mp3"
+    },
+    {
+      "title": "关于我们·雇佣关系",
+      "desc": "需要我的时候就派我上场吧，别谈那些雇佣关系了。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c6/axd0ll172agh2ws0kldxc0lvv59f4vw.mp3"
+    },
+    {
+      "title": "关于我们·实力",
+      "desc": "哦？既然这么在意我们之间的雇佣关系，就多使唤我一点吧，老大？哼哼，可别被我的真正实力吓到哦。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_dialog_close2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/37/747w5o486zzi3io3xj5l08z500hi4cp.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "不明白「神之眼」的原理？嗯…我想想，给你打个比方吧。引导视线的器官是眼睛，而引导元素力的器官是「神之眼」。这样就很简单了吧。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/11/nqr8r9d4tbimdf8u51i4ej4dkgon7uu.mp3"
+    },
+    {
+      "title": "有什么想要分享…",
+      "desc": "你喜欢酒吗？蒲公英酒的口感就很特别。什么？还没到喝酒的年纪？呵呵，那试一试蒙德的苹果酿吧，我知道一家还算不错的店。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_dialog_share",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/47/bezuyzfhirq94h8n9napuov0a8fzvla.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "你见过龙脊雪山的猫头鹰么？和它对视的时候，它好像看穿了你，而你却完全参不透它…很迷人的家伙，不是吗？",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_pref_gift",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/21/2gv12pyfyidj34kxqsguuzfp3l86a3k.mp3"
+    },
+    {
+      "title": "关于琴…",
+      "desc": "哦？代理团长大人，你可要多多支持她。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_qin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/78/6lhp5sc7akmyk6libks8eplwfxpssup.mp3"
+    },
+    {
+      "title": "关于丽莎…",
+      "desc": "丽莎啊…你千万记得要准时还书哦？上次因为这事儿惹她生了气，直到现在我左手的尺骨还是麻麻的。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_lisa_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9c/q87otkeedve9zlg5y7a8v5aa24ruv32.mp3"
+    },
+    {
+      "title": "关于安柏…",
+      "desc": "侦察骑士是个机灵又正义的好骑士。可千万别在她面前做坏事喔。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_ambor_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7c/lexojv0c14s6pt77gbixn1fxuo6me8r.mp3"
+    },
+    {
+      "title": "关于迪卢克…",
+      "desc": "迪卢克？小时候的他挺可爱的。可如今却活在自己的世界里…总之是个无趣的家伙。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_diluc_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3b/0mr34kmpcs4d6xqzmffmkhf5f0c41ai.mp3"
+    },
+    {
+      "title": "关于可莉…",
+      "desc": "可莉，看来还是没有掌握躲避代理团长检查的技巧啊，明明我已经点拨过她…哈哈，我说着玩玩的，你可别去揭发我哦。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_klee_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/68/bxf32bm0ggwxrcly9dzk6lwgpytevv0.mp3"
+    },
+    {
+      "title": "关于阿贝多…",
+      "desc": "阿贝多啊，沉稳优雅的小帅哥，而且才华横溢，是很讨人喜欢的类型。怎么，你也心动了？",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_albedo_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7e/l98bdxgc8jmpnvwwa4ldy42vbhc9d2v.mp3"
+    },
+    {
+      "title": "关于迪奥娜…",
+      "desc": "你也尝过了迪奥娜调的酒？还没到喝酒的年纪呐。哈哈，哎呀，可惜，真是可惜，这种快乐无法跟你共享。呵呵，只能期待你早点长大喽。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_diona_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/45/7f98q6u6z9j42pr9cj1cfbt4t94uxsr.mp3"
+    },
+    {
+      "title": "关于法尔伽…",
+      "desc": "说来可惜，现在的西风骑士团里，根本没人继承大团长的行事作风。唉…我个人倒还挺欣赏那种的。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_varka_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/08/rq6w64d5sxon0bdqx31jkdht96kf3g2.mp3"
+    },
+    {
+      "title": "关于菲谢尔…",
+      "desc": "什么？你说菲谢尔遮起一只眼睛的神秘样子，的确很符合「断罪皇女」的形象？哈哈哈，按照这个规律，我至少也得是个末代皇族后裔，对吧？",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_fischl_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c3/2ncvyt8859tza2suqfa6uwg9j8wwk54.mp3"
+    },
+    {
+      "title": "关于诺艾尔…",
+      "desc": "我受代理团长大人所托，暗中照顾这位后辈。不过她很懂事，不需要我操太多心。真是令人欣慰。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_noel_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/97/es4urj4zk32etkq162nyhbfo9b2t3u3.mp3"
+    },
+    {
+      "title": "关于罗莎莉亚…",
+      "desc": "啊哈哈，你想知道罗莎莉亚修女的秘密吗？这个不能说。不过我对她印象还不错，比某人好多了。她能够诚实地面对自己。烂事就是烂事，提不起干劲就是提不起干劲。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_rosaria_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1b/481u5tqlomw9rs25s7z3ztgq9zfyzos.mp3"
+    },
+    {
+      "title": "关于砂糖…",
+      "desc": "别看砂糖文静又内向，据说，她在实验室里，收藏了很多特别的东西哦，很刺激，又很…露骨的那种。嗯？你问我？…我像是会偷看女孩子房间的人吗？",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_sucrose_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/83/ow3pl7u8u29aua70p47p9lwbf0a6vwh.mp3"
+    },
+    {
+      "title": "关于柯莱…",
+      "desc": "嗯，柯莱？真是个怀念的名字，你可找对人了！我来告诉你过去发生的事情吧，干脆从头说起——保证原汁原味！",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_collei_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3c/roloz5ingohtpi8vl4vhsldmkmps7s2.mp3"
+    },
+    {
+      "title": "关于米卡…",
+      "desc": "刚开始接触那会儿，我看米卡容易紧张，就跟他开了一点无关痛痒的小玩笑。哪知他更紧张了，连笑都笑得很僵硬…最后还特意写信道歉。欸，这种单纯老实的品质，难道是施密特家族的遗传？",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_teammate_mika_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/VO_ZH_Kaeya_About_Mika.ogg"
+    },
+    {
+      "title": "想要了解凯亚·其一",
+      "desc": "骑兵队长的头衔可没什么了不起的。说起来，蒙德城的骑兵都被大团长带走了。呵呵。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/VO_ZH_Kaeya_More_About_Kaeya_-_01.ogg"
+    },
+    {
+      "title": "想要了解凯亚·其二",
+      "desc": "其实西风骑士团一共有十位队长。但不是所有人都有队长级的实力。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c4/d5yv2kjuuv3gxf3des6k52x4wy3dg7k.mp3"
+    },
+    {
+      "title": "想要了解凯亚·其三",
+      "desc": "我的眼睛？我的眼睛没事。想把身体的某些部分遮起来是很平常的事儿吧？衣服和裤子也是一个道理。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0b/39hgayfxeadrsv5ecdrtoksse61h3kq.mp3"
+    },
+    {
+      "title": "想要了解凯亚·其四",
+      "desc": "坎瑞亚？哦，你知道的真多。坎瑞亚的荣耀早已不在，剩下的如今都已沦为罪人，又何必再提起他们。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/19/5ot8a2nf3k1xxhr5fzm94911svd21c3.mp3"
+    },
+    {
+      "title": "想要了解凯亚·其五",
+      "desc": "原来我们已经相遇这么久了。跟你一起旅行，大概是我这辈子遇上的最有趣的事儿了，今后可别让我失望哦。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/51/cowumwywi4f2p5tko3hcvlmro45j2fg.mp3"
+    },
+    {
+      "title": "凯亚的爱好…",
+      "desc": "品酒也是一种艺术，蒙德的酒是风神的恩赐，懂得好好品味才不会浪费了这份幸运。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d6/89yv3vclywbl9gbvm1y6hx0rezmxydv.mp3"
+    },
+    {
+      "title": "凯亚的烦恼…",
+      "desc": "孤独？怎么会，现在不就有人在我身边唠叨么。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b8/5uxxrcb32c7oe8he46as8gmgpxr3brm.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "蒙德特酿的起泡白葡萄酒，兑上三份蒲公英酒，苦味会被完美中和，这种酒名叫「午后之死」。美味。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b4/jikrwbc29897ro3qkqzlaez134t7ddu.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "居然有人直接把葡萄汁拿来喝，明明只需少许时日就能变成佳酿的…啧，真是不懂浪漫。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ec/2hawqhgz54xi54atq9vwofjhtillfhz.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "哦！这味道好棒，看不出来，你真有两下子啊。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/90/qffrzp2vffl9fcjhybg9ln6fyma5noh.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "配上美酒，会变得更美味吧。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/VO_ZH_Kaeya_Receiving_a_Gift_-_02.ogg"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "放心，我只是吃得慢了一点，我会好好吃完的。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/VO_ZH_Kaeya_Receiving_a_Gift_-_03.ogg"
+    },
+    {
+      "title": "生日…",
+      "desc": "值得庆贺的日子，祝你今天能得到真正的快乐。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_pref_birthday",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c0/VO_ZH_Kaeya_Birthday.ogg"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "嚯，你也有两下子嘛。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1c/jiwrsjyv6ka9tluf0ssb9wdafr6axra.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "你好像一直都很照顾我嘛。谢啦。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7c/tcvybuu6nj4k9okizvps95zt1mtp62i.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "力量又增强了啊…我说，你那是什么眼神，怎么感觉比我还兴奋。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/31/azd20x1e7lclpejub7o4kjremjs4ova.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "本来只是同行，没想到你居然为我做到这一步…看来我也必须好好回应你才行呢。继续我们的旅程吧，挚友，是时候认真起来了。",
+      "voicefile": "VO_friendship/VO_kaeya/vo_kaeya_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b2/3menxa2lco0xhxdw67n9hgjg6hgnadu.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "老实点！",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a9/14c08ug615lqq571ewwy3k93s1spvn5.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "冻结吧！",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b6/axavrl3b7qhxefzy3jkc7qbdqbpo9o6.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "这个如何？",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c0/rwguara2vope9kvhj0am1dg6sv4fwqn.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "小心着凉。",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/eb/btxnaffza50oy6u8wxd3gauxyr6o2fp.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "抱歉哦。",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a9/qepon3g7cvijzakekui8c2ptp3vifvd.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "…这刹那，将是你的永恒。",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/59/l8xe9x4n2r166xggl5gwr8i9py8ky2j.mp3"
+    },
+    {
+      "title": "冲刺开始·其一",
+      "desc": "真是急性子啊你。",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_explore_sprint_start_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ad/ldnyd8944889mfpqb3g9rdka668ehi3.mp3"
+    },
+    {
+      "title": "冲刺结束·其一",
+      "desc": "呼，哈哈。",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_explore_sprint_end_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a2/08cdw8e9e9hmqvb0bnnl0eqbykiy8gc.mp3"
+    },
+    {
+      "title": "打开风之翼·其一",
+      "desc": "起风了。",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_explore_fly_start_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a7/8tzimqdynbfqg0n2cssn1uh10l9ftac.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "运气还不错！",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4f/jleq6p5fy65jsutm29lzixe62spjl7n.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "挺有趣的。",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/66/8mk0vm6un1n7w1a2cf4k05lvb814zsd.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "哈哈，真有乐子。",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/50/h6jfo99smb5ygq3ugvi32myemyqaz1h.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "看来该认真了。",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f2/3p8okrenwf1c4s5wrknx4g7rd9aq5t6.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "似乎变得无聊了…",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4c/35steo5f59d5rgpssgx6s1bng694f5w.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "麻烦的家伙…",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/f9/r9jytn0wim37fjd4760ygw6lifojd25.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "让我帮你吧，记得欠我一个人情。",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/58/3hncvj9qqa5s4trh4f25ytx98au1z2p.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "喂，命丢了可就不好玩了。",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/VO_ZH_Kaeya_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "还没尽…兴…",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/VO_ZH_Kaeya_Fallen_01.ogg"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "哼，意料之外…",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ee/nxagci5del6mpn4dbpkj567c1i6bpnv.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "太难看了。",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/ca/k9be7itx3q16isvdoj4h1sffqkgc3l0.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "可恶…",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_battle_hit_H_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/35/rhj3ie6i2202413qbfchf9kyjhicr3l.mp3"
+    },
+    {
+      "title": "重受击·其二",
+      "desc": "适可而止。",
+      "voicefile": "VO_gameplay/VO_kaeya/vo_kaeya_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5e/3r3nf25awlmg1dslybwax8ba9fyalrr.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "真期待啊。",
+      "voicefile": "VO_teamJoin/vo_kaeya_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/20/crx4clrblu77mvcmv6i8mn9sjwbt6zs.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "去找点乐子吧。",
+      "voicefile": "VO_teamJoin/vo_kaeya_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0f/g3uwikeiliqah52b7ewxz6d5i8jld2m.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "早就准备好喽。",
+      "voicefile": "VO_teamJoin/vo_kaeya_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c4/icpm7yqjkv8usy9qr0f78r5r4f0jt5f.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000015-card.webp",
+  "fullArt": "assets/characters/10000015-full.webp",
+  "fullArtWidth": 1109,
+  "fullArtHeight": 878
+}

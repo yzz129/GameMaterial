@@ -1,0 +1,27 @@
+{
+  "id": "584",
+  "name": "元流之子(射手)",
+  "slug": "yuanliuzhizi_archer",
+  "title": "沉舟之志",
+  "roles": [
+    "射手"
+  ],
+  "portrait": "assets/heroes/584-portrait.webp",
+  "cover": "assets/heroes/584-cover.webp",
+  "skins": [
+    {
+      "id": "584-db0d39dc242f",
+      "name": "沉舟之志",
+      "voiceCount": 0
+    }
+  ],
+  "skinCount": 1,
+  "voiceCount": 0,
+  "sourceUrl": "https://pvp.qq.com/zlkdatasys/yuzhouzhan/herovoice/584.json",
+  "officialPage": "https://pvp.qq.com/web201605/herodetail/584.shtml",
+  "voiceStatus": "not-published",
+  "region": "",
+  "faction": "",
+  "updatedAt": "2026-10-23T13:50:05.071Z",
+  "voices": []
+}

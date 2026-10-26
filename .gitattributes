@@ -1,0 +1,9 @@
+# Preserve original media and production-source bytes in regular Git.
+*.mp4 binary
+*.flac binary
+*.mp3 binary
+*.wav binary
+*.tif binary
+*.tiff binary
+*.aep binary
+*.aepx binary

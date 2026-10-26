@@ -1,0 +1,17 @@
+Adobe After Effects v26.5 Windows 64 为项目“PORTAL_02_TYPE_title_v1.aepx”渲染日志
+
+渲染在“11:46:20”的“2026/10/25”上开始
+
+  “2026/10/25”“11:46:20”: 开始合成“PORTAL_TITLE_DESKTOP”。
+
+  输出到: D:\游戏素材\portal\masters\title\renders\desktop\title_[#####].tif    “2026/10/25”“11:46:21”: 完成的合成“PORTAL_TITLE_DESKTOP”。
+
+
+  “2026/10/25”“11:46:21”: 开始合成“PORTAL_TITLE_MOBILE”。
+
+  输出到: D:\游戏素材\portal\masters\title\renders\mobile\title_[#####].tif    “2026/10/25”“11:46:22”: 完成的合成“PORTAL_TITLE_MOBILE”。
+
+
+  已用总时间: 2 秒
+日志在“11:46:22”的“2026/10/25”上关闭
+

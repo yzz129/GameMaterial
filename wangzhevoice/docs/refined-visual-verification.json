@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-24T01:52:09.835Z",
+  "checks": [
+    {
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "skinArtwork": "凤求凰",
+      "skinVoiceCount": 3
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "skinArtwork": "凤求凰",
+      "skinVoiceCount": 3
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "overflow": false,
+      "skinArtwork": "凤求凰",
+      "skinVoiceCount": 3
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "overflow": false,
+      "skinArtwork": "凤求凰",
+      "skinVoiceCount": 3
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "skinArtwork": "凤求凰",
+      "skinVoiceCount": 3
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "skinArtwork": "凤求凰",
+      "skinVoiceCount": 3
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "overflow": false,
+      "skinArtwork": "凤求凰",
+      "skinVoiceCount": 3
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "overflow": false,
+      "skinArtwork": "凤求凰",
+      "skinVoiceCount": 3
+    }
+  ],
+  "errors": []
+}

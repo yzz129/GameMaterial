@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    "index.html",
+    "voice_index.html",
+    "nahida_player.html",
+    "app.js",
+    "model.js",
+    "audio-autoplay.js",
+    "styles.css",
+    "dialog.css",
+    "search-worker.js",
+    "site-config.js",
+    "theme.generated.css",
+    "theme.css",
+    "data/catalog.json",
+    "data/voice-search-index.json",
+    "assets/audio/music/music_catalog.json",
+    "data/search-index.json",
+    "data/nahida-index.json"
+  ],
+  "generated": [
+    "app.js",
+    "model.js",
+    "audio-autoplay.js",
+    "styles.css",
+    "dialog.css",
+    "search-worker.js",
+    "site-config.js",
+    "theme.generated.css",
+    "data/voice-search-index.json",
+    "index.html",
+    "voice_index.html",
+    "nahida_player.html"
+  ],
+  "characters": "data/characters",
+  "aliases": {
+    "nahida_player": "nahida_player.html"
+  }
+}

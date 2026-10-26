@@ -1,0 +1,531 @@
+{
+  "id": 10000055,
+  "name": "五郎",
+  "enName": "Gorou",
+  "title": "戎犬锵锵",
+  "element": "岩",
+  "region": "稻妻",
+  "rarity": 4,
+  "weapon": "弓",
+  "birthday": "5月18日",
+  "constellation": "柴犬座",
+  "description": "海祇岛军的大将，深受部下信赖。",
+  "affiliation": "海祇岛",
+  "cv": {
+    "chinese": "杨昕燃",
+    "japanese": "畠中祐",
+    "english": "科里·易",
+    "korean": "李晓"
+  },
+  "avatarImg": "assets/characters/10000055-avatar.webp",
+  "splashArt": "assets/characters/10000055-art.webp",
+  "hasLocalPack": false,
+  "voicePackageUrl": "https://huggingface.co/datasets/simon3000/genshin-voice/resolve/main/speaker-archives/Chinese/501-plus/Gorou.zip",
+  "voicePackageEn": "Gorou",
+  "quoteCount": 71,
+  "friendLines": [
+    {
+      "title": "初次见面…",
+      "desc": "海祇岛反抗军大将，五郎，前来助阵！早就听说过你的威名了，我将与你齐驱并进，一同攻夺胜利！哈哈，怎么样，我刚刚这句话的气势，还不错吧？",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_draw_appear",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/e5/lxpw9bvo3gsgtt8fze27n9ntzlxahmm.mp3"
+    },
+    {
+      "title": "闲聊·军略",
+      "desc": "枕戈坐甲，才能应对变数。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_character_idle_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d2/kcr0rx5d7hmmt2yusa973352vb32e2b.mp3"
+    },
+    {
+      "title": "闲聊·训练",
+      "desc": "难得没有战事，来场体能训练吧！",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_character_idle_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/01/3b4l3x60t6oqegrmhhlguhnmjmmxbvg.mp3"
+    },
+    {
+      "title": "闲聊·体格",
+      "desc": "魁梧的体格是力量的象征，对鼓舞士气也很有帮助。我得再加把劲啊！",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_character_idle_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fc/3rcl52kwp250k30kk6r389dvd66gujz.mp3"
+    },
+    {
+      "title": "下雨的时候…",
+      "desc": "尾巴湿了…找堆篝火烤一烤吧。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_weather_heavyRain_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/68/6tpu7n4tndmmqgacsauz9i1urrny60n.mp3"
+    },
+    {
+      "title": "打雷的时候…",
+      "desc": "有敌情吗！",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_weather_thunder_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/78/c1mt6opmbegllhdsff2j6lkky0wyc7c.mp3"
+    },
+    {
+      "title": "下雪的时候…",
+      "desc": "好冷…这种天气不适合露天活动啊…",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_weather_snowy_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/32/efbj704ujnboalpp87o3d1gdgawp2of.mp3"
+    },
+    {
+      "title": "阳光很好…",
+      "desc": "晒太阳虽好，士气却不能松懈啊。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_weather_sunny_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ef/jjh8hw8n7sovx07o06tvif0ihonzfii.mp3"
+    },
+    {
+      "title": "刮大风了…",
+      "desc": "顺风进攻，我方占优。逆风作战，也不必畏惧！",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_weather_gale_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2a/m19xfokf454x0evtaul0ahsb7bev923.mp3"
+    },
+    {
+      "title": "早上好…",
+      "desc": "晨练时间到了，要和我一起去登山吗？",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_dialog_greetingMorning",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4c/g3z73uep8gtuca3xtppvs9l6arzk51b.mp3"
+    },
+    {
+      "title": "中午好…",
+      "desc": "午饭就吃鲜鱼炖萝卜和白米饭吧。这种搭配在反抗军中很流行，推荐你也试一试。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_dialog_greetingNoon",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/45/s2708bsdyal7r3fk8hs3mpvcj43eomh.mp3"
+    },
+    {
+      "title": "晚上好…",
+      "desc": "晚上也不能怠懈，要让眼睛充分适应黑暗。毕竟，黑灯瞎火的地方，也有可能变成战场。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_dialog_greetingNight",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b3/32smziuw1rqxqiktt8byc3jzqeydx0u.mp3"
+    },
+    {
+      "title": "晚安…",
+      "desc": "累了吗？那就安心休息吧。待在这里放哨的任务就交给我了！保证你回来的时候，一切都跟现在一模一样。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_dialog_greetingNight2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4c/b4ohywr4tin8xcxepzs67cfmbllo6jn.mp3"
+    },
+    {
+      "title": "关于五郎自己·大哥",
+      "desc": "「五郎大哥」？你是从哪里听到的啊！唉…实不相瞒。平时，我和将士们的交流都很密切，有什么好东西也都大家一起分享。他们敬重我，私底下就大哥大哥地叫了起来。可实际上，他们的年纪都比我大啊…",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_dialog_idle",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/37/gbttjmwpynytfbbns054h1x7d0zr82h.mp3"
+    },
+    {
+      "title": "关于五郎自己·建议",
+      "desc": "大概因为我总是打胜仗吧，总感觉将士们把我想象成了特别厉害的人，哪怕是小事也会来问我的建议。他们的眼神让我没法拒绝，但我的计策也有限…只能讲些大道理，或是凭直觉给出答案了。唉，会不会对不起他们呢…",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_dialog_idle2",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/33/3b2gq0feqrrr36kne2hlsdc2n0d44ma.mp3"
+    },
+    {
+      "title": "关于我们·倾诉",
+      "desc": "有什么烦恼，千万不要埋在心里，来和我说说吧。虽然我不是什么事情都在行，但我一定会尽力为你出谋划策的。就算…就算答案不够可靠，至少我也是你忠实的听众。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_dialog_close",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/2/2f/49q37nwckidibhluyfe705b0kg7f43q.mp3"
+    },
+    {
+      "title": "关于我们·同食同寝",
+      "desc": "一起训练，一起吃饭，一起休息…方便随时交流，还能增进我们之间的默契。到了关键时刻，一个眼神就能传递重要的信息…欸？这样不合适吗？唔…我和其他兄弟都是这样熟悉起来的啊。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_dialog_close1",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/78/70bgl9dteljpbnp88rrtypywgdy9z9n.mp3"
+    },
+    {
+      "title": "关于「神之眼」…",
+      "desc": "「神之眼」为我的战斗提供了许多帮助，让我能在战场上承担更多责任，为战友们开辟道路。但我也明白，个人的力量再强，都没法左右战争的胜负。大家齐心协力才是关键。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_dialog_pendant",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a3/596zscvm82yw8w1yn9omy3o5hwntljg.mp3"
+    },
+    {
+      "title": "有什么想要分享·轻装上阵",
+      "desc": "轻装上阵正是我的风格。我擅长灵活游走，寻找战机。我的箭矢会优先对准敌方最强的将士，挫伤对方的锐气。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_dialog_share_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c7/qbofjbh3u26vv16apszg91tarcznls5.mp3"
+    },
+    {
+      "title": "有什么想要分享·常胜将军",
+      "desc": "将士们给我取了个绰号，叫「常胜的尖耳将军」，还有些奇怪的传闻，说是「摸到五郎大哥的耳朵，就能获得常胜将军的好运」。唔…摸是绝对不行的！他们笑得再开心也不行！欸？你也想摸？喂，喂…",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_dialog_share_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/88/99azup0hbvxf41kkxziam3egux9l2nj.mp3"
+    },
+    {
+      "title": "感兴趣的见闻…",
+      "desc": "听说璃月有着高耸入云的群山，真想亲眼去看看，再尽情攀登一番。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_pref_gift_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/43/57yarge6xjjmcbqgq6ol671nl5iysq5.mp3"
+    },
+    {
+      "title": "关于北斗…",
+      "desc": "北斗船长重视情义、身手不凡，令人尊敬。她曾说不愿把同伴卷入纷争，我们也理解这一点。因此，只有到了必要的时候，才会请她来帮忙。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_teammate_beidou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/71/p1b4b007kdospgx2cwru7xzdo6lcci0.mp3"
+    },
+    {
+      "title": "关于枫原万叶…",
+      "desc": "我见过形形色色的浮浪人，万叶绝对是他们之中最特殊的一位。他就像一缕风，不会在任何地方停留，但总能给身边人带来些什么。和他并肩战斗期间，我就从他身上学会了几分「洒脱」。总之，我和万叶相当合拍！",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_teammate_kazuha_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/13/fglnkqcnmkmbc424nrhgee9jui0iexh.mp3"
+    },
+    {
+      "title": "关于珊瑚宫心海·职责",
+      "desc": "珊瑚宫大人作为海祇岛最高领袖，负责掌控大局，制定计划。我负责将细节落实，把控前线的形势。反抗军上下一心，只求胜利。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_teammate_kokomi_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d4/3es8vut8goihus6d91u97kpyi717yp0.mp3"
+    },
+    {
+      "title": "关于珊瑚宫心海·态度",
+      "desc": "我对珊瑚宫大人抱有崇高的敬意。珊瑚宫大人神机妙算，没有她的谋略和统筹，反抗军不可能取得如今的战果。只不过，私底下她似乎更偏好安静的生活。没有军事要务的话，我不会主动打搅她。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_teammate_kokomi_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/86/40dditki38n9ijcbge381m61qwms6gc.mp3"
+    },
+    {
+      "title": "关于雷电将军…",
+      "desc": "雷电将军…不论理由如何，我无法认同她以前的做法。现在，海祇岛与幕府签订了和平条约，但我绝不会放松警惕。假如冲突再次爆发，我必定会重返前线。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_teammate_raidenShogun_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/3c/sq8b8xje0hrdyt8skkvcezpolc0a2ey.mp3"
+    },
+    {
+      "title": "关于九条裟罗…",
+      "desc": "我对幕府军没有好感，但九条裟罗，也许是幕府军里最正直的一位将领了。我们之间进行过数次较量，各有胜负。我曾不成熟地想过，要是这样的人能够重视民众的愿望，不受幕府掌控就好了。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_teammate_kujouSara_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6e/n79tegxk9wcqvmvxq8a8istgv7rx0ww.mp3"
+    },
+    {
+      "title": "关于八重神子…",
+      "desc": "那个女人…我们可以不聊她吗？我来帮你干活，什么杂活都没有问题…呜…就当是为了我的身心健康着想，我们还是换个话题吧？",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_teammate_yaeMiko_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/74/n3c16knkm4t5opb94zvis00vmiykrpx.mp3"
+    },
+    {
+      "title": "关于神里绫华…",
+      "desc": "社奉行从属于幕府，但立场更倾向于民众。在这种两面为难的处境下，「白鹭公主」还能站稳脚跟，应该是特别冷静，又能把握做事分寸的人吧。这一点值得我学习。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_teammate_ayaka_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/9c/nuflxfekq68o1m7xjvtgkxhny0bx7ig.mp3"
+    },
+    {
+      "title": "关于早柚…",
+      "desc": "我军情报显示，那位忍者精通潜入之法，也许她的忍术能够在珊瑚宫大人的某些奇策中发挥作用…不过，情报里又说很难掌握她的行踪，看来不好招募啊…欸？你说她是社奉行的人？…呃，那还是算了。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_teammate_sayu_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/01/0b57c7p971z10s57kte8s6qf24sij2q.mp3"
+    },
+    {
+      "title": "关于鹿野院平藏…",
+      "desc": "你说那个鬼鬼祟祟，游手好闲的侦探先生？毕竟是来自幕府的家伙，没办法完全信任，我会继续盯紧他的。说起来，他倒是有那么点探案的功夫。至于这是不是什么阴谋诡计…嗯，就得用时间来证明了。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_teammate_heizou_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1f/4k9ww1qx28qkt938qizt3enankuhrty.mp3"
+    },
+    {
+      "title": "想要了解五郎·其一",
+      "desc": "毕竟我大多时间都在战场上，我的故事，可能不算很有趣…但如果你想听的话，我就慢慢和你说，想到什么说什么。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_friendship_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/da/pi2w7uej3xtgb1ijknur9vkvit3pjk8.mp3"
+    },
+    {
+      "title": "想要了解五郎·其二",
+      "desc": "我没有令人敬畏的智谋，只有一双手和一条命。也许我的手足够有力，命足够硬吧，这么多年来，经历了不知多少场恶战，都成功活了下来。有人说，只要跟着我，不管遇上多绝望的战局，都能平安无事。就这样，不知不觉，我得到了大家的认可，成为了将领。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_friendship_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6c/pu37do6ptt5p11rgofsewric1d7uvhw.mp3"
+    },
+    {
+      "title": "想要了解五郎·其三",
+      "desc": "最初，我们的敌人是流寇、海贼和魔物，但后来，雷电将军颁布了「眼狩令」。气焰嚣张的幕府军来到了我们的面前，被我们迎头痛击。哈哈，大概他们也没想到，会遭受如此激烈的抵抗吧。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_friendship_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b7/3vlffc6gusbl8dv02trkr496elmoqxl.mp3"
+    },
+    {
+      "title": "想要了解五郎·其四",
+      "desc": "珊瑚宫大人曾经说过，我有个致命的弱点，战斗的时候太过忘我，只顾着深入敌阵。她说勇猛是好事，但对于统率一军的将领而言，这样并不称职。我…努力在改进这一点！你…能够在我身边，监督我吗？",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_friendship_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/7/7a/iq18kk7snfgdjj8xm731oiboogsq2gf.mp3"
+    },
+    {
+      "title": "想要了解五郎·其五",
+      "desc": "我需要抗争到底的对象，并非特定的团体或阵营，而是一种「恶意」。这种「恶意」曾践踏大家的愿望，破坏大家平静的生活，肆意伤害大家…彻底消除它们后，我就能安心放下武器了。等那时候，我就换上便服，和你在海祇岛上随意地散步吧。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_friendship_05",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/61/0kkf2aupoionkp4lnou47wnt51yee6q.mp3"
+    },
+    {
+      "title": "五郎的爱好…",
+      "desc": "我喜欢登山，越险峻的山越好。登山能锤炼我的肉体和精神，让我变得更强壮。还有，和同伴一起登山。在挥洒汗水后共同欣赏山间的美景，也是人生一大乐趣。不过，我不敢…不想攀爬稻妻的最高峰…",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_pref_hobby",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/45/il8vss921iwhzfap7edbg4kuzk48gtn.mp3"
+    },
+    {
+      "title": "五郎的烦恼…",
+      "desc": "轻装上阵也有不方便的时候，比如，一旦遇上火攻，我的尾巴就要格外小心。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_dialog_annoyed",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/f/fb/og2doepbw7k77vdd17kt64c7par9w5a.mp3"
+    },
+    {
+      "title": "喜欢的食物…",
+      "desc": "我喜欢蛋糕和三彩团子！嗯…大概是因为我很少吃到这类精致的点心吧。军营里的饭菜强调简便快捷，通常也不会用到太多调味料，至于糖，就更是珍贵物资了。甜味…我无法拒绝！",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_pref_foodLike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/6c/civlloh0952fq9vyvt04w3g6u2vr35e.mp3"
+    },
+    {
+      "title": "讨厌的食物…",
+      "desc": "大部分食物我都不忌口，可洋葱是个例外。有一次，后勤兵往饭菜里加了洋葱末，让我在饭桌上痛哭流涕…啊，那次实在太丢人了！弄得后勤兵也很过意不去。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_pref_foodDislike",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/82/5oxptel63wlovdxd5f7mzt6fvxulcig.mp3"
+    },
+    {
+      "title": "收到赠礼·其一",
+      "desc": "这种甜味，完全无法抵抗！",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_spice_pref_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/33/ff8htp8xgu5gj61vmem3pxd6tjpt3mp.mp3"
+    },
+    {
+      "title": "收到赠礼·其二",
+      "desc": "哦！心中气势大增！有什么需要我帮忙的吗！",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_spice_normal_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/VO_ZH_Gorou_Receiving_a_Gift_-_02.ogg"
+    },
+    {
+      "title": "收到赠礼·其三",
+      "desc": "比想象中的还要辛辣…呜，我…我有些力不从心了。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_spice_dislike_01",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/VO_ZH_Gorou_Receiving_a_Gift_-_03.ogg"
+    },
+    {
+      "title": "生日…",
+      "desc": "今天是你的生日，是意义重大的一天，请允许我来为你庆祝吧。我们在海边生一堆篝火，抓来最新鲜的鱼和螃蟹，我想给你亲手做一顿大将级别的「士气晚餐」！",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_pref_birthday_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/33/ff8htp8xgu5gj61vmem3pxd6tjpt3mp.mp3"
+    },
+    {
+      "title": "突破的感受·起",
+      "desc": "强大的力量，是为了保护同伴。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_starUp_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/5e/nusb79qn3855gn5mmnws56kdyyve1t1.mp3"
+    },
+    {
+      "title": "突破的感受·承",
+      "desc": "要保护同伴，不能只是被动防守，必须积极进攻。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_starUp_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/46/h437pw66ujyzdu93ouy5cios9ngrkb5.mp3"
+    },
+    {
+      "title": "突破的感受·转",
+      "desc": "攻夺胜利的要领，是牢记战斗的意义，遵循正确的战法，拿出锐不可当的气势。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_starUp_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/bc/klwwo33pn1ynsjsw47m5nf7nqmfgvke.mp3"
+    },
+    {
+      "title": "突破的感受·合",
+      "desc": "有了锐不可当的气势，与战友们紧密配合，方可无往不胜。谢谢你的指点！这是属于你我二人共同的胜利。",
+      "voicefile": "VO_friendship/VO_gorou/vo_gorou_starUp_04",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/0/0d/rkbo2rghoqvg8zm2wu3t9vs63dugnxr.mp3"
+    }
+  ],
+  "actionLines": [
+    {
+      "title": "元素战技·其一",
+      "desc": "进军！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_battle_skill1_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a1/2an9gr8ap12vlhoywocs8csoik0krd4.mp3"
+    },
+    {
+      "title": "元素战技·其二",
+      "desc": "强攻！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_battle_skill1_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/a7/ez6swgpxaqx5oe4es94meen3grijk28.mp3"
+    },
+    {
+      "title": "元素战技·其三",
+      "desc": "结阵！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_battle_skill1_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/87/a2gegwpg85nnrxre41z6tc0ob08sm1t.mp3"
+    },
+    {
+      "title": "元素爆发·其一",
+      "desc": "随我出征！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_battle_skill3_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/d/d1/pmfw2csb4xco8itpor440ywd8frlhc3.mp3"
+    },
+    {
+      "title": "元素爆发·其二",
+      "desc": "势如破竹！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_battle_skill3_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/6/61/2ry5wyuvh8xslfv3sbr4yrgc368p9ui.mp3"
+    },
+    {
+      "title": "元素爆发·其三",
+      "desc": "兵贵先声！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_battle_skill3_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/a/ab/dkga0dakih231r0g4lqa049ci4vlg7h.mp3"
+    },
+    {
+      "title": "打开宝箱·其一",
+      "desc": "今日运势不错！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_chest_open_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/cc/ekdv6o94kxt9ngiphjmrsxtxu2xzsp2.mp3"
+    },
+    {
+      "title": "打开宝箱·其二",
+      "desc": "和同伴们一起分享收获吧！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_chest_open_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/90/tbj5n39c3y627t1wg27cmdadfl7hpfs.mp3"
+    },
+    {
+      "title": "打开宝箱·其三",
+      "desc": "这个宝箱…埋伏了我？",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_chest_open_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c3/3g8d1haoihlf2o8gtrj7f16bsaf6qef.mp3"
+    },
+    {
+      "title": "冲刺开始·其一",
+      "desc": "随我来。",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_explore_sprint_start_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/e/ee/lsctv8z8fboept3jf4u1esif3jv5p13.mp3"
+    },
+    {
+      "title": "生命值低·其一",
+      "desc": "我还能战斗！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_life_less30_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/9/93/e166rf6jk5kales1pgifh7xeod0l1d1.mp3"
+    },
+    {
+      "title": "生命值低·其二",
+      "desc": "大意了！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_life_less30_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1a/gak1dgxhji6vizqwhhprbdo0z1oqrb3.mp3"
+    },
+    {
+      "title": "生命值低·其三",
+      "desc": "没到认输的时候！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_life_less30_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/4b/rtacwp8b02bc9tk7428kjn78zn7vtiv.mp3"
+    },
+    {
+      "title": "同伴生命值低·其一",
+      "desc": "按甲休兵！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_life_less30_teammate_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b6/f2tvano7gw6737m4c9tg3mabbw0rm2v.mp3"
+    },
+    {
+      "title": "同伴生命值低·其二",
+      "desc": "不要乱了阵脚！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_life_less30_teammate_02",
+      "localAudio": null,
+      "audioUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/VO_ZH_Gorou_Ally_at_Low_HP_02.ogg"
+    },
+    {
+      "title": "倒下·其一",
+      "desc": "兵败了…",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_life_die_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/b/b6/f2tvano7gw6737m4c9tg3mabbw0rm2v.mp3"
+    },
+    {
+      "title": "倒下·其二",
+      "desc": "海祇岛的…大家…",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_life_die_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/5/51/c3kyjf9k23i8fzu1i8xacksoeyphicz.mp3"
+    },
+    {
+      "title": "倒下·其三",
+      "desc": "全军…撤退…",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_life_die_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/4/43/mdhycjiwe53cfzmiizj6fjbihe7nd2j.mp3"
+    },
+    {
+      "title": "普通受击·其一",
+      "desc": "不痛不痒！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_battle_hit_L_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/8/8c/1e5gan7msrgq7wagbreo45jwf3pksb5.mp3"
+    },
+    {
+      "title": "重受击·其一",
+      "desc": "再来！",
+      "voicefile": "VO_gameplay/VO_gorou/vo_gorou_battle_hit_H_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/37/ph4zpgyaurfyu1vtfpxrblxtbiutb38.mp3"
+    },
+    {
+      "title": "加入队伍·其一",
+      "desc": "整装待发！",
+      "voicefile": "VO_teamJoin/vo_gorou_teamJoin_01",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/3/37/ph4zpgyaurfyu1vtfpxrblxtbiutb38.mp3"
+    },
+    {
+      "title": "加入队伍·其二",
+      "desc": "准备进军！",
+      "voicefile": "VO_teamJoin/vo_gorou_teamJoin_02",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/c/c6/10wwj3vfq5nwpcrfc6cyyhmfqf7ajul.mp3"
+    },
+    {
+      "title": "加入队伍·其三",
+      "desc": "行兵列阵！",
+      "voicefile": "VO_teamJoin/vo_gorou_teamJoin_03",
+      "localAudio": null,
+      "audioUrl": "https://patchwiki.biligame.com/images/ys/1/1b/t5epmxoqfdv9hfdrcaynshi0a526r48.mp3"
+    }
+  ],
+  "cardArt": "assets/characters/10000055-card.webp",
+  "fullArt": "assets/characters/10000055-full.webp",
+  "fullArtWidth": 919,
+  "fullArtHeight": 892
+}

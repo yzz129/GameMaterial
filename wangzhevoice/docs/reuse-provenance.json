@@ -1,0 +1,39 @@
+{
+  "source": "D:\\游戏素材\\yuanshenvoice",
+  "policy": "Reuse original app.js, styles.css, search-worker.js; apply game data adapter and scoped overrides only",
+  "files": [
+    {
+      "name": "app.js",
+      "sourceSnapshot": "shared/teyvat-app.js",
+      "snapshotSha256": "e382de01089f4349b6b8bd4b52152e662c5e2dfd08fb87453185a13bba78bb61"
+    },
+    {
+      "name": "styles.css",
+      "sourceSnapshot": "shared/teyvat-styles.css",
+      "snapshotSha256": "2376b1b3e31c0adc61b0a15987657306a9eb4c7a65198ac7fd09e65c3e6be297"
+    },
+    {
+      "name": "search-worker.js",
+      "sourceSnapshot": "shared/teyvat-search-worker.js",
+      "snapshotSha256": "70d33f2124f68fdb477cc0dc8e281bf54fcf803b99462e2430ec3c94dbba9bfa"
+    }
+  ],
+  "reusedComponents": [
+    "page shell and navigation",
+    "hero switcher",
+    "daily voice strip",
+    "holographic character cards",
+    "card tilt and ambient effects",
+    "filters, sort, pagination, search worker",
+    "character modal, artwork expansion and quote actions",
+    "favorites, copy, poster and downloads",
+    "voice player, continuous play, seek, volume",
+    "music pill, vinyl player, spectrum, playlist and audio ducking",
+    "responsive layouts and themes"
+  ],
+  "adapted": {
+    "heroes": 133,
+    "voices": 18159,
+    "music": 1349
+  }
+}

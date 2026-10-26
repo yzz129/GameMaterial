@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "reference": "PORTAL_04_DATA_reference_v1.png",
+  "source": "User supplied approved concept lettering",
+  "tool": "OpenAI built-in image_gen",
+  "license": "Project artwork generated from user-supplied visual reference",
+  "assets": [
+    {
+      "key": "hok",
+      "file": "HOK_02_FG_portal-calligraphy_v1",
+      "source": "exec-65bcaa91-d06a-44f4-bbf3-2a6ce4e8fef5.png",
+      "target": "wangzhevoice/assets/typography/HOK_02_FG_portal-calligraphy_v1.webp",
+      "text": "王者荣耀",
+      "prompt": "Use case: background-extraction\nAsset type: transparent website Chinese lettering asset\nInput image: the supplied tall webpage concept is the ONLY visual reference\nPrimary request: Extract/reproduce ONLY the four Chinese calligraphy characters 王者荣耀 from the lower game section of the reference, immediately above HONOR OF KINGS. Match these exact depicted glyphs as closely as possible — the strong sweeping 王, rising stroke of 者, jagged broad 荣 and 耀, their dynamic silhouette, ink/dry-brush detail and natural uneven baseline. Do not replace with a standard font or new design. Preserve the ivory-white highlights and warm pale-gold lower strokes. Remove every bit of illustration/background and every other word. Do NOT include the English caption. No stars, ornaments, underline, glows, or shadow beyond the lettering itself. Verbatim text: 王者荣耀. One horizontal line. Tight wide transparent canvas, lettering fills the canvas with only 3% clear margin, fully visible uncut strokes. True RGBA alpha transparency, not painted checkerboard. High resolution sharp lettering.",
+      "master": "HOK_02_FG_portal-calligraphy_v1.png",
+      "review": "Checked against reference in desktop 1440px and mobile 390px browser layouts; correct Chinese text, transparent edges, original line breaks",
+      "transformation": "WebP encoding at quality 94; original resolution and alpha preserved",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "alphaBounds": [
+        0,
+        11,
+        2172,
+        724
+      ],
+      "masterSha256": "42c058b315616e8d8f3ac95563491077573f05e0672d20aa652278524c2640ac",
+      "sha256": "7f10c427f06915ad21892dbdebadbd00347d2f709484578734ef827dbd6b44f5",
+      "bytes": 671478
+    },
+    {
+      "key": "tagline",
+      "file": "PORTAL_04_FG_tagline-calligraphy_v1",
+      "source": "exec-241418d2-a980-4018-925b-b2304bfa7b33.png",
+      "target": "portal/assets/PORTAL_04_FG_tagline-calligraphy_v1.webp",
+      "text": "让热爱\n有迹可循",
+      "prompt": "Use case: background-extraction\nAsset type: transparent website Chinese calligraphy asset\nInput image: the supplied tall webpage concept is the ONLY visual reference\nPrimary request: Extract/reproduce ONLY the exact white brush calligraphy slogan at the bottom of the reference: first line 让热爱, second line 有迹可循. Preserve the exact depicted brush letterforms, flowing sharp sweeps, long diagonal strokes, natural uneven character scale and spacing, and white/ivory textured ink. Do not substitute a regular font or redesign. First line narrower and centered above second line, same line break and composition as the reference. Remove background, moon, stars, fine gold curved strokes, copyright, all ornaments and all other text. Verbatim text is exactly 让热爱\\n有迹可循. No punctuation. Only seven Chinese characters. Tight transparent canvas with 3% clear margin, all strokes fully visible. True RGBA alpha transparency, not painted checkerboard. High resolution crisp handwritten lettering.",
+      "master": "PORTAL_04_FG_tagline-calligraphy_v1.png",
+      "review": "Checked against reference in desktop 1440px and mobile 390px browser layouts; correct Chinese text, transparent edges, original line breaks",
+      "transformation": "WebP encoding at quality 94; original resolution and alpha preserved",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "alphaBounds": [
+        41,
+        25,
+        1744,
+        887
+      ],
+      "masterSha256": "c80b62db97dd7809bf39aa70c355d26eb48076a2cfcd8126af251192a9de7a11",
+      "sha256": "1bb0207a32b13cc1365849219b2decf49fdfb7ee8a58221cb4701f3069d3b00c",
+      "bytes": 500112
+    },
+    {
+      "key": "worlds",
+      "file": "PORTAL_04_FG_worlds-calligraphy_v1",
+      "source": "exec-1bd37da0-18fd-4a8b-9d44-7adce1a9be45.png",
+      "target": "portal/assets/PORTAL_04_FG_worlds-calligraphy_v1.webp",
+      "text": "选择你的世界",
+      "prompt": "Use case: background-extraction\nAsset type: transparent website Chinese section-title lettering\nInput image: the supplied tall webpage concept is the ONLY visual reference\nPrimary request: Extract/reproduce ONLY the calligraphic section title 选择你的世界 appearing below the search and above the Genshin entry. Copy the exact depicted ivory and pale-gold six characters, striking varied thick/thin strokes, dry-brush detail, long energetic sweeps and natural uneven baseline. Keep the dramatic extended sweeping bottom strokes of 选 and 界. Do not substitute an ordinary font or create a new lettering design. One single horizontal line, exactly 选择你的世界. Remove the star ornament to the right, horizontal separator, all backgrounds/illustration and every other text. No new strokes, no English, no punctuation. Wide tightly framed transparent canvas, only 3% clear margin, fully visible uncut lettering. True RGBA alpha transparency, not painted checkerboard. High resolution.",
+      "master": "PORTAL_04_FG_worlds-calligraphy_v1.png",
+      "review": "Checked against reference in desktop 1440px and mobile 390px browser layouts; correct Chinese text, transparent edges, original line breaks",
+      "transformation": "WebP encoding at quality 94; original resolution and alpha preserved",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "alphaBounds": [
+        41,
+        21,
+        2156,
+        724
+      ],
+      "masterSha256": "1f0cdbff145eb20d8f439735f52f96ca800e051c3a3f04c381e8a597bc37a204",
+      "sha256": "24532b1e0e275bf82a91dec9c8a3eaedb3fd95e60da5dd53cc1aecaef961f31b",
+      "bytes": 420892
+    }
+  ]
+}
