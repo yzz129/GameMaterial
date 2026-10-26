@@ -6,10 +6,7 @@
 
 收藏熟悉的声音，重温热爱的世界。一个汇集游戏角色、台词、语音与音乐的同人档案站。
 
-![Node.js 22+](https://img.shields.io/badge/Node.js-22%2B-417E38?style=flat-square&logo=nodedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES_Modules-E9C65B?style=flat-square&logo=javascript&logoColor=222222)
-![Original Assets](https://img.shields.io/badge/Assets-Original_Media-314A6E?style=flat-square&logo=git&logoColor=white)
-![Cloudflare Pages](https://img.shields.io/badge/Deploy-Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
+![Node.js 22+](https://img.shields.io/badge/Node.js-22%2B-417E38?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-ES_Modules-E9C65B?style=flat-square&logo=javascript&logoColor=222222) ![Original Assets](https://img.shields.io/badge/Assets-Original_Media-314A6E?style=flat-square&logo=git&logoColor=white) ![Cloudflare Pages](https://img.shields.io/badge/Deploy-Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
 
 [进入游藏](https://gamematerial.yzzwnw.asia/) · [原神档案](https://gamematerial.yzzwnw.asia/genshin/) · [王者荣耀档案](https://gamematerial.yzzwnw.asia/honor-of-kings/)
 
